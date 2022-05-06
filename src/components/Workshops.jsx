@@ -6,13 +6,14 @@ import Workshop4 from "./workshop-abstracts/workshop4";
 import Workshop5 from "./workshop-abstracts/workshop5";
 import Workshop6 from "./workshop-abstracts/workshop6";
 import Workshop7 from "./workshop-abstracts/workshop7";
+import Workshop8 from "./workshop-abstracts/workshop8";
 
 function Workshops() {
     return (
         <div className="workshops">
             <div class="container container-pad">
                 <h1> The Workshops! </h1>
-
+                <p>This year we are hosting eight workshops, to be held on Tuesday afternoon. Click on the title of each workshop below to see their abstract, organisers, and timetable of individual talks. </p>
                 <div class="accordion" id="workshopAccordion">
 
                     <div class="card">
@@ -189,7 +190,7 @@ function Workshops() {
                     </div>
 
                     <div class="card">
-                        <div class="card-header" id="workshop2Header">
+                        <div class="card-header" id="workshop7Header">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#workshopSeven" aria-expanded="true" aria-controls="workshopSeven">
                                 Recent advances in computational historical linguistics: New methods and results
@@ -208,6 +209,35 @@ function Workshops() {
                                     <ul>
                                         <li>Russell Gray (Department of Linguistic and Cultural Evolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany)</li>
                                         <li> Gerd Carling (Centre for Languages and Literature, Lund University, Lund, Sweden)</li>
+                                        </ul>
+                                    <h4>Timetable:</h4>
+                                    WOokshop One timetable
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="workshop8Header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#workshopEight" aria-expanded="true" aria-controls="workshopEight">
+                                The Typology of Contact-Induced Changes in Morphosyntax
+                                </button>
+                            </h5>
+                        </div>
+                    <div id="workshopEight" class="collapse" aria-labelledby="workshop8Header" data-parent="#workshopAccordion">
+                        <div class="card-body">
+                        <div class="row align-items-start my-5">
+                                <div class="col-lg-7">
+                                <h4>Abstract:</h4>
+                                    <Workshop8 />  
+                                </div>
+                                <div class="col-lg-5">
+                                    <h4>Organisers:</h4> 
+                                    <ul>
+                                        <li>Michele Bianconi (University of Oxford)</li>
+                                        <li> Robin Meyer (Université de Lausanne)</li>
                                         </ul>
                                     <h4>Timetable:</h4>
                                     WOokshop One timetable

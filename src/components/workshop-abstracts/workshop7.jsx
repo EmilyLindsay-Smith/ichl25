@@ -3,36 +3,25 @@ import React from "react";
 function Workshop7() {
     return( 
         <>
-        <p>Since Weinreich’s Languages in Contact (1953), innumerable textbooks and handbooks, collected volumes, monographs, etc. have appeared, dealing with a wide variety of aspects of language contact from different vantage points and frameworks. Among the types of contact-induced change, those affecting the morphosyntax of one of the contact languages represent an as yet understudied field—certainly from a typological perspective—and are of particular interest for at least the following two reasons: </p>
+        <p>In recent years, computational methods have moved from the fringe to the centre of historical linguistics. They now sit alongside well-established core methodologies such as philology, the comparative method, and corpus linguistics. These methods have become an essential part of historical linguists’ toolkit. They enable researchers to deal with the large amounts of data that are now becoming increasingly available in the form of web-accessible lexical, typological, and phonological databases (e.g., Greenhill et al. 2008, Dryer and Haspelmath 2013, Haynie and Bowern 2016, Bickel et al. 2017, Carling et al. 2017, 2018, Moran and McCloy 2019) and the soon to be released Lexibank, Grambank, Parabank, and Numeralbank. This deluge of data is way beyond the ability of any one person to process accurately in their head. The deluge is thus inevitably driving the demand for appropriate computational tools to process and analyze the wealth of freely available linguistic information. It also means that researchers and students of historical linguistic disciplines are now expected to attend courses to learn how these methodologies are conceived and used. </p>
 
-<ul>
-<li>They illustrate that even typologically uncommon changes to very basic patterns of a language can result from contact (e.g. changes in morphosyntactic alignment). </li>
-<li>They suggest that speakers of a contact-language index constructions with individual languages less strictly than we may assume intuitively. </li>
-</ul>
+<p>Computational methods have recently improved, not just in their accuracy and precision but also in their utility. Today computational methods are used to do far more than build dated language family trees. They have been used to aid in automatic cognate identification (List et al. 2017, Dellert et al. 2018), to test hypotheses about word-order evolution (Dunn et al. 2011), to compare the dynamics of lexical and grammatical evolution (Greenhill et al. 2017), to make rigorous inferences about homelands and migration patterns (phylogeography: Bouckaert et al. 2012, Grollemund et al. 2015, and Neureiteret al.2021), and in comparisons of linguistic, genetic and cultural evolution (Greenhill 2021, Matsumae et al. 2021). The list does not stop there. Phylogenetic methods have also been applied to reconstruct phonology (Blasi et al. 2019), morphosyntactic features (Carling and Cathcart 2021), and other typological aspects of language, such as numerals (Calude and Verkerk 2016) or number marking (Cathcart et al. 2021). Finally, computational methods have recently branched out from building phylogenetic trees to study areal impact (Cathcart et al. 2018), including borrowing and other contact-related phenomena (Miller et al. 2020). The proposed workshop will focus on recent advances and results in these areas.</p>
 
-<p>In many such studies, the languages in question are either well-attested historically (e.g. English and Norman French) and/or there are native speakers with or without contact-background to consult concerning the grammaticalisation status of a potentially contact-induced change (e.g. Spanish in the USA). </p>
+<p><strong >References</strong></p>
 
-<p>Yet, the situation is considerably less clear in contact situations where contact took place prior to first written attestation (e.g. Parthian and Armenian) or where documentation has been minimal until relatively recent times (Amazonian languages and languages of Papua New Guinea); where languages have no written tradition, but have influenced a written language (English and Romani; Lekoudesch and German); where languages are attested in different historical depth (Sanskrit and Dravidian); where contact-induced changes appear to be restricted in genre (Armenian and Greek); where dialects or varieties of the same language are involved (Greek dialects); or where translation may be involved (biblical Greek and Latin). To make things worse, it remains generally difficult to distinguish securely changes due or at least heavily influenced by language contact from those resulting from genetic inheritance, in particular where there is no ‘standard’ language. </p>
+<p>Bickel, B., Nichols, J., Zakharko, T., Witzlack-Makarevich, A., Hildebrandt, K., Rießler, M., et al. (2017). The AUTOTYP Typological Databases. Version 0.1.0. Available online at: https://github.com/autotyp/autotyp-data/tree/0.1.0</p>
 
-<p>This workshop aims to explore the problems of investigating contact-induced change in the morphosyntax in general, but with a particular focus on such historical or corpus languages and on the typology of the documents that attest them and of the changes themselves. Its main goals are twofold: </p>
+<p>Blasi, D E, S Moran, S R Moisik, P Widmer, D Dediu, and B Bickel. 2019. Human Sound Systems Are Shaped by Post-Neolithic Changes in Bite Configuration. Science (New York, N.Y.) 363 (6432). doi:10.1126/science.aav3218.</p>
 
-<ul>
-<li>to collect and present new data concerning contact-induced changes in the morphosyntax primarily of languages with attestation issues; </li>
-<li>to compare and contrast the methodologies of investigating this type of change in such linguistic contexts. </li>
-</ul>
+<p>Bouckaert, Remco, Philippe Lemey, Michael Dunn, Simon J. Greenhill, Alexander V. Alekseyenko, Alexei J. Drummond, Russell D. Gray, Marc A. Suchard, and Quentin D. Atkinson. 2012. “Mapping the Origins and Expansion of the Indo-European Language Family.” Science 337 (6097): 957–60. doi:10.1126/science.1219669.</p>
 
-<p>To achieve these goals, we invite submissions addressing the following questions or other questions in keeping with the general goals stated above: </p>
+<p>Calude, Andreea S., and Annemarie Verkerk. 2016. The typology and diachrony of higher numerals in Indo-European: a phylogenetic comparative study. Journal of Language Evolution, Volume 1, Issue 2, July 2016, Pages 91–108, https://doi.org/10.1093/jole/lzw003</p>
 
-<ul>
-<li>How can the analysis of historical (corpus) languages benefit from the theories and methods used in the description of contact in better-attested languages or dialects? </li>
-<li>How can typology inform a finer-grained analysis of contact at the morphological and syntactic level? </li>
-<li>What role, if any, do ‘markedness’/‘typological distance’ and genetic relatedness play in borrowing processes of morphosyntactic structures? </li>
-<li>Do insights from recent scholarship allow us to revisit and improve on the explanation and analysis of established cases of (possible) language contact? </li>
-<li>To what extent can new (typological) insights confirm our doubts concerning traditional ‘hierarchies of borrowability’? </li>
-<li>Is it possible to establish a ‘typology of borrowing’, broadly defined, for contact-induced changes in morphosyntax? </li>
-</ul>
+<p>Carling, Gerd (ed.). 2017. Diachronic Atlas of Comparative Linguistics Online. Lund University. </p>
 
-<p>More information: <a href="https://bit.ly/ICHL25-Typology" title="Webpage" target="_blank" rel="noreferrer" >https://bit.ly/ICHL25-Typology</a> </p>
+<p>Carling, Gerd, Filip Larsson, Chundra A. Cathcart, Niklas Johansson, Arthur Holmer, Erich Round, Rob Verhoeven. 2018. PLOS, October 11, 2018. https://doi.org/10.1371/journal.pone.0205313</p>
+
+<p>Carling, Gerd, and Chundra Cathcart. 2021. “Reconstructing the Evolution of Indo-European Grammar.” Language 97 (3): 561–98.</p>
 
         
         </>
