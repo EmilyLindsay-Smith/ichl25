@@ -1,11 +1,9 @@
 import React from "react";
-
 function Programme() {
     return (
         <div className="programme">
-            <div class="container">
+            <div class="container container-pad">
                 <h1> The Programme </h1>
-
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <a class="nav-item nav-link " id="nav-monday-tab" data-toggle="tab" href="#nav-monday" role="tab" aria-controls="nav-monday" aria-selected="true">Monday</a>
