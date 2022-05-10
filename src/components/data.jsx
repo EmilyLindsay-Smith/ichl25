@@ -1,10 +1,10 @@
 export const data = [
-    {id: 90, type: 'talk', day: 'monday', time: '1130', room: 'L1', author: ['Laura Arnold'], title: 'The multiple causes of Split Inalienable Coding in northwest New Guinea: Contact meets drift', workshop:'', link:''},
+    {id: 90, type: 'talk', day: 'monday', time: '1130', room: 'L1', author: ['Laura Arnold'], title: 'The multiple causes of Split Inalienable Coding in northwest New Guinea: Contact meets drift', workshop:'', link:'https://drive.google.com/file/d/1w9vrsUNr_44I6SwKoYWBy_lle76x4sRu/view?usp=sharing'},
     {id: 200, type: 'talk', day: 'monday', time: '1130', room: 'L2', author: ['Jack Hoeksema'], title: 'Approximative adverbs in modern and premodern languages', workshop:'', link:''},
-    {id: 205, type: 'talk', day: 'monday', time: '1130', room: 'L3', author: ['Patrick Honeybone'], title: 'Should fortition have a place in diachronic phonological typology?', workshop:'', link:''},
-    {id: 270, type: 'talk', day: 'monday', time: '1130', room: 'L6', author: ['Michela Cennamo'], title: 'Paths of change in the diachrony of anti causatives in Romance: the rise and fall of lability', workshop:'', link:''},
-    {id: 229, type: 'talk', day: 'monday', time: '1130', room: 'C1', author: ['Stefan Hartmann', 'Lena Schnee'], title: 'Disentangling the constructional semantics of German future constructions', workshop:'', link:''},
-    {id: 11, type: 'talk', day: 'monday', time: '1130', room: 'C4', author: ['Ilja Seržant'], title: 'Cyclic changes in verbal person-number indexes are unlikely', workshop:'', link:''},
-    {id: 106, type: 'talk', day: 'monday', time: '1130', room: 'C6', author: ['Lena Kaltenbach','Carola Trips'], title: 'Language contact through translation as priming in historical data', workshop:'', link:''},
+    {id: 205, type: 'talk', day: 'monday', time: '1130', room: 'L3', author: ['Patrick Honeybone'], title: 'Should fortition have a place in diachronic phonological typology?', workshop:'', link:'https://drive.google.com/file/d/1sD3m7_-xVIVluzFN4GQDuZAVAUntjpL3/view?usp=sharing'},
+    {id: 270, type: 'talk', day: 'monday', time: '1130', room: 'L6', author: ['Michela Cennamo'], title: 'Paths of change in the diachrony of anti causatives in Romance: the rise and fall of lability', workshop:'', link:'https://drive.google.com/drive/folders/1rrInT9X2xrnGsRC5Q3yV55oP8oXK3uip'},
+    {id: 229, type: 'talk', day: 'monday', time: '1130', room: 'C1', author: ['Stefan Hartmann', 'Lena Schnee'], title: 'Disentangling the constructional semantics of German future constructions', workshop:'', link:'https://drive.google.com/file/d/1RaPtlk5n8QCLeKEDw5vv3GVtuQtW7r-Y/view?usp=sharing'},
+    {id: 11, type: 'talk', day: 'monday', time: '1130', room: 'C4', author: ['Ilja Seržant'], title: 'Cyclic changes in verbal person-number indexes are unlikely', workshop:'', link:'https://drive.google.com/file/d/1kYQ9csTPIxdtUF0gjc1WHTSo2TPa8hKm/view?usp=sharing'},
+    {id: 106, type: 'talk', day: 'monday', time: '1130', room: 'C6', author: ['Lena Kaltenbach','Carola Trips'], title: 'Language contact through translation as priming in historical data', workshop:'', link:'https://drive.google.com/file/d/1YzHNKC2-UDE3UWF1KhUiVRVyd1G4CIPQ/view?usp=sharing'},
 
 ]

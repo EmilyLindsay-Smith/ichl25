@@ -4,8 +4,9 @@ import {data} from './data';
 function filterme(day,room, time){
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
+    let link = filtered.map(item=>item.link)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ')
-    return <td><a href="https://www.google.com" target="_blank" rel="noreferrer noopener">{title}</a><br/><em>{authors}</em></td>
+    return <td><a href={link} target="_blank" rel="noreferrer noopener">{title}</a><br/><em>{authors}</em></td>
   }
 
 function Timetable(day){
