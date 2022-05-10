@@ -19,7 +19,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop1Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopOne" aria-expanded="false" aria-controls="workshopOne">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopOne" aria-expanded="false" aria-controls="workshopOne">
                                 Acting on actuation: Why here, why now?
                                 </button>
                             </h5>
@@ -52,7 +52,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop2Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed collapsed" type="button" data-toggle="collapse" data-target="#workshopTwo" aria-expanded="false" aria-controls="workshopTwo">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopTwo" aria-expanded="false" aria-controls="workshopTwo">
                                 Ancient languages and Algorithms: Demystifying new methods in historical linguistics
                                 </button>
                             </h5>
@@ -79,7 +79,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop3Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopThree" aria-expanded="false" aria-controls="workshopThree">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopThree" aria-expanded="false" aria-controls="workshopThree">
                                 Cliticisation in the evolution of bound morphology
                                 </button>
                             </h5>
@@ -109,7 +109,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop4Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopFour" aria-expanded="false" aria-controls="workshopFour">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFour" aria-expanded="false" aria-controls="workshopFour">
                                 Consequences of the OV-to-VO change on different levels of clause structure
                                 </button>
                             </h5>
@@ -139,7 +139,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop5Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopFive" aria-expanded="false" aria-controls="workshopFive">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFive" aria-expanded="false" aria-controls="workshopFive">
                                 Historical Linguistics at school: An ever-pressing need?
                                 </button>
                             </h5>
@@ -169,7 +169,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop2Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopSix" aria-expanded="false" aria-controls="workshopSix">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSix" aria-expanded="false" aria-controls="workshopSix">
                                 On contact-induced non-change
                                 </button>
                             </h5>
@@ -198,7 +198,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop7Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopSeven" aria-expanded="false" aria-controls="workshopSeven">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSeven" aria-expanded="false" aria-controls="workshopSeven">
                                 Recent advances in computational historical linguistics: New methods and results
                                 </button>
                             </h5>
@@ -228,7 +228,7 @@ function Workshops() {
                     <div class="card">
                         <div class="card-header" id="workshop8Header">
                             <h5 class="mb-0">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#workshopEight" aria-expanded="false" aria-controls="workshopEight">
+                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopEight" aria-expanded="false" aria-controls="workshopEight">
                                 The Typology of Contact-Induced Changes in Morphosyntax
                                 </button>
                             </h5>
