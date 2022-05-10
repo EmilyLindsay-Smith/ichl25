@@ -17,19 +17,19 @@ function Programme() {
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane active" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
-                    {Timetable('monday')}
+                    <div class="scroll">{Timetable('monday')}</div>
                     </div>
                     <div class="tab-pane " id="nav-tuesday" role="tabpanel" aria-labelledby="nav-tuesday-tab">
-                    {Timetable('tuesday')}
+                    <div class="scroll">{Timetable('tuesday')}</div>
                     </div>
                     <div class="tab-pane " id="nav-wednesday" role="tabpanel" aria-labelledby="nav-wednesday-tab">
-                    {Timetable('wednesday')}
+                    <div class="scroll">{Timetable('wednesday')}</div>
                     </div>
                     <div class="tab-pane " id="nav-thursday" role="tabpanel" aria-labelledby="nav-thursday-tab">
-                    {Timetable('thursday')}
+                    <div class="scroll">{Timetable('thursday')}</div>
                     </div>
                     <div class="tab-pane " id="nav-friday" role="tabpanel" aria-labelledby="nav-friday-tab">
-                    {Timetable('friday')}
+                    <div class="scroll">{Timetable('friday')}</div>
                     </div>
                 </div>
             

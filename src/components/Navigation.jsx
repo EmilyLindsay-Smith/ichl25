@@ -6,7 +6,7 @@ import logo2 from './logo-ox.png'
 function Navigation() {
    return (
        <div className="navigation">
-           <nav className="navbar navbar-expand-md navbar-dark bg-ox">
+           <nav className="navbar navbar-expand-md navbar-dark bg-ox nav-fill">
                <div className = "container">
                    <a class="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
                        <img src={logo2} alt="" ></img>

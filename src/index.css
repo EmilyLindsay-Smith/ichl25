@@ -53,3 +53,7 @@ details>summary:hover {
   font-weight: bold;
   font-size: largest;
 }
+.scroll{
+  width: 100%;
+  overflow-x: scroll;
+}
