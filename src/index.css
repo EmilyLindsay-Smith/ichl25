@@ -39,3 +39,10 @@ details>summary:hover {
 .detailcontent{
   padding-left: 20px;
 }
+.bg-ox{
+  background-color: #002147
+}
+.site-title{
+  font-weight: bold;
+  font-size: largest;
+}

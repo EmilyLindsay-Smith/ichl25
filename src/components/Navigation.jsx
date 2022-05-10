@@ -1,13 +1,19 @@
 import React from "react";
 import { NavLink} from "react-router-dom";
+import logo from './logo.png';
+import logo2 from './logo-ox.png'
 
 function Navigation() {
    return (
        <div className="navigation">
-           <nav className="navbar navbar-expand navbar-dark bg-dark">
+           <nav className="navbar navbar-expand-md navbar-dark bg-ox">
                <div className = "container">
+                   <a class="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
+                       <img src={logo2} alt="" ></img>
+                       <img src={logo} alt="" ></img>
+                   </a>
                    <NavLink className="navbar-brand" to="/">
-                        ICHL25 
+                        <span class="site-title">ICHL25</span> 
                    </NavLink>
                    <div>
                        <ul className="navbar-nav ml-auto">
