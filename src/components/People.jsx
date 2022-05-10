@@ -7,9 +7,9 @@ function capitalise(word){
 function testme(name){ 
     return data.filter(
       datum => datum.author.includes(name)).map(
-      item => <p>{capitalise(item.type)}: 
+      item =><p>{capitalise(item.type)}: 
           <a href="https://www.google.com" target="_blank" rel="noreferrer noopener"> {item.title}</a><br/>
-          {item.author.join().split(',').join(', ')}<br/>
+          Authors: {item.author.join().split(',').join(', ')}<br/>
           {capitalise(item.day)}: {item.time}<br/>
           Room: {item.room}</p> )}
 
@@ -18,7 +18,7 @@ function People() {
     const peoplelist = people.flat()
                              .sort()
                              .map(person => 
-                                <p value={person}>{person} </p>)
+                                <p value={person}><strong>{person}</strong><br/>{testme(person)} </p>)
 
 
     return (
@@ -26,6 +26,7 @@ function People() {
             <div class="container container-pad">
                 <h1> People! </h1>
                 {peoplelist}
+                {testme('Carola Trips')}
             </div>
         </div>
     );
