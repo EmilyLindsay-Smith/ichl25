@@ -20,26 +20,12 @@ function People() {
     const peoplelist = people.flat()
                              .sort()
                              .map(person =>
-                                <div>
-                                <button type="button" class="collapsible">{person}</button>
-                                <div class="details">{testme(person)}</div>
-                                </div>
+                                <details>
+                                <summary>{person}</summary>
+                                {testme(person)}
+                                </details>
                                 )
 
-                                var coll = document.getElementsByClassName("collapsible");
-                                var i;
-                                
-                                for (i = 0; i < coll.length; i++) {
-                                  coll[i].addEventListener("click", function() {
-                                    this.classList.toggle("active");
-                                    var content = this.nextElementSibling;
-                                    if (content.style.display === "block") {
-                                      content.style.display = "none";
-                                    } else {
-                                      content.style.display = "block";
-                                    }
-                                  });
-                                }
                                 
 
     return (
