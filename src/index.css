@@ -14,8 +14,15 @@ code {
 
 .container-pad{
   padding-top: 5%;
-  padding-bottom:10%;
+  padding-bottom:20%;
 }
+
+@media (max-width: 600px){
+  .container-pad{
+    padding-bottom: 20%;
+  }
+}
+
 
 td[colspan]:not([colspan="1"]) {
   text-align: center;
