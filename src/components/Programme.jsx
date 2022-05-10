@@ -1,4 +1,6 @@
 import React from "react";
+import Timetable from "./Timetable";
+
 function Programme() {
     return (
         <div className="programme">
@@ -15,19 +17,19 @@ function Programme() {
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane active" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
-                        Here is Monday's content 
+                    {Timetable('monday')}
                     </div>
                     <div class="tab-pane " id="nav-tuesday" role="tabpanel" aria-labelledby="nav-tuesday-tab">
-                        Here is Tuesday's content 
+                    {Timetable('tuesday')}
                     </div>
                     <div class="tab-pane " id="nav-wednesday" role="tabpanel" aria-labelledby="nav-wednesday-tab">
-                        Here is Wednesday's content 
+                    {Timetable('wednesday')}
                     </div>
                     <div class="tab-pane " id="nav-thursday" role="tabpanel" aria-labelledby="nav-thursday-tab">
-                        Here is Thursday's content 
+                    {Timetable('thursday')}
                     </div>
                     <div class="tab-pane " id="nav-friday" role="tabpanel" aria-labelledby="nav-friday-tab">
-                        Here is Friday's content 
+                    {Timetable('friday')}
                     </div>
                 </div>
             

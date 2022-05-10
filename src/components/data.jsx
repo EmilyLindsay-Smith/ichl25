@@ -1,0 +1,3 @@
+export const data = [
+    {id: 2, type: 'talk', day: 'monday', time: '0900', room: 'B', author: ['author1', 'author2'], title: 'a really cool title'},{id: 3, type: 'talk', day: 'monday', time: '1000', room: 'C', author: ['author6', 'author4'], title: 'a different title'}, {id: 4, type: 'talk', day: 'tuesday', time: '1000', room: 'B', author: ['Katalyn E. Kiss Pretty', 'author6'], title: 'a very different title'},{id: 5, type: 'talk', day: 'tuesday', time: '0900', room: 'C', author: ['author7', 'author8'], title: 'yet another very different title'}
+]
