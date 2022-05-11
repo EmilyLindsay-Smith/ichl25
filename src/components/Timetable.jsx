@@ -69,7 +69,7 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colspan="7">John Charles Smith</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
-            <tr><th></th><th>Contact</th><th>Syntax</th><th>Germanic Morphology</th><th>Simulations</th><th>Basque Phonology</th><th>Albanian & Armenian</th><th>Languages of the Americas</th></tr>
+            <tr><th></th><th>Contact</th><th>Syntax</th><th>Aramaic Morphosyntax</th><th>Simulations</th><th>Basque Phonology</th><th>Albanian & Armenian</th><th>Languages of the Americas</th></tr>
             <tr><th>10.00-10.30</th><td>{filterme(day,'L1','1000')}</td><td>{filterme(day,'L2','1000')}</td><td>{filterme(day,'L3','1000')}</td><td>{filterme(day,'L6','1000')}</td><td>{filterme(day,'C1','1000')}</td><td>{filterme(day,'C4','1000')}</td><td>{filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{filterme(day,'L1','1030')}</td><td>{filterme(day,'L2','1030')}</td><td>{filterme(day,'L3','1030')}</td><td>{filterme(day,'L6','1030')}</td><td>{filterme(day,'C1','1030')}</td><td>{filterme(day,'C4','1030')}</td><td>{filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
@@ -92,7 +92,7 @@ function Timetable(day){
             <tr><th>10.00-10.30</th><td>{filterme(day,'L1','1000')}</td><td>{filterme(day,'L2','1000')}</td><td>{filterme(day,'L3','1000')}</td><td>{filterme(day,'L6','1000')}</td><td>{filterme(day,'C1','1000')}</td><td>{filterme(day,'C4','1000')}</td><td>{filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{filterme(day,'L1','1030')}</td><td>{filterme(day,'L2','1030')}</td><td>{filterme(day,'L3','1030')}</td><td>{filterme(day,'L6','1030')}</td><td>{filterme(day,'C1','1030')}</td><td>{filterme(day,'C4','1030')}</td><td>{filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th>Contact</th><th>Semitic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
+            <tr><th></th><th>Contact</th><th>Germanic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
             <tr><th>11.30-12.00</th><td>{filterme(day,'L1','1130')}</td><td>{filterme(day,'L2','1130')}</td><td>{filterme(day,'L3','1130')}</td><td>{filterme(day,'L6','1130')}</td><td>{filterme(day,'C1','1130')}</td><td>{filterme(day,'C4','1130')}</td><td>{filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{filterme(day,'L1','1200')}</td><td>{filterme(day,'L2','1200')}</td><td>{filterme(day,'L3','1200')}</td><td>{filterme(day,'L6','1200')}</td><td>{filterme(day,'C1','1200')}</td><td>{filterme(day,'C4','1200')}</td><td>{filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{filterme(day,'L1','1230')}</td><td>{filterme(day,'L2','1230')}</td><td>{filterme(day,'L3','1230')}</td><td>{filterme(day,'L6','1230')}</td><td>{filterme(day,'C1','1230')}</td><td>{filterme(day,'C4','1230')}</td><td>{filterme(day,'C6','1230')}</td></tr>
