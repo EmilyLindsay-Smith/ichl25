@@ -27,6 +27,7 @@ function People() {
                                 }else if(aLastName > bLastName){return 1
                                 }else{return 0}
                              })
+                             .filter((x, i, a) => a.indexOf(x) === i)
                              .map(person =>
                                 <details>
                                 <summary>{person}</summary>
