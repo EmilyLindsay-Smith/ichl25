@@ -28,6 +28,7 @@ function People() {
                                 }else{return 0}
                              })
                              .filter((x, i, a) => a.indexOf(x) === i)
+                             .filter(person => person != '')
                              .map(person =>
                                 <details>
                                 <summary>{person}</summary>
