@@ -5,7 +5,7 @@ function filterme(day,room, time){
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let link = filtered.map(item=>item.link)
-    let authors = filtered.map(item=>item.author).join('').split(',').join(', ')
+    let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     return <td><a href={link} target="_blank" rel="noreferrer noopener">{title}</a><br/><em>{authors}</em></td>
   }
 
