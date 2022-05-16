@@ -8,7 +8,8 @@ function Programme() {
                 <h1> The Programme </h1>
                 <nav class="nav nav-fill">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-monday-tab" data-toggle="tab" href="#nav-monday" role="tab" aria-controls="nav-monday" aria-selected="true">Monday</a>
+                        <a class="nav-item nav-link active" id="nav-structure-tab" data-toggle="tab" href="#nav-structure" role="tab" aria-controls="nav-structure" aria-selected="true">Structure</a>
+                        <a class="nav-item nav-link" id="nav-monday-tab" data-toggle="tab" href="#nav-monday" role="tab" aria-controls="nav-monday" aria-selected="false">Monday</a>
                         <a class="nav-item nav-link " id="nav-tuesday-tab" data-toggle="tab" href="#nav-tuesday" role="tab" aria-controls="nav-tuesday" aria-selected="false">Tuesday</a>
                         <a class="nav-item nav-link " id="nav-wednesday-tab" data-toggle="tab" href="#nav-wednesday" role="tab" aria-controls="nav-wednesday" aria-selected="false">Wednesday</a>
                         <a class="nav-item nav-link " id="nav-thursday-tab" data-toggle="tab" href="#nav-thursday" role="tab" aria-controls="nav-thursday" aria-selected="false">Thursday</a>
@@ -16,7 +17,10 @@ function Programme() {
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane active" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
+                <div class="tab-pane active" id="nav-structure" role="tabpanel" aria-labelledby="nav-structure-tab">
+                    <div class="scroll">{Timetable('structure')}</div>
+                    </div>
+                    <div class="tab-pane" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
                     <div class="scroll">{Timetable('monday')}</div>
                     </div>
                     <div class="tab-pane " id="nav-tuesday" role="tabpanel" aria-labelledby="nav-tuesday-tab">

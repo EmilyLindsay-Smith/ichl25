@@ -10,7 +10,34 @@ function filterme(day,room, time){
   }
 
 function Timetable(day){
-    if (day === 'monday'){
+    if (day === 'structure'){
+        return(
+            <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th scope="col">Monday Aug 1</th>
+                    <th scope="col">Tuesday Aug 2</th>
+                    <th scope="col">Wednesday Aug 3</th>
+                    <th scope="col">Thursday Aug 4</th>
+                    <th scope="col">Friday Aug 5</th></tr>
+            </thead>
+            <tbody>
+                <tr><th scope="row">8.00</th><td>Registration</td><td></td><td></td><td></td><td></td></tr>
+                <tr><th scope="row">9.00</th><td>Welcome</td><td>Plenary<br/>Kathryn Allan</td><td>Plenary<br/>John Charles Smith</td><td>Plenary<br/>Joseph Salmons</td><td>Plenary<br/>Frans Plank</td></tr>
+                <tr><th scope="row">10.00</th><td>Plenary</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td> </tr>
+                <tr><th scope="row">11.00</th><td colspan="4">Tea/Coffee</td> </tr>
+                <tr><th scope="row">11.30</th><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td> </tr>
+                <tr><th scope="row">13.00</th><td colspan="2">Lunch</td><td rowspan="6">Free afternoon<br/> (sandwich/packed lunch available)<br/> Excursions </td><td colspan="2">Lunch</td></tr>
+                <tr><th scope="row">13.45</th><td>Talks(3)</td><td>Workshops(3)</td><td>Talks(3)</td><td>Talks(3)</td> </tr>
+                <tr><th scope="row">15.15</th><td>Tea/Coffee and Posters</td><td>Workshops(4)</td><td>Tea/Coffee</td><td>Tea/Coffee and Posters</td> </tr>
+                <tr><th scope="row">15.45</th><td>Poster Session</td><td colspan="2">Workshops(4)</td><td>Business Meeting</td><td>Poster session</td> </tr>
+                <tr><th scope="row">16.50</th><td>Plenary<br/>B.Elan Dresher</td><td>Plenary<br/>Claire Bowern</td><td>Plenary<br/>Alice Harris</td> </tr>
+                <tr><th scope="row">18.00</th><td><em>Welcome Reception</em></td><td></td><td><em>Conference Dinner</em></td></tr>
+            </tbody>
+            </table>
+        )
+    }else if (day === 'monday'){
       return( 
         <table class="table table-striped table-hover table-bordered">
             <tbody>
