@@ -14,7 +14,7 @@ function Registration(){
             </tr>
             <tr>
                 <th scope="row">Standard (without lunch) </th>
-                <td>£340</td>
+                <td>£294</td>
             </tr>
             <tr>
                 <th scope="row">Student (with or without lunch)</th>
