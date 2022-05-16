@@ -6,7 +6,7 @@ import logo2 from './logo-ox.png'
 function Navigation() {
    return (
        <div className="navigation">
-           <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill">
+           <nav className="navbar navbar-dark bg-ox nav-fill">
                <div className = "container">
                    <a class="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
                        <img src={logo2} alt="" ></img>
@@ -18,6 +18,7 @@ function Navigation() {
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <br/>
                    <div class="collapse navbar-collapse" id="navbarNav">
                        <ul className="navbar-nav ml-auto">
                            <li className="nav-item">
@@ -44,6 +45,36 @@ function Navigation() {
                            <li className="nav-item">
                                <NavLink className="nav-link" to="/info">
                                    Info  
+                               </NavLink>
+                           </li>
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/registration-and-fees">
+                                  Registration  
+                               </NavLink>
+                           </li>
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/plenary-speakers">
+                                   PlenarySpeakers  
+                               </NavLink>
+                           </li>
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/accommodation">
+                                   Accommodation  
+                               </NavLink>
+                           </li>
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/excursions">
+                                   Excursions
+                               </NavLink>
+                           </li>                           
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/organisers">
+                                   Organisers  
+                               </NavLink>
+                           </li>
+                           <li className="nav-item">
+                               <NavLink className="nav-link" to="/contact">
+                                   Contact  
                                </NavLink>
                            </li>
                        </ul>
