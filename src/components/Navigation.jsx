@@ -53,7 +53,7 @@ function Navigation() {
                                </NavLink>
                            </li>
                            <li className="nav-item">
-                               <NavLink className="nav-link" to="/plenary-speakers">
+                               <NavLink className="nav-link" to="/plenaryspeakers">
                                    PlenarySpeakers  
                                </NavLink>
                            </li>

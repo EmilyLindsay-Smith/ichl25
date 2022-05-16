@@ -2,7 +2,9 @@ import React from 'react';
 
 function Contact(){
     return(
-        <h1>Contact Us</h1>
+        <div class="container container-pad">
+        <h1> Contact Us </h1>
+        </div>
     );
 }
 

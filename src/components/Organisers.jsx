@@ -2,7 +2,7 @@ import React from 'react';
 
 function Organisers(){
     return(
-        <div>
+        <div class="container container-pad">
         <h1>Organisers</h1>
         <h2>Organisers</h2>
         <ul>

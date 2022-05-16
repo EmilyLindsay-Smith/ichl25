@@ -2,7 +2,7 @@ import React from 'react';
 
 function Excursions(){
     return(
-        <div>
+        <div class="container container-pad">
         <h1>Excursions and Social Events</h1>
        
 <p>We hope you are looking forward to ICHL this summer. There are many wonderful places to visit within driving distance of Oxford, and we intend to book coaches for trips to explore some of them on Saturday 6th August. However, we realise that many of you might want to leave early, or to spend the day in Oxford; there will be events laid on in Oxford, and there will also be opportunities for excursions and visits on Wednesday afternoon – more details on both of these to follow.</p>

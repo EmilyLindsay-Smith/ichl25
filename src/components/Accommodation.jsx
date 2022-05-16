@@ -2,7 +2,7 @@ import React from 'react';
 
 function Accommodation(){
     return(
-        <div>
+        <div class="container container-pad">
         <h1>Accommodation</h1>
        <p>Accommodation is available at <a href="https://www.some.ox.ac.uk/" rel=" noopener noreferrer" target="_blank">Somerville College</a>, just a couple of minutes' walk from the Mathematical Institute. 
         Bookings can be made up until 5pm on Friday 15th July.</p>
