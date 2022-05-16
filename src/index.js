@@ -14,6 +14,7 @@ import Organisers from './components/Organisers';
 import PlenarySpeakers from './components/PlenarySpeakers';
 import Registration from './components/Registration';
 import Excursions from './components/Excursions'
+import Abstracts from './components/Abstracts'
 
 export default function App() {
 return(
@@ -31,6 +32,7 @@ return(
         <Route path="plenaryspeakers" element={<PlenarySpeakers />} />
         <Route path="registration-and-fees" element={<Registration />} />
         <Route path="excursions" element={<Excursions />} />
+        <Route path="abstracts" element={<Abstracts />} />
       </Route>
     </Routes>
     </BrowserRouter>

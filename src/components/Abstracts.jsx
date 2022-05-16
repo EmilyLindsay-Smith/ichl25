@@ -1,29 +1,15 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import React from 'react';
 
-function Organisers(){
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-  
-    function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
-    }
+function Abstracts(){
 
     return(
         <div class="container container-pad">
             Abstracts
-            <div>
-      <Document file="./presentation-abstracts/ICHL25_paper_4.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p>
-    </div>
-
-
+        <object data={require('./presentation-abstracts/ICHL25_paper_2.pdf')} type="application/pdf" width="100%" height="150%">
+            <p>Alternative text - include a link <a href={require('./presentation-abstracts/ICHL25_paper_2.pdf')}>to the PDF!</a></p>
+        </object>        
         </div>
         )
     }
 
-export default Organisers
+export default Abstracts;
