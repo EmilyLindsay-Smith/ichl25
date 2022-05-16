@@ -57,3 +57,6 @@ details>summary:hover {
   width: 100%;
   overflow-x: scroll;
 }
+.max-view{
+  height: 100vh;
+}
