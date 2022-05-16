@@ -28,7 +28,7 @@ return(
         <Route path="accommodation" element={<Accommodation />} />
         <Route path="contact" element={<Contact />} />
         <Route path="organisers" element={<Organisers />} />
-        <Route path="plenary-speakers" element={<PlenarySpeakers />} />
+        <Route path="plenaryspeakers" element={<PlenarySpeakers />} />
         <Route path="registration-and-fees" element={<Registration />} />
         <Route path="excursions" element={<Excursions />} />
       </Route>
