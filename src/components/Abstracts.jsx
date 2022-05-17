@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 function Abstracts(){
     const [num, setNum] = useState(2)
-
     return(
         <div class="container container-pad max-view">
             Abstracts

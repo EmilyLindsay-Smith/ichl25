@@ -14,6 +14,7 @@ function PlenarySpeakers(){
              She is also the co-author of <em>English Historical Semantics</em> (with Christian Kay), and has co-edited volumes on <em>Historical Cognitive Linguistics</em> and <em>Current Methods in Historical Semantics </em> for Mouton. 
              She is a member of the Keywords Project.
         </p>
+{Abstracts(5)}
         </div>
     );
 }
