@@ -90,9 +90,23 @@ export const data = [
     {id: 179, type: 'talk', day: 'tuesday', time: '1130', room: 'C1', author: ['Chiara Zanchi', 'Erica Biagetti', 'Luca Brigada Villa', 'Silvia Luraghi'], title:'Measuring Greek influence on word order in the Latin, Gothic, Armenian, and Old Church Slavonic translations of the Gospels: a treebank-based quantitative study', workshop: ''},
     {id: 59, type: 'talk', day: 'tuesday', time: '1130', room: 'C4', author: ['Åshild Næss'], title:'Reversing grammatical relations: lessons from Reefs-Santa Cruz', workshop: ''},
     {id: 152, type: 'talk', day: 'tuesday', time: '1130', room: 'C6', author: ['Tomas Riad'], title:' Reconstructing the age of accent types in North Germanic', workshop: ''},
-    
+    {id: 93, type: 'talk', day: 'tuesday', time: '1200', room: 'L1', author: ['Lennart Westergaard'], title:'The development of the imperative with subject construction', workshop: ''},
+    {id: 177, type: 'talk', day: 'tuesday', time: '1200', room: 'L2', author: ['Ulrike Demske'], title:'Verb Initial Declaratives in the History of German', workshop: ''},
+    {id: 246, type: 'talk', day: 'tuesday', time: '1200', room: 'L4', author: ['Hedvig Skirgård'], title:'Dissecting the comparative method - comparing traditional reconstruction to computational approaches', workshop: ''},
+    {id: 321, type: 'talk', day: 'tuesday', time: '1200', room: 'L6', author: ['Susanne Maria Michaelis'], title:'Predicting grammatical substrate features in creole languages', workshop: ''},
+    {id: 23, type: 'talk', day: 'tuesday', time: '1200', room: 'C1', author: ['Gilles Authier'], title:'Phonological contact zones and historical gender morphology in East Caucasian', workshop: ''},
+    {id: 142, type: 'talk', day: 'tuesday', time: '1200', room: 'C4', author: ['Charlotte Hemmings, Erik Zobel and Mary Dalrymple'], title:'A diachronic view of Enggano voice alternations', workshop: ''},
+    {id: 300, type: 'talk', day: 'tuesday', time: '1200', room: 'C6', author: ['Cathryn Yang, Pittayawat Pittayaporn and James Kirby'], title:'Tone chain shifts in Thai and Lalo', workshop: ''},
+        
+    {id: 52, type: 'talk', day: 'tuesday', time: '1230', room: 'L1', author: ['Pierre-Yves Modicom'], title:'Semantic regularities in the use of the medio-passive construction in Early Modern Danish', workshop: ''},
+    {id: 160, type: 'talk', day: 'tuesday', time: '1230', room: 'L2', author: ['Giacomo Bucci'], title:'A Typologically Informed Analysis of Genitive of Negation in Early Germanic', workshop: ''},
+    {id: 365, type: 'talk', day: 'tuesday', time: '1230', room: 'L4', author: ['Alina Maria Ciobanu', 'Anca Dinu', 'Liviu P. Dinu', 'Simona Georgescu', 'Ana Sabina Uban', 'Laurentiu Zoicas'], title:'Computational approaches for protoword reconstruction', workshop: ''},
+    {id: 361, type: 'talk', day: 'tuesday', time: '1230', room: 'L6', author: ['Ljubica Leone'], title:'Actualization between exemplar-based analogy and recontextualization: up in British English and American English during the years 1750-1900', workshop: ''},
+    {id: 21, type: 'talk', day: 'tuesday', time: '1230', room: 'C1', author: ['Edoardo Nardi'], title:'The spread of participial clauses in Biblical Greek: Semitic influence, multilingualism and language contact', workshop: ''},
+    {id: 185, type: 'talk', day: 'tuesday', time: '1230', room: 'C4', author: ['Daniel Krausse', 'Erik Zobel','Bernd Nothofer'], title:'A closer examination of the lexical material of Enggano since the 19th century', workshop: ''},
+    {id: 254, type: 'talk', day: 'tuesday', time: '1230', room: 'C6', author: ['Ryan Gehrmann', 'Rikker Dockum'], title:'Which Came First, the Register or the Tone? Tonogenesis and the East Asian Voicing Shift', workshop: ''},
 
-    // {id: 0, type: 'talk', day: 'monday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
+    // {id: 0, type: 'talk', day: 'tuesday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
 ]
 
 /* Code for Sanity Check 
