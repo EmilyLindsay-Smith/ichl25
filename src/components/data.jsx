@@ -66,7 +66,7 @@ export const data = [
     {id: 318, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Veronika Hegedus','Katalin Gugán'], title:'Word order change and the position of verb modifiers in Hungarian', workshop: ''},
     {id: 363, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Christian Rapold'], title:' Laterals fricatives/affricates and their relevance for the classification of South Cushitic', workshop: ''},
     {id: 193, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Will Thurlwell'], title:'Instrumentality and the Instrumental Case in Old High German and Old Saxon', workshop: ''},
-    {id: 324, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Hanne Eckhoff and Nilo Pedrazzini'], title:' Parallel data for semantic analyses of ancient languages: Greek conjunct participles', workshop: ''},
+    {id: 324, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Hanne Eckhoff','Nilo Pedrazzini'], title:' Parallel data for semantic analyses of ancient languages: Greek conjunct participles', workshop: ''},
     {id: 329, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Shatha Alruwaili', 'Mohammad Al-Khresheh'], title:' Lexical innovations in English in response to the Covid crisis', workshop: ''},
     {id: 343, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Sampsa Holopainen'], title:' On the development of vowels in the Ugric languages and the problem of Proto-Ugric', workshop: ''},
     {id: 334, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Felicia Stich'], title:'Socio-cognitive factors in the pejoration of German words for women ', workshop: ''},
@@ -138,7 +138,7 @@ export const data = [
     {id: 147, type: 'talk', day: 'tuesday', time: '1545', room: 'L2', author: ['Sebastian Nordhoff'], title:'Phonological cover-up: contact-induced undoing of sound changes in Sri Lanka Malay', workshop: '6'},
     {id: 149, type: 'talk', day: 'tuesday', time: '1545', room: 'L3', author: ['Johann-Mattis List','Hill Nathan'], title:'Fuzzy Reconstructions: A New Framework for the Representation and Computation of Uncertainty in Phonological Reconstruction', workshop: '2'},
     {id: 174, type: 'talk', day: 'tuesday', time: '1545', room: 'L6', author: ['Ann-Marie Moser'], title:'A micro-typological approach to the actuation problem: the case of relative wo ‘where’ in Early New High German and beyond', workshop: '1'},
-    {id: 277, type: 'talk', day: 'tuesday', time: '1545', room: 'C1', author: ['Chiara De Bastiani'], title:'From OV to VO in the English VP: a change on different levels of clause structure', workshop: '4'},
+    {id: 227, type: 'talk', day: 'tuesday', time: '1545', room: 'C1', author: ['Chiara De Bastiani'], title:'From OV to VO in the English VP: a change on different levels of clause structure', workshop: '4'},
     {id: 53, type: 'talk', day: 'tuesday', time: '1545', room: 'C4', author: ['Camilla Bjørke','Kristin Hagemann','Karine Stjernholm'], title:'Historical linguistics as a key to in-depth learning', workshop: '5'},
     {id: 381, type: 'talk', day: 'tuesday', time: '1545', room: 'C6', author: ['Brett Baker','Mark Harvey'], title:'The path from cliticised to prefixed agreement in proto-Australian', workshop: '3'},
     {id: 22, type: 'talk', day: 'tuesday', time: '1615', room: 'L1', author: ['Alexandra Aikhenvald'], title:' Speaking like your neighbour does: clause linking and language contact in Papua New Guinea and Amazonia', workshop: '8'},
@@ -178,7 +178,6 @@ export const data = [
     {id: 316, type: 'talk', day: 'wednesday', time: '1000', room: 'C1', author: ['Dorota Krajewska','Eneko Zuloaga','Ander Egurtzegi'], title:'A quantitative analysis of sibilant mergers in the 18th-century Basque', workshop: ''},
     {id: 28, type: 'talk', day: 'wednesday', time: '1000', room: 'C4', author: ['Lindon Dedvukaj'], title:'The Malsia Madhe Dialect of Albanian', workshop: ''},
     {id: 375, type: 'talk', day: 'wednesday', time: '1000', room: 'C6', author: ['Andrés Pablo Salanova','Andrey Nikulin'], title:'Reconstructing archaic relationality patterns in Eastern South America', workshop: ''},
-
     {id: 218, type: 'talk', day: 'wednesday', time: '1030', room: 'L1', author: ['Bozhil Hristov'], title:'Language contact and the development of Bulgarian have-perfects', workshop: ''},
     {id: 6, type: 'talk', day: 'wednesday', time: '1030', room: 'L2', author: ['Elly van Gelderen'], title:'Fundamental questions regarding linguistic cycles', workshop: ''},
     {id: 284, type: 'talk', day: 'wednesday', time: '1030', room: 'L3', author: ['Eleanor Coghill'], title:'Grammaticalization of a past tense gram in Neo-Aramaic from a verb of movement and its cross-linguistic parallels ', workshop: ''},
@@ -186,7 +185,6 @@ export const data = [
     {id: 36, type: 'talk', day: 'wednesday', time: '1030', room: 'C1', author: ['Ander Egurtzegi','Gorka Elordieta'], title:'A history of the Basque prosodic systems', workshop: ''},
     {id: 230, type: 'talk', day: 'wednesday', time: '1030', room: 'C4', author: ['Ollie Sayeed','Bert Vaux'], title:'“Murmurogenesis” and the Armenian stop system', workshop: ''},
     {id: 372, type: 'talk', day: 'wednesday', time: '1030', room: 'C6', author: ['Natalie Weber'], title:'Shared retentions cannot support subgrouping in Algonquian: Against Goddard (2018)', workshop: ''},
-
     {id: 101, type: 'talk', day: 'wednesday', time: '1130', room: 'L1', author: ['Nasir A. Rizvi Syed','Saira Bano','Tooba Sahar'], title:'The Reversal of a Diachronic Morpho-syntactic Process because of Language Contact', workshop: ''},
     {id: 289, type: 'talk', day: 'wednesday', time: '1130', room: 'L2', author: ['Florent Perek'], title:'Using a construction to study constructional change: A case study of the “Verb + at” pattern', workshop: ''},
     {id: 305, type: 'talk', day: 'wednesday', time: '1130', room: 'L3', author: ['Lutz Marten','Peter Edelsten','Hannah Gibson','Rebecca Grollemund','Rozenn Guérois','Taraka Rama'], title:'Inheritance and convergence in Bantu lexicon and morphosyntax: A new phylogenetic study', workshop: ''},
@@ -194,6 +192,22 @@ export const data = [
     {id: 238, type: 'talk', day: 'wednesday', time: '1130', room: 'C1', author: ['Borja Ariztimuño','Iker Salaberri'], title:'Reconstructing negation in a language isolate: Jespersen’s Cycle(s) and grammaticalization in Basque', workshop: ''},
     {id: 247, type: 'talk', day: 'wednesday', time: '1130', room: 'C4', author: ['Miyu Akao'], title:'Lycian Conditional Constructions in the Light of Typology: A Cognate of Greek εἰ + ἄν in a Minor Anatolian Language?', workshop: ''},
     {id: 15, type: 'talk', day: 'wednesday', time: '1130', room: 'C6', author: ['Nicholas Zair'], title:'The change of *e > i in initial syllables in Latin', workshop: ''},
+
+    {id: 263, type: 'talk', day: 'wednesday', time: '1200', room: 'L1', author: ['Livio Gaeta'], title:'Intense language contact and collapse of lexical strata: verbs ending with -urun in Issime', workshop: ''},
+    {id: 192, type: 'talk', day: 'wednesday', time: '1200', room: 'L2', author: ['Lotte Sommerer','Eva Zehentner'], title:'Go to church or die in prison: tracing V-PP combinations with bare institutional nouns in the history of English', workshop: ''},
+    {id: 283, type: 'talk', day: 'wednesday', time: '1200', room: 'L3', author: ['Rebecca Grollemund','Gérard Philippson'], title:'A new classification of Forest Bantu languages based on the study of consonant correspondences (with a special focus on the evolution of *k and *g)', workshop: ''},
+    {id: 69, type: 'talk', day: 'wednesday', time: '1200', room: 'L6', author: ['Csilla Ilona Dér'], title:'Discourse variation analysis of the Hungarian discourse markers no~na ’now, so, well’ and their combinations with other markers and insubordinate clauses', workshop: ''},
+    {id: 356, type: 'talk', day: 'wednesday', time: '1200', room: 'C1', author: ['Julen Manterola'], title:'The reconstruction of Basque demonstratives: problems and solutions', workshop: ''},
+    {id: 357, type: 'talk', day: 'wednesday', time: '1200', room: 'C3', author: ['Tomaz Potocnik'], title:'How to say yes in Latin: Evidence from of Plautus and Terence', workshop: ''},
+    {id: 306, type: 'talk', day: 'wednesday', time: '1200', room: 'C6', author: ['Maria Carmela Benvenuto','Harald Bichlmeier'], title:'Bactrian Umlaut', workshop: ''},
+
+    {id: 323, type: 'talk', day: 'wednesday', time: '1230', room: 'L1', author: ['Konstantinos Sampanis','Eleni Karantzola','Prokopis Prokopidis'], title:'Variation in the contact-induced morphosyntactic change in Asia Minor Greek: A corpus-based approach on borrowing hierarchies and the question of typological shift', workshop: ''},
+    {id: 126, type: 'talk', day: 'wednesday', time: '1230', room: 'L2', author: ['Benjamin Lowell Sluckin'], title:'The history of Locative Inversion in English: innovation, continuity, or both', workshop: ''},
+    {id: 287, type: 'talk', day: 'wednesday', time: '1230', room: 'L3', author: ['Birgit Ricquier','Rebecca Grollemund','François Abuka Balabala','David Kopa Wa Kopa','Constance Kutsch Lojenga','Nicolas Mombaya Liwila','Emmanuel Ngbanga Bandombele'], title:'A New Phylogenetic Classification for the Bantu Languages of the Northeastern Democratic Republic of the Congo', workshop: ''},
+    {id: 208, type: 'talk', day: 'wednesday', time: '1230', room: 'L6', author: ['Nadine Dietrich'], title:'Back to be going to again: Investigating seamless semantic changes with semantic frames, features and profiling', workshop: ''},
+    {id: 135, type: 'talk', day: 'wednesday', time: '1230', room: 'C1', author: ['Manuel Padilla-Moyano'], title:'In quest of Reason: changes in the encoding of causal roles in Basque', workshop: ''},
+    {id: 221, type: 'talk', day: 'wednesday', time: '1230', room: 'C3', author: ['Louise S Friis'], title:'Voice and valency alternation in some inherited Tocharian verbs', workshop: ''},
+    {id: 360, type: 'talk', day: 'wednesday', time: '1230', room: 'C6', author: ['Huinan Zeng'], title:'Vowel epenthesis in Sino-Japanese kan-on', workshop: ''},
 
     // {id: 0, type: 'talk', day: 'tuesday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
 ]
@@ -206,6 +220,6 @@ let ids = data.map(datum => datum.id)
 let titles = data.map(datum => datum.title)
 let idsSet = new Set(ids)
 let titleSet = new Set(titles)
-if (ids.length == idsSet.length){console.log("all ids unique")}else{console.log("duplicate ids found")}
-if (titles.length == titleSet.length){console.log("all titles unique")}else{console.log("duplicate titles found")}
+if (ids.length == idsSet.length){console.log("all ids unique")}else{console.log("duplicate ids found"); console.log(ids - idsSet)}
+if (titles.length == titleSet.length){console.log("all titles unique")}else{console.log("duplicate titles found"); console.log(titles - titleSet)}
 */
