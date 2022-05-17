@@ -78,7 +78,7 @@ export const data = [
     {id: 196, type: 'talk', day: 'tuesday', time: '1000', room: 'C6', author: ['Theodorus Fransen', 'Cormac Anderson', 'Sacha Beniamine'], title:'Developing an inflectional lexicon for Old Irish', workshop: ''},
     {id: 364, type: 'talk', day: 'tuesday', time: '1030', room: 'L1', author: ['Alina Maria Ciobanu', 'Anca Dinu', 'Liviu P. Dinu', 'Simona Georgescu', 'Ana Sabina Uban', 'Laurentiu Zoicas'], title:'A semantic change time-lapse for Romance languages and English', workshop: ''},
     {id: 301, type: 'talk', day: 'tuesday', time: '1030', room: 'L2', author: ['Sigridur Sigurdardottir'], title:'The Evaluative Copula Construction in Icelandic: its status and its origin', workshop: ''},
-    {id: 167, type: 'talk', day: 'tuesday', time: '1030', room: 'L4', author: ['Pascal Coenen', 'Sonja Gipper', 'Eugen Hill'], title:'Repetitional Responses in Language Change', workshop: ''},
+    {id: 167, type: 'talk', day: 'tuesday', time: '1030', room: 'L3', author: ['Pascal Coenen', 'Sonja Gipper', 'Eugen Hill'], title:'Repetitional Responses in Language Change', workshop: ''},
     {id: 176, type: 'talk', day: 'tuesday', time: '1030', room: 'L6', author: ['Nathan Adamson'], title:' A look at the Proto-Philippines hypothesis through a diachronic comparison of morphological reduplication in the languages of the Philippines', workshop: ''},
     {id: 282, type: 'talk', day: 'tuesday', time: '1030', room: 'C1', author: ['David Kopa Wa Kopa', 'Birgit Ricquier'], title:'Phonological and Morphological Evidence for Historical Contact between Mokpá~Enyá~Metóko and Mbole, Four Bantu Languages of the Northeastern DRCongo', workshop: ''},
     {id: 188, type: 'talk', day: 'tuesday', time: '1030', room: 'C4', author: ['Tamas Halm'], title:'Vegans, Teetotalers and the Decoupling of Case and Agreement in Old Hungarian', workshop: ''},
@@ -92,22 +92,63 @@ export const data = [
     {id: 152, type: 'talk', day: 'tuesday', time: '1130', room: 'C6', author: ['Tomas Riad'], title:' Reconstructing the age of accent types in North Germanic', workshop: ''},
     {id: 93, type: 'talk', day: 'tuesday', time: '1200', room: 'L1', author: ['Lennart Westergaard'], title:'The development of the imperative with subject construction', workshop: ''},
     {id: 177, type: 'talk', day: 'tuesday', time: '1200', room: 'L2', author: ['Ulrike Demske'], title:'Verb Initial Declaratives in the History of German', workshop: ''},
-    {id: 246, type: 'talk', day: 'tuesday', time: '1200', room: 'L4', author: ['Hedvig Skirgård'], title:'Dissecting the comparative method - comparing traditional reconstruction to computational approaches', workshop: ''},
+    {id: 246, type: 'talk', day: 'tuesday', time: '1200', room: 'L3', author: ['Hedvig Skirgård'], title:'Dissecting the comparative method - comparing traditional reconstruction to computational approaches', workshop: ''},
     {id: 321, type: 'talk', day: 'tuesday', time: '1200', room: 'L6', author: ['Susanne Maria Michaelis'], title:'Predicting grammatical substrate features in creole languages', workshop: ''},
     {id: 23, type: 'talk', day: 'tuesday', time: '1200', room: 'C1', author: ['Gilles Authier'], title:'Phonological contact zones and historical gender morphology in East Caucasian', workshop: ''},
     {id: 142, type: 'talk', day: 'tuesday', time: '1200', room: 'C4', author: ['Charlotte Hemmings, Erik Zobel and Mary Dalrymple'], title:'A diachronic view of Enggano voice alternations', workshop: ''},
     {id: 300, type: 'talk', day: 'tuesday', time: '1200', room: 'C6', author: ['Cathryn Yang, Pittayawat Pittayaporn and James Kirby'], title:'Tone chain shifts in Thai and Lalo', workshop: ''},
-        
+    
     {id: 52, type: 'talk', day: 'tuesday', time: '1230', room: 'L1', author: ['Pierre-Yves Modicom'], title:'Semantic regularities in the use of the medio-passive construction in Early Modern Danish', workshop: ''},
     {id: 160, type: 'talk', day: 'tuesday', time: '1230', room: 'L2', author: ['Giacomo Bucci'], title:'A Typologically Informed Analysis of Genitive of Negation in Early Germanic', workshop: ''},
-    {id: 365, type: 'talk', day: 'tuesday', time: '1230', room: 'L4', author: ['Alina Maria Ciobanu', 'Anca Dinu', 'Liviu P. Dinu', 'Simona Georgescu', 'Ana Sabina Uban', 'Laurentiu Zoicas'], title:'Computational approaches for protoword reconstruction', workshop: ''},
+    {id: 365, type: 'talk', day: 'tuesday', time: '1230', room: 'L3', author: ['Alina Maria Ciobanu', 'Anca Dinu', 'Liviu P. Dinu', 'Simona Georgescu', 'Ana Sabina Uban', 'Laurentiu Zoicas'], title:'Computational approaches for protoword reconstruction', workshop: ''},
     {id: 361, type: 'talk', day: 'tuesday', time: '1230', room: 'L6', author: ['Ljubica Leone'], title:'Actualization between exemplar-based analogy and recontextualization: up in British English and American English during the years 1750-1900', workshop: ''},
     {id: 21, type: 'talk', day: 'tuesday', time: '1230', room: 'C1', author: ['Edoardo Nardi'], title:'The spread of participial clauses in Biblical Greek: Semitic influence, multilingualism and language contact', workshop: ''},
     {id: 185, type: 'talk', day: 'tuesday', time: '1230', room: 'C4', author: ['Daniel Krausse', 'Erik Zobel','Bernd Nothofer'], title:'A closer examination of the lexical material of Enggano since the 19th century', workshop: ''},
     {id: 254, type: 'talk', day: 'tuesday', time: '1230', room: 'C6', author: ['Ryan Gehrmann', 'Rikker Dockum'], title:'Which Came First, the Register or the Tone? Tonogenesis and the East Asian Voicing Shift', workshop: ''},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'L1', author: ['Michele Bianconi','Robin Meyer '], title:'Workshop Organiser: The Typology of Contact-Induced Changes in Morphosyntax', workshop: '8'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'L2', author: ['Andrés Enrique-Arias','Sarah Thomason '], title:'Workshop Organiser: On contact-induced non-change', workshop: '6'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'L3', author: ['Erich Round'], title:'Workshop Organiser: Ancient languages and Algorithms: Demystifying new methods in historical linguistics', workshop: '2'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'L6', author: ['Hendrik De Smet','Guglielmo Inglese','Malte Rosemeyer'], title:'Workshop Organiser: Acting on actuation: Why here, why now?', workshop: '1'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'C1', author: ['Katalin É. Kiss'], title:'Workshop Organiser: Consequences of the OV-to-VO change on different levels of clause structure', workshop: '4'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'C4', author: ['Theodore Markopoulos','Brian D. Joseph'], title:'Workshop Organiser: Historical Linguistics at school: An ever-pressing need?', workshop: '5'},
+    {id: 0, type: 'talk', day: 'tuesday', time: 'afternoon', room: 'C6', author: ['Michael Frotscher','Robert Mailhammer '], title:'Workshop Organiser: Cliticisation in the evolution of bound morphology', workshop: '3'},
 
+    {id: 199, type: 'talk', day: 'tuesday', time: '1345', room: 'L1', author: ['Robin Meyer'], title:'Typology, Language Contact, and Corpus Languages: a Unifying Approach', workshop: '8'},
+    {id: 165, type: 'talk', day: 'tuesday', time: '1345', room: 'L2', author: ['Bridget Drinka'], title:'Contact-induced retention in the Balkans: The role of migration, religion, and identity', workshop: '6'},
+    {id: 118, type: 'talk', day: 'tuesday', time: '1345', room: 'L3', author: ['Sean Roberts'], title:'Causal inference for historical linguistics', workshop: '2'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1345', room: 'L6', author: ['Hendrik De Smet', 'Guglielmo Inglese',' Malte Rosemeyer'], title:'Workshop Introduction', workshop: '1'},
+    {id: 213, type: 'talk', day: 'tuesday', time: '1345', room: 'C1', author: ['Adam Singerman'], title:'Exploring the historical relationship between information structure and syntactic headedness in Tupari, a Tupian language indigenous to the Brazilian Amazon', workshop: '4'},
+    {id: 95, type: 'talk', day: 'tuesday', time: '1345', room: 'C4', author: ['Brian Joseph','Shuan Karim', 'Clinton Awai-Jennings'], title:'Historical Linguistics in High School: The Columbus Experience', workshop: '5'},
+    {id: 164, type: 'talk', day: 'tuesday', time: '1345', room: 'C6', author: ['Martin Haspelmath'], title:'Is cliticization an intermediate stage between free lexeme and affix status?', workshop: '3'},
+
+    {id: 97, type: 'talk', day: 'tuesday', time: '1415', room: 'L1', author: ['Michele Bianconi','Marta Capano'], title:'The datives in -εσσι: contact or drift? The evidence from Sicily and Pamphylia', workshop: '8'},
+    {id: 349, type: 'talk', day: 'tuesday', time: '1415', room: 'L2', author: ['Arjen P Versloot','Elzbieta Adamczyk'], title:'Change or non-Change: Morphological Complexity across Germanic languages', workshop: '6'},
+    {id: 146, type: 'talk', day: 'tuesday', time: '1415', room: 'L3', author: ['Erik Elgh',' Harald Hammarström'], title:'The Dialect Continuum Tree', workshop: '2'},
+    {id: 104, type: 'talk', day: 'tuesday', time: '1415', room: 'L6', author: ['Catherine Travis','Rena Torres Cacoullos'], title:'Changing modals, changing mores: Obligation in Australian English across real and apparent time', workshop: '1'},
+    {id: 344, type: 'talk', day: 'tuesday', time: '1415', room: 'C1', author: ['Matteo Fiorini'], title:'From Latin to Romance peripheries: discourse-driven change and typology', workshop: '4'},
+    {id: 105, type: 'talk', day: 'tuesday', time: '1415', room: 'C4', author: ['Benjamin Goddard', 'Francesca Iezzi','Pavel Iosad','Graeme Trousdale'], title:'Historical linguistics in schools: a problem-based learning approach', workshop: '5'},
+    {id: 30, type: 'talk', day: 'tuesday', time: '1415', room: 'C6', author: ['Eugen Hill'], title:'Univerbation and the afterlife of ‘simple’ clitics', workshop: '3'},
+
+    {id: 25, type: 'talk', day: 'tuesday', time: '1445', room: 'L1', author: ['Victoria Beatrix Fendel'], title:'Support-verb constructions with objects: Greek-Coptic Interference in documentary papyri?', workshop: '8'},
+    {id: 71, type: 'talk', day: 'tuesday', time: '1445', room: 'L2', author: ['Aline Cruz','Marina Magalhães','Gabriela Mancin','Walkíria Praça'], title:'Contact and No Change: The Preservation of Specific Verbal Sequences in Some Tupi-Guarani Languages', workshop: '6'},
+    {id: 262, type: 'talk', day: 'tuesday', time: '1445', room: 'L3', author: ['Luisa Miceli','T. Mark Ellison'], title:'An Alternative to Trees in Bayesian Language Histories', workshop: '2'},
+    {id: 27, type: 'talk', day: 'tuesday', time: '1445', room: 'L6', author: ['Tamsin Blaxter','James Burridge'], title:'Contact ↔ analogy ↔ innovation: mapping cascades in the loss of the Middle Norwegian nominative', workshop: '1'},
+    {id: 222, type: 'talk', day: 'tuesday', time: '1445', room: 'C1', author: ['Line Dalberg'], title:'Word order changes in Danish subordinate clauses: From VX to XV and back', workshop: '4'},
+    {id: 54, type: 'talk', day: 'tuesday', time: '1445', room: 'C4', author: ['Eli Anne Eiesland','Signe Laake','Urd Vindenes'], title:'Language change in Norwegian secondary school textbooks', workshop: '5'},
+    {id: 242, type: 'talk', day: 'tuesday', time: '1445', room: 'C6', author: ['Tom Gueldemann','Ines Fiedler'], title:'Cliticization cycles: adnominal gender-number affixes in Niger-Congo', workshop: '3'},
+
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'L1', author: [''], title:'', workshop: '8'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'L2', author: [''], title:'', workshop: '6'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'L3', author: [''], title:'', workshop: '2'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'L6', author: [''], title:'', workshop: '1'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'C1', author: [''], title:'', workshop: '4'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'C4', author: [''], title:'', workshop: '5'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1545', room: 'C6', author: [''], title:'', workshop: '3'},
     // {id: 0, type: 'talk', day: 'tuesday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
 ]
+
+
+// If id:0 - it's a workshop organiser 
 
 /* Code for Sanity Check 
 let ids = data.map(datum => datum.id)
