@@ -6,7 +6,7 @@ import logo2 from './logo-ox.png'
 function Navigation() {
    return (
        <div className="navigation">
-           <nav className="navbar navbar-dark bg-ox nav-fill">
+           <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill">
                <div className = "container">
                    <a class="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
                        <img src={logo2} alt="" ></img>
@@ -27,55 +27,71 @@ function Navigation() {
                                     <span className="sr-only"></span>
                                </NavLink>
                            </li>
-                           <li className="nav-item">
-                               <NavLink className="nav-link" to="/programme">
-                                   Programme 
-                               </NavLink>
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Presentations 
+                                </a>
+                            <ul class="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown">
+                                <li className="dropdown-item">
+                                    <NavLink className="nav-link" to="/programme">
+                                    Programme 
+                                    </NavLink>
+                                </li>
+                                <li className="dropdown-item">
+                                    <NavLink className="nav-link" to="/plenaryspeakers">
+                                    Plenary Speakers  
+                                    </NavLink>
+                                </li>
+                                <li className="dropdown-item">
+                                    <NavLink className="nav-link" to="/workshops">
+                                    Workshops 
+                                    </NavLink>
+                                </li>
+                                <li className="dropdown-item">
+                                    <NavLink className="nav-link" to="/people">
+                                    People
+                                    </NavLink>
+                                </li>
+                            </ul>
                            </li>
-                           <li className="nav-item">
-                               <NavLink className="nav-link" to="/workshops">
-                                   Workshops 
-                               </NavLink>
-                           </li>
-                           <li className="nav-item">
-                               <NavLink className="nav-link" to="/people">
-                                   People
-                               </NavLink>
-                           </li>
-                           <li className="nav-item">
+                           
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Info 
+                                </a>
+                            <ul class="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown2">
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/info">
-                                   Info  
+                                   Venue Info  
                                </NavLink>
                            </li>
-                           <li className="nav-item">
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/registration-and-fees">
                                   Registration  
                                </NavLink>
                            </li>
-                           <li className="nav-item">
-                               <NavLink className="nav-link" to="/plenaryspeakers">
-                                   PlenarySpeakers  
-                               </NavLink>
-                           </li>
-                           <li className="nav-item">
+                           
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/accommodation">
                                    Accommodation  
                                </NavLink>
                            </li>
-                           <li className="nav-item">
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/excursions">
                                    Excursions
                                </NavLink>
                            </li>                           
-                           <li className="nav-item">
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/organisers">
                                    Organisers  
                                </NavLink>
                            </li>
-                           <li className="nav-item">
+                           <li className="dropdown-item">
                                <NavLink className="nav-link" to="/contact">
                                    Contact  
                                </NavLink>
+                           </li>
+                           </ul>
                            </li>
                        </ul>
                    </div>
