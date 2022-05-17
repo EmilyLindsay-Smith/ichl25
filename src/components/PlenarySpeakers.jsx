@@ -1,4 +1,5 @@
 import React from 'react';
+import Abstracts from './Abstracts';
 
 function PlenarySpeakers(){
     return(
