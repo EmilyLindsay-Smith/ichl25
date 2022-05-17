@@ -14,7 +14,7 @@ code {
 
 .container-pad{
   padding-top: 5%;
-  padding-bottom:20%;
+  padding-bottom:5%;
 }
 
 @media (max-width: 600px){
@@ -59,4 +59,11 @@ details>summary:hover {
 }
 .max-view{
   height: 100vh;
+}
+.topreturn{
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
+  text-align: right;
+
 }

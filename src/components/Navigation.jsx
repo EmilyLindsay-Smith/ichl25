@@ -13,7 +13,7 @@ function Navigation() {
                        <img src={logo} alt="" ></img>
                    </a>
                    <NavLink className="navbar-brand" to="/">
-                        <span class="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25 -- Oxford, 1-5 August 2022 
+                        <span class="site-title" id="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25 -- Oxford, 1-5 August 2022 
                    </NavLink>
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
