@@ -8,18 +8,18 @@ function Navigation() {
        <div className="navigation">
            <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill">
                <div className = "container">
-                   <a class="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
+                   <a className="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
                        <img src={logo2} alt="" ></img>
                        <img src={logo} alt="" ></img>
                    </a>
                    <NavLink className="navbar-brand" to="/">
-                        <span class="site-title" id="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25 -- Oxford, 1-5 August 2022 
+                        <span className="site-title" id="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25 -- Oxford, 1-5 August 2022 
                    </NavLink>
-                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <br/>
-                   <div class="collapse navbar-collapse" id="navbarNav">
+                   <div className="collapse navbar-collapse" id="navbarNav">
                        <ul className="navbar-nav ml-auto">
                            <li className="nav-item">
                                <NavLink className="nav-link" to="/">
@@ -27,11 +27,11 @@ function Navigation() {
                                     <span className="sr-only"></span>
                                </NavLink>
                            </li>
-                           <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <li className="nav-item dropdown">
+                               <a className="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                    Presentations 
                                 </a>
-                            <ul class="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown">
+                            <ul className="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown">
                                 <li className="dropdown-item">
                                     <NavLink className="nav-link" to="/programme">
                                     Programme 
@@ -55,11 +55,11 @@ function Navigation() {
                             </ul>
                            </li>
                            
-                           <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <li className="nav-item dropdown">
+                               <a className="nav-link dropdown-toggle .dropdown-toggle-split" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                    Info 
                                 </a>
-                            <ul class="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown2">
+                            <ul className="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown2">
                            <li className="dropdown-item">
                                <NavLink className="nav-link" to="/info">
                                    Venue Info  

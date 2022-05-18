@@ -67,3 +67,9 @@ details>summary:hover {
   text-align: right;
 
 }
+.button-abstract{
+  text-decoration: underline;
+}
+.button-abstract:hover{
+  color: blue;
+}
