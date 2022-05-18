@@ -1,4 +1,7 @@
 import React from "react";
+import {data} from './data';
+import { useNavigate } from 'react-router-dom';
+
 import Workshop1 from "./workshop-abstracts/workshop1";
 import Workshop2 from "./workshop-abstracts/workshop2";
 import Workshop3 from "./workshop-abstracts/workshop3";
@@ -8,6 +11,33 @@ import Workshop6 from "./workshop-abstracts/workshop6";
 import Workshop7 from "./workshop-abstracts/workshop7";
 import Workshop8 from "./workshop-abstracts/workshop8";
 
+function Filterme(workshop, time){
+    const navigate = useNavigate();
+    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
+   
+    let filtered = data.filter(datum=>datum.workshop===workshop).filter(datum => datum.time === time)
+    let title = filtered.map(item =>item.title)
+    let id = filtered.map(item => item.id)
+    let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
+    return <td><button className="btn button-abstract" onClick={()=>{toAbstracts(id)}}> {title}</button><br/><em>{authors}</em></td>
+  }
+
+function WorkshopTimetable(workshop){
+    return(
+        <table class="table table-striped table-hover table-bordered">
+            <tbody>
+                <tr><th>13.45</th><td>{Filterme(workshop, 1345)}</td></tr>
+                <tr><th>14.15</th><td>{Filterme(workshop, 1415)}</td></tr>
+                <tr><th>14.45</th><td>{Filterme(workshop, 1445)}</td></tr>
+                <tr><th>15.15</th><td>Tea & Coffee</td></tr>
+                <tr><th>15.45</th><td>{Filterme(workshop, 1545)}</td></tr>
+                <tr><th>16.15</th><td>{Filterme(workshop, 1615)}</td></tr>
+                <tr><th>16.45</th><td>{Filterme(workshop, 1645)}</td></tr>
+                <tr><th>17.15</th><td>{Filterme(workshop, 1715)}</td></tr>
+            </tbody>
+        </table>
+    )
+}  
 function Workshops() {
     return (
         <div className="workshops">
@@ -36,7 +66,7 @@ function Workshops() {
                                     </ul>
                                  
                                     <h4>Timetable:</h4><br/>
-                                    WOokshop One timetable
+                                    <div class="scroll">{WorkshopTimetable('1')}</div>
                                 </div>
 
                                 <div class="col-lg-7">

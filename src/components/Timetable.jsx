@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 function Filterme(day,room, time){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-
+   
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
@@ -163,8 +163,9 @@ function Timetable(day){
             <tr><th>16.50-17.50</th><td colspan="7">Alice Harris</td></tr>
             <tr><th></th><td colspan="7">Closing Reception</td></tr>
             </tbody>
-        </table>  
-)    
-}}
+        </table>    
+        )    
+    }
+}
 
 export default Timetable;
