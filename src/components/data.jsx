@@ -192,7 +192,6 @@ export const data = [
     {id: 238, type: 'talk', day: 'wednesday', time: '1130', room: 'C1', author: ['Borja Ariztimuño','Iker Salaberri'], title:'Reconstructing negation in a language isolate: Jespersen’s Cycle(s) and grammaticalization in Basque', workshop: ''},
     {id: 247, type: 'talk', day: 'wednesday', time: '1130', room: 'C4', author: ['Miyu Akao'], title:'Lycian Conditional Constructions in the Light of Typology: A Cognate of Greek εἰ + ἄν in a Minor Anatolian Language?', workshop: ''},
     {id: 15, type: 'talk', day: 'wednesday', time: '1130', room: 'C6', author: ['Nicholas Zair'], title:'The change of *e > i in initial syllables in Latin', workshop: ''},
-
     {id: 263, type: 'talk', day: 'wednesday', time: '1200', room: 'L1', author: ['Livio Gaeta'], title:'Intense language contact and collapse of lexical strata: verbs ending with -urun in Issime', workshop: ''},
     {id: 192, type: 'talk', day: 'wednesday', time: '1200', room: 'L2', author: ['Lotte Sommerer','Eva Zehentner'], title:'Go to church or die in prison: tracing V-PP combinations with bare institutional nouns in the history of English', workshop: ''},
     {id: 283, type: 'talk', day: 'wednesday', time: '1200', room: 'L3', author: ['Rebecca Grollemund','Gérard Philippson'], title:'A new classification of Forest Bantu languages based on the study of consonant correspondences (with a special focus on the evolution of *k and *g)', workshop: ''},
@@ -200,7 +199,6 @@ export const data = [
     {id: 356, type: 'talk', day: 'wednesday', time: '1200', room: 'C1', author: ['Julen Manterola'], title:'The reconstruction of Basque demonstratives: problems and solutions', workshop: ''},
     {id: 357, type: 'talk', day: 'wednesday', time: '1200', room: 'C3', author: ['Tomaz Potocnik'], title:'How to say yes in Latin: Evidence from of Plautus and Terence', workshop: ''},
     {id: 306, type: 'talk', day: 'wednesday', time: '1200', room: 'C6', author: ['Maria Carmela Benvenuto','Harald Bichlmeier'], title:'Bactrian Umlaut', workshop: ''},
-
     {id: 323, type: 'talk', day: 'wednesday', time: '1230', room: 'L1', author: ['Konstantinos Sampanis','Eleni Karantzola','Prokopis Prokopidis'], title:'Variation in the contact-induced morphosyntactic change in Asia Minor Greek: A corpus-based approach on borrowing hierarchies and the question of typological shift', workshop: ''},
     {id: 126, type: 'talk', day: 'wednesday', time: '1230', room: 'L2', author: ['Benjamin Lowell Sluckin'], title:'The history of Locative Inversion in English: innovation, continuity, or both', workshop: ''},
     {id: 287, type: 'talk', day: 'wednesday', time: '1230', room: 'L3', author: ['Birgit Ricquier','Rebecca Grollemund','François Abuka Balabala','David Kopa Wa Kopa','Constance Kutsch Lojenga','Nicolas Mombaya Liwila','Emmanuel Ngbanga Bandombele'], title:'A New Phylogenetic Classification for the Bantu Languages of the Northeastern Democratic Republic of the Congo', workshop: ''},
@@ -209,7 +207,23 @@ export const data = [
     {id: 221, type: 'talk', day: 'wednesday', time: '1230', room: 'C3', author: ['Louise S Friis'], title:'Voice and valency alternation in some inherited Tocharian verbs', workshop: ''},
     {id: 360, type: 'talk', day: 'wednesday', time: '1230', room: 'C6', author: ['Huinan Zeng'], title:'Vowel epenthesis in Sino-Japanese kan-on', workshop: ''},
 
-    // {id: 0, type: 'talk', day: 'tuesday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
+    {id: 158, type: 'talk', day: 'thursday', time: '1000', room: 'L1', author: ['W. Juliane Elter'], title:'Loan Verbs in Contact Situations between Closely Related Languages Strengthening Existing Argument Structural Patterns', workshop: ''},
+    {id: 171, type: 'talk', day: 'thursday', time: '1000', room: 'L2', author: ['Silvia Luraghi'], title:'Voice and transitivity with perception verbs in Ancient Greek', workshop: ''},
+    {id: 307, type: 'talk', day: 'thursday', time: '1000', room: 'L3', author: ['Hanne Martine Eckhoff'], title:'Definite articles in Old Church Slavonic revisited', workshop: ''},
+    {id: 235, type: 'talk', day: 'thursday', time: '1000', room: 'L6', author: ['Lee Pratchett'], title:'Something old, something new, and something borrowed: evolving grammatical gender systems in Juǀ’hoan', workshop: ''},
+    {id: 312, type: 'talk', day: 'thursday', time: '1000', room: 'C1', author: ['Hans Basbøll'], title:'How to count morae in Danish: diachronic aspects of the stød', workshop: ''},
+    {id: 376, type: 'talk', day: 'thursday', time: '1000', room: 'C4', author: ['Rebecca Paterson'], title:'Reconstructing Proto-NW Kainji', workshop: ''},
+    {id: 313, type: 'talk', day: 'thursday', time: '1000', room: 'C6', author: ['Eystein Dahl'], title:'The emergence of subjecthood: Evidence from Indo-European', workshop: ''},
+
+    {id: 10, type: 'talk', day: 'thursday', time: '1030', room: 'L1', author: ['Isabeau De Smet','Laura Rosseel','Freek Van de Velde'], title:'Does language contact lead to morphological simplification? Possible counterevidence from the Dutch preterital system', workshop: ''},
+    {id: 65, type: 'talk', day: 'thursday', time: '1030', room: 'L2', author: ['Beatrice Grieco'], title:'From synthetic to analytic:  The case of some verbal periphrases in Vedic Sanskrit', workshop: ''},
+    {id: 206, type: 'talk', day: 'thursday', time: '1030', room: 'L3', author: ['Masha Kyuseva','Alexander Krasovitsky','Matthew Baerman','Greville G Corbett'], title:'Semantic factors in case loss: the Serbian-Bulgarian dialectal continuum', workshop: ''},
+    {id: 163, type: 'talk', day: 'thursday', time: '1030', room: 'L6', author: ['Ronald Schaefer','Francis Egbokhare'], title:'Diachronic Shifts in Word Class for Sound Ideophones', workshop: ''},
+    {id: 231, type: 'talk', day: 'thursday', time: '1030', room: 'C1', author: ['Lars Heltoft'], title:'Cliticisation as a word order-borne phenomenon: Danish reflexive pronouns', workshop: ''},
+    {id: 169, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Russell Barlow'], title:'Is pronominal cognacy necessary for establishing families? A view from Papuan languages', workshop: ''},
+    {id: 299, type: 'talk', day: 'thursday', time: '1030', room: 'C6', author: ['Sigridur Sigurdardottir','Thorhallur Eythorsson'], title:'The emergence of oblique subjects: Identifiable processes in the history of Icelandic', workshop: ''},
+    
+    // {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
 ]
 
 
