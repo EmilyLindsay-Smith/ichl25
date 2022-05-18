@@ -1,7 +1,10 @@
 import React from 'react';
-import Abstracts from './Abstracts';
+import { useNavigate } from 'react-router-dom';
 
 function PlenarySpeakers(){
+    const navigate = useNavigate();
+    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
+
     return(
         <div class="container container-pad">
             <h1> Plenary Speakers </h1>
@@ -14,7 +17,7 @@ function PlenarySpeakers(){
              She is also the co-author of <em>English Historical Semantics</em> (with Christian Kay), and has co-edited volumes on <em>Historical Cognitive Linguistics</em> and <em>Current Methods in Historical Semantics </em> for Mouton. 
              She is a member of the Keywords Project.
         </p>
-{Abstracts(5)}
+        <div><button onClick={()=>{toAbstracts(9)}}> Abstract</button> </div>
         </div>
     );
 }

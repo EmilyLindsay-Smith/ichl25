@@ -8,11 +8,11 @@ function capitalise(word){
 function testme(name){ 
     return data.filter(
       datum => datum.author.includes(name)).map(
-      item =><p>{capitalise(item.type)}: 
+      item =><p><strong>{capitalise(item.type)}</strong>: 
           <a href={item.link} target="_blank" rel="noreferrer noopener"> {item.title}</a><br/>
-          Authors: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
-          {capitalise(item.day)}: {item.time}<br/>
-          Room: {item.room}</p> )
+          <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
+          <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
+          <strong>Room</strong>: {item.room}</p> )
           }
 
 function People() {
@@ -28,7 +28,7 @@ function People() {
                                 }else{return 0}
                              })
                              .filter((x, i, a) => a.indexOf(x) === i)
-                             .filter(person => person != '')
+                             .filter(person => person !== '')
                              .map(person =>
                                 <details>
                                 <summary>{person}</summary>
