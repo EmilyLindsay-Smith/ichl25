@@ -25,14 +25,14 @@ function Abstracts(){
     function testme(idval){ 
         return data.filter( datum => datum.id === idval)
          .map(
-          item =><p><strong>{capitalise(item.type)}</strong>:{item.title}<br/>
+          item =><p><strong>{capitalise(item.type)}</strong>: {item.title}<br/>
               <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
              <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
               <strong>Room</strong>: {item.room}</p> )
                 }
-    
-              const talkdata = testme(number)
-              console.log(talkdata)
+        const talkdata = testme(parseInt(number))
+        
+        console.log(talkdata)
    // componentDidMount() {if (val){console.log('yes');setNum(val);}}
 
     return(

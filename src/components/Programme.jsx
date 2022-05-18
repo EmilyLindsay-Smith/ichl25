@@ -1,6 +1,7 @@
 import React from "react";
 import Timetable from "./Timetable";
 import {data} from "./data";
+
 function Programme() {
   /* Sanity Check for Duplicate Titles or Ids in programme */ 
     let ids = data.map(datum => datum.id)

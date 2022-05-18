@@ -1,15 +1,21 @@
 import React from "react";
 import {data} from './data';
+import { useNavigate } from 'react-router-dom';
 
 function capitalise(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
 
-function testme(name){ 
+function Testme(name){ 
+    const navigate = useNavigate();
+    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}    
+
     return data.filter(
       datum => datum.author.includes(name)).map(
       item =><p><strong>{capitalise(item.type)}</strong>: 
-          <a href={item.link} target="_blank" rel="noreferrer noopener"> {item.title}</a><br/>
+          <button className="btn button-abstract" onClick={()=>{toAbstracts(item.id)}}>
+               {item.title}
+               </button><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
           <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
           <strong>Room</strong>: {item.room}</p> )
@@ -32,7 +38,7 @@ function People() {
                              .map(person =>
                                 <details>
                                 <summary>{person}</summary>
-                                <div class="detailcontent">{testme(person)}</div>
+                                <div class="detailcontent">{Testme(person)}</div>
                                 </details>
                                 )
 
