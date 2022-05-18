@@ -9,11 +9,12 @@ function capitalise(word){
 function Testme(name){ 
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}    
+    const toWorkshops=()=>{navigate('/workshops')}
 
     return data.filter(
       datum => datum.author.includes(name)).map(
-      item =><p><strong>{capitalise(item.type)}</strong>: 
-          <button className="btn button-abstract" onClick={()=>{toAbstracts(item.id)}}>
+      item =><p><strong>{capitalise(item.type)}</strong>:
+          <button className="btn button-abstract" onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}>
                {item.title}
                </button><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>

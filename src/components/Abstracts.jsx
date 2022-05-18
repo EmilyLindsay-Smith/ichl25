@@ -6,16 +6,16 @@ import {data} from './data';
 function Abstracts(){
     const location = useLocation();
    // const [num, setNum] = useState(2)
-    
-    function num() {
-        let val = location.state.value;
-        if (val) {
+
+   function Num() {
+       let val = location.state.value
+        if (val){
             return val;
         } else {
             return 2;
         }
     }
-    const number = num()
+    const number = Num()
     console.log(number)
 
     function capitalise(word){
@@ -30,21 +30,30 @@ function Abstracts(){
              <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
               <strong>Room</strong>: {item.room}</p> )
                 }
-        const talkdata = testme(parseInt(number))
+    const talkdata = testme(parseInt(number))
         
-        console.log(talkdata)
+    console.log(talkdata)
    // componentDidMount() {if (val){console.log('yes');setNum(val);}}
 
+    if (parseInt(number) !== 0){
     return(
         <div className="container container-pad max-view">
             <h2>Abstracts</h2>
-            {talkdata}
+            {talkdata} 
        <object data={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} type="application/pdf" width="100%" height="80%">
            <p><em>Your browser doesn't support PDF embedding </em></p>
            <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract here </a>
        </object>      
         </div>
-        )
+        )}
+        else if (parseInt(number) ===0){
+            return(
+                <div className="container container-pad max-view">
+                <h2>Abstracts</h2>
+                <p><em>There is no available abstract</em></p> 
+                </div>
+            )
+        }
     }
 
 export default Abstracts;

@@ -5,12 +5,13 @@ import { useNavigate } from 'react-router-dom';
 function Filterme(day,room, time){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-   
+    const toWorkshops=()=>{navigate('/workshops')}
+
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <td><button className="btn button-abstract" onClick={()=>{toAbstracts(id)}}> {title}</button><br/><em>{authors}</em></td>
+    return <td><button className="btn button-abstract"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> {title}</button><br/><em>{authors}</em></td>
   }
 
 function Timetable(day){

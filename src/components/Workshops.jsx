@@ -21,7 +21,7 @@ function Filterme(workshop, time){
     let title = filtered.map(item =>item.title);
     let id = filtered.map(item => item.id);
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
-    return <td><button className="btn button-abstract text-start" onClick={()=>{toAbstracts(id)}}> {title}</button><br/><em>{authors}</em></td>
+    return <td>{filtered.id !== 0 ? <button className="btn button-abstract text-start" onClick={()=>{toAbstracts(id)}}> {title}</button> : {title}} <br/><em>{authors}</em></td>
   }
 
 function WorkshopTimetable(workshop){
