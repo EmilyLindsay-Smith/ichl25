@@ -14,7 +14,8 @@ import Workshop8 from "./workshop-abstracts/workshop8";
 function Filterme(workshop, time){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-   
+    
+    workshop = workshop.toString()
     let filtered = data.filter(datum=>datum.workshop===workshop).filter(datum => datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
@@ -26,14 +27,14 @@ function WorkshopTimetable(workshop){
     return(
         <table class="table table-striped table-hover table-bordered">
             <tbody>
-                <tr><th>13.45</th><td>{Filterme(workshop, 1345)}</td></tr>
-                <tr><th>14.15</th><td>{Filterme(workshop, 1415)}</td></tr>
-                <tr><th>14.45</th><td>{Filterme(workshop, 1445)}</td></tr>
+                <tr><th>13.45</th>{Filterme(workshop, 1345)}</tr>
+                <tr><th>14.15</th>{Filterme(workshop, 1415)}</tr>
+                <tr><th>14.45</th>{Filterme(workshop, 1445)}</tr>
                 <tr><th>15.15</th><td>Tea & Coffee</td></tr>
-                <tr><th>15.45</th><td>{Filterme(workshop, 1545)}</td></tr>
-                <tr><th>16.15</th><td>{Filterme(workshop, 1615)}</td></tr>
-                <tr><th>16.45</th><td>{Filterme(workshop, 1645)}</td></tr>
-                <tr><th>17.15</th><td>{Filterme(workshop, 1715)}</td></tr>
+                <tr><th>15.45</th>{Filterme(workshop, 1545)}</tr>
+                <tr><th>16.15</th>{Filterme(workshop, 1615)}</tr>
+                <tr><th>16.45</th>{Filterme(workshop, 1645)}</tr>
+                <tr><th>17.15</th>{Filterme(workshop, 1715)}</tr>
             </tbody>
         </table>
     )
