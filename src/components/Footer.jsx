@@ -3,15 +3,18 @@ import React from "react";
 function Footer(){
     return (
         <div className="footer">
-            <footer class="py-2 bg-ox bottom">
-                <div class="container">
-                    <p class="topreturn">
-                        <a href="#site-title">Return to top</a>
-                    </p>
-                    <p class="m-0 text-center text-white">
+            <footer className="py-2 bg-ox fixed-bottom">
+                <div className="container">
+                    <div className="row">
+                    <div className="col align-self-start"></div>
+                    <div className="col align-self-center text-center text-white">
                         ICHL25 <br/>
                         created by Emily Lindsay-Smith
-                    </p>
+                    </div>
+                    <div className="col align-self-end align-text-top text-center">
+                        <a href="#site-title" className="topreturn">Return to top</a>
+                    </div>
+                    </div>
                 </div>
             </footer>
         </div>     
