@@ -14,19 +14,21 @@ import Workshop8 from "./workshop-abstracts/workshop8";
 function Filterme(workshop, time){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-    
     workshop = workshop.toString()
-    let filtered = data.filter(datum=>datum.workshop===workshop).filter(datum => datum.time === time)
-    let title = filtered.map(item =>item.title)
-    let id = filtered.map(item => item.id)
-    let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <td><button className="btn button-abstract" onClick={()=>{toAbstracts(id)}}> {title}</button><br/><em>{authors}</em></td>
+    time = time.toString()
+    let filtered = data.filter(datum=>datum.workshop === workshop).filter(datum=>datum.time === time);
+    console.log(filtered);
+    let title = filtered.map(item =>item.title);
+    let id = filtered.map(item => item.id);
+    let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
+    return <td><button className="btn button-abstract text-start" onClick={()=>{toAbstracts(id)}}> {title}</button><br/><em>{authors}</em></td>
   }
 
 function WorkshopTimetable(workshop){
     return(
         <table class="table table-striped table-hover table-bordered">
             <tbody>
+                <tr><th>Room:</th><td>{data.filter(datum=>datum.workshop===workshop && datum.time === '1445').map(datum=>datum.room)}</td></tr>
                 <tr><th>13.45</th>{Filterme(workshop, 1345)}</tr>
                 <tr><th>14.15</th>{Filterme(workshop, 1415)}</tr>
                 <tr><th>14.45</th>{Filterme(workshop, 1445)}</tr>
@@ -67,7 +69,7 @@ function Workshops() {
                                     </ul>
                                  
                                     <h4>Timetable:</h4><br/>
-                                    <div class="scroll">{WorkshopTimetable('1')}</div>
+                                    {WorkshopTimetable('1')}
                                 </div>
 
                                 <div class="col-lg-7">
@@ -93,9 +95,9 @@ function Workshops() {
                         <div class="row align-items-start my-5">                              
                                 <div class="col-lg-5">
                                     <h4>Organisers:</h4> 
-                                    <ul><li>Erich Round (Univeristy of Surrey) </li></ul>
+                                    <ul><li>Erich Round (University of Surrey) </li></ul>
                                     <h4>Timetable:</h4>
-                                    WOokshop One timetable                         
+                                    {WorkshopTimetable('2')}                        
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4>
@@ -126,7 +128,7 @@ function Workshops() {
                                         <li> Robert Mailhammer (University of Western Sydney)</li>
                                     </ul>
                                     <h4>Timetable:</h4><br/>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('3')}
                                 </div>
                                 <div class="col-lg-7">
                                      <h4>Abstract:</h4><br/>
@@ -156,7 +158,7 @@ function Workshops() {
                                         </li>
                                     </ul>
                                     <h4>Timetable:</h4>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('4')}
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4><br/>
@@ -186,7 +188,7 @@ function Workshops() {
                                         <li>Brian D. Joseph (The Ohio State University)</li>
                                         </ul>
                                     <h4>Timetable:</h4>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('5')}
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4><br/>
@@ -215,7 +217,7 @@ function Workshops() {
                                         <li>Andrés Enrique-Arias (University of the Baleric Islands)</li>
                                         <li> Sarah Thomason (University of Michigan)</li></ul>
                                     <h4>Timetable:</h4><br/>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('6')}
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4>
@@ -245,7 +247,7 @@ function Workshops() {
                                         <li> Gerd Carling (Centre for Languages and Literature, Lund University, Lund, Sweden)</li>
                                         </ul>
                                     <h4>Timetable:</h4>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('7')}
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4>
@@ -275,7 +277,7 @@ function Workshops() {
                                         <li> Robin Meyer (Université de Lausanne)</li>
                                         </ul>
                                     <h4>Timetable:</h4>
-                                    WOokshop One timetable
+                                    {WorkshopTimetable('8')}
                                 </div>
                                 <div class="col-lg-7">
                                 <h4>Abstract:</h4>
