@@ -22,17 +22,17 @@ return(
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="programme" element={<Programme />} />
-        <Route path="workshops" element={<Workshops />} />
-        <Route path="people" element={<People />} />
-        <Route path="info" element={<Info />} />
-        <Route path="accommodation" element={<Accommodation />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="organisers" element={<Organisers />} />
-        <Route path="plenaryspeakers" element={<PlenarySpeakers />} />
-        <Route path="registration-and-fees" element={<Registration />} />
-        <Route path="excursions" element={<Excursions />} />
-        <Route path="abstracts" element={<Abstracts />} />
+        <Route path="/programme" element={<Programme />} />
+        <Route path= "/workshops" element={<Workshops />} />
+        <Route path="/people" element={<People />} />
+        <Route path="/info" element={<Info />} />
+        <Route path= "/accommodation" element={<Accommodation />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/organisers" element={<Organisers />} />
+        <Route path="/plenaryspeakers" element={<PlenarySpeakers />} />
+        <Route path="/registration-and-fees" element={<Registration />} />
+        <Route path="/excursions" element={<Excursions />} />
+        <Route path="/abstracts" element={<Abstracts />} />
       </Route>
     </Routes>
     </BrowserRouter>
