@@ -216,7 +216,6 @@ export const data = [
     {id: 312, type: 'talk', day: 'thursday', time: '1000', room: 'C1', author: ['Hans Basbøll'], title:'How to count morae in Danish: diachronic aspects of the stød', workshop: ''},
     {id: 376, type: 'talk', day: 'thursday', time: '1000', room: 'C4', author: ['Rebecca Paterson'], title:'Reconstructing Proto-NW Kainji', workshop: ''},
     {id: 313, type: 'talk', day: 'thursday', time: '1000', room: 'C6', author: ['Eystein Dahl'], title:'The emergence of subjecthood: Evidence from Indo-European', workshop: ''},
-
     {id: 10, type: 'talk', day: 'thursday', time: '1030', room: 'L1', author: ['Isabeau De Smet','Laura Rosseel','Freek Van de Velde'], title:'Does language contact lead to morphological simplification? Possible counterevidence from the Dutch preterital system', workshop: ''},
     {id: 65, type: 'talk', day: 'thursday', time: '1030', room: 'L2', author: ['Beatrice Grieco'], title:'From synthetic to analytic:  The case of some verbal periphrases in Vedic Sanskrit', workshop: ''},
     {id: 206, type: 'talk', day: 'thursday', time: '1030', room: 'L3', author: ['Masha Kyuseva','Alexander Krasovitsky','Matthew Baerman','Greville G Corbett'], title:'Semantic factors in case loss: the Serbian-Bulgarian dialectal continuum', workshop: ''},
@@ -224,8 +223,54 @@ export const data = [
     {id: 231, type: 'talk', day: 'thursday', time: '1030', room: 'C1', author: ['Lars Heltoft'], title:'Cliticisation as a word order-borne phenomenon: Danish reflexive pronouns', workshop: ''},
     {id: 169, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Russell Barlow'], title:'Is pronominal cognacy necessary for establishing families? A view from Papuan languages', workshop: ''},
     {id: 299, type: 'talk', day: 'thursday', time: '1030', room: 'C6', author: ['Sigridur Sigurdardottir','Thorhallur Eythorsson'], title:'The emergence of oblique subjects: Identifiable processes in the history of Icelandic', workshop: ''},
-    
+    {id: 280, type: 'talk', day: 'thursday', time: '1130', room: 'L1', author: ['Uta Reinöhl ','T. Mark Ellison'], title:"Shamanic languages as windows into Tibeto-Burman history? The case of Kera'a", workshop: ''},
+    {id: 141, type: 'talk', day: 'thursday', time: '1130', room: 'L2', author: ['Anke Lensch'], title:'English suffixhood revisited: A construction morphology approach to the growing complexity of bases ', workshop: ''},
+    {id: 99, type: 'talk', day: 'thursday', time: '1130', room: 'L3', author: ['Edwin Ko'], title:'A Bayesian phylogenetic classification of the Siouan family using typological traits', workshop: ''},
+    {id: 45, type: 'talk', day: 'thursday', time: '1130', room: 'L6', author: ['Ilaria De Cesare','Ulrike Demske'], title:'Ambiguity avoidance as an efficiency strategy driving word order change', workshop: ''},
+    {id: 49, type: 'talk', day: 'thursday', time: '1130', room: 'C1', author: ['Louise Esher'], title:'Dissimilatory constraints discriminate between variants in analogical change', workshop: ''},
+    {id: 159, type: 'talk', day: 'thursday', time: '1130', room: 'C4', author: ['Raquel Montero Estebaranz'], title:'The Loss of Plural Concord in Quantifiers and Adjectives in Middle English', workshop: ''},
+    {id: 103, type: 'talk', day: 'thursday', time: '1130', room: 'C6', author: ['Julia Hertel'], title:"Jespersen's cycle in Middle High German: A phonological perspective", workshop: ''},      
+    {id: 315, type: 'talk', day: 'thursday', time: '1200', room: 'L1', author: ['Maria Vollmer'], title:'Language contact, language change and flexible word order in Warlpiri', workshop: ''},
+    {id: 44, type: 'talk', day: 'thursday', time: '1200', room: 'L2', author: ['Eva Skafte Jensen','Jørgen Schack'], title:'What’s in an -n? The rise of new inflections for perf part in Danish ', workshop: ''},
+    {id: 308, type: 'talk', day: 'thursday', time: '1200', room: 'L3', author: ['Tiago Tresoldi','Fabrício Ferraz Gerardi'], title:'Phylogenetic inference of reticulate evolution in Tupí-Guaraní languages', workshop: ''},
+    {id: 189, type: 'talk', day: 'thursday', time: '1200', room: 'L6', author: ['Pierre Larrivée'], title:"Micro-cues and language change: There's a quantitative correlation between V2 and particle si in (non-literary) Medieval French", workshop: ''},
+    {id: 236, type: 'talk', day: 'thursday', time: '1200', room: 'C1', author: ['Marie-Anne Markey'], title:'Better entrenched, more easily retrieved: evidence for analogy in individual variation', workshop: ''},
+    {id: 314, type: 'talk', day: 'thursday', time: '1200', room: 'C4', author: ['Eleanor Smith','Peter Petré'], title:'Complexity in complementation: understanding lifetime change in verb complementation of individuals', workshop: ''},
+    {id: 58, type: 'talk', day: 'thursday', time: '1200', room: 'C6', author: ['Marc Pierce'], title:'Glide Epenthesis in Gothic and Old High German', workshop: ''},
+    {id: 333, type: 'talk', day: 'thursday', time: '1230', room: 'L1', author: ['Kaius Sinnemäki','Noora Ahola'], title:'Language contact effects on locus of marking: A multivariate typological approach', workshop: ''},
+    {id: 127, type: 'talk', day: 'thursday', time: '1230', room: 'L2', author: ['Concha Castillo'], title:'The morphosyntax of OE verbs: The role of T(ense) and the role of v(=stem)', workshop: ''},
+    {id: 259, type: 'talk', day: 'thursday', time: '1230', room: 'L3', author: ['Sandra Auderset','Eric W. Campbell'], title:'Subgrouping in a dialect area: A Bayesian phylogenetic analysis of Mixtecan', workshop: ''},
+    {id: 83, type: 'talk', day: 'thursday', time: '1230', room: 'L6', author: ['Yana Chankova'], title:'Information Structural and Syntactic Status of XPs in Two Non-Canonical Word Order Types in Old English and Old Icelandic', workshop: ''},
+    {id: 261, type: 'talk', day: 'thursday', time: '1230', room: 'C1', author: ['Matthew Baerman','Mirella Blum'], title:'Incongruent analogy in Dinka vowel grades', workshop: ''},
+    {id: 195, type: 'talk', day: 'thursday', time: '1230', room: 'C4', author: ['Tamara García-Vidal'], title:'Intra-Individual Variation in Synthetic and Analytic Comparative Adjectives from a Socio-Historical Perspective', workshop: ''},
+    {id: 253, type: 'talk', day: 'thursday', time: '1230', room: 'C6', author: ['Joshua Booth'], title:'The persistence of the Germanic Foot in Middle High German', workshop: ''},
+
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'L1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'L2', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'L3', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'L6', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'C1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'C4', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1345', room: 'C6', author: [''], title:'', workshop: ''},
+
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'L1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'L2', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'L3', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'L6', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'C1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'C4', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1415', room: 'C6', author: [''], title:'', workshop: ''},
+
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L2', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L3', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'C1', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'C4', author: [''], title:'', workshop: ''},
+    {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'C6', author: [''], title:'', workshop: ''},
+
     // {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
+
 ]
 
 
