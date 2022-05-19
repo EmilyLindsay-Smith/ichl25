@@ -269,6 +269,12 @@ export const data = [
     {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'C4', author: [''], title:'', workshop: ''},
     {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'C6', author: [''], title:'', workshop: ''},
 
+    {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: '', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: ''},
+    {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: '', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization' in the history of English: antonymy and assymetry", workshop: ''},
+    {id: 1004, type: 'plenary', day: 'wednesday', time: '0900', room: '', author: ['John Charles Smith'], title:'Periphrasis, Paradigms, and Grammaticalization '},
+    {id: 1005, type: 'plenary', day: 'thursday', time: '0900', room: '', author: ['Joseph Salmons'], title: 'Trees, waves and the classification of the Algonquian languages', workshop: ''},
+    {id: 1006, type: 'plenary', day: 'thursday', time: '1650', room: '', author: 'Claire Bowern', title: 'How Mechanisms of Sound Change Predict Stability', workshop: ''},
+    {id: 1007, type: 'plenary', day: 'thursday', time: '0900', room: '', author:['Frans Plank'], title:"Patterns of suppletion in inflectional paradigms: What do you mean, “universals of language” and there aren’t any?", workshop: ''},
     // {id: 0, type: 'talk', day: 'thursday', time: '1445', room: 'L6', author: [''], title:'', workshop: ''},
 
 ]
