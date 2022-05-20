@@ -1,4 +1,4 @@
-*{max-width: 100%};
+*{max-width: 100%; height: auto;};
 
 body {
   margin: 0;
@@ -17,11 +17,12 @@ code {
 .container-pad{
   padding-top: 5%;
   padding-bottom:5%;
+  height: auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   .container-pad{
-    padding-bottom: 20%;
+    padding-bottom: 40%;
   }
 }
 
@@ -30,17 +31,33 @@ code {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
   max-width: 100%;
   height: auto;
 }
 @media (max-width: 800px){
   .fluid-container{
-    width: 95vw;
     flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+}
+.fluid-containerB{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 800px){
+  .fluid-containerB{
+    flex-direction: column-reverse;
     text-align: center;
   }
 }
-
 td[colspan]:not([colspan="1"]) {
   text-align: center;
 }

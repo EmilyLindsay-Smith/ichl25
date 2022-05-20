@@ -18,13 +18,13 @@ function FilterMePoster(day){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
     let filtered = data.filter(datum=>datum.day === day && datum.type === 'poster')
-    return filtered.map(item => <li id={item.id}>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></li>)
+    return filtered.map(item => <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></td></tr>)
 }  
 function Plenary(id){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
     let filtered = data.filter(datum => datum.id === id)
-    return filtered.map(item=>  <td class="text-center"><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></td>)
+    return filtered.map(item=><><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></>)
 }
 function Timetable(day){
     if (day === 'structure'){
@@ -80,9 +80,11 @@ function Timetable(day){
             </tbody>
         </table> 
         <h5 id="posters">Poster Session</h5>
-        <ul>
+        <table class="table table-striped table-hover table-bordered">
+            <tbody>
             {FilterMePoster('monday')}
-        </ul>
+            </tbody>
+        </table>
         </div>
         )
     }else if(day ==='tuesday'){
@@ -185,9 +187,11 @@ function Timetable(day){
             </tbody>
         </table>
         <h5 id="postersfri">Poster Session</h5>
-        <ul>
+        <table class="table table-striped table-hover table-bordered">
+            <tbody>
             {FilterMePoster('friday')}
-        </ul>    
+            </tbody>
+        </table>  
         </div>
         )    
     }
