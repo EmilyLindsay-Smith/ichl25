@@ -4,6 +4,15 @@ function Contact(){
     return(
         <div class="container container-pad">
         <h1> Contact Us </h1>
+        <h4>Email</h4>
+        <p>ichl@ling-phil.ox.ac.uk</p>
+        <h4>Address</h4>
+        <p>  Faculty of Linguistics, Philology and Phonetics, <br/>
+            Clarendon Institute,<br/>
+            Walton St.,<br/>
+                            Oxford, <br/>
+                   OX16HG <br/>
+        </p>
         </div>
     );
 }
