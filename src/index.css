@@ -58,6 +58,18 @@ code {
     text-align: center;
   }
 }
+
+.fluid-containerC{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 100%;
+  height: auto;
+}
 td[colspan]:not([colspan="1"]) {
   text-align: center;
 }
@@ -121,4 +133,25 @@ details>summary:hover {
 .text-center{
   text-align: center;
   vertical-align: middle;
+}
+.card-home {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: fit-content;
+  max-width: 20vw;
+  min-width: 19vw;
+}
+.card-home img{
+  border-radius: 5px 5px 0 0 ;
+}
+.card-home:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content, .card-content:hover, .card-content:active, .card-content:visited  {
+  text-decoration: none;
+  color: #002147;
+  padding: 2px 16px;
 }
