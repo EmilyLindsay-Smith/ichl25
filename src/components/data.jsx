@@ -244,7 +244,6 @@ export const data = [
     {id: 261, type: 'talk', day: 'thursday', time: '1230', room: 'C1', author: ['Matthew Baerman','Mirella Blum'], title:'Incongruent analogy in Dinka vowel grades', workshop: ''},
     {id: 195, type: 'talk', day: 'thursday', time: '1230', room: 'C4', author: ['Tamara García-Vidal'], title:'Intra-Individual Variation in Synthetic and Analytic Comparative Adjectives from a Socio-Historical Perspective', workshop: ''},
     {id: 253, type: 'talk', day: 'thursday', time: '1230', room: 'C6', author: ['Joshua Booth'], title:'The persistence of the Germanic Foot in Middle High German', workshop: ''},
-
     {id: 265, type: 'talk', day: 'thursday', time: '1345', room: 'L1', author: ['Brigitte Bauer'], title:'Numerals, variation, and language contact', workshop: ''},
     {id: 210, type: 'talk', day: 'thursday', time: '1345', room: 'L2', author: ['Gard Jenset'], title:'Variation and change in the Middle English existential construction', workshop: ''},
     {id: 369, type: 'talk', day: 'thursday', time: '1345', room: 'L3', author: ['Elijah Wilder'], title:'The Nature of Quantity-sensitivity and Varied Stress Systems in Mayan Languages', workshop: ''},
@@ -252,7 +251,6 @@ export const data = [
     {id: 286, type: 'talk', day: 'thursday', time: '1345', room: 'C1', author: ['William Balla-Johnson'], title:'Formal similarity encourages analogical semantic change: The Romance pluperfect and the perfect-to-perfective shift', workshop: ''},
     {id: 257, type: 'talk', day: 'thursday', time: '1345', room: 'C4', author: ['Harold Koch'], title:'Nominal privative suffixes as a diachronic source of verbal negative markers: Evidence from Pama-Nyungan languages', workshop: ''},
     {id: 63, type: 'talk', day: 'thursday', time: '1345', room: 'C6', author: ['Wenjun Huang'], title:'On the nature of Superimposed Sound Change and the Law of Community Diffusion -- taking the variation of two groups of vowels in Guangshan dialect as an example', workshop: ''},
-
     {id: 34, type: 'talk', day: 'thursday', time: '1415', room: 'L1', author: ['Gilles Authier','Gasangusen Sulaibanov'], title:'Reconstructing prefixing nominal number marking in East Caucasian', workshop: ''},
     {id: 89, type: 'talk', day: 'thursday', time: '1415', room: 'L2', author: ['Carola Trips','Achim Stein'], title:'The development of reflexive strategies in Middle English, verb classes and the contact hypothesis', workshop: ''},
     {id: 374, type: 'talk', day: 'thursday', time: '1415', room: 'L3', author: ['Benjamin Molineaux'], title:'Mapudungun coronal fricatives: Affect, change, stability and the contrastive hierarchy', workshop: ''},
@@ -260,7 +258,6 @@ export const data = [
     {id: 330, type: 'talk', day: 'thursday', time: '1415', room: 'C1', author: ['David Fertig'], title:'Re-examining the interaction of sound-change and analogy from an implicational word-and-paradigm perspective', workshop: ''},
     {id: 273, type: 'talk', day: 'thursday', time: '1415', room: 'C4', author: ['Michela Cennamo','Francesco Ciconte'], title:'Constraints on Differential Object Marking in Old Sardinian: insights on its diachrony', workshop: ''},
     {id: 4, type: 'talk', day: 'thursday', time: '1415', room: 'C6', author: ['Xiaolong Lu'], title:'The development of antonymous compounds in Chinese: A constructionalization approach', workshop: ''},
-
     {id: 211, type: 'talk', day: 'thursday', time: '1445', room: 'L1', author: ['Tatiana Nikitina','Anna Bugaeva','Eveling Villa'], title:' Number asymmetries in logophoric systems: Towards a historical explanation', workshop: ''},
     {id: 362, type: 'talk', day: 'thursday', time: '1445', room: 'L2', author: ['Ans van Kemenade'], title:' Dialect contact, multilingualism and the loss of V2 in Middle and Early Modern English', workshop: ''},
     {id: 381, type: 'talk', day: 'thursday', time: '1445', room: 'L3', author: ['Brett Baker','Mark Harvey'], title:'Incipient initial dropping in Wubuy', workshop: ''},
@@ -268,6 +265,23 @@ export const data = [
     {id: 367, type: 'talk', day: 'thursday', time: '1445', room: 'C1', author: ['Matthew Juge'], title:'Analogy all over: Latin, Romance, and the unrecognized frequency of analogical change', workshop: ''},
     {id: 275, type: 'talk', day: 'thursday', time: '1445', room: 'C4', author: ['Peter Juul Nielsen'], title:'The diachrony of the Danish indirect middle', workshop: ''},
     {id: 239, type: 'talk', day: 'thursday', time: '1445', room: 'C6', author: ['Andreas Hölzl'], title:'The etymology of “Manchu”: A critical evaluation of the riverside hypothesis', workshop: ''},
+
+    {id: 378, type: 'talk', day: 'friday', time: '1000', room: 'L1', author: ['Jelena Zivojinovic'], title:'Inherited vs contact-induced structures: the progressive periphrases in Ladin and Swiss Romansh', workshop: ''},
+    {id: 41, type: 'talk', day: 'friday', time: '1000', room: 'L2', author: ['Pierre-Yves Modicom'], title:'Periodic style and the syntax of aboutness topics in Early New High German and Early Modern Danish', workshop: ''},
+    {id: 148, type: 'talk', day: 'friday', time: '1000', room: 'L3', author: ['W. Juliane Elter','Marlieke Shaw'], title:'Loan verb accommodation: A comparison of Old Norse and French in Middle English', workshop: ''},
+    {id: 100, type: 'talk', day: 'friday', time: '1000', room: 'L6', author: ['Henning Andersen'], title:'Indexicality: Diachronic Perspectives', workshop: ''},
+    {id: 304, type: 'talk', day: 'friday', time: '1000', room: 'C1', author: ['Nikolaus Ritt','Magdalena Schwarz','Irene Boehm','Vanja Vukovic'], title:'Tracing the evolution of gender bias in large diachronic corpora', workshop: ''},
+    {id: 20, type: 'talk', day: 'friday', time: '1000', room: 'C4', author: ['Piotr Sobotka'], title:'The North Slavic adverb in a dynamic perspective: An overview of relationships between mechanisms of adverbialization, decategorization of adverbs and their auxiliarization', workshop: ''},
+    {id: 31, type: 'talk', day: 'friday', time: '1000', room: 'C6', author: ['Hiwa Asadpour'], title:'Flagging-drop Typology and its Relevance on Target Word Ordering', workshop: ''},
+    {id: 336, type: 'talk', day: 'friday', time: '1030', room: 'L1', author: ['Antoine Primerano','Aina Torres Latorre','Andreu Sentí','Miriam Bouzouita'], title:'The grammaticalization of futures and conditionals in Ibero-Romance: a language contact approach', workshop: ''},
+    {id: 303, type: 'talk', day: 'friday', time: '1030', room: 'L2', author: ['Thorhallur Eythorsson'], title:'Expletives in Icelandic: a reassessment', workshop: ''},
+    {id: 224, type: 'talk', day: 'friday', time: '1030', room: 'L3', author: ['Marlieke Shaw'], title:'The impact of French loan words on English grammar: The rise of the progressive construction', workshop: ''},
+    {id: 252, type: 'talk', day: 'friday', time: '1030', room: 'L6', author: ['Stef Spronck','Tatiana Nikitina'], title:'Untold grammar: Paradigm formation with extended reported speech', workshop: ''},
+    {id: 138, type: 'talk', day: 'friday', time: '1030', room: 'C1', author: ['Stefania Degaetano-Ortlieb','Elke Teich'], title:'Towards a communicative explanation of diachronic language change: an information-theoretic approach', workshop: ''},
+    {id: 271, type: 'talk', day: 'friday', time: '1030', room: 'C4', author: ['Natalia Serdobolskaya','Irina Kobozeva'], title:'Causal constructions with the adverbial subordinator of manner: evidence from the history of Russian', workshop: ''},
+    {id: 278, type: 'talk', day: 'friday', time: '1030', room: 'C6', author: ['Maia Duguine','Georg Kaiser'], title:'Word order changes in Basque constituent questions', workshop: ''},
+
+
 
     {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: '', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: ''},
     {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: '', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization' in the history of English: antonymy and assymetry", workshop: ''},
