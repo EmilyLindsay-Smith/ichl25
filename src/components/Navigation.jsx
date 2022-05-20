@@ -7,14 +7,19 @@ function Navigation() {
    return (
        <div className="navigation">
            <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill">
-               <div className = "container">
+               <div className = "container fluid-container">
+                   <div>
                    <a className="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
                        <img src={logo2} alt="" ></img>
                        <img src={logo} alt="" ></img>
                    </a>
-                   <NavLink className="navbar-brand" to="/">
-                        <span className="site-title" id="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25 -- Oxford, 1-5 August 2022 
+                   </div>
+                   <div id="navbar-titles">
+                   <NavLink className="navbar-brand" id="navbar-brand-title" to="/">
+                        <p><span className="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25: Oxford, 1-5 August 2022 </p>
                    </NavLink>
+                   </div>
+                   <div>
                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -94,6 +99,7 @@ function Navigation() {
                            </ul>
                            </li>
                        </ul>
+                   </div>
                    </div>
                </div>
            </nav>
