@@ -11,9 +11,21 @@ function Filterme(day,room, time){
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <td><button className="btn button-abstract"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> {title}</button><br/><em>{authors}</em></td>
+    return <td><button className="btn button-abstract"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> <em>{title}</em></button><br/><em>{authors}</em></td>
   }
 
+function FilterMePoster(day){
+    const navigate = useNavigate();
+    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
+    let filtered = data.filter(datum=>datum.day === day && datum.type === 'poster')
+    return filtered.map(item => <li id={item.id}>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></li>)
+}  
+function Plenary(id){
+    const navigate = useNavigate();
+    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
+    let filtered = data.filter(datum => datum.id === id)
+    return filtered.map(item=>  <td class="text-center"><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></td>)
+}
 function Timetable(day){
     if (day === 'structure'){
         return(
@@ -44,11 +56,12 @@ function Timetable(day){
         )
     }else if (day === 'monday'){
       return( 
+        <div>
         <table class="table table-striped table-hover table-bordered">
             <tbody>
                 <tr><th>8.00-9.30</th><td colspan="7">Registration</td></tr>
                 <tr><th>9.30-10.00</th><td colspan="7">Welcome</td></tr>
-                <tr><th>10.00-11.00</th><td colspan="7">Paul Kiparsky</td></tr>
+                <tr><th>10.00-11.00</th><td colspan="7">{Plenary(1001)}</td></tr>
                 <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
                 <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
                 <tr><th></th><th>Language Contact</th><th>Syntax</th><th>Phonology</th><th>Romance</th><th>Germanic Semantics & Pragmatics</th><th>Morphology</th><th>Corpus Studies & Translation</th></tr>
@@ -61,17 +74,22 @@ function Timetable(day){
                 <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
                 <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
                 <tr><th>15.15-15.45</th><td colspan="7">Tea, Coffee & Posters</td></tr>
-                <tr><th>15.45-16.45</th><td colspan="7">Posters</td></tr>
-                <tr><th>16.50-17.50</th><td colspan="7">B. Elan Dresher</td></tr>
+                <tr><th>15.45-16.45</th><td colspan="7"><a href="#posters">Posters</a></td></tr>
+                <tr><th>16.50-17.50</th><td colspan="7">{Plenary(1002)}</td></tr>
                 <tr><th>18.00</th><td colspan="7">Welcome Reception</td></tr>
             </tbody>
-        </table>     
+        </table> 
+        <h5 id="posters">Poster Session</h5>
+        <ul>
+            {FilterMePoster('monday')}
+        </ul>
+        </div>
         )
     }else if(day ==='tuesday'){
     return(
         <table class="table table-striped table-hover table-bordered">
         <tbody>
-            <tr><th>9.00-10.00</th><td colspan="8">Kathryn Allan</td></tr>
+            <tr><th>9.00-10.00</th><td colspan="8">{Plenary(1003)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th><th>Trinity College</th></tr>
             <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Negation</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
@@ -99,7 +117,7 @@ function Timetable(day){
     return(
         <table class="table table-striped  table-hover table-bordered">
         <tbody>
-            <tr><th>9.00-10.00</th><td colspan="7">John Charles Smith</td></tr>
+            <tr><th>9.00-10.00</th><td colspan="7">{Plenary(1004)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
             <tr><th></th><th>Contact</th><th>Syntax</th><th>Aramaic Morphosyntax</th><th>Simulations</th><th>Basque Phonology</th><th>Albanian & Armenian</th><th>Languages of the Americas</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
@@ -118,7 +136,7 @@ function Timetable(day){
     return(
         <table class="table table-striped  table-hover table-bordered">
         <tbody>
-            <tr><th>9.00-10.00</th><td colspan="7">Joseph Salmons</td></tr>
+            <tr><th>9.00-10.00</th><td colspan="7">{Plenary(1005)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
             <tr><th></th><th>Contact</th><th>Indo-Iranian Morphosyntax</th><th>Slavonic</th><th>Languages of Western Africa</th><th>Danish</th><th>Reconstruction & Cognacy</th><th>Subjects</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
@@ -135,16 +153,17 @@ function Timetable(day){
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
             <tr><th>15.15-15.45</th><td colspan="7">Tea & Coffee</td></tr>
             <tr><th>15.45-16.45</th><td colspan="7">Business Meeting (L1)</td></tr>
-            <tr><th>16.50-17.50</th><td colspan="7">Claire Bowern</td></tr>
+            <tr><th>16.50-17.50</th><td colspan="7">{Plenary(1006)}</td></tr>
             <tr><th></th><td colspan="7">Closing Reception</td></tr>
             </tbody>
         </table>  
         )
     }else if(day==="friday"){
     return(
+        <div>
         <table class="table table-striped table-hover table-bordered">
         <tbody>
-            <tr><th>9.00-10.00</th><td colspan="7">Frans Plank</td></tr>
+            <tr><th>9.00-10.00</th><td colspan="7">{Plenary(1007)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
             <tr><th></th><th>Contact in Romance</th><th>Syntax</th><th>Loanwords in English</th><th>Morphology</th><th>Modern English & corpora</th><th>Slavonic</th><th>Word Order</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
@@ -160,11 +179,16 @@ function Timetable(day){
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
             <tr><th>15.15-15.45</th><td colspan="7">Tea, Coffee & Posters</td></tr>
-            <tr><th>15.45-16.45</th><td colspan="7">Posters </td></tr>
-            <tr><th>16.50-17.50</th><td colspan="7">Alice Harris</td></tr>
+            <tr><th>15.45-16.45</th><td colspan="7"><a href="#postersfri">Posters</a> </td></tr>
+            <tr><th>16.50-17.50</th><td colspan="7">{Plenary(1008)}</td></tr>
             <tr><th></th><td colspan="7">Closing Reception</td></tr>
             </tbody>
-        </table>    
+        </table>
+        <h5 id="postersfri">Poster Session</h5>
+        <ul>
+            {FilterMePoster('friday')}
+        </ul>    
+        </div>
         )    
     }
 }

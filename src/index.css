@@ -73,3 +73,7 @@ details>summary:hover {
 .button-abstract:hover{
   color: blue;
 }
+.text-center{
+  text-align: center;
+  vertical-align: middle;
+}
