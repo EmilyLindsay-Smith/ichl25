@@ -10,7 +10,7 @@ function Footer(){
                         created by Emily Lindsay-Smith
                     </div>
                     <div className="text-center">
-                        <a href="#site-title" className="topreturn">Return to top</a>
+                        <a href="#site-top" className="topreturn">Return to top</a>
                     </div>
             </footer>
         </div>     

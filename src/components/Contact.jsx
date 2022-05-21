@@ -10,8 +10,8 @@ function Contact(){
         <p>  Faculty of Linguistics, Philology and Phonetics, <br/>
             Clarendon Institute,<br/>
             Walton St.,<br/>
-                            Oxford, <br/>
-                   OX16HG <br/>
+            Oxford, <br/>
+            OX12HG <br/>
         </p>
         </div>
     );
