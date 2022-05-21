@@ -44,7 +44,7 @@ function People() {
                     return lastName[0]
                 }
 
-                return peoplelistorig.filter(person => lastLetter(person) == letter)
+                return peoplelistorig.filter(person => lastLetter(person) === letter)
                     .map(person =>
                             <details>
                             <summary>{person}</summary>
@@ -56,7 +56,7 @@ function People() {
     return (
         <div className="people">
             <div className="container container-pad">
-                <h1> People </h1>
+                <h1 id="site-top">People</h1>
                 <p> Click on a name to see which talks/posters they will present and where.</p>
                 <section>
                 <h4 id="A">A</h4>

@@ -45,7 +45,7 @@ function Workshops() {
     return (
         <div className="workshops">
             <div class="container container-pad">
-                <h1> The Workshops! </h1>
+                <h1 id="site-top"> The Workshops </h1>
                 <p>This year we are hosting eight workshops, to be held on Tuesday afternoon. Click on the title of each workshop below to see their abstract, organisers, and timetable of individual talks. </p>
                 <div class="accordion" id="workshopAccordion">
 

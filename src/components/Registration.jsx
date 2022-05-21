@@ -2,7 +2,7 @@ import React from 'react';
 
 function Registration(){
     return(
-        <div class="container container-pad"><h1> Registration and Fees </h1>
+        <div class="container container-pad"><h1 id="site-top"> Registration and Fees </h1>
         
         <p><em>Note Early bird registration is no longer available</em></p>
 

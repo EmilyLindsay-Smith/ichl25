@@ -38,12 +38,12 @@ function Abstracts(){
     if (parseInt(number) !== 0){
     return(
         <div className="container container-pad max-view">
-            <h2>Abstracts</h2>
-            {talkdata} 
-       <object data={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} type="application/pdf" width="100%" height="80%">
+            <h1 id="site-top">Abstracts</h1>
+            {talkdata}
+            <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract here </a>
+       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" allowfullscreen>
            <p><em>Your browser doesn't support PDF embedding </em></p>
-           <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract here </a>
-       </object>      
+       </iframe>      
         </div>
         )}
         else if (parseInt(number) ===0){

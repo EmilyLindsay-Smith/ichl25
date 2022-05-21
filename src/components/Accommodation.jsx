@@ -4,7 +4,7 @@ import somerville from '../images/somerville.jpg'
 function Accommodation(){
     return(
         <div class="container container-pad">
-            <h1>Accommodation</h1>
+            <h1 id="site-top">Accommodation</h1>
             <div class="row align-items-center my-5">
                 <div class="col-lg-7">
                   <img

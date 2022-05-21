@@ -3,7 +3,7 @@ import React from 'react';
 function Excursions(){
     return(
         <div class="container container-pad">
-        <h1>Excursions and Social Events</h1>
+        <h1 id="site-top">Excursions and Social Events</h1>
        
     <p>We hope you are looking forward to ICHL this summer. There are many wonderful places to visit within driving distance of Oxford, not to mention a wide variety of options within the city itself </p>
 
@@ -47,7 +47,9 @@ function Excursions(){
         A visit to Lacock Abbey features the Fox Talbot Museum, dedicated to one of the pioneers of early photography.
         </p>
 
-        <p><strong><a href="">University of Oxford Harcourt Arboretum </a></strong></p>
+        <p><strong><a href="https://www.obga.ox.ac.uk/visit-arboretum" target="_blank" rel="noreferrer noopener">University of Oxford Harcourt Arboretum </a></strong></p>
+
+<p>Further recommendations can be found on the <a href="https://oxfordcity.co.uk/" target="_blank" rel="noreferrer noopener">Oxford City Visitor Information site</a>.</p>
 <p>The entrance cost for each location is available on their websites. The National Trust properties are accessible without charge to members of the National Trust as well as members from other organisations abroad. Please consult their <a href="https://www.nationaltrust.org.uk/features/overseas-organisations" target="_blank" rel="noreferrer noopener">website</a> for more information.</p>
 </div>
     );
