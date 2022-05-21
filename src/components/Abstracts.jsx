@@ -41,7 +41,7 @@ function Abstracts(){
             <h1 id="site-top">Abstracts</h1>
             {talkdata}
             <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract here </a>
-       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" allowfullscreen>
+       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
            <p><em>Your browser doesn't support PDF embedding </em></p>
        </iframe>      
         </div>

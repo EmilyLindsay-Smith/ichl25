@@ -18,11 +18,14 @@ code {
   padding-top: 5%;
   padding-bottom:5%;
   height: auto;
+  overflow-wrap: break-word;
+  white-space: pre-line;
 }
 
 @media (max-width: 800px){
   .container-pad{
     padding-bottom: 40%;
+    max-width: 100vw;
   }
 }
 
@@ -143,7 +146,8 @@ details>summary:hover {
 
 }
 .card-home img{
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 5px 5px 0px 0px ;
+  height: 200px;
 }
 .card-home:hover{
   transform: scale(1.05);
