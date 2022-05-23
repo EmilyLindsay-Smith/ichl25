@@ -78,7 +78,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Paul Kiparsky (Stanford University)</h4>
-            <p><button className="btn button-abstract" onClick={()=>{toAbstracts(1001)}}><em>Title tbd</em></button> <br/>
+            <p><button className="btn button-abstract" onClick={()=>{toAbstracts(1001)}}><em>Contrast maintenance in semantic change: chain shifts and renewal</em></button> <br/>
             Monday 10am
             </p>
             <p>

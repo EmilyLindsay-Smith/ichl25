@@ -355,7 +355,7 @@ export const data = [
     {id: 345, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Fuyo Osawa'], title:'What is behind the word order change?: the emergent functional categories drive innovation', workshop: ''},
     {id: 353, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Joshua Booth'], title:'The prosodic representation of Verschmelzungsformen in Middle High German', workshop: ''},
 
-    {id: 1001, type: 'plenary', day: 'monday', time: '0900', room: '', author: ['Paul Kiparsky'], title: "tbc", workshop: ""},
+    {id: 1001, type: 'plenary', day: 'monday', time: '0900', room: '', author: ['Paul Kiparsky'], title: "Contrast maintenance in semantic change: chain shifts and renewal", workshop: ""},
     {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: '', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: ''},
     {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: '', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization'in the history of English: antonymy and assymetry", workshop: ''},
     {id: 1004, type: 'plenary', day: 'wednesday', time: '0900', room: '', author: ['John Charles Smith'], title:'Periphrasis, Paradigms, and Grammaticalization '},
