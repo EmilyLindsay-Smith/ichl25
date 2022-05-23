@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ichl25/static/css/main.a5cd153e.css",
-    "main.js": "/ichl25/static/js/main.8d152174.js",
+    "main.js": "/ichl25/static/js/main.1343dfe7.js",
     "static/media/ICHL25_paper_99.pdf": "/ichl25/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/ichl25/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
     "static/media/ICHL25_paper_44.pdf": "/ichl25/static/media/ICHL25_paper_44.d1ef18743dfd206fadf5.pdf",
@@ -390,10 +390,10 @@
     "static/media/ICHL25_paper_159.pdf": "/ichl25/static/media/ICHL25_paper_159.f1fc64dd1f88b1036bd8.pdf",
     "index.html": "/ichl25/index.html",
     "main.a5cd153e.css.map": "/ichl25/static/css/main.a5cd153e.css.map",
-    "main.8d152174.js.map": "/ichl25/static/js/main.8d152174.js.map"
+    "main.1343dfe7.js.map": "/ichl25/static/js/main.1343dfe7.js.map"
   },
   "entrypoints": [
     "static/css/main.a5cd153e.css",
-    "static/js/main.8d152174.js"
+    "static/js/main.1343dfe7.js"
   ]
 }
