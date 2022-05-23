@@ -69,7 +69,7 @@ function Timetable(day){
                 <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
                 <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
                 <tr><th>13.00-13.45</th><td colspan="7">Lunch</td></tr>
-                <tr><th></th><th>Germanic</th><th>Parametric Comparison</th><th>Phonology</th><th>Bantu&Cushitic</th><th>Greek</th><th>Phonology:Vowels</th><th>(Ir)regularity</th></tr>
+                <tr><th></th><th>Germanic</th><th>Parametric Comparison</th><th>Phonology</th><th>Syntax</th><th>Greek</th><th>Phonology:Vowels</th><th>(Ir)regularity</th></tr>
                 <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
                 <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
                 <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
@@ -93,7 +93,7 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colspan="8">{Plenary(1003)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th><th>Trinity College</th></tr>
-            <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Negation</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
+            <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Comparative Reconstruction</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colspan="8">Tea and Coffee</td></tr>
@@ -140,16 +140,16 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colspan="7">{Plenary(1005)}</td></tr>
             <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>
-            <tr><th></th><th>Contact</th><th>Indo-Iranian Morphosyntax</th><th>Slavonic</th><th>Languages of Western Africa</th><th>Danish</th><th>Reconstruction & Cognacy</th><th>Subjects</th></tr>
+            <tr><th></th><th>Contact</th><th>Greek & Sanskrit Morphosyntax</th><th>Slavonic</th><th>Languages of Western Africa</th><th>Danish</th><th>Reconstruction & Cognacy</th><th>Subjects</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th>Contact</th><th>Germanic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
+            <tr><th></th><th>Contact</th><th>Semitic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colspan="7">Lunch</td></tr>
-            <tr><th></th><th>Contact</th><th>Middle English morphosyntax</th><th>Phonology</th><th>Phylogenetics</th><th>Analogy</th><th>Basque Morphosyntax</th><th>Languages of China</th></tr>
+            <tr><th></th><th>Contact</th><th>Middle English morphosyntax</th><th>Phonology</th><th>Phylogenetics</th><th>Analogy</th><th>Morphological Marking</th><th>Languages of China</th></tr>
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
@@ -171,7 +171,7 @@ function Timetable(day){
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th> Language Contact</th><th>Syntax</th><th>Romance Morphosyntax</th><th>Grammaticalisation</th><th>English Phonology</th><th>Modelling/Phon</th><th>Indo-Iranian & Greek</th></tr>
+            <tr><th></th><th> Language Contact</th><th>Syntax</th><th>Romance Morphosyntax</th><th>Grammaticalization</th><th>English Phonology</th><th>Modelling/Phon</th><th>Indo-Iranian</th></tr>
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
