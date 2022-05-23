@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import Programme from "./components/Programme";
@@ -19,6 +20,7 @@ import Abstracts from './components/Abstracts'
 export default function App() {
 return(
 <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
