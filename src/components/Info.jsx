@@ -4,7 +4,7 @@ import mathsinstitutea from '../images/mathsinstitutea.jpg';
 function Info() {
     return (
         <div className="info">
-            <div class="container container-pad">
+            <div className="container container-pad">
         <h1 id="site-top"> Venue Information </h1>
 
             <div className="row align-items-center my-5">

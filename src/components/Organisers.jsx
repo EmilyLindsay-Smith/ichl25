@@ -2,7 +2,7 @@ import React from 'react';
 
 function Organisers(){
     return(
-        <div class="container container-pad">
+        <div className="container container-pad">
         <h1 id="site-top">Organisers</h1>
         <em>With thanks to our organisers:</em>
 
