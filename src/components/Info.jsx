@@ -17,8 +17,8 @@ function Info() {
             </div>
             <div className="col-lg-6">
               
-            <p> The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" ref="noopener noreferrer" target="_blank">check out this guidance</a></p>
-            <p> We are looking forward to welcoming you to the Andrew Wiles Building, part of the Mathematical Institute within the Radcliffe Observatory Quarter. The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the map below to orientate yourself.</p>
+            <p> The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. <strong>For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" rel="noopener noreferrer" target="_blank">check out this guidance</a></strong></p>
+            <p> We are looking forward to welcoming you to the <strong>Andrew Wiles Building</strong>, part of the <strong>Mathematical Institute within the Radcliffe Observatory Quarter</strong>. The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the map below to orientate yourself.</p>
             <p> We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. All rooms are equipped with data projectors and screens, microphones, and whiteboards. There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. Wi-fi is available throughout the building (Eduroam and The Cloud) and all rooms and public areas are wheelchair accessible.</p>
     </div>                 
                 <iframe 
