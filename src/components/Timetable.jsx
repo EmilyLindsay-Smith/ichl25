@@ -183,7 +183,7 @@ function Timetable(day){
             <tr><th>15.15-15.45</th><td colspan="7">Tea, Coffee & Posters</td></tr>
             <tr><th>15.45-16.45</th><td colspan="7"><a href="#postersfri">Posters</a> </td></tr>
             <tr><th>16.50-17.50</th><td colspan="7">{Plenary(1008)}</td></tr>
-            <tr><th></th><td colspan="7">Closing Reception</td></tr>
+          {/*  <tr><th></th><td colspan="7">Closing Reception</td></tr> */}
             </tbody>
         </table>
         <h5 id="postersfri">Poster Session</h5>
