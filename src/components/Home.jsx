@@ -26,12 +26,12 @@ function Home(){
               
             <p>The Faculty of Linguistics, Philology, and Phonetics at the University of Oxford will be hosting the 25th International Conference on Historical Linguistics (ICHL25), from <strong>1 to 5 August 2022</strong>. This conference has been postponed from the originally planned year of 2021.</p>
 
-<p><em>The ICHL brings together historical linguists and specialists in related fields to explore advances in areas including methods and practices of linguistic reconstruction; formal approaches to language change; historical sociolinguistics; computational approaches to historical linguistics; contact and areal linguistics; interfaces between historical linguistics and other disciplines; and many other related areas.</em></p>
+<p><em>ICHL brings together historical linguists and specialists in related fields to explore advances in areas including methods and practices of linguistic reconstruction; formal approaches to language change; historical sociolinguistics; computational approaches to historical linguistics; contact and areal linguistics; interfaces between historical linguistics and other disciplines; and many other related areas.</em></p>
 </div>  
 </div>
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
-<p className="col-lg-10">We intend ICHL 2022 to be an exclusively 'live', not a 'virtual', conference—an occasion for us all to meet again face-to-face! <br/>
+<p className="col-lg-10">We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference—an occasion for us all to meet again face-to-face! <br/>
 Explore our website for details of:<br/>
 <ul>
   <li>The full conference programme, including workshops and plenaries</li>
