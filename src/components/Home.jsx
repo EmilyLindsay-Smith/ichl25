@@ -31,12 +31,13 @@ function Home(){
 </div>
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
-<p className="col-lg-10">We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference—an occasion for us all to meet again face-to-face! <br/>
-Explore our website for details of:<br/>
+<p className="col-lg-10">We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face! <br/>
+Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our website for details of:<br/>
 <ul>
-  <li>The full conference programme, including workshops and plenaries</li>
+  <li>The full conference programme with abstracts, including workshops and plenaries</li>
   <li>Information about available accommodation</li>
   <li>Planned excursions and social events</li>
+  <li>and more...</li>
 </ul>
 </p>    
           <div className="container container-pad fluid-containerB">

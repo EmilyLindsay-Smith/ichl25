@@ -24,10 +24,10 @@ function Organisers(){
             <li>Dr John Lowe</li>
             <li>Dr Louise Mycock</li>
             <li>Dr Hanne Eckhoff</li>
-            <li>Dr Kerstin HOge</li>
+            <li>Dr Kerstin Hoge</li>
             <li>Dr Sandra Paoli</li>
             <li>Dr David Willis</li>
-            <li>Dr Sam WOlfe</li>
+            <li>Dr Sam Wolfe</li>
             <li>Dr Hilary Wynne</li>
             <li>Dr Kinga Kozminska</li>
             <li>Dr Jan Fellerer</li>

@@ -11,20 +11,20 @@ function Filterme(day,room, time){
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <td><button className="btn button-abstract"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> <em>{title}</em></button><br/><em>{authors}</em></td>
+    return <td><button className="btn button-abstract text-left"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> <em>{title}</em></button><br/><em>{authors}</em></td>
   }
 
 function FilterMePoster(day){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
     let filtered = data.filter(datum=>datum.day === day && datum.type === 'poster')
-    return filtered.map(item => <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></td></tr>)
+    return filtered.map(item => <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><button className="btn button-abstract text-left"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></td></tr>)
 }  
 function Plenary(id){
     const navigate = useNavigate();
     const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
     let filtered = data.filter(datum => datum.id === id)
-    return filtered.map(item=><><button className="btn button-abstract"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></>)
+    return filtered.map(item=><><button className="btn button-abstract text-left"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></>)
 }
 function Timetable(day){
     if (day === 'structure'){
@@ -60,7 +60,7 @@ function Timetable(day){
         <table class="table table-striped table-hover table-bordered">
             <tbody>
                 <tr><th>8.00-9.30</th><td colspan="7">Registration</td></tr>
-                <tr><th>9.30-10.00</th><td colspan="7">Welcome</td></tr>
+                <tr><th>9.30-10.00</th><td colspan="7" >Welcome</td></tr>
                 <tr><th>10.00-11.00</th><td colspan="7">{Plenary(1001)}</td></tr>
                 <tr><th>11.00-11.30</th><td colspan="7">Tea and Coffee</td></tr>
                 <tr><th></th><th>L1(360)</th><th>L2(210)</th><th>L3(110)</th><th>L6(40)</th><th>C1(24)</th><th>C4(24)</th><th>C6(24)</th></tr>

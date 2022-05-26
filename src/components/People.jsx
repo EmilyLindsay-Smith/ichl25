@@ -14,7 +14,7 @@ function Testme(name){
     return data.filter(
       datum => datum.author.includes(name)).map(
       item =><p><strong>{capitalise(item.type)}</strong>:
-          <button className="btn button-abstract" onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}>
+          <button className="btn button-abstract text-left" onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}>
                {item.title}
                </button><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
