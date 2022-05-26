@@ -17,7 +17,8 @@ function Info() {
             </div>
             <div className="col-lg-6">
               
-            <p>ICHL25 is taking place in the Mathematical Institute in the Radcliffe Observatory Quarter, just a few minutes walk out of Oxford city centre. Have a look at the map below to orientate yourself:</p>
+            <p>The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. We are looking forward to welcoming you to the Andrew Wiles Building, part of the Mathematical Institute within the Radcliffe Observatory Quarter. The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the map below to orientate yourself.</p>
+            <p>We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. All rooms are equipped with data projectors and screens, microphones, and whiteboards. There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. Wi-fi is available throughout the building (Eduroam and The Cloud) and all rooms and public areas are wheelchair accessible.</p>
     </div>                 
                 <iframe 
                     title="ICHL Conference Location"
