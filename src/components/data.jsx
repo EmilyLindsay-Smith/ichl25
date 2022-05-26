@@ -298,7 +298,7 @@ export const data = [
     {id: 352, type: 'talk', day: 'friday', time: '1230', room: 'L2', author: ['Kalle Müller','Katrin Axel-Tober','Marco Coniglio','Katharina Paul'], title:'Grammaticalization of sentence adverbs and particles revisited', workshop: ''},
     {id: 120, type: 'talk', day: 'friday', time: '1230', room: 'L3', author: ['Borja Herce'], title:'Quantifying morphological autonomy: CVC- to C(V)- stems in Romance verbs and the long-term vitality of morphomes', workshop: ''},
     {id: 56, type: 'talk', day: 'friday', time: '1230', room: 'L6', author: ['Etienne Baudel'], title:'Casting a new ‘eye’ on an elusive suffix: The use and origin of the Japanese dialectal suffix ‘-me’', workshop: ''},
-    {id: 119, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Marco Condorelli'], title:'Sounds, spelling and printing: the case of vowel markers in Early Modern English (1500–1700)', workshop: ''},
+//    {id: 119, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Marco Condorelli'], title:'Sounds, spelling and printing: the case of vowel markers in Early Modern English (1500–1700)', workshop: ''},
     {id: 373, type: 'talk', day: 'friday', time: '1230', room: 'C4', author: ['Erich Round','James Elhindi'], title:'Sharper evaluation of deep-time hypotheses using both phonological and semantic divergence', workshop: ''},
     {id: 114, type: 'talk', day: 'friday', time: '1230', room: 'C6', author: ['Francesca Michetti'], title:'Bactrian names on coins: when linguistics sheds light on history', workshop: ''},
     {id: 322, type: 'talk', day: 'friday', time: '1345', room: 'L1', author: ['Anna Pineda'], title:'The diachrony of differential object marking in Catalan', workshop: ''},
@@ -344,7 +344,7 @@ export const data = [
     {id: 293, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Izabela Jordanoska','Katya Aplonova'], title:'Cross-linguistic insights into the early stages of quotative development', workshop: ''},
     {id: 297, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Katrin Menzel'], title:'Word formation patterns reflecting discipline-specific communicative needs in scientific writing throughout the 20th century', workshop: ''},
     {id: 331, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Antoine Primerano'], title:'Koineization and language contact in the history of Spanish: An examination of several morphosyntactic changes', workshop: ''},
-    {id: 110, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Artur Bartnik'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
+    {id: 110, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Artur Bartnik'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
 
     {id: 122, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Jadranka Gvozdanovic'], title:'Methodological considerations about linguistic reconstruction in space and time', workshop: ''},
     {id: 125, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Roxanne Taylor','Tine Breban','Kersti Borjars'], title:'The genitive alternation in early English', workshop: ''},
