@@ -16,8 +16,8 @@ import PlenarySpeakers from './components/PlenarySpeakers';
 import Registration from './components/Registration';
 import Excursions from './components/Excursions'
 import Abstracts from './components/Abstracts'
-
 export default function App() {
+
 return(
 <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ScrollToTop />

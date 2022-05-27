@@ -23,8 +23,7 @@ function Testme(name){
           }
 
 function People() {
-    const filtereddata = data.filter(datum => datum.title.includes("Elz")||datum.author.join().toLowerCase().includes("elz"))
-    const people = filtereddata.map(datum => datum.author)
+    const people = data.map(datum => datum.author)
     const peoplelistorig = people.flat()
                              .sort(function(a,b){
                                  var aName = a.split(" ");
@@ -54,19 +53,18 @@ function People() {
                         )
                 
                 const peoplehtml = []
-                if (people.length != 0){peoplehtml.push(<h4 id={letter}>{letter}</h4>)}
+                if (people.length !== 0){peoplehtml.push(<h4 id={letter}>{letter}</h4>)}
                 peoplehtml.push(people)
                 return peoplehtml
                 }
-
     
     return (
         <div className="people">
             <div className="container container-pad">
                 <h1 id="site-top">People</h1>
                 <p> Click on a name to see which talks/posters they will present and where.</p>
-                
               <section>
+
                 {peopleByLetter('A')}
                 </section>
               <section>
