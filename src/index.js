@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -41,5 +41,6 @@ return(
 )
 }
 
-ReactDOM.render( <App />,   document.getElementById("root")
-);
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />)
+//ReactDOM.render( <App />,   document.getElementById("root"));
