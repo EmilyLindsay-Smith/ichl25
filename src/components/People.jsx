@@ -23,7 +23,8 @@ function Testme(name){
           }
 
 function People() {
-    const people = data.map(datum => datum.author)
+    const filtereddata = data.filter(datum => datum.title.includes("Elz")||datum.author.join().toLowerCase().includes("elz"))
+    const people = filtereddata.map(datum => datum.author)
     const peoplelistorig = people.flat()
                              .sort(function(a,b){
                                  var aName = a.split(" ");
@@ -44,122 +45,103 @@ function People() {
                     return lastName[0]
                 }
 
-                return peoplelistorig.filter(person => lastLetter(person) === letter)
+                const people = peoplelistorig.filter(person => lastLetter(person) === letter)
                     .map(person =>
-                            <details>
+                          <details key={person}>
                             <summary>{person}</summary>
-                            <div class="detailcontent">{Testme(person)}</div>
+                            <div className="detailcontent">{Testme(person)}</div>
                             </details>
                         )
+                
+                const peoplehtml = []
+                if (people.length != 0){peoplehtml.push(<h4 id={letter}>{letter}</h4>)}
+                peoplehtml.push(people)
+                return peoplehtml
                 }
+
     
     return (
         <div className="people">
             <div className="container container-pad">
                 <h1 id="site-top">People</h1>
                 <p> Click on a name to see which talks/posters they will present and where.</p>
-                <section>
-                <h4 id="A">A</h4>
+                
+              <section>
                 {peopleByLetter('A')}
                 </section>
               <section>
-                <h4 id="B">B</h4>
                 {peopleByLetter('B')}
                 </section> 
                   <section>
-                <h4 id="C">C</h4>
                 {peopleByLetter('C')}
                 </section>
                 <section>
-                <h4 id="D">D</h4>
                 {peopleByLetter('D')}
                 </section>
                 <section>
-                <h4 id="E">E</h4>
                 {peopleByLetter('E')}
                 </section>
                 <section>
-                <h4 id="F">F</h4>
                 {peopleByLetter('F')}
                 </section>
                 <section>
-                <h4 id="G">G</h4>
                 {peopleByLetter('G')}
                 </section>
                 <section>
-                <h4 id="H">H</h4>
                 {peopleByLetter('H')}
                 </section>
                 <section>
-                <h4 id="I">I</h4>
                 {peopleByLetter('I')}
                 </section>
                 <section>
-                <h4 id="J">J</h4>
                 {peopleByLetter('J')}
                 </section>
                 <section>
-                <h4 id="K">K</h4>
                 {peopleByLetter('K')}
                 </section>
                 <section>
-                <h4 id="L">L</h4>
                 {peopleByLetter('L')}
                 </section>
                 <section>
-                <h4 id="M">M</h4>
                 {peopleByLetter('M')}
                 </section>
                 <section>
-                <h4 id="N">N</h4>
                 {peopleByLetter('N')}
                 </section>
                 <section>
-                <h4 id="O">O</h4>
                 {peopleByLetter('O')}
                 </section>
                 <section>
-                <h4 id="P">P</h4>
                 {peopleByLetter('P')}
                 </section>
                 <section>
-                <h4 id="Q">Q</h4>
                 {peopleByLetter('Q')}
                 </section>
                 <section>
-                <h4 id="R">R</h4>
                 {peopleByLetter('R')}
                 </section>
                 <section>
-                <h4 id="S">S</h4>
                 {peopleByLetter('S')}
                 </section>
                 <section>
-                <h4 id="T">T</h4>
                 {peopleByLetter('T')}
                 </section>
                 <section>
-                <h4 id="U">U</h4>
                 {peopleByLetter('U')}
                 </section>
                 <section>
-                <h4 id="V">V</h4>
                 {peopleByLetter('V')}
                 </section>
                 <section>
-                <h4 id="W">W</h4>
                 {peopleByLetter('W')}
                 </section>
                 <section>
-                <h4 id="X">X</h4>
                 {peopleByLetter('X')}
                 </section>
                 <section>
-                <h4 id="Y">Y</h4>
                 {peopleByLetter('Y')}
                 </section>
                 <section>
-                <h4 id="Z">Z</h4>
                 {peopleByLetter('Z')}
                 </section>
             </div>   
