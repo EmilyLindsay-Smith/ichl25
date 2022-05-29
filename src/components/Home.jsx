@@ -32,20 +32,20 @@ function Home(){
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
 <p className="col-lg-10">We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face! <br/>
-Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our website for details of:<br/>
+Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
 <ul>
   <li>The full conference programme with abstracts, including workshops and plenaries</li>
   <li>Information about available accommodation</li>
   <li>Planned excursions and social events</li>
   <li>and more...</li>
 </ul>
-</p>    
+
           <div className="container container-pad fluid-containerB">
              
           <NavLink className="nav-link" to="/programme">  
             <div className="card-home">
             <img
-                    class="img-fluid rounded mb-4 mb-lg-0"
+                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={library}
                     alt="Taylor Library"
                     />
@@ -57,7 +57,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
           <NavLink className="nav-link" to="/workshops">  
             <div className="card-home">
             <img
-                  class="img-fluid rounded mb-4 mb-lg-0"
+                  className="img-fluid rounded mb-4 mb-lg-0"
                   src={mathsinstitutec}
                   alt=""
                     />
@@ -69,7 +69,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
           <NavLink className="nav-link" to="/plenaryspeakers">  
             <div className="card-home">
             <img
-                    class="img-fluid rounded mb-4 mb-lg-0"
+                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={mathslecture}
                      alt=""
                     />
@@ -81,7 +81,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
           <NavLink className="nav-link" to="/registration-and-fees">  
             <div className="card-home">
             <img
-                    class="img-fluid rounded mb-4 mb-lg-0"
+                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={mathsinstitutea}
                      alt=""
                     />
@@ -93,7 +93,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
           <NavLink className="nav-link" to="/excursions">  
             <div className="card-home">
             <img
-                    class="img-fluid rounded mb-4 mb-lg-0"
+                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={about}
                      alt=""
                     />
@@ -105,7 +105,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
           <NavLink className="nav-link" to="/accommodation">  
             <div className="card-home">
             <img
-                    class="img-fluid rounded mb-4 mb-lg-0"
+                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={somerville}
                      alt=""
                     />
