@@ -11,9 +11,11 @@ function People() {
       setQuery(newQuery)
       event.preventDefault()
     }
-  const searcher = query.toLowerCase()
-*/
-  const filtereddata = data //.filter(datum => datum.title.toLowerCase().includes(searcher) || datum.author.join().toLowerCase().includes(searcher))
+    */
+//  const searcher = "ge"//query.toLowerCase()
+
+  const filtereddata = data.filter(datum=>datum.id !== 0)
+                         //.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i"))) //includes(searcher))// || datum.author.join().toLowerCase().includes(searcher))
 
   function capitalise(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
