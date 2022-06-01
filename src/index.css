@@ -165,12 +165,13 @@ td {
   justify-content: left;
   margin: 0 auto;
 }
+
 .text-left{
   text-align: left !important;
 }
 
 td[colspan]:not([colspan="1"]) {
-  text-align: center;
+  text-align: center !important;
 }
 @media (max-width: 800px){
   td[colspan]:not([colspan="1"]) {
