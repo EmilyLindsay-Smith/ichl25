@@ -1,23 +1,12 @@
 import React from "react";
 import Timetable from "./Timetable";
-import {data} from "./data";
 
 function Programme() {
-  /* Sanity Check for Duplicate Titles or Ids in programme */ 
-    let ids = data.map(datum => datum.id)
-    let id_dupl = ids.filter((item,index)=> ids.indexOf(item) !== index)
-    let titles = data.map(datum => datum.title)
-    let title_dupl =  titles.filter((item,index)=> titles.indexOf(item) !== index)
-    let authors = data.map(datum => datum.author)
-    let author_dupl =  authors.filter((item,index)=> authors.indexOf(item) !== index)
-    console.log(id_dupl)
-    console.log(title_dupl)
-    console.log(author_dupl)
     
     return (
         <div className="programme">
             <div className="container container-pad">
-                <h1 id="site-top"> The Programme </h1>
+                <h1 id="site-top"> Programme Overview </h1>
                 <div></div>
 
                 <nav className="nav nav-fill">
