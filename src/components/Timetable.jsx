@@ -1,13 +1,9 @@
 import React from "react";
 import {data} from './data';
 import { NavLink} from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
 
 function Filterme(day,room, time){
-   // const navigate = useNavigate();
 
-   // const toAbstracts=(num)=>{ const address = '/abstracts/' + {id} <NavLink className="nav-link" to={address} > </NavLink>}
-  //  const toWorkshops=()=>{navigate('/workshops')}
 
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
@@ -32,7 +28,8 @@ function Plenary(paper_id){
 }
 function Timetable(day){
     if (day === 'structure'){
-        return(
+        return (
+            <div>
             <table className="table table-striped table-hover table-bordered">
             <thead>
                 <tr>
@@ -57,6 +54,8 @@ function Timetable(day){
                 <tr><th scope="row">18.00</th><td><em>Welcome Reception</em></td><td></td><td><em>Conference Dinner</em></td></tr>
             </tbody>
             </table>
+            <p className="centerMe"> Our Welcome Reception is sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</p>
+            </div>
         )
     }else if (day === 'monday'){
       return( 
