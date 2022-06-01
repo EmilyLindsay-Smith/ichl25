@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {data as originalData} from './data';
-import { useNavigate } from 'react-router-dom';
+import { NavLink} from "react-router-dom";
 
 function People() {
     const data = originalData
@@ -21,16 +21,11 @@ function People() {
   }
 
 function Testme(name){ 
-  //  const navigate = useNavigate();
-  //  const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}    
-  //  const toWorkshops=()=>{navigate('/workshops')}
 
     return filtereddata.filter(
       datum => datum.author.includes(name)).map(
       item =><p key={item.id}><strong>{capitalise(item.type)}</strong>:
-          <button className="btn button-abstract text-left">{/* onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}> */}
-               {item.title}
-               </button><br/>
+          <NavLink className= "btn button-abstract text-left" to={'/abstracts/' + item.id}><em>{item.title}</em></NavLink><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
           <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
           <strong>Room</strong>: {item.room}</p> )
@@ -75,8 +70,9 @@ function Testme(name){
         <div className="people">
             <div className="container container-pad">
                 <h1 id="site-top">People</h1>
-                <p> Click on a name to see which talks/posters they will present and where.</p>
-                <input type="search" placeholder="Search by Author or title here" onChange={HandleChange}></input>
+                <p> Click on a name to see which talks/posters they will present and where.<br/>
+                You can also use our search bar to filter by author or title - just start typing!</p>
+                <input type="search" placeholder="Search me" onChange={HandleChange}></input>
                 {query}
               
                 {peopleByLetter('A')}
