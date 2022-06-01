@@ -22,7 +22,7 @@ function Registration(){
             </tr>
 
             <tr>
-                <th scope="row">Conference Dinner  </th>
+                <th scope="row">Conference Dinner (adults only) </th>
                 <td>£38.50</td>
             </tr>
             </tbody>

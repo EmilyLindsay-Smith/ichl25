@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import {data as originalData} from './data';
 import { NavLink} from "react-router-dom";
 
 function People() {
     const data = originalData
-    const [query, setQuery] = useState('a')
+    const [query, setQuery] = useState('')
     
     const HandleChange = (event) => {
       let newQuery = event.target.value
@@ -73,8 +73,7 @@ function Testme(name){
                 <p> Click on a name to see which talks/posters they will present and where.<br/>
                 You can also use our search bar to filter by author or title - just start typing!</p>
                 <input type="search" placeholder="Search me" onChange={HandleChange}></input>
-                {query}
-              
+                          
                 {peopleByLetter('A')}
                 {peopleByLetter('B')}
                 {peopleByLetter('C')}
