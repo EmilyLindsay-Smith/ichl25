@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9b33be6.css",
-    "main.js": "/static/js/main.19213dd6.js",
+    "main.css": "/static/css/main.a2f38d1b.css",
+    "main.js": "/static/js/main.578bdc54.js",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
     "static/media/ICHL25_paper_44.pdf": "/static/media/ICHL25_paper_44.d1ef18743dfd206fadf5.pdf",
@@ -389,11 +389,11 @@
     "static/media/ICHL25_paper_81.pdf": "/static/media/ICHL25_paper_81.f17d1d4d0651c33949ba.pdf",
     "static/media/ICHL25_paper_159.pdf": "/static/media/ICHL25_paper_159.f1fc64dd1f88b1036bd8.pdf",
     "index.html": "/index.html",
-    "main.a9b33be6.css.map": "/static/css/main.a9b33be6.css.map",
-    "main.19213dd6.js.map": "/static/js/main.19213dd6.js.map"
+    "main.a2f38d1b.css.map": "/static/css/main.a2f38d1b.css.map",
+    "main.578bdc54.js.map": "/static/js/main.578bdc54.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9b33be6.css",
-    "static/js/main.19213dd6.js"
+    "static/css/main.a2f38d1b.css",
+    "static/js/main.578bdc54.js"
   ]
 }
