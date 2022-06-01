@@ -1,16 +1,16 @@
 import React from 'react';
-import {useNavigate } from 'react-router-dom';
-
+import { NavLink} from "react-router-dom";
 function PlenarySpeakers(){
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
+
 
     return(
         <div class="container container-pad">
             <h1 id="site-top"> Plenary Speakers </h1>
         <section>
         <h4>Kathryn Allan (University College London)</h4>
-        <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1003)}}> <em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></button> <br/>
+
+        <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1003'}><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></NavLink>
+           <br/> 
             Tuesday 9am
         </p>
         <p>Kathryn Allan is an Associate Professor in the History of English at University College, London. 
@@ -28,7 +28,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Claire Bowern (Yale University)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1006)}}><em>How Mechanisms of Sound Change Predict Stability</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1006'}><em>How Mechanisms of Sound Change Predict Stability</em></NavLink>
+            <br/>
             Thursday 4.50pm
             </p>
             <p>
@@ -45,7 +46,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>B. Elan Dresher (University of Toronto)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1002)}}><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1002'}><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></NavLink>
+            <br/>
             Monday 4.50pm
             </p>
             <p>
@@ -61,7 +63,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Alice Harris (University of Massachusetts, Amherst)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1008)}}><em>The Origins of Clitic Placement in Aluan and Udi</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1008'}><em>The Origins of Clitic Placement in Aluan and Udi</em></NavLink>
+            <br/>
             Friday 4.50pm
             </p>
             <p>
@@ -78,7 +81,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Paul Kiparsky (Stanford University)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1001)}}><em>Contrast maintenance in semantic change: chain shifts and renewal</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1001'}><em>Contrast maintenance in semantic change: chain shifts and renewal</em></NavLink>
+            <br/>
             Monday 10am
             </p>
             <p>
@@ -96,7 +100,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Frans Plank (University of Konstanz; Somerville College, University of Oxford)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1007)}}><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1007'}><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></NavLink>
+            <br/>
             Friday 9am
             </p>
             <p>
@@ -114,7 +119,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Joe Salmons (University of Wisconsin, Madison)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1005)}}><em>Trees, waves and the classification of the Algonquian languages</em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1005'}><em>Trees, waves and the classification of the Algonquian languages</em></NavLink>
+            <br/>
             Thursday 9am
             </p>
             <p>
@@ -133,7 +139,8 @@ function PlenarySpeakers(){
 
         <section>
             <h4>John Charles Smith (University of Oxford, St Catherine's College)</h4>
-            <p><button className="btn button-abstract text-left" onClick={()=>{toAbstracts(1004)}}><em>Periphrasis, Paradigms, and Grammaticalization </em></button> <br/>
+            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1004'}><em>Periphrasis, Paradigms, and Grammaticalization</em></NavLink>
+            <br/>
             Wednesday 9am
             </p>
             <p>
