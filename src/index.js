@@ -15,7 +15,6 @@ import Organisers from './components/Organisers';
 import PlenarySpeakers from './components/PlenarySpeakers';
 import Registration from './components/Registration';
 import Excursions from './components/Excursions';
-//import Abstracts from './components/Abstracts';
 import Abstract from './components/AbstractsSingle';
 import Abstracts from './components/AbstractsAll';
 export default function App() {
