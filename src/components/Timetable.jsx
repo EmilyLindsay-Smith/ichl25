@@ -1,30 +1,34 @@
 import React from "react";
 import {data} from './data';
+import { NavLink} from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 function Filterme(day,room, time){
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-    const toWorkshops=()=>{navigate('/workshops')}
+   // const navigate = useNavigate();
+
+   // const toAbstracts=(num)=>{ const address = '/abstracts/' + {id} <NavLink className="nav-link" to={address} > </NavLink>}
+  //  const toWorkshops=()=>{navigate('/workshops')}
 
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <td><button className="btn button-abstract text-left"  onClick={id!==0 ?()=>{toAbstracts(id)}:()=>{toWorkshops()}}> <em>{title}</em></button><br/><em>{authors}</em></td>
-  }
-
-function FilterMePoster(day){
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-    let filtered = data.filter(datum=>datum.day === day && datum.type === 'poster')
-    return filtered.map(item => <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><button className="btn button-abstract text-left"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button></td></tr>)
-}  
-function Plenary(id){
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
-    let filtered = data.filter(datum => datum.id === id)
-    return filtered.map(item=><><button className="btn button-abstract text-left"  onClick={()=>{toAbstracts(item.id)}}> <em>{item.title}</em></button><br/><em>{item.author}</em></>)
+    let address = '/abstracts/' + id
+    let type = filtered.map(item => item.type)
+    if(type == 'talk'){
+        return <td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink>{authors}</td>
+    }else if(type=='poster'){
+        return <tr><td>{authors}</td><td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink></td></tr>
+    }
+    }
+ 
+function Plenary(paper_id){
+    let filtered = data.filter(datum=>datum.id === paper_id)
+    let title = filtered.map(item =>item.title)
+    let id = filtered.map(item => item.id)
+    let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
+    let address = '/abstracts/' + id
+    return <td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink>{authors}</td>
 }
 function Timetable(day){
     if (day === 'structure'){
@@ -83,7 +87,7 @@ function Timetable(day){
         <h5 id="posters">Poster Session</h5>
         <table className="table table-striped table-hover table-bordered">
             <tbody>
-            {FilterMePoster('monday')}
+            {Filterme('monday')}
             </tbody>
         </table>
         </div>
@@ -157,7 +161,7 @@ function Timetable(day){
             <tr><th>15.15-15.45</th><td colSpan="7">Tea & Coffee</td></tr>
             <tr><th>15.45-16.45</th><td colSpan="7">Business Meeting (L1)</td></tr>
             <tr><th>16.50-17.50</th><td colSpan="7">{Plenary(1006)}</td></tr>
-            <tr><th></th><td colSpan="7">Closing Reception</td></tr>
+            <tr><th></th><td colSpan="7">Dinner at St Catherine's College</td></tr>
             </tbody>
         </table>  
         )
@@ -190,7 +194,7 @@ function Timetable(day){
         <h5 id="postersfri">Poster Session</h5>
         <table className="table table-striped table-hover table-bordered">
             <tbody>
-            {FilterMePoster('friday')}
+            {Filterme('friday')}
             </tbody>
         </table>  
         </div>
