@@ -15,7 +15,6 @@ function Filterme(workshop, time){
     workshop = workshop.toString()
     time = time.toString()
     let filtered = data.filter(datum=>datum.workshop === workshop).filter(datum=>datum.time === time);
-    console.log(filtered);
     let title = filtered.map(item =>item.title);
     let id = filtered.map(item => item.id);
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
@@ -28,7 +27,7 @@ function Filterme(workshop, time){
 
 function WorkshopTimetable(workshop){
     return(
-        <table class="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered">
             <tbody>
                 <tr><th>Room:</th><td>{data.filter(datum=>datum.workshop===workshop && datum.time === '1445').map(datum=>datum.room)}</td></tr>
                 <tr><th>13.45</th>{Filterme(workshop, 1345)}</tr>
@@ -44,25 +43,41 @@ function WorkshopTimetable(workshop){
     )
 }  
 function Workshops() {
+
+    var accordionItems = document.querySelectorAll('.accordion-button');
+    accordionItems.forEach(item => {
+        item.addEventListener('click', (e)=>{
+            console.log('click')
+            setTimeout(function(){
+                let top = e.target.getBoundingClientRect().top + document.documentElement.scrollTop;
+                window.scroll({
+                    top: top - 10,
+                    behavior: 'smooth'
+                });
+            }, 200);
+        });
+    });
+
+
     return (
         <div className="workshops">
-            <div class="container container-pad">
+            <div className="container container-pad">
                 <h1 id="site-top"> The Workshops </h1>
                 <p>This year we are hosting eight workshops, to be held on Tuesday afternoon. Click on the title of each workshop below to see their abstract, organisers, and timetable of individual talks. </p>
-                <div class="accordion" id="workshopAccordion">
+                <div className="accordion" id="workshopAccordion">
 
-                    <div class="card">
-                        <div class="card-header" id="workshop1Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopOne" aria-expanded="false" aria-controls="workshopOne">
+                    <div className="card">
+                        <div className="card-header" id="workshop1Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopOne" aria-expanded="false" aria-controls="workshopOne">
                                 Acting on actuation: Why here, why now?
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopOne" class="collapse" aria-labelledby="workshop1Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                            <div class="row align-items-start my-5">
-                                <div class="col-lg-5">
+                    <div id="workshopOne" className="collapse" aria-labelledby="workshop1Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                            <div className="row align-items-start my-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> <br/> 
                                     <ul>
                                         <li>Hendrik De Smet (KU Leuven); </li>
@@ -74,7 +89,7 @@ function Workshops() {
                                     {WorkshopTimetable('1')}
                                 </div>
 
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4>
                                       <Workshop1 />
                                 </div>
@@ -84,24 +99,24 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop2Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopTwo" aria-expanded="false" aria-controls="workshopTwo">
+                    <div className="card">
+                        <div className="card-header" id="workshop2Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopTwo" aria-expanded="false" aria-controls="workshopTwo">
                                 Ancient languages and Algorithms: Demystifying new methods in historical linguistics
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopTwo" class="collapse" aria-labelledby="workshop2Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                        <div class="row align-items-start my-5">                              
-                                <div class="col-lg-5">
+                    <div id="workshopTwo" className="collapse" aria-labelledby="workshop2Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                        <div className="row align-items-start my-5">                              
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul><li>Erich Round (University of Surrey) </li></ul>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('2')}                        
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4>
                                 <Workshop2 /> 
                                 </div> 
@@ -111,19 +126,19 @@ function Workshops() {
                     </div>
 
 
-                    <div class="card">
-                        <div class="card-header" id="workshop3Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopThree" aria-expanded="false" aria-controls="workshopThree">
+                    <div className="card">
+                        <div className="card-header" id="workshop3Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopThree" aria-expanded="false" aria-controls="workshopThree">
                                 Cliticisation in the evolution of bound morphology
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopThree" class="collapse" aria-labelledby="workshop3Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                             <div class="row align-items-start my-5">
+                    <div id="workshopThree" className="collapse" aria-labelledby="workshop3Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                             <div className="row align-items-start my-5">
 
-                                <div class="col-lg-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> <br/> 
                                     <ul>
                                         <li>Michael Frotscher (University of Cologne)</li>
@@ -132,7 +147,7 @@ function Workshops() {
                                     <h4>Timetable:</h4><br/>
                                     {WorkshopTimetable('3')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                      <h4>Abstract:</h4><br/>
                                       <Workshop3 /> 
                                 </div>                                
@@ -141,19 +156,19 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop4Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFour" aria-expanded="false" aria-controls="workshopFour">
+                    <div className="card">
+                        <div className="card-header" id="workshop4Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFour" aria-expanded="false" aria-controls="workshopFour">
                                 Consequences of the OV-to-VO change on different levels of clause structure
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopFour" class="collapse" aria-labelledby="workshop4Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                            <div class="row align-items-start my-5">
+                    <div id="workshopFour" className="collapse" aria-labelledby="workshop4Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                            <div className="row align-items-start my-5">
 
-                                <div class="col-lg-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
                                         <li>Katalin É. Kiss (Hungarian Research Centre for Linguistics)                         
@@ -162,7 +177,7 @@ function Workshops() {
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('4')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4><br/>
                                     <Workshop4 /> 
                                 </div>                                
@@ -171,19 +186,19 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop5Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFive" aria-expanded="false" aria-controls="workshopFive">
+                    <div className="card">
+                        <div className="card-header" id="workshop5Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopFive" aria-expanded="false" aria-controls="workshopFive">
                                 Historical Linguistics at school: An ever-pressing need?
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopFive" class="collapse" aria-labelledby="workshop5Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                        <div class="row align-items-start my-5">
+                    <div id="workshopFive" className="collapse" aria-labelledby="workshop5Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                        <div className="row align-items-start my-5">
 
-                                <div class="col-lg-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
                                         <li>Theodoros Markopoulos (University of Patras)</li>
@@ -192,7 +207,7 @@ function Workshops() {
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('5')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4><br/>
                                     <Workshop5 />  
                                 </div>                                
@@ -201,19 +216,19 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop2Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSix" aria-expanded="false" aria-controls="workshopSix">
+                    <div className="card">
+                        <div className="card-header" id="workshop2Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSix" aria-expanded="false" aria-controls="workshopSix">
                                 On contact-induced non-change
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopSix" class="collapse" aria-labelledby="workshop6Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                        <div class="row align-items-start my-5">
+                    <div id="workshopSix" className="collapse" aria-labelledby="workshop6Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                        <div className="row align-items-start my-5">
 
-                                <div class="col-lg-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4>
                                     <ul>
                                         <li>Andrés Enrique-Arias (University of the Baleric Islands)</li>
@@ -221,7 +236,7 @@ function Workshops() {
                                     <h4>Timetable:</h4><br/>
                                     {WorkshopTimetable('6')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4>
                                     <Workshop6 />
                                 </div>                                
@@ -230,19 +245,19 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop7Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSeven" aria-expanded="false" aria-controls="workshopSeven">
+                    <div className="card">
+                        <div className="card-header" id="workshop7Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopSeven" aria-expanded="false" aria-controls="workshopSeven">
                                 Recent advances in computational historical linguistics: New methods and results
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopSeven" class="collapse" aria-labelledby="workshop7Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                        <div class="row align-items-start my-5">
-
-                                <div class="col-lg-5">
+                    <div id="workshopSeven" className="collapse" aria-labelledby="workshop7Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                        <div className="row align-items-start my-5">
+                                <p>Note that this workshop will be held in Trinity College on Broad St. (OX1 3BH) </p>
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
                                         <li>Russell Gray (Department of Linguistic and Cultural Evolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany)</li>
@@ -251,7 +266,7 @@ function Workshops() {
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('7')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4>
                                     <Workshop7 />  
                                 </div>                                
@@ -260,19 +275,19 @@ function Workshops() {
                     </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header" id="workshop8Header">
-                            <h5 class="mb-0">
-                                <button class="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopEight" aria-expanded="false" aria-controls="workshopEight">
+                    <div className="card">
+                        <div className="card-header" id="workshop8Header">
+                            <h5 className="mb-0">
+                                <button className="accordion-button collapsed makebold" type="button" data-toggle="collapse" data-target="#workshopEight" aria-expanded="false" aria-controls="workshopEight">
                                 The Typology of Contact-Induced Changes in Morphosyntax
                                 </button>
                             </h5>
                         </div>
-                    <div id="workshopEight" class="collapse" aria-labelledby="workshop8Header" data-parent="#workshopAccordion">
-                        <div class="card-body">
-                        <div class="row align-items-start my-5">
+                    <div id="workshopEight" className="collapse" aria-labelledby="workshop8Header" data-parent="#workshopAccordion">
+                        <div className="card-body">
+                        <div className="row align-items-start my-5">
 
-                                <div class="col-lg-5">
+                                <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
                                         <li>Michele Bianconi (University of Oxford)</li>
@@ -281,7 +296,7 @@ function Workshops() {
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('8')}
                                 </div>
-                                <div class="col-lg-7">
+                                <div className="col-lg-7">
                                 <h4>Abstract:</h4>
                                     <Workshop8 />  
                                 </div>                                

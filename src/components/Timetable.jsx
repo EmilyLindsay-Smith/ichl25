@@ -3,19 +3,20 @@ import {data} from './data';
 import { NavLink} from "react-router-dom";
 
 function Filterme(day,room, time){
-
-
     let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     let address = '/abstracts/' + id
-    let type = filtered.map(item => item.type)
-    if(type == 'talk'){
-        return <td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink><br/>{authors}</td>
-    }else if(type=='poster'){
-        return <tr><td>{authors}</td><td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink></td></tr>
-    }
+
+    return <td><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink><br/>{authors}</td>
+}
+function FiltermePoster(day){
+    let filtered = data.filter(datum=>datum.day===day).filter(datum=>datum.type == 'poster')
+    let id = filtered.map(item => item.id)
+   // let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
+    let address = '/abstracts/' + id
+    return filtered.map(item=> <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><NavLink className= "btn button-abstract text-left" to={'/abstracts/' + item.id}><em>{item.title}</em></NavLink></td></tr>)    
     }
  
 function Plenary(paper_id){
@@ -24,7 +25,7 @@ function Plenary(paper_id){
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     let address = '/abstracts/' + id
-    return <td colSpan="7">{authors}<br/><NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink></td>
+    return <tr><td colSpan="7">{authors}<br/><NavLink className= "btn button-abstract text-center" to={address}><em>{title}</em></NavLink></td></tr>
 }
 function Timetable(day){
     if (day === 'structure'){
@@ -85,29 +86,31 @@ function Timetable(day){
         </table> 
         <br/>
         <h5 id="posters">Poster Session</h5>
-        <table className="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered col-width">
             <tbody>
-            {Filterme('monday')}
+            {FiltermePoster('monday')}
             </tbody>
         </table>
         </div>
         )
     }else if(day ==='tuesday'){
     return(
-        <table className="table table-striped table-hover table-bordered">
+        <div>
+        <table className="table table-striped table-hover table-bordered tc-line">
         <tbody>
-            <tr><th>9.00-10.00</th><td colSpan="8">{Plenary(1003)}</td></tr>
-            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th><th>Trinity College</th></tr>
+            <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1003)}</td></tr>
+            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
             <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Comparative Reconstruction</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
-            <tr><th>11.00-11.30</th><td colSpan="8">Tea and Coffee</td></tr>
+            <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
             <tr><th></th><th>Scandinavian Semantics</th><th>Germanic Syntax</th><th>Modelling</th><th>Actuation</th><th>Contact</th><th>Austronesian</th><th>Tonal Phenomena</th></tr>
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colSpan="8">Lunch</td></tr>
-            <tr><th></th><th colSpan="8">Workshops</th></tr>
+            <tr><th></th><th colSpan="7">Workshops</th></tr>
+            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th><th>Trinity College</th></tr>
             <tr><th></th><th>The Typology of Contact-Induced Changes in Morphosyntax</th><th>On contact-induced non-change</th><th>Ancient languages and Algorithms: Demystifying new methods in historical linguistics</th><th>Acting on actuation: Why here, why now?</th><th>Consequences of the OV-to-VO change on different levels of clause structure</th><th>Historical Linguistics at school: An ever-pressing need?</th><th>Cliticisation in the evolution of bound morphology</th><th>Recent advances in computational historical linguistics: New methods and results</th></tr>
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td><td>{Filterme(day,'TC','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td><td>{Filterme(day,'TC','1415')}</td></tr>
@@ -118,7 +121,9 @@ function Timetable(day){
             <tr><th>16.45-17.15</th><td>{Filterme(day,'L1','1645')}</td><td>{Filterme(day,'L2','1645')}</td><td>{Filterme(day,'L3','1645')}</td><td>{Filterme(day,'L6','1645')}</td><td>{Filterme(day,'C1','1645')}</td><td>{Filterme(day,'C4','1645')}</td><td>{Filterme(day,'C6','1645')}</td><td>{Filterme(day,'TC','1645')}</td></tr>
             <tr><th>17.15-17.45</th><td>{Filterme(day,'L1','1715')}</td><td>{Filterme(day,'L2','1715')}</td><td>{Filterme(day,'L3','1715')}</td><td>{Filterme(day,'L6','1615')}</td><td>{Filterme(day,'C1','1715')}</td><td>{Filterme(day,'C4','1715')}</td><td>{Filterme(day,'C6','1715')}</td><td>{Filterme(day,'TC','1715')}</td></tr>
         </tbody>
-    </table>  
+    </table>
+    <p className="centerMe">Note that the workshop in Trinity College is in a different building from the rest of the conference. </p>
+    </div> 
     )
     }else if(day==="wednesday"){
     return(
@@ -192,9 +197,9 @@ function Timetable(day){
             </tbody>
         </table>
         <h5 id="postersfri">Poster Session</h5>
-        <table className="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered col-width">
             <tbody>
-            {Filterme('friday')}
+            {FiltermePoster('friday')}
             </tbody>
         </table>  
         </div>

@@ -42,7 +42,7 @@ export const data = [
     {id: 35, type: 'talk', day: 'monday', time: '1445', room: 'C4', author: ['Andre Zampaulo'], title:'Low surprisal and the emergence of /ɐ̃w̃/ in the history of Portuguese', workshop: ''},
     {id: 258, type: 'talk', day: 'monday', time: '1445', room: 'C6', author: ['Rikker Dockum'], title:'The dialexical set: a diagnostic tool for studying sound change', workshop: ''},
     
-    {id: 26, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Giacomo Iazzetta'], title:'Understanding the role of language policy in the construction and maintenance of inequalities in MOrocco and Tunisia after the Arab Spring', workshop: ''},
+    {id: 26, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Giacomo Iazzetta'], title:'Understanding the role of language policy in the construction and maintenance of inequalities in Morocco and Tunisia after the Arab Spring', workshop: ''},
     {id: 32, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Yesha Mahadeo-Doorgakant'], title:'The evolution of Kreol Morisien (KM) in the Mauritian', workshop: ''},
     {id: 48, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
     {id: 133, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Penying Wang'], title:'Contact-induced change in sememe structure—A case study of the taste term salty in Chinese dialects', workshop: ''},

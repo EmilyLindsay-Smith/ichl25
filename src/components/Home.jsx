@@ -110,7 +110,7 @@ Furthermore, ICHl 2022 will be a <em>paperless</em> conference, so explore our w
                      alt=""
                     />
               <div className="card-content">
-                <p>Accomodation</p>
+                <p>Accommodation</p>
               </div>
             </div>
           </NavLink>
