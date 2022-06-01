@@ -1,6 +1,6 @@
 import React from "react";
 import {data} from './data';
-import { useNavigate } from 'react-router-dom';
+import { NavLink} from "react-router-dom";
 
 import Workshop1 from "./workshop-abstracts/workshop1";
 import Workshop2 from "./workshop-abstracts/workshop2";
@@ -12,8 +12,6 @@ import Workshop7 from "./workshop-abstracts/workshop7";
 import Workshop8 from "./workshop-abstracts/workshop8";
 
 function Filterme(workshop, time){
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}
     workshop = workshop.toString()
     time = time.toString()
     let filtered = data.filter(datum=>datum.workshop === workshop).filter(datum=>datum.time === time);
@@ -21,8 +19,12 @@ function Filterme(workshop, time){
     let title = filtered.map(item =>item.title);
     let id = filtered.map(item => item.id);
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
-    return <td>{filtered.id !== 0 ? <button className="btn button-abstract text-start" onClick={()=>{toAbstracts(id)}}> {title}</button> : {title}} <br/><em>{authors}</em></td>
-  }
+    let address = '/abstracts/' + id
+    return <td>{filtered.id !== 0 ? <NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink> : {title}} <br/><em>{authors}</em></td>
+
+
+
+}
 
 function WorkshopTimetable(workshop){
     return(
