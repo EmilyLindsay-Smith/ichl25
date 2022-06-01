@@ -14,8 +14,10 @@ import Accommodation from './components/Accommodation';
 import Organisers from './components/Organisers';
 import PlenarySpeakers from './components/PlenarySpeakers';
 import Registration from './components/Registration';
-import Excursions from './components/Excursions'
-import Abstracts from './components/Abstracts'
+import Excursions from './components/Excursions';
+//import Abstracts from './components/Abstracts';
+import Abstract from './components/AbstractsSingle';
+import Abstracts from './components/AbstractsAll';
 export default function App() {
 
 return(
@@ -34,7 +36,9 @@ return(
         <Route path="/plenaryspeakers" element={<PlenarySpeakers />} />
         <Route path="/registration-and-fees" element={<Registration />} />
         <Route path="/excursions" element={<Excursions />} />
-        <Route path="/abstracts" element={<Abstracts />} />
+        <Route path="/abstracts" element={<Abstracts />}>
+          <Route path=":postSlug" element={<Abstract />} />
+        </Route>
       </Route>
     </Routes>
     </BrowserRouter>
