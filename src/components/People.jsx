@@ -1,35 +1,34 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {data as originalData} from './data';
 import { useNavigate } from 'react-router-dom';
 
 function People() {
     const data = originalData
-  /*  const [query, setQuery] = useState('a')
+    const [query, setQuery] = useState('a')
     
     const HandleChange = (event) => {
       let newQuery = event.target.value
       setQuery(newQuery)
-      event.preventDefault()
+     // event.preventDefault()
     }
-    */
-//  const searcher = "ge"//query.toLowerCase()
 
-  const filtereddata = data.filter(datum=>datum.id !== 0)
-                         //.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i"))) //includes(searcher))// || datum.author.join().toLowerCase().includes(searcher))
+  let filtereddata = data.filter(datum=>datum.id !== 0)
+  const searcher = query.toLowerCase()
+  filtereddata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) || datum.author.join().toLowerCase().includes(searcher))
 
   function capitalise(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
 
 function Testme(name){ 
-    const navigate = useNavigate();
-    const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}    
-    const toWorkshops=()=>{navigate('/workshops')}
+  //  const navigate = useNavigate();
+  //  const toAbstracts=(num)=>{navigate('/abstracts',{state:{value:num}})}    
+  //  const toWorkshops=()=>{navigate('/workshops')}
 
     return filtereddata.filter(
       datum => datum.author.includes(name)).map(
       item =><p key={item.id}><strong>{capitalise(item.type)}</strong>:
-          <button className="btn button-abstract text-left" onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}>
+          <button className="btn button-abstract text-left">{/* onClick={item.id!==0 ?()=>{toAbstracts(item.id)}:()=>{toWorkshops()}}> */}
                {item.title}
                </button><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
@@ -71,14 +70,14 @@ function Testme(name){
                 peoplehtml.push(people)
                 return peoplehtml
                 }
-    
+              
     return (
         <div className="people">
             <div className="container container-pad">
                 <h1 id="site-top">People</h1>
                 <p> Click on a name to see which talks/posters they will present and where.</p>
-               {/* <input type="search" placeholder="Search by Author or title here" onChange={HandleChange}></input>
-                {query}*/}
+                <input type="search" placeholder="Search by Author or title here" onChange={HandleChange}></input>
+                {query}
               
                 {peopleByLetter('A')}
                 {peopleByLetter('B')}
