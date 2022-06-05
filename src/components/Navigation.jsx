@@ -64,32 +64,47 @@ function Navigation() {
                                    Info 
                                 </a>
                             <ul className="dropdown-menu dropdown-menu-dark bg-ox" aria-labelledby="navbarDropdown2">
-                           <li className="dropdown-item">
-                               <NavLink className="nav-link" to="/info">
-                                   Venue Info  
-                               </NavLink>
+                            <li className="dropdown-item">
+                                <NavLink className="nav-link" to="/accommodation">
+                                    Accommodation  
+                                </NavLink>
+                            </li>
+                            <li className="dropdown-item">
+                                <NavLink className="nav-link" to="/covid-policy">
+                                  Covid Policy  
+                                </NavLink>
+                            </li>                    
+                            <li className="dropdown-item">
+                                <NavLink className="nav-link" to="/excursions">
+                                   Excursions
+                                </NavLink>
                            </li>
+                           <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/presenter-info">
+                                   Info for Presenters  
+                               </NavLink>
+                           </li> 
+                           <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/organisers">
+                                   Organisers  
+                               </NavLink>
+                           </li>       
+                           <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/publishers">
+                                   Publishers  
+                               </NavLink>
+                           </li>                                               
                            <li className="dropdown-item">
                                <NavLink className="nav-link" to="/registration-and-fees">
                                   Registration  
                                </NavLink>
                            </li>
-                           
                            <li className="dropdown-item">
-                               <NavLink className="nav-link" to="/accommodation">
-                                   Accommodation  
+                               <NavLink className="nav-link" to="/info">
+                                   Venue Info  
                                </NavLink>
                            </li>
-                           <li className="dropdown-item">
-                               <NavLink className="nav-link" to="/excursions">
-                                   Excursions
-                               </NavLink>
-                           </li>                           
-                           <li className="dropdown-item">
-                               <NavLink className="nav-link" to="/organisers">
-                                   Organisers  
-                               </NavLink>
-                           </li>
+                     
                            </ul>
                            </li>
                            <li className="nav-item">
