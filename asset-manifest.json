@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2f38d1b.css",
-    "main.js": "/static/js/main.7c4dba42.js",
+    "main.css": "/static/css/main.fab79a22.css",
+    "main.js": "/static/js/main.3292f851.js",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
     "static/media/ICHL25_paper_44.pdf": "/static/media/ICHL25_paper_44.d1ef18743dfd206fadf5.pdf",
@@ -40,6 +40,7 @@
     "static/media/ICHL25_paper_28.pdf": "/static/media/ICHL25_paper_28.9713ff77f36835a98247.pdf",
     "static/media/ICHL25_paper_193.pdf": "/static/media/ICHL25_paper_193.c7578b039d9e714402ac.pdf",
     "static/media/ICHL25_paper_188.pdf": "/static/media/ICHL25_paper_188.bd64e62b138465815935.pdf",
+    "static/media/johnbenjamins.png": "/static/media/johnbenjamins.c5d5afaff638580510ad.png",
     "static/media/ICHL25_paper_197.pdf": "/static/media/ICHL25_paper_197.2f31ad05fe733f7fedcb.pdf",
     "static/media/ICHL25_paper_322.pdf": "/static/media/ICHL25_paper_322.759230ffef48a3a3e1b2.pdf",
     "static/media/ICHL25_paper_25.pdf": "/static/media/ICHL25_paper_25.252f261ce3e1bf854d6f.pdf",
@@ -262,6 +263,7 @@
     "static/media/ICHL25_paper_173.pdf": "/static/media/ICHL25_paper_173.d2c29105221b9d9929e8.pdf",
     "static/media/ICHL25_paper_75.pdf": "/static/media/ICHL25_paper_75.b6c361610fb9aef3dcbf.pdf",
     "static/media/ICHL25_paper_305.pdf": "/static/media/ICHL25_paper_305.1da52c0a6606779b3c01.pdf",
+    "static/media/langsci.png": "/static/media/langsci.64b93fa95093849b5873.png",
     "static/media/ICHL25_paper_1007.pdf": "/static/media/ICHL25_paper_1007.cf7ac343876a5f974428.pdf",
     "static/media/ICHL25_paper_358.pdf": "/static/media/ICHL25_paper_358.9946936e7418f1c62bc6.pdf",
     "static/media/ICHL25_paper_366.pdf": "/static/media/ICHL25_paper_366.fec9654b8a20c5fd9c21.pdf",
@@ -356,6 +358,7 @@
     "static/media/ICHL25_paper_189.pdf": "/static/media/ICHL25_paper_189.bae66693ce4f45886b01.pdf",
     "static/media/ICHL25_paper_33.pdf": "/static/media/ICHL25_paper_33.86beb62835ee26671508.pdf",
     "static/media/ICHL25_paper_21.pdf": "/static/media/ICHL25_paper_21.23308b268059bc6649c1.pdf",
+    "static/media/brill.svg": "/static/media/brill.216af33ce40ab804395d17ee2e32acec.svg",
     "static/media/ICHL25_paper_1004.pdf": "/static/media/ICHL25_paper_1004.b1af45ee83c91d322e8b.pdf",
     "static/media/ICHL25_paper_39.pdf": "/static/media/ICHL25_paper_39.9a664234ad3aac641b51.pdf",
     "static/media/ICHL25_paper_79.pdf": "/static/media/ICHL25_paper_79.f6acd844329d0977c018.pdf",
@@ -369,6 +372,7 @@
     "static/media/ICHL25_paper_170.pdf": "/static/media/ICHL25_paper_170.4ccdc8c96ee91a22d9b2.pdf",
     "static/media/ICHL25_paper_146.pdf": "/static/media/ICHL25_paper_146.b3e29fa2dad3fb2dc6a1.pdf",
     "static/media/ICHL25_paper_32.pdf": "/static/media/ICHL25_paper_32.071da7206f874b5fe741.pdf",
+    "static/media/mouton.jpg": "/static/media/mouton.411b09cde22f8a529ef8.jpg",
     "static/media/somerville.jpg": "/static/media/somerville.81b410d97ee07e6f7c17.jpg",
     "static/media/ICHL25_paper_302.pdf": "/static/media/ICHL25_paper_302.76fd18fb5be400e62ddd.pdf",
     "static/media/ICHL25_paper_57.pdf": "/static/media/ICHL25_paper_57.aeaf1e8286243e9d516d.pdf",
@@ -384,16 +388,18 @@
     "static/media/ICHL25_paper_129.pdf": "/static/media/ICHL25_paper_129.0f55d257dedf55865427.pdf",
     "static/media/ICHL25_paper_18.pdf": "/static/media/ICHL25_paper_18.33c6cf1725583c81fb71.pdf",
     "static/media/ICHL25_paper_78.pdf": "/static/media/ICHL25_paper_78.792760cfa62435685c43.pdf",
+    "static/media/eup.png": "/static/media/eup.236692ac728ef16f9fd2.png",
     "static/media/ICHL25_paper_297.pdf": "/static/media/ICHL25_paper_297.c39c8d4150446047d353.pdf",
     "static/media/ICHL25_paper_12.pdf": "/static/media/ICHL25_paper_12.9c6765acad41e5d5568c.pdf",
     "static/media/ICHL25_paper_81.pdf": "/static/media/ICHL25_paper_81.f17d1d4d0651c33949ba.pdf",
     "static/media/ICHL25_paper_159.pdf": "/static/media/ICHL25_paper_159.f1fc64dd1f88b1036bd8.pdf",
+    "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
-    "main.a2f38d1b.css.map": "/static/css/main.a2f38d1b.css.map",
-    "main.7c4dba42.js.map": "/static/js/main.7c4dba42.js.map"
+    "main.fab79a22.css.map": "/static/css/main.fab79a22.css.map",
+    "main.3292f851.js.map": "/static/js/main.3292f851.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2f38d1b.css",
-    "static/js/main.7c4dba42.js"
+    "static/css/main.fab79a22.css",
+    "static/js/main.3292f851.js"
   ]
 }
