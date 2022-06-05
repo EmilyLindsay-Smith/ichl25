@@ -10,7 +10,7 @@ export default function PresenterInfo() {
     <p>For talks at ICHL25, you will have 20 minutes for your presentation and 5 minutes for questions.</p>
     <h3>Handouts</h3>
     <p>You will be able to project your handout/presentation onto a screen in your room. <em> Details to come soon as to the exact tech set up</em><br/>
-       ICHL25 will be a <strong>paperless</strong> conference so do not print out handouts for your participants.<p/>
+       ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<p/>
     <h3>Distribute Handouts/Posters to Conference Attendees Online</h3>
     If you would like your handout or poster distributed to conference attendees via this website, 
     please send it to <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">emily.lindsay-smith@ling-phil.ox.ac.uk</a> by <strong>27th July</strong> following these instructions:</p>
