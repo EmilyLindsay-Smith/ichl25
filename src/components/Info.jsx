@@ -19,23 +19,73 @@ function Info() {
               
             <p> The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. <strong>For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" rel="noopener noreferrer" target="_blank">check out this guidance</a></strong></p>
             <p> We are looking forward to welcoming you to the <strong>Andrew Wiles Building</strong>, part of the <strong>Mathematical Institute within the Radcliffe Observatory Quarter</strong> (OX26GG).</p>
-            <p>The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the map below to orientate yourself.</p>
+            <p>The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the <a href="https://www.google.com/maps/d/viewer?msa=0&z=16&dg=feature&mid=1TP2Cvoj6Id1cgUinmF539roLkls&ll=51.76036470415715%2C-1.263761499999998" target="_blank" rel="noopener noreferrer">map</a> below to orientate yourself.</p>
                </div>    
-            <p>To access the Andrew Wiles Building, approach the Radcliffe Observatory Quarter from Woodstock Road. </p>   
+
+            <p>To access the Andrew Wiles Building, approach the Radcliffe Observatory Quarter from Woodstock Road, following the green line on the map below. When you go through the gates, you will see a large fountain; the Mathematical Institute is in the right hand corner of this area. </p>   
 
                 <iframe 
                     title="ICHL Conference Location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.4931110707703!2d-1.2649561840214252!3d51.76059189997969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a76879a4eb%3A0x14fcdb0deacb3a22!2sMathematical%20Institute!5e0!3m2!1sen!2suk!4v1652081333684!5m2!1sen!2suk" 
-                    width="70%" 
-                    height="400" 
+                    src="https://www.google.com/maps/d/embed?mid=1TP2Cvoj6Id1cgUinmF539roLkls&ehbc=2E312F"
+                    //src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.4931110707703!2d-1.2649561840214252!3d51.76059189997969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a76879a4eb%3A0x14fcdb0deacb3a22!2sMathematical%20Institute!5e0!3m2!1sen!2suk!4v1652081333684!5m2!1sen!2suk" 
+                    width="60%" 
+                    height="400"
+                    scrolling= "no"
                     style={{border:0, padding:20}} 
                     allowfullscreen="" 
                     loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerpolicy="no-referrer-when-downgrade"
+                    nuan_newframe="true"
+                >
                 </iframe>
-                <p> We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. All rooms are equipped with data projectors and screens, microphones, and whiteboards. There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. Wi-fi is available throughout the building (Eduroam and The Cloud) and all rooms and public areas are wheelchair accessible.</p>
+            <ul>
+                <li><a href="https://www.google.co.uk/maps/dir/Oxford,+Park+End+Street,+Oxfordshire,+Oxford/Mathematical+Institute,+Woodstock+Road,+Oxford/@51.7569273,-1.2702539,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a2790faf05:0xba97a9d53201a3c!2m2!1d-1.2699454!2d51.7534694!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to the Mathematical Institute from Oxford Train Station</a></li>
+                <li><a href="https://www.google.co.uk/maps/dir/Oxford+(Bus+Station),+Oxford/Mathematical+Institute,+Woodstock+Road,+Oxford/@51.7575006,-1.2666294,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a4434a3237:0xe8855286b4e428a!2m2!1d-1.262466!2d51.75404!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to the Mathematical Institute from Gloucester Green Coach Station</a></li>
+            </ul>
+            
+        <h3>Parking </h3>
+        <p>Please be aware there is limited public parking available in the centre of Oxford. 
+            The University has very limited parking, and on the ROQ site in particular there is almost no parking available 
+            although each building does have two dedicated accessible parking places only available via prior booking with clear need.</p>
+        <p> We recommend using the <a href="https://www.oxford.gov.uk/directory_record/352/pear_tree_park_and_ride/category/56/park_and_ride_sites" target="_blank" rel="noopener noreferrer"> Park and Ride service</a>,
+            parking at Pear Tree and catching the #300 bus which stops opposite the entrance to the Mathematical Institute on Woodstock Road.</p>
+        <p>Taxis are available from Oxford Train Station and Gloucester Green Coach station, and the fare to the Mathematical Institute should be approximately £7.00.<br/>
+           Note that there are a <strong>large number of external cycle racks</strong> on the south and west sides of the building for those coming by bike.</p>
 
-                
+        <h4>Disabled Parking</h4>
+        <p>Should you required disabled parking at the Mathematical Institute, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
+        <h3>Building Amenities</h3>
+        <p> We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. All rooms are equipped with data projectors and screens, microphones, and whiteboards. There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. Wi-fi is available throughout the building (Eduroam and The Cloud) and all rooms and public areas are wheelchair accessible.</p>
+       
+        <h2>Conference Dinner Venue: St Catherine's College</h2>
+        <p>The conference dinner on Wednesday night will be held at St. Catherine's College on Manor Road (OX13UJ). This is 1.1 miles from the Mathematical Institute and takes about 20-25 minutes to walk from the Mathematical Institute.</p>
+        <p>Note that your dinner ticket will be stamped onto the back of your conference badge. </p>
+        <iframe 
+            title="Conference Dinner at St Catherine's College"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.7123782406475!2d-1.2469454848471002!3d51.756582800275005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c154a2c2921d%3A0x74d94012acb4a403!2sSt%20Catherine&#39;s%20College!5e0!3m2!1sen!2suk!4v1654440791367!5m2!1sen!2suk" 
+            width="60%" 
+            height="400" 
+            style={{border:0, padding:20}} 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p>Should you required disabled parking at St Catherine's College, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
+
+        <h2>Trinity College: Workshop </h2>
+        <p> The Workshop on <em>Recent advances in computational historical linguistics: New methods and results</em> will <strong>not</strong> be held in the Mathematical Institute, but rather a room in Trinity College.
+        <br/> Trinity College is located on Broad Street (OX13BH), about 10-15 minutes walk from the Mathematical Institute. </p>
+            <iframe 
+                title="Workshop at Trinity College"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.795748112494!2d-1.2581860848471744!3d51.75505840038686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6af14966483%3A0x931a8972400842fb!2sTrinity%20College!5e0!3m2!1sen!2suk!4v1654441894345!5m2!1sen!2suk" 
+                width="60%"
+                height="400" 
+                style={{border:0, padding:20}} 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
             </div>
 
         </div>
