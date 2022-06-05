@@ -56,6 +56,11 @@ function Navigation() {
                                     People
                                     </NavLink>
                                 </li>
+                                <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/presenter-info">
+                                   Info for Presenters  
+                               </NavLink>
+                           </li> 
                             </ul>
                            </li>
                            

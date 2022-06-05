@@ -28,7 +28,9 @@ function Testme(name){
           <NavLink className= "btn button-abstract text-left" to={'/abstracts/' + item.id}><em>{item.title}</em></NavLink><br/>
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
           <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
-          <strong>Room</strong>: {item.room}</p> )
+          <strong>Room</strong>: {item.room}<br/>
+          <strong>PaperID</strong>:{item.id}</p>
+          )
           }
 
     const peoplelistorig = filtereddata.map(datum => datum.author)
