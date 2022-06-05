@@ -67,7 +67,6 @@ function Testme(name){
                 peoplehtml.push(people)
                 return peoplehtml
                 }
-              
     return (
         <div className="people">
             <div className="container container-pad">
@@ -75,7 +74,38 @@ function Testme(name){
                 <p> Click on a name to see which talks/posters they will present and where.<br/>
                 You can also use our search bar to filter by author or title - just start typing!</p>
                 <input type="search" placeholder="Search me" onChange={HandleChange}></input>
-                          
+
+            <div data-spy="scroll" data-target="#myScroll">
+              <div className="container">
+              <nav className="nav nav-pills navbar-light sticky-top bg-light nav-spy" id="myScroll">
+            <a className="nav-link nav-spy" href="#A">A</a><br/>
+            <a className="nav-link nav-spy" href="#B">B</a><br/>
+            <a className="nav-link nav-spy" href="#C">C</a><br/>
+            <a className="nav-link nav-spy" href="#D">D</a><br/>
+            <a className="nav-link nav-spy" href="#E">E</a><br/>
+            <a className="nav-link nav-spy" href="#F">F</a><br/>
+            <a className="nav-link nav-spy" href="#G">G</a><br/>
+            <a className="nav-link nav-spy" href="#H">H</a><br/>
+            <a className="nav-link nav-spy" href="#I">I</a><br/>
+            <a className="nav-link nav-spy" href="#J">J</a><br/>
+            <a className="nav-link nav-spy" href="#K">K</a><br/>
+            <a className="nav-link nav-spy" href="#L">L</a><br/>
+            <a className="nav-link nav-spy" href="#M">M</a><br/>
+            <a className="nav-link nav-spy" href="#N">N</a><br/>
+            <a className="nav-link nav-spy" href="#O">O</a><br/>
+            <a className="nav-link nav-spy" href="#P">P</a><br/>
+            <a className="nav-link nav-spy" href="#Q">Q</a><br/>
+            <a className="nav-link nav-spy" href="#R">R</a><br/>
+            <a className="nav-link nav-spy" href="#S">S</a><br/>
+            <a className="nav-link nav-spy" href="#T">T</a><br/>
+            <a className="nav-link nav-spy" href="#U">U</a><br/>
+            <a className="nav-link nav-spy" href="#V">V</a><br/>
+            <a className="nav-link nav-spy" href="#W">W</a><br/>
+            <a className="nav-link nav-spy" href="#X">X</a><br/>
+            <a className="nav-link nav-spy" href="#Y">Y</a><br/>
+            <a className="nav-link nav-spy" href="#Z">Z</a><br/>
+              </nav>
+              <div >
                 {peopleByLetter('A')}
                 {peopleByLetter('B')}
                 {peopleByLetter('C')}
@@ -102,9 +132,11 @@ function Testme(name){
                 {peopleByLetter('X')}
                 {peopleByLetter('Y')}
                 {peopleByLetter('Z')}
-                
-            </div>   
-         </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
     );
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 
-import radcliffecamera from '../images/radcliffecamera.jpg';
 import brill from '../images/brill.svg';
 import eup from '../images/eup.png';
 import jb from '../images/johnbenjamins.png'

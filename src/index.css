@@ -192,3 +192,9 @@ td[colspan]:not([colspan="1"]) {
 .col-width td:nth-child(2){
   width:85%;
 }
+
+.nav-spy{
+  padding-bottom: 5px !important;
+ /* text-align: center;
+*/
+}
