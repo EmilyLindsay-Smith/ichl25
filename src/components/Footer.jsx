@@ -1,6 +1,7 @@
 import React from "react";
 
 function Footer(){
+
     return (
         <div className="footer">
             <footer className="py-2 bg-ox fixed-bottom container fluid-containerB">

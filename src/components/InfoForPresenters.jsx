@@ -18,7 +18,7 @@ export default function PresenterInfo() {
         <li>File Type: PDF only</li>
         <li>Email Subject Line: ICHL25 Handout</li>
         <li>Filename: ICHL25_presentation_PAPERID.pdf </li>
-        <li>Find your PaperID number on the <a href="ichl.ling-phil.ox.ac.uk/people" target="_blank" rel="noopener noreferrer">People</a> page - search for your name and find your ID with the details of your presentation. </li>
+        <li>Find your PaperID number on the <a href="/people" target="_blank" rel="noopener noreferrer">People</a> page - search for your name and find your ID with the details of your presentation. </li>
     </ul>
     <p>If you do not follow these instructions, we cannot guarantee to be able to put your handout up on the website in time for the conference. </p>
     </div>
