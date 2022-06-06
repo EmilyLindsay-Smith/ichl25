@@ -73,7 +73,7 @@ function Info() {
         <p>Should you required disabled parking at St Catherine's College, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
 
         <h2>Trinity College: Workshop </h2>
-        <p> The Workshop on <em>Recent advances in computational historical linguistics: New methods and results</em> will <strong>not</strong> be held in the Mathematical Institute, but rather a room in Trinity College.
+        <p> The Workshop on <em>Recent advances in computational historical linguistics: New methods and results</em> will <strong>not</strong> be held in the Mathematical Institute, but rather the Auditorium in Trinity College.
         <br/> Trinity College is located on Broad Street (OX13BH), about 10-15 minutes walk from the Mathematical Institute. </p>
             <iframe 
                 title="Workshop at Trinity College"

@@ -256,7 +256,7 @@ function Workshops() {
                     <div id="workshopSeven" className="collapse" aria-labelledby="workshop7Header" data-parent="#workshopAccordion">
                         <div className="card-body">
                         <div className="row align-items-start my-5">
-                                <p>Note that this workshop will be held in Trinity College on Broad St. (OX1 3BH) </p>
+                                <p>Note that this workshop will be held in the Auditorium of Trinity College on Broad St. (OX1 3BH) </p>
                                 <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
