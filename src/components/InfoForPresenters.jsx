@@ -12,14 +12,15 @@ export default function PresenterInfo() {
     <p>For talks at ICHL25, you will have 20 minutes for your presentation and 5 minutes for questions.</p>
     
     <h3>Handouts</h3>
-    <p>You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<br/>
-       ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<p/>
+    <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<br/>
+        You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<p/>
     
     <h3>Posters</h3>
     <p>Posters will be displayed in plastic hollow frames. In order to fit your poster into these frames, note the following:</p>
     <ul>
         <li>Only DIN A0 PORTRAIT will fit<br/>Note as the poster slides into the frame, it is not possible to place multiple single DIN A4 pages into the frames (they would need to be glued on one DIN A0 sheet - which is not available on site). </li>
         <li>Paper is recommended; cloth posters can only be affixed with bluetac which is suboptimal</li>
+        <li>Only bluetac can be used to affix posters to the frame</li>
         <li>No tape, no pins and no magnets can be used to affix your poster to the frame</li>
     </ul>
     

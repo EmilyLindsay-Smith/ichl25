@@ -29,7 +29,7 @@ function Testme(name){
           <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
           <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
           <strong>Room</strong>: {item.room}<br/>
-          <strong>PaperID</strong>:{item.id}</p>
+          <strong>Paper ID</strong>: {item.id}</p>
           )
           }
 
