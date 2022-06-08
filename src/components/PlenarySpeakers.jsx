@@ -1,5 +1,15 @@
 import React from 'react';
 import { NavLink} from "react-router-dom";
+
+import kathrynallan from '../images/kathrynallan.jpg'
+import clairebowern from '../images/clairebowern.jpg'
+import elandresher from '../images/elandresher.jpg'
+import aliceharris from '../images/aliceharris.jpg'
+import paulkiparsky from '../images/paulkiparsky.jpg'
+import fransplank from '../images/fransplank.jpg'
+import joesalmons from '../images/joesalmons.jpg'
+import jcsmith from '../images/jcsmith.jpg'
+
 function PlenarySpeakers(){
 
 
@@ -8,22 +18,34 @@ function PlenarySpeakers(){
             <h1 id="site-top"> Plenary Speakers </h1>
         <section>
         <h4>Kathryn Allan (University College London)</h4>
-
         <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1003'}><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></NavLink>
            <br/> 
             Tuesday 9am
         </p>
-        <p>Kathryn Allan is an Associate Professor in the History of English at University College, London. 
+
+        <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe " style={{"alignItems":"center"}}>
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={kathrynallan}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
+            <p>Kathryn Allan is an Associate Professor in the History of English at University College, London. 
             Previously she was a lecturer at the University of Salford and has also taught at universities including Oxford and (through Erasmus) Zurich. 
             Her main research interests are in historical and cognitive semantics and lexicology.
              She is particularly interested in the intra- and extra-linguistic factors in semantic change, and in tracing polysemy in relation to social-cultural change. 
              Her monograph <em>Metaphor and Metonymy: A Diachronic Approach </em>, which uses data from the <em>Historical Thesaurus of English</em>, explores the motivation for metaphor and metonymy in the semantic field intelligence. 
              She is also the co-author of <em>English Historical Semantics</em> (with Christian Kay), and has co-edited volumes on <em>Historical Cognitive Linguistics</em> and <em>Current Methods in Historical Semantics </em> for Mouton. 
              She is a member of the Keywords Project.
-        </p>
+          </p>
         <ul>
             <li><a href="https://www.ucl.ac.uk/english/people/kathryn-allan" target="_blank" rel="noreferrer">https://www.ucl.ac.uk/english/people/kathryn-allan</a></li>
         </ul>
+
+            </div>
+        </div>
         </section>
 
         <section>
@@ -32,6 +54,15 @@ function PlenarySpeakers(){
             <br/>
             Thursday 4.50pm
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={clairebowern}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             Claire Bowern is Professor in Linguistics at Yale University.
             She works on language change and language documentation in Australian languages, combining fieldwork with research on archival materials in all areas of language.
@@ -42,6 +73,8 @@ function PlenarySpeakers(){
                 <li><a href="https://campuspress.yale.edu/clairebowern/" target="_blank" rel="noreferrer">https://campuspress.yale.edu/clairebowern/</a></li>
                 <li><a href="https://ling.yale.edu/people/claire-bowern" target="_blank" rel="noreferrer">https://ling.yale.edu/people/claire-bowern</a></li>
             </ul>
+            </div>
+            </div>
         </section>
 
         <section>
@@ -50,6 +83,15 @@ function PlenarySpeakers(){
             <br/>
             Monday 4.50pm
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={elandresher}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             Elan Dresher is a Professor Emeritus of Linguistics at the University of Toronto. 
             His research interests lie in diachronic linguistics, theoretical phonology and learnability, and particularly West Germanic and Biblical Hebrew phonology and prosody,
@@ -59,6 +101,7 @@ function PlenarySpeakers(){
             <ul>
                 <li><a href="https://www.linguistics.utoronto.ca/people/directories/all-faculty/b-elan-dresher" target="_blank" rel="noreferrer">https://www.linguistics.utoronto.ca/people/directories/all-faculty/b-elan-dresher</a></li>
             </ul>
+            </div></div>
         </section>
 
         <section>
@@ -67,6 +110,15 @@ function PlenarySpeakers(){
             <br/>
             Friday 4.50pm
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={aliceharris}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             Alice Harris is Professor Emerita in Linguistics at the University of Massachusetts, Amherst.
             Earlier, she held positions at Vanderbilt University and at the State University of New York, Stony Brook.
@@ -77,6 +129,7 @@ function PlenarySpeakers(){
             <ul>
                 <li><a href="https://www.umass.edu/linguistics/member/alice-harris" target="_blank" rel="noreferrer">https://www.umass.edu/linguistics/member/alice-harris</a></li>
             </ul>
+            </div></div>
         </section>
 
         <section>
@@ -85,6 +138,15 @@ function PlenarySpeakers(){
             <br/>
             Monday 10am
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={paulkiparsky}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             Paul Kiparsky is the Robert M. and Anne T. Bass Professor in the School of Humanities and Sciences, Stanford University. 
             His research interests lie in phonology, morphology, historical linguistics, metrics and the Sanskrit grammatical tradition. 
@@ -96,6 +158,8 @@ function PlenarySpeakers(){
             <ul>
                 <li><a href="https://web.stanford.edu/~kiparsky/" target="_blank" rel="noreferrer">https://web.stanford.edu/~kiparsky/</a></li>
             </ul>
+            </div>
+            </div>
         </section>
 
         <section>
@@ -104,6 +168,15 @@ function PlenarySpeakers(){
             <br/>
             Friday 9am
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={fransplank}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
                 Frans Plank is Professor Emeritus of Linguistics and English Language at the University of Konstanz, and a Senior Research Fellow in Linguistics at Somerville College, Oxford. 
                 His research interests include morphology (inflection and word formation), syntax, prosody and lexicon; typology and historical linguistics; Germanic; 
@@ -115,6 +188,7 @@ function PlenarySpeakers(){
             <ul>
                 <li><a href="https://www.some.ox.ac.uk/our-people/frans-plank/" target="_blank" rel="noreferrer">https://www.some.ox.ac.uk/our-people/frans-plank/</a></li>
             </ul>
+            </div></div>
         </section>
 
         <section>
@@ -123,6 +197,15 @@ function PlenarySpeakers(){
             <br/>
             Thursday 9am
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={joesalmons}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             Joe Salmons is the Lester W.J. Seifert Professor of Language Sciences. 
             His research focuses on language change and linguistic theory, especially as it bears on sound systems, often drawing data from Germanic languages, 
@@ -135,6 +218,7 @@ function PlenarySpeakers(){
                 <li><a href="https://langsci.wisc.edu/staff/joe-salmons/" target="_blank" rel="noreferrer">https://langsci.wisc.edu/staff/joe-salmons/</a></li>
                 <li><a href="http://joseph-salmons.net/" target="_blank" rel="noreferrer">http://joseph-salmons.net/</a></li>
             </ul>
+            </div></div>
         </section>
 
         <section>
@@ -143,6 +227,15 @@ function PlenarySpeakers(){
             <br/>
             Wednesday 9am
             </p>
+            <div className="row align-items-center my-5">
+            <div className="col-md-4  centerMe ">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={jcsmith}
+                alt=""
+              />
+            </div>
+            <div className="col-md-8">
             <p>
             John Charles Smith is a Fellow (now Emeritus) of St Catherine’s College, Oxford, and Deputy Director Emeritus of the University of Oxford Research Centre for Romance Linguistics. 
             Before returning to Oxford, where he was an undergraduate and graduate student, he held posts at the universities of Surrey, Bath, and Manchester, 
@@ -151,6 +244,7 @@ function PlenarySpeakers(){
             including Germanic and Austronesian. In 2007, he was created <em>Chevalier dans l’ordre des Palmes académiques</em> by the French government for services to the French language and French culture. 
             He is Secretary of the International Society for Historical Linguistics.
             </p>
+            </div></div>
         </section>
 
         </div>
