@@ -100,7 +100,7 @@ function PlenarySpeakers(){
              (with Harry van der Hulst) of the soon-to-appear <em>Oxford History of Phonology</em>.
             </p>
             <ul>
-                <li><a href="https://www.linguistics.utoronto.ca/people/directories/all-faculty/b-elan-dresher" target="_blank" rel="noreferrer">https://www.linguistics.utoronto.ca/people/directories/all-faculty/b-elan-dresher</a></li>
+                <li><a href="<https://dresher.artsci.utoronto.ca" target="_blank" rel="noreferrer">https://dresher.artsci.utoronto.ca</a></li>
             </ul>
             </div></div>
         </section>
@@ -188,6 +188,7 @@ function PlenarySpeakers(){
             </p>
             <ul>
                 <li><a href="https://www.some.ox.ac.uk/our-people/frans-plank/" target="_blank" rel="noreferrer">https://www.some.ox.ac.uk/our-people/frans-plank/</a></li>
+                <li><a href="https://ling.sprachwiss.uni-konstanz.de/pages/home/plank/" target="_blank" rel="noreferrer">https://ling.sprachwiss.uni-konstanz.de/pages/home/plank//</a></li>
             </ul>
             </div></div>
         </section>
@@ -245,6 +246,9 @@ function PlenarySpeakers(){
             including Germanic and Austronesian. In 2007, he was created <em>Chevalier dans l’ordre des Palmes académiques</em> by the French government for services to the French language and French culture. 
             He is Secretary of the International Society for Historical Linguistics.
             </p>
+            <ul>
+                <li><a href="https://www.mod-langs.ox.ac.uk/people/john-charles-smith" target="_blank" rel="noreferrer">https://www.mod-langs.ox.ac.uk/people/john-charles-smith</a></li>
+            </ul>
             </div></div>
         </section>
 

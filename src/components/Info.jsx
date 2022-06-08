@@ -45,15 +45,17 @@ function Info() {
             
         <h3>Parking </h3>
         <p>Please be aware there is limited public parking available in the centre of Oxford. 
-            The University has very limited parking, and on the ROQ site in particular there is almost no parking available 
+            The University has very limited parking, and on the Mathematical Institute site in particular there is almost no parking available 
             although each building does have two dedicated accessible parking places only available via prior booking with clear need.</p>
         <p> We recommend using the <a href="https://www.oxford.gov.uk/directory_record/352/pear_tree_park_and_ride/category/56/park_and_ride_sites" target="_blank" rel="noopener noreferrer"> Park and Ride service</a>,
             parking at Pear Tree and catching the #300 bus which stops opposite the entrance to the Mathematical Institute on Woodstock Road.</p>
         <p>Taxis are available from Oxford Train Station and Gloucester Green Coach station, and the fare to the Mathematical Institute should be approximately £7.00.<br/>
            Note that there are a <strong>large number of external cycle racks</strong> on the south and west sides of the building for those coming by bike.</p>
 
-        <h4>Disabled Parking</h4>
+        <h4>Disabled Access</h4>
         <p>Should you required disabled parking at the Mathematical Institute, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
+        <p>The Mathematical Institute is wheelchair accessible, but the lifts require an access card. Please contact us to discuss your mobility needs. </p>
+        
         <h3>Building Amenities</h3>
         <p> We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. All rooms are equipped with data projectors and screens, microphones, and whiteboards. There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. Wi-fi is available throughout the building (Eduroam and The Cloud) and all rooms and public areas are wheelchair accessible.</p>
        
@@ -70,6 +72,9 @@ function Info() {
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+        <ul>
+            <li><a href="https://www.google.co.uk/maps/dir/Mathematical+Institute,+University+of+Oxford,+Radcliffe+Observatory,+Andrew+Wiles+Building,+Woodstock+Rd,+Oxford+OX2+6GG/St+Catherine's+College,+Manor+Road,+Oxford/@51.7587031,-1.2625796,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!1m5!1m1!1s0x4876c154a2c2921d:0x74d94012acb4a403!2m2!1d-1.2447568!2d51.7565795!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to St. Catherine's College from the Mathematical Institute</a></li>
+        </ul>
         <p>Should you required disabled parking at St Catherine's College, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
 
         <h2>Trinity College: Workshop </h2>
@@ -86,6 +91,9 @@ function Info() {
                 referrerpolicy="no-referrer-when-downgrade"
             >
             </iframe>
+            <ul>
+            <li><a href="https://www.google.co.uk/maps/dir/Mathematical+Institute,+University+of+Oxford,+Radcliffe+Observatory,+Andrew+Wiles+Building,+Woodstock+Rd,+Oxford+OX2+6GG/Trinity+College,+Broad+Street,+Oxford/@51.7575755,-1.2634067,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!1m5!1m1!1s0x4876c6af14966483:0x931a8972400842fb!2m2!1d-1.2559974!2d51.7550551!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to Trinity College from the Mathematical Institute</a></li>
+        </ul>
             </div>
 
         </div>

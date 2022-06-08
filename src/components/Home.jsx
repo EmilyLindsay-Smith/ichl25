@@ -38,7 +38,7 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
   <li>The full conference programme with abstracts, including workshops and plenaries</li>
   <li>Information about available accommodation</li>
   <li>Planned excursions and social events</li>
-  <li>and more...</li>
+  <li>and more - do explore the <em>Presentations</em> and <em>Info</em> menues at the top of the page to see the full range of available information</li>
 </ul>
 <h3>Announcements</h3>
 <h5>Student Bursaries</h5>

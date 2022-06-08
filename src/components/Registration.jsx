@@ -29,7 +29,7 @@ function Registration(){
         </table>
         <p> Note that the conference tickets <strong>do not include</strong> the conference dinner - this must be booked separately.</p>
 
-        <p>Booking closes on <strong>26th July 2022</strong></p>
+        <p>Booking closes on <strong>22nd July 2022</strong></p>
         <a href="https://www.oxforduniversitystores.co.uk/conferences-and-events/linguistics-philology-phonetics/events/ichl-2022" rel="noreferrer noopener" target="_blank">Click here to book via the Oxford University Stores website</a>
         </div>
     );

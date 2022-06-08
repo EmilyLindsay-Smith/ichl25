@@ -22,9 +22,9 @@ function Excursions(){
         <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.blenheimpalace.com/" target="_blank" rel="noreferrer noopener">Blenheim Palace</a>. </p>
 
     <h4>Organised Saturday Trips</h4>
-        <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.themappamundi" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a> and <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a></p>
+        <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a> and <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a></p>
         <ul>
-            <li>The <a href="https://www.themappamundi" target="_blank" rel="noreferrer noopener">Mappa Mundi</a> at Hereford Cathedral dates from the early 14th Century. The Cathedral also features a historic library with texts dating back to the early 9th Century. </li> 
+            <li>The <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi</a> at Hereford Cathedral dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </li> 
             <li> <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a> was home to Alan Turing's codebreaking team that decoded the Enigma Machine during World War II. </li>  
         </ul>
      
