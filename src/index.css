@@ -211,7 +211,11 @@ td[colspan]:not([colspan="1"]) {
 }
 
 .nav-spy{
-  padding-bottom: 5px !important;
- /* text-align: center;
-*/
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+
+}
+.scrollspy-content{
+ padding-top:20px;
 }

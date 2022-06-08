@@ -16,6 +16,7 @@ function PlenarySpeakers(){
     return(
         <div class="container container-pad">
             <h1 id="site-top"> Plenary Speakers </h1>
+            <p>We are delighted to host the following plenary speakers at ICHL25:</p>
         <section>
         <h4>Kathryn Allan (University College London)</h4>
         <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1003'}><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></NavLink>

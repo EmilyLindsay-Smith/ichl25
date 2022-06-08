@@ -77,7 +77,7 @@ function Testme(name){
 
             <div data-spy="scroll" data-target="#myScroll">
               <div className="container">
-              <nav className="nav nav-pills navbar-light sticky-top bg-light nav-spy" id="myScroll">
+              <nav className="nav sticky-top bg-light nav-spy" id="myScroll">
             <a className="nav-link nav-spy" href="#A">A</a><br/>
             <a className="nav-link nav-spy" href="#B">B</a><br/>
             <a className="nav-link nav-spy" href="#C">C</a><br/>
@@ -105,7 +105,7 @@ function Testme(name){
             <a className="nav-link nav-spy" href="#Y">Y</a><br/>
             <a className="nav-link nav-spy" href="#Z">Z</a><br/>
               </nav>
-              <div >
+              <div className="scrollspy-content">
                 {peopleByLetter('A')}
                 {peopleByLetter('B')}
                 {peopleByLetter('C')}
