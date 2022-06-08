@@ -21,7 +21,7 @@ function Filterme(workshop, time){
     if (id == 0){
         return <td>{title} <br/><em>{authors}</em></td>
     }else{
-        return <td><a target="_blank" href={address}><em>{title}</em></a> <br/><em>{authors}</em></td>
+        return <td><a target="_blank" rel="noreferrer" href={address}><em>{title}</em></a> <br/><em>{authors}</em></td>
     }
 
 }

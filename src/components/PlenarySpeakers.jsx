@@ -18,7 +18,7 @@ function PlenarySpeakers(){
             <p>We are delighted to host the following plenary speakers at ICHL25:</p>
         <section>
         <h4>Kathryn Allan (University College London)</h4>
-        <p><a href='/abstracts/1003' target="_blank"><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></a>
+        <p><a href='/abstracts/1003' target="_blank" rel="noreferrer"><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></a>
            <br/> 
             Tuesday 9am
         </p>
@@ -41,7 +41,7 @@ function PlenarySpeakers(){
              She is a member of the Keywords Project.
           </p>
         <ul>
-            <li><a href="https://www.ucl.ac.uk/english/people/kathryn-allan" target="_blank" rel="noreferrer">https://www.ucl.ac.uk/english/people/kathryn-allan</a></li>
+            <li><a href="https://www.ucl.ac.uk/english/people/kathryn-allan" target="_blank" rel="noreferrer" >https://www.ucl.ac.uk/english/people/kathryn-allan</a></li>
         </ul>
 
             </div>
@@ -50,7 +50,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Claire Bowern (Yale University)</h4>
-            <p><a href='/abstracts/1006' target="_blank"><em>How Mechanisms of Sound Change Predict Stability</em></a>
+            <p><a href='/abstracts/1006' target="_blank" rel="noreferrer"><em>How Mechanisms of Sound Change Predict Stability</em></a>
             <br/>
             Thursday 4.50pm
             </p>
@@ -70,8 +70,8 @@ function PlenarySpeakers(){
             She is currently the editor of the journal <em>Diachronica</em>.
             </p>
             <ul>
-                <li><a href="https://campuspress.yale.edu/clairebowern/" target="_blank" rel="noreferrer">https://campuspress.yale.edu/clairebowern/</a></li>
-                <li><a href="https://ling.yale.edu/people/claire-bowern" target="_blank" rel="noreferrer">https://ling.yale.edu/people/claire-bowern</a></li>
+                <li><a href="https://campuspress.yale.edu/clairebowern/" target="_blank" rel="noreferrer" >https://campuspress.yale.edu/clairebowern/</a></li>
+                <li><a href="https://ling.yale.edu/people/claire-bowern" target="_blank" rel="noreferrer" >https://ling.yale.edu/people/claire-bowern</a></li>
             </ul>
             </div>
             </div>
@@ -79,7 +79,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>B. Elan Dresher (University of Toronto)</h4>
-            <p><a href='/abstracts/1002' target="_blank"><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></a>
+            <p><a href='/abstracts/1002' target="_blank" rel="noreferrer"><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></a>
             <br/>
             Monday 4.50pm
             </p>
@@ -99,14 +99,14 @@ function PlenarySpeakers(){
              (with Harry van der Hulst) of the soon-to-appear <em>Oxford History of Phonology</em>.
             </p>
             <ul>
-                <li><a href="<https://dresher.artsci.utoronto.ca" target="_blank" rel="noreferrer">https://dresher.artsci.utoronto.ca</a></li>
+                <li><a href="<https://dresher.artsci.utoronto.ca" target="_blank" rel="noreferrer" >https://dresher.artsci.utoronto.ca</a></li>
             </ul>
             </div></div>
         </section>
 
         <section>
             <h4>Alice Harris (University of Massachusetts, Amherst)</h4>
-            <p><a href='/abstracts/1008' target="_blank"><em>The Origins of Clitic Placement in Aluan and Udi</em></a>
+            <p><a href='/abstracts/1008' target="_blank" rel="noreferrer"><em>The Origins of Clitic Placement in Aluan and Udi</em></a>
             <br/>
             Friday 4.50pm
             </p>
@@ -127,14 +127,14 @@ function PlenarySpeakers(){
             She was President of the Linguistic Society of America in 2016, and has been a Corresponding Fellow of the British Academy since 2020.
             </p>
             <ul>
-                <li><a href="https://www.umass.edu/linguistics/member/alice-harris" target="_blank" rel="noreferrer">https://www.umass.edu/linguistics/member/alice-harris</a></li>
+                <li><a href="https://www.umass.edu/linguistics/member/alice-harris" target="_blank" rel="noreferrer" >https://www.umass.edu/linguistics/member/alice-harris</a></li>
             </ul>
             </div></div>
         </section>
 
         <section>
             <h4>Paul Kiparsky (Stanford University)</h4>
-            <p><a href='/abstracts/1001' target="_blank"><em>Contrast maintenance in semantic change: chain shifts and renewal</em></a>
+            <p><a href='/abstracts/1001' target="_blank" rel="noreferrer"><em>Contrast maintenance in semantic change: chain shifts and renewal</em></a>
             <br/>
             Monday 10am
             </p>
@@ -156,7 +156,7 @@ function PlenarySpeakers(){
             He has been a Corresponding Fellow of the British Academy since 2013 and a Member of the American Academy of Arts and Sciences since 2020.
             </p>
             <ul>
-                <li><a href="https://web.stanford.edu/~kiparsky/" target="_blank" rel="noreferrer">https://web.stanford.edu/~kiparsky/</a></li>
+                <li><a href="https://web.stanford.edu/~kiparsky/" target="_blank" rel="noreferrer" >https://web.stanford.edu/~kiparsky/</a></li>
             </ul>
             </div>
             </div>
@@ -164,7 +164,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Frans Plank (University of Konstanz; Somerville College, University of Oxford)</h4>
-            <p><a href='/abstracts/1007' target="_blank"><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></a>
+            <p><a href='/abstracts/1007' target="_blank" rel="noreferrer"><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></a>
             <br/>
             Friday 9am
             </p>
@@ -186,15 +186,15 @@ function PlenarySpeakers(){
                  He was the founder and editor of Linguistic Typology for more than two decades.
             </p>
             <ul>
-                <li><a href="https://www.some.ox.ac.uk/our-people/frans-plank/" target="_blank" rel="noreferrer">https://www.some.ox.ac.uk/our-people/frans-plank/</a></li>
-                <li><a href="https://ling.sprachwiss.uni-konstanz.de/pages/home/plank/" target="_blank" rel="noreferrer">https://ling.sprachwiss.uni-konstanz.de/pages/home/plank//</a></li>
+                <li><a href="https://www.some.ox.ac.uk/our-people/frans-plank/" target="_blank" rel="noreferrer" >https://www.some.ox.ac.uk/our-people/frans-plank/</a></li>
+                <li><a href="https://ling.sprachwiss.uni-konstanz.de/pages/home/plank/" target="_blank" rel="noreferrer" >https://ling.sprachwiss.uni-konstanz.de/pages/home/plank//</a></li>
             </ul>
             </div></div>
         </section>
 
         <section>
             <h4>Joe Salmons (University of Wisconsin, Madison)</h4>
-            <p><a href='/abstracts/1005' target="_blank"><em>Trees, waves and the classification of the Algonquian languages</em></a>
+            <p><a href='/abstracts/1005' target="_blank" rel="noreferrer"><em>Trees, waves and the classification of the Algonquian languages</em></a>
             <br/>
             Thursday 9am
             </p>
@@ -216,15 +216,15 @@ function PlenarySpeakers(){
             His most recent publication is <em>Sound Change</em> (Edinburgh, 2021).
             </p>
             <ul>
-                <li><a href="https://langsci.wisc.edu/staff/joe-salmons/" target="_blank" rel="noreferrer">https://langsci.wisc.edu/staff/joe-salmons/</a></li>
-                <li><a href="http://joseph-salmons.net/" target="_blank" rel="noreferrer">http://joseph-salmons.net/</a></li>
+                <li><a href="https://langsci.wisc.edu/staff/joe-salmons/" target="_blank" rel="noreferrer" >https://langsci.wisc.edu/staff/joe-salmons/</a></li>
+                <li><a href="http://joseph-salmons.net/" target="_blank" rel="noreferrer" >http://joseph-salmons.net/</a></li>
             </ul>
             </div></div>
         </section>
 
         <section>
             <h4>John Charles Smith (University of Oxford, St Catherine's College)</h4>
-            <p><a href='/abstracts/1004' target="_blank"><em>Periphrasis, Paradigms, and Grammaticalization</em></a>
+            <p><a href='/abstracts/1004' target="_blank" rel="noreferrer"><em>Periphrasis, Paradigms, and Grammaticalization</em></a>
             <br/>
             Wednesday 9am
             </p>
@@ -246,7 +246,7 @@ function PlenarySpeakers(){
             He is Secretary of the International Society for Historical Linguistics.
             </p>
             <ul>
-                <li><a href="https://www.mod-langs.ox.ac.uk/people/john-charles-smith" target="_blank" rel="noreferrer">https://www.mod-langs.ox.ac.uk/people/john-charles-smith</a></li>
+                <li><a href="https://www.mod-langs.ox.ac.uk/people/john-charles-smith" target="_blank" rel="noreferrer" >https://www.mod-langs.ox.ac.uk/people/john-charles-smith</a></li>
             </ul>
             </div></div>
         </section>

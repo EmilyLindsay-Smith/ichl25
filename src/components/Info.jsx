@@ -1,5 +1,5 @@
 import React from "react";
-import mathsinstitutea from '../images/mathsinstitutea.jpg';
+import mathsinstituted from '../images/mathsinstituted.jpg';
 
 function Info() {
     return (
@@ -11,7 +11,7 @@ function Info() {
             <div className="col-lg-6">
               <img
                 className="img-fluid rounded mb-4 mb-lg-0"
-                src={mathsinstitutea}
+                src={mathsinstituted}
                 alt=""
               />
             </div>

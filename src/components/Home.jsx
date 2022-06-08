@@ -6,8 +6,11 @@ import about from '../images/about.jpg';
 import library from '../images/library.jpg';
 import mathsinstitutea from '../images/mathsinstitutea.jpg';
 import mathsinstitutec from '../images/mathsinstitutec.jpg';
+import mathsinstituted from '../images/mathsinstituted.jpg';
 import radcliffecamera from '../images/radcliffecamera.jpg';
 import mathslecture from '../images/mathslecture.jpg';
+import manuscript from '../images/manuscript.jpg';
+import people from '../images/people.jpg'
 
 function Home(){
     return (
@@ -90,7 +93,7 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
             <div className="card-home">
             <img
                     className="img-fluid rounded mb-4 mb-lg-0"
-                    src={somerville}
+                    src={mathsinstituted}
                      alt=""
                     />
               <div className="card-content">
@@ -102,7 +105,7 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
             <div className="card-home">
             <img
                     className="img-fluid rounded mb-4 mb-lg-0"
-                    src={somerville}
+                    src={manuscript}
                      alt=""
                     />
               <div className="card-content">
@@ -114,11 +117,11 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
             <div className="card-home">
             <img
                     className="img-fluid rounded mb-4 mb-lg-0"
-                    src={somerville}
+                    src={people}
                      alt=""
                     />
               <div className="card-content">
-                <p>Presenters</p>
+                <p>Programme by Presenters</p>
               </div>
             </div>
           </NavLink>
