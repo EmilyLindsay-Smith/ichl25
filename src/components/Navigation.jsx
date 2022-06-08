@@ -16,7 +16,7 @@ function Navigation() {
                    </div>
                    <div id="navbar-titles">
                    <NavLink className="navbar-brand" id="navbar-brand-title" to="/">
-                        <p><span className="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25: Oxford, 1-5 August 2022 </p>
+                        <p className="header-title"><span className="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25: Oxford, 1-5 August 2022 </p>
                    </NavLink>
                    </div>
                    <div>
