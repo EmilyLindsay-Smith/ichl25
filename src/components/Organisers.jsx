@@ -1,4 +1,8 @@
 import React from 'react';
+import holly from '../images/holly2.jpg'
+import martin from '../images/martin.jpg'
+import aditi from '../images/aditi.jpg'
+import emily from '../images/emily.jpeg'
 
 function Organisers(){
     return(
@@ -6,15 +10,55 @@ function Organisers(){
         <h1 id="site-top">Organisers</h1>
         <em>With thanks to our organisers:</em>
 
-        <ul>
-            <li> Professor Aditi Lahiri</li>
-            <li> Professor Martin Maiden</li>
-        </ul>
+        <div className="container container-pad fluid-containerC">
+        <div className="card-home card-organisers">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={aditi}
+                    alt="Aditi Lahiri"
+                    />
+              <div className="card-content">
+                <p>Professor Aditi Lahiri</p>
+              </div>
+            </div>
+        <div className="card-home card-organisers">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={martin}
+                    alt="Martin Maiden"
+                    />
+              <div className="card-content">
+                <p>Professor Martin Maiden</p>
+              </div>
+            </div>
+        </div>
+
         <h2> Local Organising Committee</h2>
-        <ul>
-            <li> Dr. Holly Kennard</li>
-            <li>Dr. Emily Lindsay-Smith </li>
-        </ul>
+
+        <div className="container container-pad fluid-containerC">
+        <div className="card-home card-organisers">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={holly}
+                    alt="Holly Kennard"
+                    />
+              <div className="card-content">
+                <p>Dr. Holly Kennard</p>
+              </div>
+            </div>
+
+        <div className="card-home card-organisers">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={emily}
+                    alt="Emily Lindsay-Smith"
+                    />
+              <div className="card-content">
+                <p>Dr. Emily Lindsay-Smith</p>
+              </div>
+            </div>
+        </div>
+
         <h2>Advisory Committee</h2>
         <ul>
             <li>Professor JC Smith</li>
@@ -35,7 +79,6 @@ function Organisers(){
             <li>Dr Víctor Acedo-Matellán</li>
             <li>Dr Bjarke Frellesvig</li>
             <li>Dr Simon Horobin</li>
-            <li></li>
         </ul>
         </div>
     );

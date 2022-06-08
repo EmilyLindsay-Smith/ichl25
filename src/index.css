@@ -148,11 +148,20 @@ details>summary:hover {
   border-radius: 5px;
   height: fit-content;
   max-width: 325px;
-
 }
+
+.card-organisers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 170px;
+  width: 325px;
+}
+
 .card-home img{
   border-radius: 5px 5px 0px 0px ;
   height: 200px;
+  align-self: center;
 }
 .card-home:hover{
   transform: scale(1.05);
