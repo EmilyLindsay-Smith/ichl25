@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3542b5a6.css",
-    "main.js": "/static/js/main.8b4db98e.js",
+    "main.css": "/static/css/main.91b82c52.css",
+    "main.js": "/static/js/main.b5493cf4.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
@@ -366,6 +366,7 @@
     "static/media/ICHL25_paper_79.pdf": "/static/media/ICHL25_paper_79.f6acd844329d0977c018.pdf",
     "static/media/ICHL25_paper_124.pdf": "/static/media/ICHL25_paper_124.68256fe1affb1bf7372e.pdf",
     "static/media/ICHL25_paper_346.pdf": "/static/media/ICHL25_paper_346.9bb2005c61e5138cc95b.pdf",
+    "static/media/manuscript.jpg": "/static/media/manuscript.c5099b75c4056486425b.jpg",
     "static/media/ICHL25_paper_3.pdf": "/static/media/ICHL25_paper_3.f74ff58e22ccfcaf4bde.pdf",
     "static/media/ICHL25_paper_116.pdf": "/static/media/ICHL25_paper_116.6edec4a436875876ef8e.pdf",
     "static/media/joesalmons.jpg": "/static/media/joesalmons.f8068352fa8955418813.jpg",
@@ -378,6 +379,7 @@
     "static/media/mouton.jpg": "/static/media/mouton.411b09cde22f8a529ef8.jpg",
     "static/media/martin.jpg": "/static/media/martin.67cc045669587f389458.jpg",
     "static/media/somerville.jpg": "/static/media/somerville.81b410d97ee07e6f7c17.jpg",
+    "static/media/people.jpg": "/static/media/people.ca5ae6c31c7dcca39c31.jpg",
     "static/media/ICHL25_paper_302.pdf": "/static/media/ICHL25_paper_302.76fd18fb5be400e62ddd.pdf",
     "static/media/ICHL25_paper_57.pdf": "/static/media/ICHL25_paper_57.aeaf1e8286243e9d516d.pdf",
     "static/media/mathslecture.jpg": "/static/media/mathslecture.e7a112272d6001b69900.jpg",
@@ -391,6 +393,7 @@
     "static/media/clairebowern.jpg": "/static/media/clairebowern.4fdfc7a0e81b94201a09.jpg",
     "static/media/radcliffecamera.jpg": "/static/media/radcliffecamera.de38a6ca0110016345df.jpg",
     "static/media/about.jpg": "/static/media/about.bfd1c93def61dda03684.jpg",
+    "static/media/mathsinstituted.jpg": "/static/media/mathsinstituted.1db067792f623f9d5714.jpg",
     "static/media/holly2.jpg": "/static/media/holly2.2e4fe49e71805b4cf57c.jpg",
     "static/media/ICHL25_paper_129.pdf": "/static/media/ICHL25_paper_129.0f55d257dedf55865427.pdf",
     "static/media/jcsmith.jpg": "/static/media/jcsmith.7475370bbbbc91ef8371.jpg",
@@ -406,11 +409,11 @@
     "static/media/ICHL25_paper_159.pdf": "/static/media/ICHL25_paper_159.f1fc64dd1f88b1036bd8.pdf",
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
-    "main.3542b5a6.css.map": "/static/css/main.3542b5a6.css.map",
-    "main.8b4db98e.js.map": "/static/js/main.8b4db98e.js.map"
+    "main.91b82c52.css.map": "/static/css/main.91b82c52.css.map",
+    "main.b5493cf4.js.map": "/static/js/main.b5493cf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3542b5a6.css",
-    "static/js/main.8b4db98e.js"
+    "static/css/main.91b82c52.css",
+    "static/js/main.b5493cf4.js"
   ]
 }
