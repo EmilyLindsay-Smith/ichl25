@@ -74,6 +74,16 @@ code {
   height: auto;
 }
 
+.fluid-containerD{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
 details > summary {
   cursor: pointer
 }

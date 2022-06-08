@@ -6,7 +6,7 @@ import logo2 from './logo-ox.png'
 function Navigation() {
    return (
        <div className="navigation">
-           <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill">
+           <nav className="navbar navbar-expand-lg navbar-dark bg-ox nav-fill" >
                <div className = "container fluid-container">
                    <div>
                    <a className="navbar-brand d-inline-block align-text-top" href="https://ling-phil.ox.ac.uk">
@@ -19,10 +19,12 @@ function Navigation() {
                         <p className="header-title"><span className="site-title">International Conference on Historical Linguistics 2022</span>  <br/> ICHL25: Oxford, 1-5 August 2022 </p>
                    </NavLink>
                    </div>
-                   <div>
+                   <div id="navigationjump">
+
                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span >Menu </span> {/*</button>className="navbar-toggler-icon"></span> */}
                     </button>
+                    
                     <div className="collapse navbar-collapse" id="navbarNav">
                        <ul className="navbar-nav ml-auto">
                            <li className="nav-item">

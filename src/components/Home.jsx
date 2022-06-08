@@ -35,10 +35,11 @@ function Home(){
   <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face! <br/>
 Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
 <ul>
-  <li>The full conference programme with abstracts, including workshops and plenaries</li>
-  <li>Information about available accommodation</li>
-  <li>Planned excursions and social events</li>
-  <li>and more - do explore the <em>Presentations</em> and <em>Info</em> menues at the top of the page to see the full range of available information</li>
+  <li>The full <a target="_blank" href="/programme"> conference programme</a> with abstracts, including <a target="_blank" href="/workshops"> workshops</a> and <a target="_blank" href="/plenaryspeakers"> plenaries</a></li>
+  <li>Information about <a target="_blank" href="/accommodation"> available accommodation</a></li>
+  <li>Planned <a target="_blank" href="/excursions"> excursions </a> and social events</li>
+  <li>Information about our <a target="_blank" href="/info"> venues</a> and how to find them</li>
+  <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menues</a> at the top of the page to see the full range of available information</li>
 </ul>
 <h3>Announcements</h3>
 <h5>Student Bursaries</h5>
@@ -47,7 +48,7 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
           </div>
-          <div className="container container-pad fluid-containerB">
+          <div className="container container-pad fluid-containerD">
              
           <NavLink className="nav-link" to="/programme">  
             <div className="card-home">
@@ -82,6 +83,42 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
                     />
               <div className="card-content">
                 <p>Plenary Speakers</p>
+              </div>
+            </div>
+          </NavLink>
+          <NavLink className="nav-link" to="/info">  
+            <div className="card-home">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={somerville}
+                     alt=""
+                    />
+              <div className="card-content">
+                <p>Venue Info</p>
+              </div>
+            </div>
+          </NavLink>
+          <NavLink className="nav-link" to="/presenter-info">  
+            <div className="card-home">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={somerville}
+                     alt=""
+                    />
+              <div className="card-content">
+                <p>Information for Presenters</p>
+              </div>
+            </div>
+          </NavLink>
+          <NavLink className="nav-link" to="/people">  
+            <div className="card-home">
+            <img
+                    className="img-fluid rounded mb-4 mb-lg-0"
+                    src={somerville}
+                     alt=""
+                    />
+              <div className="card-content">
+                <p>Presenters</p>
               </div>
             </div>
           </NavLink>
