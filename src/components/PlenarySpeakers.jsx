@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink} from "react-router-dom";
 
 import kathrynallan from '../images/kathrynallan.jpg'
 import clairebowern from '../images/clairebowern.jpg'
@@ -19,7 +18,7 @@ function PlenarySpeakers(){
             <p>We are delighted to host the following plenary speakers at ICHL25:</p>
         <section>
         <h4>Kathryn Allan (University College London)</h4>
-        <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1003'}><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></NavLink>
+        <p><a href='/abstracts/1003' target="_blank"><em>'Degrees of Lexicalization' in the history of English: antonymy and assymetry</em></a>
            <br/> 
             Tuesday 9am
         </p>
@@ -51,7 +50,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Claire Bowern (Yale University)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1006'}><em>How Mechanisms of Sound Change Predict Stability</em></NavLink>
+            <p><a href='/abstracts/1006' target="_blank"><em>How Mechanisms of Sound Change Predict Stability</em></a>
             <br/>
             Thursday 4.50pm
             </p>
@@ -80,7 +79,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>B. Elan Dresher (University of Toronto)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1002'}><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></NavLink>
+            <p><a href='/abstracts/1002' target="_blank"><em>Diachronic Phonology with Contrastive Hierarchy Theory</em></a>
             <br/>
             Monday 4.50pm
             </p>
@@ -107,7 +106,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Alice Harris (University of Massachusetts, Amherst)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1008'}><em>The Origins of Clitic Placement in Aluan and Udi</em></NavLink>
+            <p><a href='/abstracts/1008' target="_blank"><em>The Origins of Clitic Placement in Aluan and Udi</em></a>
             <br/>
             Friday 4.50pm
             </p>
@@ -135,7 +134,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Paul Kiparsky (Stanford University)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1001'}><em>Contrast maintenance in semantic change: chain shifts and renewal</em></NavLink>
+            <p><a href='/abstracts/1001' target="_blank"><em>Contrast maintenance in semantic change: chain shifts and renewal</em></a>
             <br/>
             Monday 10am
             </p>
@@ -165,7 +164,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Frans Plank (University of Konstanz; Somerville College, University of Oxford)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1007'}><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></NavLink>
+            <p><a href='/abstracts/1007' target="_blank"><em>Patterns of suppletion in inflectional paradigms:<br/>What do you mean, "universals of language" and there aren't any?</em></a>
             <br/>
             Friday 9am
             </p>
@@ -195,7 +194,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>Joe Salmons (University of Wisconsin, Madison)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1005'}><em>Trees, waves and the classification of the Algonquian languages</em></NavLink>
+            <p><a href='/abstracts/1005' target="_blank"><em>Trees, waves and the classification of the Algonquian languages</em></a>
             <br/>
             Thursday 9am
             </p>
@@ -225,7 +224,7 @@ function PlenarySpeakers(){
 
         <section>
             <h4>John Charles Smith (University of Oxford, St Catherine's College)</h4>
-            <p><NavLink className= "btn button-abstract text-left" to={'/abstracts/1004'}><em>Periphrasis, Paradigms, and Grammaticalization</em></NavLink>
+            <p><a href='/abstracts/1004' target="_blank"><em>Periphrasis, Paradigms, and Grammaticalization</em></a>
             <br/>
             Wednesday 9am
             </p>

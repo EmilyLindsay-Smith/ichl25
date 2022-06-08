@@ -13,6 +13,10 @@ function Contact(){
             Oxford, <br/>
             OX12HG <br/>
         </address>
+
+        <h2>
+            If you have any problems or comments on the website, please contact Emily Lindsay-Smith at <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">emily.lindsay-smith@ling-phil.ox.ac.uk</a>
+        </h2>
         </div>
     );
 }

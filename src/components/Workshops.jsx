@@ -1,6 +1,5 @@
 import React from "react";
 import {data} from './data';
-import { NavLink} from "react-router-dom";
 
 import Workshop1 from "./workshop-abstracts/workshop1";
 import Workshop2 from "./workshop-abstracts/workshop2";
@@ -19,9 +18,11 @@ function Filterme(workshop, time){
     let id = filtered.map(item => item.id);
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
     let address = '/abstracts/' + id
-    return <td>{filtered.id !== 0 ? <NavLink className= "btn button-abstract text-left" to={address}><em>{title}</em></NavLink> : {title}} <br/><em>{authors}</em></td>
-
-
+    if (id == 0){
+        return <td>{title} <br/><em>{authors}</em></td>
+    }else{
+        return <td><a target="_blank" href={address}><em>{title}</em></a> <br/><em>{authors}</em></td>
+    }
 
 }
 

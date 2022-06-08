@@ -140,8 +140,12 @@ details>summary:hover {
   text-decoration: none;
   text-decoration: underline;
   text-align: right;
-
 }
+.footer-email{
+  color: white;
+  text-decoration: none;
+}
+
 .button-abstract{
   text-decoration: underline;
 }
@@ -228,4 +232,7 @@ td[colspan]:not([colspan="1"]) {
 }
 .scrollspy-content{
  padding-top:20px;
+}
+td a {
+  color: black;
 }
