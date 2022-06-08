@@ -53,7 +53,7 @@ function Timetable(day){
                 <tr><th scope="row">15.15</th><td>Tea/Coffee and Posters</td><td>Tea/Coffee</td><td>Tea/Coffee</td><td>Tea/Coffee and Posters</td></tr>
                 <tr><th scope="row">15.45</th><td>Poster Session</td><td rowSpan="2">Workshops(4)</td><td>Business Meeting</td><td>Poster session</td></tr>
                 <tr><th scope="row">16.50</th><td>Plenary<br/>B.Elan Dresher</td><td>Plenary<br/>Claire Bowern</td><td>Plenary<br/>Alice Harris</td></tr>
-                <tr><th scope="row">18.00</th><td><em>Welcome Reception</em></td><td></td><td><em>Conference Dinner<br/>St Catherine's College</em></td></tr>
+                <tr><th scope="row">18.00</th><td><em>Welcome Reception<br/>The Mathematical Institute</em></td><td></td><td><em>Conference Dinner<br/>St Catherine's College</em></td></tr>
             </tbody>
             </table>
             <p className="centerMe"> Our Welcome Reception is sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</p>
@@ -81,7 +81,7 @@ function Timetable(day){
                 <tr><th>15.15-15.45</th><td colSpan="7">Tea, Coffee & Posters</td></tr>
                 <tr><th>15.45-16.45</th><td colSpan="7"><a href="#posters">Posters</a></td></tr>
                 <tr><th>16.50-17.50</th><td colSpan="7">{Plenary(1002)}</td></tr>
-                <tr><th>18.00</th><td colSpan="7">Welcome Reception<br/><em>Generously sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</em></td></tr>
+                <tr><th>18.00</th><td colSpan="7">Welcome Reception<br/>The Mathematical Institute <br/><em>Generously sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</em></td></tr>
             </tbody>
         </table> 
         <br/>
