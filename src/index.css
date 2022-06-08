@@ -236,3 +236,8 @@ td[colspan]:not([colspan="1"]) {
 td a {
   color: black;
 }
+
+footer div a {
+  color: white;
+  text-decoration: underline;
+}

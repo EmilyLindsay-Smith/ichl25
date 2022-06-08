@@ -161,8 +161,8 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
               </div>
             </div>
           </NavLink>
-
           </div>
+          <p> Please <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">contact us</a> for feedback and comments about this website.</p>
           </div>
         </div>
       </div>
