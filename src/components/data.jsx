@@ -313,7 +313,7 @@ export const data = [
     {id: 47, type: 'talk', day: 'friday', time: '1415', room: 'L1', author: ['David Paul Gerards'], title:"'Partitive Articles'in Old Spanish and Old Portuguese?", workshop: ''},
     {id: 377, type: 'talk', day: 'friday', time: '1415', room: 'L2', author: ['Daven Hobbs'], title:'Sources of Subordination in Nheengatu', workshop: ''},
     {id: 309, type: 'talk', day: 'friday', time: '1415', room: 'L3', author: ['Mary Walworth','Simon Greenhill','Aymeric Hermann'], title:'Disentangling the complex history of the Polynesian Outliers', workshop: ''},
-    {id: 55, type: 'talk', day: 'friday', time: '1415', room: 'L6', author: ['Kristin Hagemann','Signe Laake'], title:'Pragmatically induced movement – discourse subordination in Old Spanish and Old Norwegian', workshop: ''},
+//    {id: 55, type: 'talk', day: 'friday', time: '1415', room: 'L6', author: ['Kristin Hagemann','Signe Laake'], title:'Pragmatically induced movement – discourse subordination in Old Spanish and Old Norwegian', workshop: ''},
     {id: 68, type: 'talk', day: 'friday', time: '1415', room: 'C1', author: ['Maris Camilleri'], title:'The reanalysis of encliticised pronominal forms in Arabic', workshop: ''},
     {id: 117, type: 'talk', day: 'friday', time: '1415', room: 'C4', author: ['Verónica Orqueda','Roland Pooth'], title:'Is that it? A cross-linguistic approach to the semantic features coded by the *só/*tó demonstratives in Proto-Indo-European', workshop: ''},
     {id: 327, type: 'talk', day: 'friday', time: '1415', room: 'C6', author: ['Matthew Juge'], title:'Auxiliaries coming and going: Metaphor, lexical semantics and the grammaticalization of motion verbs', workshop: ''},
