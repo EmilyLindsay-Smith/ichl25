@@ -7,6 +7,8 @@ import langsci from '../images/langsci.png';
 import mouton from '../images/mouton.jpg'; 
 import oup from '../images/oup.svg';
 
+import jborderform from './other-files/jb-orderform.ichl.2022.pdf';
+
 export default function Publishers() {
     return(
         <div>
@@ -67,6 +69,7 @@ export default function Publishers() {
                     <li>Tuesday</li>
                     <li>Thursday</li>
                 </ul>
+                <p><a href={jborderform} target="_blank">Order Form</a></p>
             </div>           
 
             <div className="col-lg-2">
