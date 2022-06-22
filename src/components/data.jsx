@@ -66,7 +66,7 @@ export const data = [
     {id: 318, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Veronika Hegedus','Katalin Gugán'], title:'Word order change and the position of verb modifiers in Hungarian', workshop: ''},
     {id: 363, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Christian Rapold'], title:'Laterals fricatives/affricates and their relevance for the classification of South Cushitic', workshop: ''},
     {id: 193, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Will Thurlwell'], title:'Instrumentality and the Instrumental Case in Old High German and Old Saxon', workshop: ''},
-    {id: 324, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Hanne Eckhoff','Nilo Pedrazzini'], title:'Parallel data for semantic analyses of ancient languages: Greek conjunct participles', workshop: ''},
+//    {id: 324, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Hanne Eckhoff','Nilo Pedrazzini'], title:'Parallel data for semantic analyses of ancient languages: Greek conjunct participles', workshop: ''},
     {id: 329, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Shatha Alruwaili', 'Mohammad Al-Khresheh'], title:'Lexical innovations in English in response to the Covid crisis', workshop: ''},
     {id: 343, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Sampsa Holopainen'], title:'On the development of vowels in the Ugric languages and the problem of Proto-Ugric', workshop: ''},
     {id: 334, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Felicia Stich'], title:'Socio-cognitive factors in the pejoration of German words for women', workshop: ''},
