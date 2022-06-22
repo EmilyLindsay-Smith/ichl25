@@ -234,7 +234,7 @@ export const data = [
     {id: 103, type: 'talk', day: 'thursday', time: '1130', room: 'C6', author: ['Julia Hertel'], title:"Jespersen's cycle in Middle High German: A phonological perspective", workshop: ''},      
     {id: 315, type: 'talk', day: 'thursday', time: '1200', room: 'L1', author: ['Maria Vollmer'], title:'Language contact, language change and flexible word order in Warlpiri', workshop: ''},
     {id: 44, type: 'talk', day: 'thursday', time: '1200', room: 'L2', author: ['Eva Skafte Jensen','Jørgen Schack'], title:'What’s in an -n? The rise of new inflections for perf part in Danish', workshop: ''},
-    {id: 308, type: 'talk', day: 'thursday', time: '1200', room: 'L3', author: ['Tiago Tresoldi','Fabrício Ferraz Gerardi'], title:'Phylogenetic inference of reticulate evolution in Tupí-Guaraní languages', workshop: ''},
+    {id: 308, type: 'talk', day: 'thursday', time: '1200', room: 'L3', author: ['Fabrício Ferraz Gerardi', 'Tiago Tresoldi'], title:'Phylogenetic inference of reticulate evolution in Tupí-Guaraní languages', workshop: ''},
     {id: 189, type: 'talk', day: 'thursday', time: '1200', room: 'L6', author: ['Pierre Larrivée'], title:"Micro-cues and language change: There's a quantitative correlation between V2 and particle si in (non-literary) Medieval French", workshop: ''},
     {id: 236, type: 'talk', day: 'thursday', time: '1200', room: 'C1', author: ['Marie-Anne Markey'], title:'Better entrenched, more easily retrieved: evidence for analogy in individual variation', workshop: ''},
     {id: 314, type: 'talk', day: 'thursday', time: '1200', room: 'C4', author: ['Eleanor Smith','Peter Petré'], title:'Complexity in complementation: understanding lifetime change in verb complementation of individuals', workshop: ''},
