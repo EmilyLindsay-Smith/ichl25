@@ -120,7 +120,7 @@ export const data = [
     {id: 118, type: 'talk', day: 'tuesday', time: '1345', room: 'L3', author: ['Sean Roberts'], title:'Causal inference for historical linguistics', workshop: '2'},
     {id: 0, type: 'talk', day: 'tuesday', time: '1345', room: 'L6', author: ['Hendrik De Smet', 'Guglielmo Inglese','Malte Rosemeyer'], title:'Workshop Introduction', workshop: '1'},
 //    {id: 213, type: 'talk', day: 'tuesday', time: '1345', room: 'C1', author: ['Adam Singerman'], title:'Exploring the historical relationship between information structure and syntactic headedness in Tupari, a Tupian language indigenous to the Brazilian Amazon', workshop: '4'},
-    {id: 0, type: 'talk', day: 'tuesday', time: '1345', room: 'L6', author: ['Katalin É. Kiss'], title: 'Introduction', workshop: '4'},
+    {id: 0, type: 'talk', day: 'tuesday', time: '1345', room: 'C1', author: ['Katalin É. Kiss'], title: 'Introduction', workshop: '4'},
     {id: 95, type: 'talk', day: 'tuesday', time: '1345', room: 'C4', author: ['Brian Joseph','Shuan Karim', 'Clinton Awai-Jennings'], title:'Historical Linguistics in High School: The Columbus Experience', workshop: '5'},
     {id: 164, type: 'talk', day: 'tuesday', time: '1345', room: 'C6', author: ['Martin Haspelmath'], title:'Is cliticization an intermediate stage between free lexeme and affix status?', workshop: '3'},
     {id: 97, type: 'talk', day: 'tuesday', time: '1415', room: 'L1', author: ['Michele Bianconi','Marta Capano'], title:'The datives in -εσσι: contact or drift? The evidence from Sicily and Pamphylia', workshop: '8'},
