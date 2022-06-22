@@ -44,13 +44,17 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
   <li>Information about our <a target="_blank" href="/info"> venues</a> and how to find them</li>
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menues</a> at the top of the page to see the full range of available information</li>
 </ul>
+
 <h3>Announcements</h3>
 <h5>Student Bursaries</h5>
 <p>The Philological Society offers student bursaries for conference attendance. 
   If you are interested, please explore <a href="https://philsoc.org.uk/funding" rel="noopener noreferrer" target="_blank">https://philsoc.org.uk/funding</a> </p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
-          </div>
+</div>
+
+
+          
           <div className="container container-pad fluid-containerD">
              
           <NavLink className="nav-link" to="/programme">  
