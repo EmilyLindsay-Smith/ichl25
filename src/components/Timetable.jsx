@@ -56,7 +56,7 @@ function Timetable(day){
                 <tr><th scope="row">15.15</th><td>Tea/Coffee and Posters</td><td>Tea/Coffee</td><td>Tea/Coffee</td><td>Tea/Coffee and Posters</td></tr>
                 <tr><th scope="row">15.45</th><td>Poster Session</td><td rowSpan="2">Workshops(4)</td><td>Business Meeting</td><td>Poster session</td></tr>
                 <tr><th scope="row">16.50</th><td>Plenary<br/>B.Elan Dresher</td><td>Plenary<br/>Claire Bowern</td><td>Plenary<br/>Alice Harris</td></tr>
-                <tr><th scope="row">18.00</th><td><em>Welcome Reception<br/>The Mathematical Institute</em></td><td></td><td><em>Conference Dinner<br/>St Catherine's College</em></td></tr>
+                <tr><th scope="row">18.00</th><td><em>Welcome Reception<br/>The Mathematical Institute</em></td><td></td><td><em>Conference Dinner<br/><a href="/info#catz">St Catherine's College</a></em></td></tr>
             </tbody>
             </table>
             <p className="centerMe"> Our Welcome Reception is sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</p>
@@ -113,7 +113,7 @@ function Timetable(day){
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colSpan="8">Lunch</td></tr>
             <tr><th></th><th colSpan="7">Workshops</th></tr>
-            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th><th>Trinity College</th></tr>
+            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th><th><a href="/info#trinitycollege">Trinity College</a></th></tr>
             <tr><th></th><th>The Typology of Contact-Induced Changes in Morphosyntax</th><th>On contact-induced non-change</th><th>Ancient languages and Algorithms: Demystifying new methods in historical linguistics</th><th>Acting on actuation: Why here, why now?</th><th>Consequences of the OV-to-VO change on different levels of clause structure</th><th>Historical Linguistics at school: An ever-pressing need?</th><th>Cliticisation in the evolution of bound morphology</th><th>Recent advances in computational historical linguistics: New methods and results</th></tr>
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td><td>{Filterme(day,'TC','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td><td>{Filterme(day,'TC','1415')}</td></tr>
@@ -125,7 +125,7 @@ function Timetable(day){
             <tr><th>17.15-17.45</th><td>{Filterme(day,'L1','1715')}</td><td>{Filterme(day,'L2','1715')}</td><td>{Filterme(day,'L3','1715')}</td><td>{Filterme(day,'L6','1615')}</td><td>{Filterme(day,'C1','1715')}</td><td>{Filterme(day,'C4','1715')}</td><td>{Filterme(day,'C6','1715')}</td><td>{Filterme(day,'TC','1715')}</td></tr>
         </tbody>
     </table>
-    <p className="centerMe">Note that the workshop in Trinity College is in a different building from the rest of the conference. </p>
+    <p className="centerMe">Note that the <em>Recent advances in computational historical linguistics: New methods and results</em> workshop in <a href="/info#trinitycollege">Trinity College</a> is in a different building from the rest of the conference. </p>
     </div> 
     )
     }else if(day==="wednesday"){
@@ -169,7 +169,7 @@ function Timetable(day){
             <tr><th>15.15-15.45</th><td colSpan="7">Tea & Coffee</td></tr>
             <tr><th>15.45-16.45</th><td colSpan="7">Business Meeting (L1)</td></tr>
             <tr><th>16.50-17.50</th><td colSpan="7">{Plenary(1006)}</td></tr>
-            <tr><th></th><td colSpan="7">Dinner at St Catherine's College</td></tr>
+            <tr><th></th><td colSpan="7">Dinner at <a href="/info#catz">St Catherine's College</a></td></tr>
             </tbody>
         </table>  
         )

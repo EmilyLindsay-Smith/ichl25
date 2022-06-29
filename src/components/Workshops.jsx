@@ -47,19 +47,31 @@ function Workshops() {
 
     var accordionItems = document.querySelectorAll('.accordion-button');
     accordionItems.forEach(item => {
+        console.log('found')
         item.addEventListener('click', (e)=>{
             console.log('click')
             setTimeout(function(){
                 let top = e.target.getBoundingClientRect().top + document.documentElement.scrollTop;
                 window.scroll({
-                    top: top - 10,
+                    top: top,
                     behavior: 'smooth'
                 });
             }, 200);
         });
     });
-
-
+/*
+    const acc = document.getElementById('workshopAccordion')
+    accordionItems.forEach((el)=>{
+    el.addEventListener('shown.bs.collapse',(e)=>{
+        var scrollOffset = window.scrollTop + el.parentNode.offsetTop
+        window.scroll({
+            top: scrollOffset,
+            left: 0, 
+            behavior: 'smooth'
+        })
+    })
+})
+*/
     return (
         <div className="workshops">
             <div className="container container-pad">
@@ -257,12 +269,12 @@ function Workshops() {
                     <div id="workshopSeven" className="collapse" aria-labelledby="workshop7Header" data-parent="#workshopAccordion">
                         <div className="card-body">
                         <div className="row align-items-start my-5">
-                                <p>Note that this workshop will be held in the Auditorium of Trinity College on Broad St. (OX1 3BH) </p>
+                                <p>Note that this workshop will be held in the Auditorium of <a href="/info#trinitycollege" rel="noopener noreferrer">Trinity College</a> on Broad St. (OX1 3BH) </p>
                                 <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul>
                                         <li>Russell Gray (Department of Linguistic and Cultural Evolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany)</li>
-                                        <li> Gerd Carling (Centre for Languages and Literature, Lund University, Lund, Sweden)</li>
+                                        <li>Gerd Carling (Centre for Languages and Literature, Lund University, Lund, Sweden)</li>
                                         </ul>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('7')}

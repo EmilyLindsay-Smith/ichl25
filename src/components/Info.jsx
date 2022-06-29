@@ -81,7 +81,7 @@ function Info() {
         <p>The Mathematical Institute is wheelchair accessible, but the lifts require an access card. Please contact us to discuss your mobility needs. </p>
        
        <hr/> 
-        <h2>Conference Dinner Venue: St Catherine's College</h2>
+        <h2 id="catz">Conference Dinner Venue: St Catherine's College</h2>
         <p>The conference dinner on Wednesday night will be held at St. Catherine's College on Manor Road (OX13UJ). This is 1.1 miles from the Mathematical Institute and takes about 20-25 minutes to walk from the Mathematical Institute.</p>
         <p>Note that your dinner ticket will be stamped onto the back of your conference badge. </p>
         <iframe 
@@ -99,7 +99,7 @@ function Info() {
         </ul>
         <p>Should you required disabled parking at St Catherine's College, please contact us at <a href="mailto:ichl25@ling-phil.ox.ac.uk">ichl25@ling-phil.ox.ac.uk</a> to arrange this. </p>
         <hr/>
-        <h2>Trinity College: Workshop </h2>
+        <h2 id='trinitycollege'>Trinity College: Workshop </h2>
         <p> The Workshop on <em>Recent advances in computational historical linguistics: New methods and results</em> will <strong>not</strong> be held in the Mathematical Institute, but rather the Auditorium in Trinity College.
             Trinity College is located on Broad Street (OX13BH), about 10-15 minutes walk from the Mathematical Institute. </p>
             <iframe 
