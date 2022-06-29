@@ -31,7 +31,25 @@ export default function Abstract(){
                <strong>Room</strong>: {item.room}</p> )
                  }
      const talkdata = testme(parseInt(number))
-    console.log(talkdata)
+     console.log(talkdata)
+
+    function workshops(idval){
+        let workshopNo = parseInt(idval) - 2000
+        let workshopNoString = workshopNo.toString()
+/*        let workshopFilesArray = data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0).map(item => './presentation-abstracts/ICHL25_paper_' + item.id.toString() + '.pdf')
+        console.log(workshopFilesArray)
+*/
+        return data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0)
+                   .map(item=>
+                        <div>
+                            <iframe src={require('./presentation-abstracts/ICHL25_paper_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                            <p><em>Your browser doesn't support PDF embedding </em></p>
+                            </iframe>
+                        </div>
+                        )
+    
+     }
+    
 
     if (talkdata.length === 0){
                 return(
@@ -41,10 +59,13 @@ export default function Abstract(){
                 )
     }
     else if (parseInt(number) > 2000){
+        const things = workshops(parseInt(number))
+        console.log(things)
         return(
             <div className="container container-pad max-view">
                 {talkdata}
-                <p>PDF Merge to Come</p>
+                <p>Abstracts of all the talks in this workshop:</p>
+                {things}
             </div>
         )
 

@@ -97,9 +97,9 @@ function Workshops() {
                                         <li>Guglielmo Inglese (KU Leuven & FWO)</li>
                                         <li>Malte Rosemeyer (Freie Universität Berlin</li>
                                     </ul>
-                                 
+                                    <p><a href="/abstracts/2001">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4><br/>
-                                    {WorkshopTimetable('1')}
+                                    {WorkshopTimetable('2001')}
                                 </div>
 
                                 <div className="col-lg-7">
@@ -126,8 +126,9 @@ function Workshops() {
                                 <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul><li>Erich Round (University of Surrey) </li></ul>
+                                    <p><a href="/abstracts/2">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
-                                    {WorkshopTimetable('2')}                        
+                                    {WorkshopTimetable('2002')}                        
                                 </div>
                                 <div className="col-lg-7">
                                 <h4>Abstract:</h4>
@@ -157,6 +158,7 @@ function Workshops() {
                                         <li>Michael Frotscher (University of Cologne)</li>
                                         <li> Robert Mailhammer (University of Western Sydney)</li>
                                     </ul>
+                                    <p><a href="/abstracts/2003">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4><br/>
                                     {WorkshopTimetable('3')}
                                 </div>
@@ -187,6 +189,7 @@ function Workshops() {
                                         <li>Katalin É. Kiss (Hungarian Research Centre for Linguistics)                         
                                         </li>
                                     </ul>
+                                    <p><a href="/abstracts/2004">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('4')}
                                 </div>
@@ -217,6 +220,7 @@ function Workshops() {
                                         <li>Theodoros Markopoulos (University of Patras)</li>
                                         <li>Brian D. Joseph (The Ohio State University)</li>
                                         </ul>
+                                        <p><a href="/abstracts/2005">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('5')}
                                 </div>
@@ -246,6 +250,7 @@ function Workshops() {
                                     <ul>
                                         <li>Andrés Enrique-Arias (University of the Baleric Islands)</li>
                                         <li> Sarah Thomason (University of Michigan)</li></ul>
+                                        <p><a href="/abstracts/2006">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4><br/>
                                     {WorkshopTimetable('6')}
                                 </div>
@@ -276,6 +281,7 @@ function Workshops() {
                                         <li>Russell Gray (Department of Linguistic and Cultural Evolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany)</li>
                                         <li>Gerd Carling (Centre for Languages and Literature, Lund University, Lund, Sweden)</li>
                                         </ul>
+                                        <p><a href="/abstracts/2007">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('7')}
                                 </div>
@@ -306,6 +312,7 @@ function Workshops() {
                                         <li>Michele Bianconi (University of Oxford)</li>
                                         <li> Robin Meyer (Université de Lausanne)</li>
                                         </ul>
+                                        <p><a href="/abstracts/2008">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
                                     {WorkshopTimetable('8')}
                                 </div>
