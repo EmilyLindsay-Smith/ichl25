@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.616659fd.css",
-    "main.js": "/static/js/main.08b879f9.js",
+    "main.css": "/static/css/main.1f2c9e4e.css",
+    "main.js": "/static/js/main.7abb3003.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/jb-orderform.ichl.2022.pdf": "/static/media/jb-orderform.ichl.2022.2b8da7ba673b539e27de.pdf",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
@@ -63,6 +63,7 @@
     "static/media/ICHL25_paper_215.pdf": "/static/media/ICHL25_paper_215.ed3ab0141659b1501454.pdf",
     "static/media/ICHL25_paper_62.pdf": "/static/media/ICHL25_paper_62.31dbd097d81e25b59b3b.pdf",
     "static/media/ICHL25_paper_282.pdf": "/static/media/ICHL25_paper_282.efc433b2c20427b21295.pdf",
+    "static/media/map.jpg": "/static/media/map.1030a29bea9da3ba2227.jpg",
     "static/media/ICHL25_paper_20.pdf": "/static/media/ICHL25_paper_20.69273610287f43d613d9.pdf",
     "static/media/ICHL25_paper_287.pdf": "/static/media/ICHL25_paper_287.1b502f6944f87e15ef88.pdf",
     "static/media/ICHL25_paper_318.pdf": "/static/media/ICHL25_paper_318.9dd56af25cac8c16e226.pdf",
@@ -410,11 +411,11 @@
     "static/media/ICHL25_paper_159.pdf": "/static/media/ICHL25_paper_159.f1fc64dd1f88b1036bd8.pdf",
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
-    "main.616659fd.css.map": "/static/css/main.616659fd.css.map",
-    "main.08b879f9.js.map": "/static/js/main.08b879f9.js.map"
+    "main.1f2c9e4e.css.map": "/static/css/main.1f2c9e4e.css.map",
+    "main.7abb3003.js.map": "/static/js/main.7abb3003.js.map"
   },
   "entrypoints": [
-    "static/css/main.616659fd.css",
-    "static/js/main.08b879f9.js"
+    "static/css/main.1f2c9e4e.css",
+    "static/js/main.7abb3003.js"
   ]
 }
