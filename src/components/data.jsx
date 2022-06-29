@@ -337,7 +337,7 @@ export const data = [
     {id: 75, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Emmanuel Cartier'], title:'A French Reference Dataset of Semantic Innovations for Computational Linguistics', workshop: ''},
     {id: 180, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Christian Zimmer'], title:'The context extension of German "um": a morpheme on the way from a subjunction to an infinitive marker', workshop: ''},
     {id: 182, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Maciej Grabski','Anna Cichosz'], title:'Networks of Old and Middle English Adjectival Constructions: A diachronic Construction Grammar study', workshop: ''},
-    {id: 198, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Gemma McCarley'], title:'Changes in Null Subjects in Latin American Spanish: a diachronic corpus study', workshop: ''},
+    {id: 198, type: 'talk', day: 'friday', time: '1415', room: 'L6', author: ['Gemma McCarley'], title:'Changes in Null Subjects in Latin American Spanish: a diachronic corpus study', workshop: ''},
     {id: 234, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Rie Obe','Lennart Westergaard'], title:'On the Semantic Development of a Danish Modal Verb, ville', workshop: ''},
 
     {id: 237, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Eva Zehentner'], title:'English verb complementation over time: from NP to PP or vice versa', workshop: ''},
