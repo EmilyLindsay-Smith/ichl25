@@ -31,7 +31,7 @@ export default function Abstract(){
                <strong>Room</strong>: {item.room}</p> )
                  }
      const talkdata = testme(parseInt(number))
-console.log(talkdata)
+    console.log(talkdata)
 
     if (talkdata.length === 0){
                 return(
@@ -39,6 +39,15 @@ console.log(talkdata)
                     <p><em>There is no presentation with this abstract number</em></p> 
                     </div>
                 )
+    }
+    else if (parseInt(number) > 2000){
+        return(
+            <div className="container container-pad max-view">
+                {talkdata}
+                <p>PDF Merge to Come</p>
+            </div>
+        )
+
     }
     else if (parseInt(number) !== 0){
                     return(
