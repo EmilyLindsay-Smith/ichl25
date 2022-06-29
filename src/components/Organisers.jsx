@@ -11,9 +11,8 @@ function Organisers(){
         <em>With thanks to our organisers:</em>
 
         <div className="container container-pad fluid-containerC">
-        <div className="card-home card-organisers">
+        <div className="card-organisers">
             <img
-                    className="img-fluid rounded mb-4 mb-lg-0"
                     src={aditi}
                     alt="Aditi Lahiri"
                     />
@@ -21,9 +20,8 @@ function Organisers(){
                 <p>Professor Aditi Lahiri</p>
               </div>
             </div>
-        <div className="card-home card-organisers">
-            <img
-                    className="img-fluid rounded mb-4 mb-lg-0"
+        <div className="card-organisers">
+            <img   
                     src={martin}
                     alt="Martin Maiden"
                     />
@@ -36,9 +34,8 @@ function Organisers(){
         <h2> Local Organising Committee</h2>
 
         <div className="container container-pad fluid-containerC">
-        <div className="card-home card-organisers">
-            <img
-                    className="img-fluid rounded mb-4 mb-lg-0"
+        <div className="card-organisers">
+            <img    
                     src={holly}
                     alt="Holly Kennard"
                     />
@@ -47,9 +44,8 @@ function Organisers(){
               </div>
             </div>
 
-        <div className="card-home card-organisers">
-            <img
-                    className="img-fluid rounded mb-4 mb-lg-0"
+        <div className="card-organisers">
+            <img    
                     src={emily}
                     alt="Emily Lindsay-Smith"
                     />
