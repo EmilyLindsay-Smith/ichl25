@@ -35,8 +35,8 @@ function Home(){
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
 <div className="col-lg-10">
-  <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face! <br/>
-Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
+  <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face!
+    Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
 <ul>
   <li>The full <a target="_blank" href="/programme"> conference programme</a> with abstracts, including <a target="_blank" href="/workshops"> workshops</a> and <a target="_blank" href="/plenaryspeakers"> plenaries</a></li>
   <li>Information about <a target="_blank" href="/accommodation"> available accommodation</a></li>
@@ -45,12 +45,14 @@ Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our w
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menus</a> at the top of the page to see the full range of available information</li>
 </ul>
 
-<h3>Announcements</h3>
+<div class="alert alert-secondary" role="alert">
+<h3>Announcements</h3> <hr/>
 <h5>Student Bursaries</h5>
 <p>The Philological Society offers student bursaries for conference attendance. 
   If you are interested, please explore <a href="https://philsoc.org.uk/funding" rel="noopener noreferrer" target="_blank">https://philsoc.org.uk/funding</a> </p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
+</div>
 </div>
 
 
