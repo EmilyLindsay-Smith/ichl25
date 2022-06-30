@@ -99,7 +99,7 @@ function Workshops() {
                                     </ul>
                                     <p><a href="/abstracts/2001">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4><br/>
-                                    {WorkshopTimetable('2001')}
+                                    {WorkshopTimetable('1')}
                                 </div>
 
                                 <div className="col-lg-7">
@@ -126,9 +126,9 @@ function Workshops() {
                                 <div className="col-lg-5">
                                     <h4>Organisers:</h4> 
                                     <ul><li>Erich Round (University of Surrey) </li></ul>
-                                    <p><a href="/abstracts/2">All the abstracts for this workshop</a></p>
+                                    <p><a href="/abstracts/2002">All the abstracts for this workshop</a></p>
                                     <h4>Timetable:</h4>
-                                    {WorkshopTimetable('2002')}                        
+                                    {WorkshopTimetable('2')}                        
                                 </div>
                                 <div className="col-lg-7">
                                 <h4>Abstract:</h4>
