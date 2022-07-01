@@ -69,7 +69,7 @@ export default function Publishers() {
                     <li>Tuesday</li>
                     <li>Thursday</li>
                 </ul>
-                <p><a href={jborderform} target="_blank">Order Form</a></p>
+                <p><a href={jborderform} target="_blank" rel="noreferrer">Order Form</a></p>
             </div>           
 
             <div className="col-lg-2">

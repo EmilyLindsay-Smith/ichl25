@@ -7,18 +7,16 @@ function Filterme(day,room, time){
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     let address = '/abstracts/' + id
-    if (id != 0){
+    if (id !== 0){
     return <td><a href={address} target="_blank" rel= "noreferrer noopener" ><em>{title}</em></a><br/>{authors}</td>
     }else{
         return <td><em>{title}</em><br/>{authors}</td>   
     }
 }
 function FiltermePoster(day){
-    let filtered = data.filter(datum=>datum.day===day).filter(datum=>datum.type == 'poster')
-    let id = filtered.map(item => item.id)
-   // let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    let address = '/abstracts/' + id
-    return filtered.map(item=> <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><a href={address} target="_blank" rel= "noreferrer noopener" ><em>{item.title}</em></a></td></tr>)    
+    return data.filter(datum=>datum.day===day)
+                .filter(datum=>datum.type === 'poster')
+                .map(item=> <tr><td>{item.author.join(', ').replace(/, ([^,]*)$/, ' and $1')}</td><td><a href={'/abstracts/' + item.id} target="_blank" rel= "noreferrer noopener" ><em>{item.title}</em></a></td></tr>)    
     }
  
 function Plenary(paper_id){
