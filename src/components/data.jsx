@@ -45,8 +45,8 @@ export const data = [
     
     {id: 26, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Giacomo Iazzetta'], title:'Understanding the role of language policy in the construction and maintenance of inequalities in Morocco and Tunisia after the Arab Spring', workshop: ''},
     {id: 32, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Yesha Mahadeo-Doorgakant'], title:'The evolution of Kreol Morisien (KM) in the Mauritian', workshop: ''},
-    {id: 48, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
-//    {id: 48, type: 'talk', day: 'monday', time: '1415', room: 'L1', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
+//    {id: 48, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
+    {id: 48, type: 'talk', day: 'monday', time: '1415', room: 'L1', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
   
     {id: 133, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Penying Wang'], title:'Contact-induced change in sememe structure—A case study of the taste term salty in Chinese dialects', workshop: ''},
     {id: 140, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Lucia Assenzi'], title:'The evolution of reported speech in German newspapers of the 18th and 19th century: Evidential strategies, epistemic modality and the expression of reliability', workshop: ''},
