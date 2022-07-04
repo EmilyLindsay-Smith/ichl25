@@ -2,7 +2,8 @@ export const data = [
     {id: 90, type: 'talk', day: 'monday', time: '1130', room: 'L1', author: ['Laura Arnold'], title: 'The multiple causes of Split Inalienable Coding in northwest New Guinea: Contact meets drift', workshop:''},
     {id: 200, type: 'talk', day: 'monday', time: '1130', room: 'L2', author: ['Jack Hoeksema'], title: 'Approximative adverbs in modern and premodern languages', workshop:'', link:''},
     {id: 205, type: 'talk', day: 'monday', time: '1130', room: 'L3', author: ['Patrick Honeybone'], title: 'Should fortition have a place in diachronic phonological typology?', workshop:''},
-    {id: 270, type: 'talk', day: 'monday', time: '1130', room: 'L6', author: ['Michela Cennamo'], title: 'Paths of change in the diachrony of anti causatives in Romance: the rise and fall of lability', workshop:''},
+    {id: 270, type: 'talk', day: 'friday', time: '1230', room: 'L3',  author: ['Michela Cennamo'], title: 'Paths of change in the diachrony of anti causatives in Romance: the rise and fall of lability', workshop:''},
+
     {id: 229, type: 'talk', day: 'monday', time: '1130', room: 'C1', author: ['Stefan Hartmann', 'Lena Schnee'], title: 'Disentangling the constructional semantics of German future constructions', workshop:''},
     {id: 11, type: 'talk', day: 'monday', time: '1130', room: 'C4', author: ['Ilja Seržant'], title: 'Cyclic changes in verbal person-number indexes are unlikely', workshop:''},
     {id: 106, type: 'talk', day: 'monday', time: '1130', room: 'C6', author: ['Lena Kaltenbach','Carola Trips'], title: 'Language contact through translation as priming in historical data', workshop:''},
@@ -184,7 +185,9 @@ export const data = [
     {id: 316, type: 'talk', day: 'wednesday', time: '1000', room: 'C1', author: ['Dorota Krajewska','Eneko Zuloaga','Ander Egurtzegi'], title:'A quantitative analysis of sibilant mergers in the 18th-century Basque', workshop: ''},
     {id: 28, type: 'talk', day: 'wednesday', time: '1000', room: 'C4', author: ['Lindon Dedvukaj'], title:'The Malsia Madhe Dialect of Albanian', workshop: ''},
     {id: 375, type: 'talk', day: 'wednesday', time: '1000', room: 'C6', author: ['Andrés Pablo Salanova','Andrey Nikulin'], title:'Reconstructing archaic relationality patterns in Eastern South America', workshop: ''},
-    {id: 218, type: 'talk', day: 'wednesday', time: '1030', room: 'L1', author: ['Bozhil Hristov'], title:'Language contact and the development of Bulgarian have-perfects', workshop: ''},
+    {id: 218, type: 'talk', day: 'friday', time: '1345', room: 'C1', author: ['Bozhil Hristov'], title:'Language contact and the development of Bulgarian have-perfects', workshop: ''},
+
+    
     {id: 6, type: 'talk', day: 'wednesday', time: '1030', room: 'L2', author: ['Elly van Gelderen'], title:'Fundamental questions regarding linguistic cycles', workshop: ''},
     {id: 284, type: 'talk', day: 'wednesday', time: '1030', room: 'L3', author: ['Eleanor Coghill'], title:'Grammaticalization of a past tense gram in Neo-Aramaic from a verb of movement and its cross-linguistic parallels', workshop: ''},
     {id: 150, type: 'talk', day: 'wednesday', time: '1030', room: 'L6', author: ['Hill Nathan','Johann-Mattis List'], title:'Automated Phonological Reconstruction Based on Sound Correspondence Patterns', workshop: ''},
@@ -300,7 +303,8 @@ export const data = [
     {id: 92, type: 'talk', day: 'friday', time: '1200', room: 'C6', author: ['Niels Schoubben '], title:'A contact linguistic approach to reflexive pronominal adjectives in Niya Prakrit and Bactrian', workshop: ''},
     {id: 203, type: 'talk', day: 'friday', time: '1230', room: 'L1', author: ['Daria Alfimova'], title:'Contact-induced deviations from the macro-areal trends in object marking: Western Eurasia', workshop: ''},
     {id: 352, type: 'talk', day: 'friday', time: '1230', room: 'L2', author: ['Kalle Müller','Katrin Axel-Tober','Marco Coniglio','Katharina Paul'], title:'Grammaticalization of sentence adverbs and particles revisited', workshop: ''},
-    {id: 120, type: 'talk', day: 'friday', time: '1230', room: 'L3', author: ['Borja Herce'], title:'Quantifying morphological autonomy: CVC- to C(V)- stems in Romance verbs and the long-term vitality of morphomes', workshop: ''},
+    {id: 120, type: 'talk', day: 'monday', time: '1130', room: 'L6',  author: ['Borja Herce'], title:'Quantifying morphological autonomy: CVC- to C(V)- stems in Romance verbs and the long-term vitality of morphomes', workshop: ''},
+   
     {id: 56, type: 'talk', day: 'friday', time: '1230', room: 'L6', author: ['Etienne Baudel'], title:'Casting a new ‘eye’ on an elusive suffix: The use and origin of the Japanese dialectal suffix ‘-me’', workshop: ''},
 //    {id: 119, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Marco Condorelli'], title:'Sounds, spelling and printing: the case of vowel markers in Early Modern English (1500–1700)', workshop: ''},
     {id: 373, type: 'talk', day: 'friday', time: '1230', room: 'C4', author: ['Erich Round','James Elhindi'], title:'Sharper evaluation of deep-time hypotheses using both phonological and semantic divergence', workshop: ''},
@@ -309,7 +313,10 @@ export const data = [
     {id: 225, type: 'talk', day: 'friday', time: '1345', room: 'L2', author: ['Andreas Hölzl'], title:'The diachrony of mixed directionality in Sino-Tibetan: RelN & VO in Caijia and Longjia', workshop: ''},
     {id: 136, type: 'talk', day: 'friday', time: '1345', room: 'L3', author: ['Bethwyn Evans','Simon Greenhill'], title:'Linguistic traces of the social past: reconstructing language histories in the Mount Bosavi region of Papua New Guinea', workshop: ''},
     {id: 17, type: 'talk', day: 'friday', time: '1345', room: 'L6', author: ['Elena Simonato'], title:'Language contact within a Swiss French community on the Northern Black sea coast', workshop: ''},
-    {id: 112, type: 'talk', day: 'friday', time: '1345', room: 'C1', author: ['Borja Herce','Ezequiel Koile'], title:'Morphological change in Judeo-Spanish verbs', workshop: ''},
+    {id: 112, type: 'talk', day: 'wednesday', time: '1030', room: 'L1', author: ['Borja Herce','Ezequiel Koile'], title:'Morphological change in Judeo-Spanish verbs', workshop: ''},
+   
+   
+   
     {id: 245, type: 'talk', day: 'friday', time: '1345', room: 'C4', author: ['Philomen Probert'], title:'Semantic change in grammatical terminology', workshop: ''},
     {id: 161, type: 'talk', day: 'friday', time: '1345', room: 'C6', author: ['Zlata Liwschin'], title:'Grammaticalization of Aspect in German and its diachronic parallels in English', workshop: ''},
     {id: 47, type: 'talk', day: 'friday', time: '1415', room: 'L1', author: ['David Paul Gerards'], title:"'Partitive Articles'in Old Spanish and Old Portuguese?", workshop: ''},
