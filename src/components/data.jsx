@@ -72,7 +72,7 @@ export const data = [
 //    {id: 324, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Hanne Eckhoff','Nilo Pedrazzini'], title:'Parallel data for semantic analyses of ancient languages: Greek conjunct participles', workshop: ''},
     {id: 329, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Shatha Alruwaili', 'Mohammad Al-Khresheh'], title:'Lexical innovations in English in response to the Covid crisis', workshop: ''},
     {id: 343, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Sampsa Holopainen'], title:'On the development of vowels in the Ugric languages and the problem of Proto-Ugric', workshop: ''},
-    {id: 334, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Felicia Stich'], title:'Socio-cognitive factors in the pejoration of German words for women', workshop: ''},
+//    {id: 334, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Felicia Stich'], title:'Socio-cognitive factors in the pejoration of German words for women', workshop: ''},
 
     {id: 232, type: 'talk', day: 'tuesday', time: '1000', room: 'L1', author: ['Louise Sylvester', 'Megan Tiddeman', 'Richard Ingham', 'Kathryn Allan'], title:'The semantics of word borrowing in late medieval English', workshop: ''},
     {id: 295, type: 'talk', day: 'tuesday', time: '1000', room: 'L2', author: ['Jordan Chark'], title:'Subordinate Contexts Can Be Innovative: Evidence from the History of Icelandic', workshop: ''},
