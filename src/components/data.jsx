@@ -231,7 +231,7 @@ export const data = [
 //    {id: 169, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Russell Barlow'], title:'Is pronominal cognacy necessary for establishing families? A view from Papuan languages', workshop: ''},
     {id: 299, type: 'talk', day: 'thursday', time: '1030', room: 'C6', author: ['Sigridur Sigurdardottir','Thorhallur Eythorsson'], title:'The emergence of oblique subjects: Identifiable processes in the history of Icelandic', workshop: ''},
     {id: 280, type: 'talk', day: 'thursday', time: '1130', room: 'L1', author: ['Uta Reinöhl','T. Mark Ellison'], title:"Shamanic languages as windows into Tibeto-Burman history? The case of Kera'a", workshop: ''},
-    {id: 141, type: 'talk', day: 'thursday', time: '1130', room: 'L2', author: ['Anke Lensch'], title:'English suffixhood revisited: A construction morphology approach to the growing complexity of bases', workshop: ''},
+//    {id: 141, type: 'talk', day: 'thursday', time: '1130', room: 'L2', author: ['Anke Lensch'], title:'English suffixhood revisited: A construction morphology approach to the growing complexity of bases', workshop: ''},
     {id: 99, type: 'talk', day: 'thursday', time: '1130', room: 'L3', author: ['Edwin Ko'], title:'A Bayesian phylogenetic classification of the Siouan family using typological traits', workshop: ''},
     {id: 45, type: 'talk', day: 'thursday', time: '1130', room: 'L6', author: ['Ilaria De Cesare', 'Ulrike Demske'], title:'Ambiguity avoidance as an efficiency strategy driving word order change', workshop: ''},
     {id: 49, type: 'talk', day: 'thursday', time: '1130', room: 'C1', author: ['Louise Esher'], title:'Dissimilatory constraints discriminate between variants in analogical change', workshop: ''},
@@ -358,7 +358,7 @@ export const data = [
     {id: 110, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Artur Bartnik'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
 
     {id: 122, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Jadranka Gvozdanovic'], title:'Methodological considerations about linguistic reconstruction in space and time', workshop: ''},
-    {id: 125, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Roxanne Taylor','Tine Breban','Kersti Borjars'], title:'The genitive alternation in early English', workshop: ''},
+    {id: 125,  type: 'talk', day: 'thursday', time: '1130', room: 'L2',author: ['Roxanne Taylor','Tine Breban','Kersti Borjars'], title:'The genitive alternation in early English', workshop: ''},
     {id: 130, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Jeremy Bradley','Johannes Hirvonen'], title:'Quotative saying and reference shift in the Uralic languages of the Volga-Kama Region', workshop: ''},
 //    {id: 156, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Avelino Corral Esteban'], title:'A study of synchronic variation in Scottish Gaelic verb complementation', workshop: ''},
     {id: 339, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Mikel Martínez-Areta'], title:'Basque and Iberian numerals: An insoluble problem?', workshop: ''},
