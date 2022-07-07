@@ -23,6 +23,7 @@ export default function LocalInfo() {
                         <li><a href="#food">food and drink</a></li>
                         <li><a href="#health">health and emergencies</a></li>
                     </ul>
+                    <p>For more information about the conference venues and how to find them, please visit our <a href="/info">venue information page</a>.</p>
                 </div>
             </div>
 

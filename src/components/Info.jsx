@@ -18,14 +18,24 @@ function Info() {
             </div>
             <div className="col-lg-6 mb-3">
               
-            <p> The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. <strong>For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" rel="noopener noreferrer" target="_blank">check out this guidance</a></strong></p>
-            <p> We are looking forward to welcoming you to the <strong>Andrew Wiles Building</strong>, part of the <strong>Mathematical Institute within the Radcliffe Observatory Quarter</strong> (OX26GG).</p>
-            <p>The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the <a href="https://www.google.com/maps/d/viewer?msa=0&z=16&dg=feature&mid=1TP2Cvoj6Id1cgUinmF539roLkls&ll=51.76036470415715%2C-1.263761499999998" target="_blank" rel="noopener noreferrer">map</a> below to orientate yourself.</p>
+            <p> The 25th International Conference on Historical Linguistics will take place in Oxford the city of <em>Dreaming Spires</em>. On this page you can find information about:</p>
+            <ul>
+                <li><a href="#directions">How to get to Oxford and find the Mathematical Institute</a></li>
+                <li><a href="#map">Map showing the Mathematical Institute</a></li>
+                <li><a href="#building-amenities">Information on building amenities including a map of the Mathematical Institute</a></li>
+                <li><a href="#parking">Information on Parking</a></li>
+                <li><a href="#catz">Conference Dinner Venue: St Catherine's College</a></li>
+                <li><a href="#trinitycollege">Computational Historical Linguistics Workshop Venue: Trinity College</a></li>        
+             </ul>
+             <p>For information about travel including breakdown services and taxis, where to find food, and health and emergency information, please visit our <a href="/local-info">local info page</a>.</p>
           
            </div>    
             <br/>
-            <h3>Directions </h3>
-            <p>To access the Andrew Wiles Building, approach the Radcliffe Observatory Quarter from Woodstock Road, following the green line on the map below. When you go through the gates, you will see a large fountain; the Mathematical Institute is in the right hand corner of this area. </p>   
+            <p> We are looking forward to welcoming you to the <strong>Andrew Wiles Building</strong>, part of the <strong>Mathematical Institute within the Radcliffe Observatory Quarter</strong> (OX26GG).</p>
+            <p>The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the <a href="https://www.google.com/maps/d/viewer?msa=0&z=16&dg=feature&mid=1TP2Cvoj6Id1cgUinmF539roLkls&ll=51.76036470415715%2C-1.263761499999998" target="_blank" rel="noopener noreferrer">map</a> below to orientate yourself.</p>
+            <h3 id="directions">Directions </h3>
+            <p><strong>For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" rel="noopener noreferrer" target="_blank">check out this guidance</a></strong></p>
+            <p id="map">To access the Andrew Wiles Building, approach the Radcliffe Observatory Quarter from Woodstock Road, following the green line on the map below. When you go through the gates, you will see a large fountain; the Mathematical Institute is in the right hand corner of this area. </p>   
 
                 <iframe 
                     title="ICHL Conference Location"
@@ -46,7 +56,7 @@ function Info() {
                 <li><a href="https://www.google.co.uk/maps/dir/Oxford+(Bus+Station),+Oxford/Mathematical+Institute,+Woodstock+Road,+Oxford/@51.7575006,-1.2666294,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a4434a3237:0xe8855286b4e428a!2m2!1d-1.262466!2d51.75404!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to the Mathematical Institute from Gloucester Green Coach Station</a></li>
             </ul>
             
-        <h3>Building Amenities</h3>
+        <h3 id="building-amenities">Building Amenities</h3>
         <p> We will have use of a large lecture room ideal for the plenary talks, and smaller seminar rooms for the general varied size sessions. 
             All rooms are equipped with data projectors and screens, microphones, and whiteboards.
             There are large spaces for coffee breaks and evening receptions, as well as the poster sessions. 
@@ -67,7 +77,7 @@ function Info() {
        
        <hr/>
 
-        <h3>Parking </h3>
+        <h3 id="parking">Parking </h3>
         <p>Please be aware there is limited public parking available in the centre of Oxford. 
             The University has very limited parking, and on the Mathematical Institute site in particular there is almost no parking available 
             although each building does have two dedicated accessible parking places only available via prior booking with clear need.</p>
