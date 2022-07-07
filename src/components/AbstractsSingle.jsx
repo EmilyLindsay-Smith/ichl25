@@ -85,7 +85,7 @@ export default function Abstract(){
              return require(`${path}`);
             } catch (err) {
              return null;
-            }
+            }   
           };
                     return(
                         <div className="container container-pad max-view">
@@ -94,11 +94,11 @@ export default function Abstract(){
                             <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             </iframe>: <p><em>there is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions</a></em></p>
                             }
-{/*                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" > allowFullScreen>
+{/*                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             </iframe>
                         */}
                             <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract </a>
-                       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" > allowFullScreen>
+                       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                            <p><em>Your browser doesn't support PDF embedding </em></p>
                        </iframe>      
                         </div>
