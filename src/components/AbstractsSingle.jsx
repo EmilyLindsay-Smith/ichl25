@@ -76,6 +76,8 @@ export default function Abstract(){
                     return(
                         <div className="container container-pad max-view">
                             {talkdata}
+                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                            </iframe>
                             <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract </a>
                        <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
                            <p><em>Your browser doesn't support PDF embedding </em></p>
