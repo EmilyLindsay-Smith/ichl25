@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.1f2c9e4e.css",
-    "main.js": "/static/js/main.58a99596.js",
+    "main.js": "/static/js/main.b0ef1a78.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/jb-orderform.ichl.2022.pdf": "/static/media/jb-orderform.ichl.2022.2b8da7ba673b539e27de.pdf",
+    "static/media/ICHL25_handout_251.pdf": "/static/media/ICHL25_handout_251.c85d7b367cac9ac7feff.pdf",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
     "static/media/ICHL25_paper_44.pdf": "/static/media/ICHL25_paper_44.d1ef18743dfd206fadf5.pdf",
@@ -412,10 +413,10 @@
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
     "main.1f2c9e4e.css.map": "/static/css/main.1f2c9e4e.css.map",
-    "main.58a99596.js.map": "/static/js/main.58a99596.js.map"
+    "main.b0ef1a78.js.map": "/static/js/main.b0ef1a78.js.map"
   },
   "entrypoints": [
     "static/css/main.1f2c9e4e.css",
-    "static/js/main.58a99596.js"
+    "static/js/main.b0ef1a78.js"
   ]
 }
