@@ -39,12 +39,19 @@ export default function Abstract(){
 /*        let workshopFilesArray = data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0).map(item => './presentation-abstracts/ICHL25_paper_' + item.id.toString() + '.pdf')
         console.log(workshopFilesArray)
 */
+        const tryRequire = (path) => {
+            try {
+            return require(`${path}`);
+            } catch (err) {
+            return null;
+            }}
         return data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0)
                    .map(item=>
                         <div>
-                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
-                            </iframe>
-                            <iframe src={require('./presentation-abstracts/ICHL25_paper_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                            {tryRequire('./presentation-abstracts/ICHL25_handout_'+ number.toString()+'.pdf') ?
+                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
+                            </iframe>: ' '}
+                            <iframe src={require('./presentation-abstracts/ICHL25_paper_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             <p><em>Your browser doesn't support PDF embedding </em></p>
                             </iframe>
                         </div>
@@ -73,13 +80,25 @@ export default function Abstract(){
 
     }
     else if (parseInt(number) !== 0){
+        const tryRequire = (path) => {
+            try {
+             return require(`${path}`);
+            } catch (err) {
+             return null;
+            }
+          };
                     return(
                         <div className="container container-pad max-view">
-                            {talkdata}
-                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                            {talkdata}                            
+                            {tryRequire('./presentation-abstracts/ICHL25_handout_'+ number.toString()+'.pdf') ?
+                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
+                            </iframe>: <p><em>there is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions</a></em></p>
+                            }
+{/*                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" > allowFullScreen>
                             </iframe>
+                        */}
                             <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract </a>
-                       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" > allowFullScreen>
                            <p><em>Your browser doesn't support PDF embedding </em></p>
                        </iframe>      
                         </div>
@@ -87,7 +106,7 @@ export default function Abstract(){
             else if (parseInt(number) ===0){
                 return(
                     <div className="container container-pad max-view">
-                    <p><em>There is no available abstract</em></p> 
+                    <p><em>There is no available abstract for this presentation</em></p> 
                     </div>
                 )
             }
