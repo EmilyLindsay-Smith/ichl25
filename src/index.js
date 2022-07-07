@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Programme from "./components/Programme";
 import Workshops from "./components/Workshops";
 import Info from "./components/Info";
+import LocalInfo from"./components/LocalInfo";
 import People from "./components/People";
 import Contact from './components/Contact';
 import Accommodation from './components/Accommodation';
@@ -33,6 +34,7 @@ return(
         <Route path= "/workshops" element={<Workshops />} />
         <Route path="/people" element={<People />} />
         <Route path="/info" element={<Info />} />
+        <Route path="/local-info" element={<LocalInfo />} />
         <Route path="/accommodation" element={<Accommodation />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/organisers" element={<Organisers />} />

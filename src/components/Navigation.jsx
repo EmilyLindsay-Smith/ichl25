@@ -90,7 +90,12 @@ function Navigation() {
                                <NavLink className="nav-link" to="/presenter-info">
                                    Info for Presenters  
                                </NavLink>
-                           </li> 
+                           </li>
+                           <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/local-info">
+                                   Local Information  
+                               </NavLink>
+                           </li>                             
                            <li className="dropdown-item">
                                <NavLink className="nav-link" to="/organisers">
                                    Organisers  
