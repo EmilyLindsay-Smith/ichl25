@@ -72,7 +72,7 @@ function Info() {
             The University has very limited parking, and on the Mathematical Institute site in particular there is almost no parking available 
             although each building does have two dedicated accessible parking places only available via prior booking with clear need.</p>
         <p> We recommend using the <a href="https://www.oxford.gov.uk/directory_record/352/pear_tree_park_and_ride/category/56/park_and_ride_sites" target="_blank" rel="noopener noreferrer"> Park and Ride service</a>,
-            parking at Pear Tree and catching the #300 bus which stops opposite the entrance to the Mathematical Institute on Woodstock Road.</p>
+            parking at Pear Tree and catching the #300 bus which stops opposite the entrance to the Mathematical Institute on Woodstock Road. Please note that the maximum stay at all park and ride options is 72 hours.</p>
         <p>Taxis are available from Oxford Train Station and Gloucester Green Coach station, and the fare to the Mathematical Institute should be approximately £7.00.<br/>
            Note that there are a <strong>large number of external cycle racks</strong> on the south and west sides of the building for those coming by bike.</p>
 

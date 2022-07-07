@@ -19,6 +19,29 @@ function Accommodation(){
                 <p>Note that Somerville College is now <strong>fully booked</strong> for the Wednesday night, though rooms are still available for the beginning and end of the week. </p>
                 <p>To make a booking, please click <a href="https://www.universityrooms.com/en-GB/eventcode?ec=ICHC2022&vid=somervilleoxford" rel=" noopener noreferrer" target="_blank">here</a>.</p>
 
+            <h4>Alternative Options:</h4>
+            <p>If you are still looking for accommodation, there may be rooms available via the following. Note that ICHL does not have a particular relationship with any of these institutions unlike Somerville College.</p>
+            <p>University Rooms</p>
+            <ul>
+                <li><a href="https://www.universityrooms.com" rel="noreferrer" target="_blank">Oxford University Rooms</a>: search for and book a room in an Oxford college. Do note that some rooms are much more central than others.</li>
+            </ul>
+            <p>Bed and Breakfast</p>
+            <ul>
+                <li><a href="https://www.towerhouseoxford.co.uk/" rel="noreferrer" target="_blank">Tower House</a>(Ship Street)</li>
+                <li><a href="https://www.oldblackhorse.com/" rel="noreferrer" target="_blank">The Old Black Horse</a>(St. Clements Street)</li>
+            </ul>
+
+            <p>Hotels</p>
+            <ul>
+                <li><a href="" rel="noreferrer" target="_blank"></a></li>
+                <li><a href="" rel="noreferrer" target="_blank"></a></li>
+                <li><a href="" rel="noreferrer" target="_blank"></a></li>
+                <li><a href="" rel="noreferrer" target="_blank"></a></li>
+            </ul>
+            <p>Other</p>
+            <li><a href="" rel="noreferrer" target="_blank"></a></li>
+            <li><a href="" rel="noreferrer" target="_blank"></a></li>
+            <li><a href="" rel="noreferrer" target="_blank"></a></li>
             </div>
           </div>
          </div>
