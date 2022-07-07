@@ -42,6 +42,8 @@ export default function Abstract(){
         return data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0)
                    .map(item=>
                         <div>
+                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
+                            </iframe>
                             <iframe src={require('./presentation-abstracts/ICHL25_paper_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowfullscreen>
                             <p><em>Your browser doesn't support PDF embedding </em></p>
                             </iframe>
