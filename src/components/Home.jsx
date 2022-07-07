@@ -42,6 +42,7 @@ function Home(){
   <li>Information about <a target="_blank" href="/accommodation"> available accommodation</a></li>
   <li>Planned <a target="_blank" href="/excursions"> excursions </a> and social events</li>
   <li>Information about our <a target="_blank" href="/info"> venues</a> and how to find them</li>
+  <li>Information about <a target="_blank" href="/local-info">local amenities, taxis and health and emergencies</a></li>
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menus</a> at the top of the page to see the full range of available information</li>
 </ul>
 
