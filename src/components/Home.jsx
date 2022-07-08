@@ -45,7 +45,7 @@ function Home(){
   <li>Information about <a target="_blank" href="/local-info">local amenities, taxis and health and emergencies</a></li>
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menus</a> at the top of the page to see the full range of available information</li>
 </ul>
-
+<p>You can now follow us on Twitter at <a href="https://twitter.com/ICHL25" target="_blank" rel="noreferrer">@ICHL25</a> and use the hashtag #ichl25 to livetweet the conference.</p>
 <div class="alert alert-secondary" role="alert">
 <h3>Announcements</h3> <hr/>
 <h5>Student Bursaries</h5>

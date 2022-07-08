@@ -13,7 +13,7 @@ function Contact(){
             Oxford, <br/>
             OX12HG <br/>
         </address>
-
+        <p> You can also follow us on twitter <a href="https://twitter.com/ICHL25" target="_blank" rel="noreferrer">@ICHL25</a></p>
         <h6>
             If you have any problems or comments on the website, please contact Emily Lindsay-Smith at <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">emily.lindsay-smith@ling-phil.ox.ac.uk</a>
         </h6>

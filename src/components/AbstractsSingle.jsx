@@ -26,7 +26,7 @@ export default function Abstract(){
          return data.filter( datum => datum.id === idval)
           .map(
            item =><p><strong>{capitalise(item.type)}</strong>: {item.title}<br/>
-               <strong>{parseInt(item.id) < 2000 ? 'Authors:':'Organisers:'}</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
+               <strong>{parseInt(item.id) < 2000 ? 'Authors':'Organisers'}</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
               <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
                <strong>Room</strong>: {item.room === 'TC' ? <a href="/info#trinitycollege">'Trinity College'</a> : item.room ? item.room : <em>tbc</em>}</p> )
                  }
