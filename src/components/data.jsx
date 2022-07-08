@@ -359,7 +359,7 @@ export const data = [
     {id: 331, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Antoine Primerano'], title:'Koineization and language contact in the history of Spanish: An examination of several morphosyntactic changes', workshop: ''},
     {id: 110, type: 'talk', day: 'friday', time: '1230', room: 'C1', author: ['Artur Bartnik'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
 
-    {id: 122, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Jadranka Gvozdanovic'], title:'Methodological considerations about linguistic reconstruction in space and time', workshop: ''},
+    {id: 122, type: 'talk', day: 'thursday', time: '1030', room: 'C4', author: ['Jadranka Gvozdanović'], title:'Methodological considerations about linguistic reconstruction in space and time', workshop: ''},
     {id: 125,  type: 'talk', day: 'thursday', time: '1130', room: 'L2',author: ['Roxanne Taylor','Tine Breban','Kersti Borjars'], title:'The genitive alternation in early English', workshop: ''},
     {id: 130, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Jeremy Bradley','Johannes Hirvonen'], title:'Quotative saying and reference shift in the Uralic languages of the Volga-Kama Region', workshop: ''},
 //    {id: 156, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Avelino Corral Esteban'], title:'A study of synchronic variation in Scottish Gaelic verb complementation', workshop: ''},
