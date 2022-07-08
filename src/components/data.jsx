@@ -97,7 +97,8 @@ export const data = [
     {id: 152, type: 'talk', day: 'tuesday', time: '1130', room: 'C6', author: ['Tomas Riad'], title:'Reconstructing the age of accent types in North Germanic', workshop: ''},
     {id: 93, type: 'talk', day: 'tuesday', time: '1200', room: 'L1', author: ['Lennart Westergaard'], title:'The development of the imperative with subject construction', workshop: ''},
     {id: 177, type: 'talk', day: 'tuesday', time: '1200', room: 'L2', author: ['Ulrike Demske'], title:'Verb Initial Declaratives in the History of German', workshop: ''},
-    {id: 246, type: 'talk', day: 'tuesday', time: '1200', room: 'L3', author: ['Hedvig Skirgård'], title:'Dissecting the comparative method - comparing traditional reconstruction to computational approaches', workshop: ''},
+    {id: 246, type: 'talk', day: 'friday', time: '1200', room: 'C4', author: ['Hedvig Skirgård'], title:'Dissecting the comparative method - comparing traditional reconstruction to computational approaches', workshop: ''},
+
     {id: 321, type: 'talk', day: 'tuesday', time: '1200', room: 'L6', author: ['Susanne Maria Michaelis'], title:'Predicting grammatical substrate features in creole languages', workshop: ''},
     {id: 23, type: 'talk', day: 'tuesday', time: '1200', room: 'C1', author: ['Gilles Authier'], title:'Phonological contact zones and historical gender morphology in East Caucasian', workshop: ''},
     {id: 142, type: 'talk', day: 'tuesday', time: '1200', room: 'C4', author: ['Charlotte Hemmings','Erik Zobel','Mary Dalrymple'], title:'A diachronic view of Enggano voice alternations', workshop: ''},
@@ -299,7 +300,8 @@ export const data = [
     {id: 268, type: 'talk', day: 'friday', time: '1200', room: 'L3', author: ['Wyn Shaw'], title:'A History of Dislocations in French', workshop: ''},
     {id: 269, type: 'talk', day: 'friday', time: '1200', room: 'L6', author: ['Uta Reinöhl'], title:'Grammaticalization in the wild: Source determination and system influences', workshop: ''},
     {id: 172, type: 'talk', day: 'friday', time: '1200', room: 'C1', author: ['Nelson Goering'], title:'The prosodic status of clitics in early Old English: A metrical approach', workshop: ''},
-    {id: 310, type: 'talk', day: 'friday', time: '1200', room: 'C4', author: ['Toby Hudson'], title:'Modelling accent retraction in Indo-European using agent-based simulation', workshop: ''},
+    {id: 310, type: 'talk', day: 'tuesday', time: '1200', room: 'L3', author: ['Toby Hudson'], title:'Modelling accent retraction in Indo-European using agent-based simulation', workshop: ''},
+    
     {id: 92, type: 'talk', day: 'friday', time: '1200', room: 'C6', author: ['Niels Schoubben '], title:'A contact linguistic approach to reflexive pronominal adjectives in Niya Prakrit and Bactrian', workshop: ''},
     {id: 203, type: 'talk', day: 'friday', time: '1230', room: 'L1', author: ['Daria Alfimova'], title:'Contact-induced deviations from the macro-areal trends in object marking: Western Eurasia', workshop: ''},
     {id: 352, type: 'talk', day: 'friday', time: '1230', room: 'L2', author: ['Kalle Müller','Katrin Axel-Tober','Marco Coniglio','Katharina Paul'], title:'Grammaticalization of sentence adverbs and particles revisited', workshop: ''},

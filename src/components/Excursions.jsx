@@ -19,7 +19,9 @@ function Excursions(){
             <div className="col-lg-7">       
    
     <h4>Organised Wednesday Afternoon Trip</h4>
-        <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.blenheimpalace.com/" target="_blank" rel="noreferrer noopener">Blenheim Palace</a>. </p>
+        <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including writings by William Jones.</p>
+        <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 5.30pm</p>
+        <p>If you would like to sign up, please do so soon via the following link: <a href="#"><em>COMING SOON</em></a></p>
 
     <h4>Organised Saturday Trips</h4>
         <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a> and <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a></p>
@@ -39,6 +41,7 @@ function Excursions(){
             <div className="col-lg-4">
             <h6>To Visit:</h6>
     <ul>
+        <li>Blenheim Palace<br/>Visit <a href="https://www.blenheimpalace.com/visitus/getting-here/" target="_blank" rel="noreferrer">their website</a> for directions by car or bus from the centre of Oxford</li>
         <li>Oxford University Museum of Natural History</li>
         <li>Pitt Rivers Museum</li>
         <li>Ashmolean Museum of Art and Archaeology</li>
