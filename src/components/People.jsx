@@ -12,7 +12,12 @@ function People() {
      // event.preventDefault()
     }
 
-  let filtereddata = data//.filter(datum=>datum.id !== 0)
+  // **To Include The Session Chairs in the People section uncomment this line:  **
+ // let filtereddata = data//.filter(datum=>datum.id !== 0)
+  // ** To NOT include the Session Chairs in the People section uncomment this line: **
+  let filtereddata = data.filter(datum=>datum.id !== 0)
+
+
   const searcher = query.toLowerCase()
   filtereddata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) || datum.author.join().toLowerCase().includes(searcher))
 

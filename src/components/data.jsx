@@ -415,7 +415,7 @@ export const data = [
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L3', author: ['Alice Harris'], title: 'Aramaic Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L6', author: ['Natalia Levshina'], title: 'Simulations', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'C1', author: ['Mark Harvey'], title: 'Basque Phonology', workshop: ''},
-    {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'C4', author: ['Rboin Meyer'], title: 'Albanian & Armenian', workshop: ''},
+    {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'C4', author: ['Robin Meyer'], title: 'Albanian & Armenian', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'C6', author: ['Joseph Salmons'], title: 'Languages of the Americas', workshop: ''},
    
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L1', author: ['Bridget Drinka'], title: 'Contact', workshop: ''},
@@ -424,7 +424,7 @@ export const data = [
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L6', author: ['Carola Trips'], title: 'Corpus Linguistics', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C1', author: ['Gorka Elordieta'], title: 'Basque Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C4', author: ['Andreas Willi'], title: 'Ancient IE Languages', workshop: ''},
-    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C6', author: ['Phonology'], title: 'Phonology', workshop: ''},
+    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C6', author: ['Emily Lindsay-Smith'], title: 'Phonology', workshop: ''},
 
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L1', author: ['Aditi Lahiri'], title: 'Contact', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L2', author: ['Nicholas Zair'], title: 'Greek & Sanskrit Morphosyntax', workshop: ''},  
@@ -445,9 +445,9 @@ export const data = [
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L1', author: ['Gilles Authier'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L2', author: ['Kersti Borjars'], title: 'Middle English Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L3', author: ['Charles Redmon'], title: 'Phonology', workshop: ''},
-    {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L6', author: ['Phylogenetics'], title: 'Erich Round', workshop: ''},
+    {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L6', author: ['Erich Round'], title: 'Phylogenetics', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'C1', author: ['Matthew Baerman'], title: 'Analogy', workshop: ''},
-    {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'C4', author: ['Morphological Marking'], title: 'Xavier Bach', workshop: ''},
+    {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'C4', author: ['Xavier Bach'], title: 'Morphological Marking', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'C6', author: ['Huinan Zeng'], title: 'Languages of China', workshop: ''},
 
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L1', author: ['Martin Maiden'], title: 'Contact in Romance', workshop: ''},
