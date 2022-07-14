@@ -58,6 +58,7 @@ function Timetable(day){
             </tbody>
             </table>
             <p className="centerMe"> Our Welcome Reception is sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</p>
+            <p className="centerMe"> Our Closing Reception is sponsored by The Philological Society and the Faculty of Linguistics, Philology and Phonetics</p>
             </div>
         )
     }else if (day === 'monday'){
@@ -187,7 +188,7 @@ function Timetable(day){
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colSpan="7">Lunch</td></tr>
-            <tr><th></th><th>Romance</th><th>Syntax</th><th>Germanic Semantics</th><th>Romance Plus</th><th>Morphosyntax</th><th>Syntax & Semantics of Ancient Languages</th><th>Germanic</th></tr>
+            <tr><th></th><th>Romance</th><th>Syntax</th><th>Papuan and Austronesian Languages</th><th>Romance in Contact</th><th>Morphosyntax</th><th>Syntax & Semantics of Ancient Languages</th><th>Germanic</th></tr>
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
@@ -198,6 +199,7 @@ function Timetable(day){
           {/*  <tr><th></th><td colSpan="7">Closing Reception</td></tr> */}
             </tbody>
         </table>
+        <p className="centerMe"> Our Closing Reception is sponsored by the Philological Society and the Faculty of Linguistics, Philology and Phonetics</p>
         <h5 id="postersfri">Poster Session</h5>
         <table className="table table-striped table-hover table-bordered col-width">
             <tbody>
