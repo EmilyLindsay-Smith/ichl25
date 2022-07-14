@@ -50,7 +50,7 @@ export const data = [
   
     {id: 133, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Penying Wang'], title:'Contact-induced change in sememe structure—A case study of the taste term salty in Chinese dialects', workshop: ''},
     {id: 140, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Lucia Assenzi'], title:'The evolution of reported speech in German newspapers of the 18th and 19th century: Evidential strategies, epistemic modality and the expression of reliability', workshop: ''},
-    {id: 153, type: 'poster', day: 'tuesday', time: '1645', room: 'L1', author: ['Nino Amiridze', 'Zurab Baratashvili', 'Giorgi Jgharkava', 'Medea Sagliani'], title: 'Identifying the immediate donor in the presence of several: Preverbs in loan verb accommodation in Megrelian and Svan', workshop: ''},
+    {id: 153, type: 'poster', day: 'tuesday', time: '1615', room: 'L1', author: ['Nino Amiridze', 'Zurab Baratashvili', 'Giorgi Jgharkava', 'Medea Sagliani'], title: 'Identifying the immediate donor in the presence of several: Preverbs in loan verb accommodation in Megrelian and Svan', workshop: ''},
 //    {id: 155, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Bipasha Patgiri'], title:'Prosodic Structure of Nalbaria Assamese', workshop: ''},
     {id: 162, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Adrienne Dömötör'], title:'From quotative to causation – the history of Hungarian mondván "saying"', workshop: ''},
     {id: 191, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Laila Alhazmi'], title:'Status and Dynamism of an Endangered Language in Saudi Arabia: Towards a Revitalization Project', workshop: ''},
