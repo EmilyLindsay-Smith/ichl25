@@ -46,7 +46,7 @@ function Timetable(day){
                 <tr><th scope="row">8.00</th><td>Registration</td><td></td><td></td><td></td><td></td></tr>
                 <tr><th scope="row">9.00</th><td></td><td rowSpan="2">Plenary<br/>Kathryn Allan</td><td rowSpan="2">Plenary<br/>John Charles Smith</td><td rowSpan="2">Plenary<br/>Joseph Salmons</td><td rowSpan="2">Plenary<br/>Frans Plank</td></tr>
                 <tr><th scope="row">9.30</th><td>Welcome</td></tr>
-                <tr><th scope="row">10.00</th><td>Plenary</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td></tr>
+                <tr><th scope="row">10.00</th><td>Plenary<br/>Paul Kiparsky</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td></tr>
                 <tr><th scope="row">11.00</th><td colSpan="4">Tea/Coffee</td></tr>
                 <tr><th scope="row">11.30</th><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td></tr>
                 <tr><th scope="row">13.00</th><td colSpan="2">Lunch</td><td rowSpan="6">Free afternoon<br/> (sandwich/packed lunch available)<br/> Excursions </td><td colSpan="2">Lunch</td></tr>
