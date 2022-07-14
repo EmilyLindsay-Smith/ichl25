@@ -378,7 +378,7 @@ export const data = [
     {id: 1008, type: 'plenary', day: 'friday', time: '1650', room: '', author: ['Alice C. Harris'], title:"The Origins of Clitic Placement in Aluan and Udi", workshop: '', chair: 'John Charles Smith'},
    
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'L1', author: ['Sarah Thomason'], title: 'Language Contact', workshop: ''},
-    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130', room: 'L2', author: ['Syntax'], title: 'Michela Cennamo', workshop: ''},
+    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130', room: 'L2', author: ['Michela Cennamo'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'L3', author: ['Ranjan Sen'], title: 'Phonology', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130', room: 'L6', author: ['Martin Maiden'], title: 'Romance', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C1', author: ['Kathryn Allan'], title: 'German Semantics & Pragmatics', workshop: ''},
@@ -406,7 +406,7 @@ export const data = [
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'L2', author: ['Jóhanna Barðdal'], title: 'Germanic Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'L3', author: ['Russell Gray'], title: 'Modelling', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'L6', author: ['Hendrik de Smet'], title: 'Actuation', workshop: ''},
-    {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C1', author: ['Robin Meyer'], title: 'Contact', workshop: ''},
+    {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C1', author: ['Alana Johns'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C4', author: ['Bethwyn Evans'], title: 'Austronesian', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C6', author: ['Pavel Iosad'], title: 'Austronesian', workshop: ''},
     
@@ -459,7 +459,7 @@ export const data = [
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C6', author: ['Holly Kennard'], title: 'Word Order', workshop: ''},
 
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L1', author: ['Brigitte Bauer'], title: 'Language Contact', workshop: ''},
-    {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L2', author: ['Elly van Gelderen'], title: 'Syntax', workshop: ''},
+    {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L2', author: ['Max Wheeler'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L3', author: ['John Charles Smith'], title: 'Romance Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L6', author: ['Martin Haspelmath'], title: 'Grammaticalization', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'C1', author: ['Hilary Wynne'], title: 'English', workshop: ''},

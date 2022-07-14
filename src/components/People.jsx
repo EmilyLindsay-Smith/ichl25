@@ -13,9 +13,9 @@ function People() {
     }
 
   // **To Include The Session Chairs in the People section uncomment this line:  **
-  let filtereddata = data//.filter(datum=>datum.id !== 0)
+  let filtereddata = data
  // ** To NOT include the Session Chairs in the People section uncomment this line: **
- // let filtereddata = data.filter(datum=>datum.id !== 0)
+  // let filtereddata = data.filter(datum=>datum.id !== 0)
     
   const searcher = query.toLowerCase()
   
@@ -36,10 +36,6 @@ let tester = () => {
   filtereddata = tester
 */}
     
-
-
-  
-  
   function capitalise(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
