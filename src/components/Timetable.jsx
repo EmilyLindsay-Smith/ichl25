@@ -7,7 +7,7 @@ function SessionChairInfo(day,room,session){
                         .filter(datum=>datum.session===session)
                         .filter(datum=>datum.room===room)
     let title = filtered.map(datum=>datum.title)
-    let chair = 'tba' // filtered.map(datum=>datum.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
+    let chair = filtered.map(datum=>datum.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     return <th><strong>{title}</strong><br/><span style={{fontWeight: "normal", alignItems: 'flex-start'}}><em>chaired by {chair}</em></span></th>
 }
 
