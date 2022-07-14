@@ -454,7 +454,7 @@ export const data = [
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L2', author: ['Hans Basbøll'], title: 'Germanic Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L3', author: ['Philip Durkin'], title: 'Loanwords in English', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L6', author: ['Robert Mailhammer'], title: 'Morphology', workshop: ''},
-    {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C1', author: ['Ans van Kemenade'], title: 'Modern English & Corpora', workshop: ''},
+    {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C1', author: ['Aditi Lahiri'], title: 'Modern English & Corpora', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C4', author: ['Hanne Eckhoff'], title: 'Slavonic', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C6', author: ['Holly Kennard'], title: 'Word Order', workshop: ''},
 
