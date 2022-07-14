@@ -439,7 +439,7 @@ export const data = [
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L3', author: ['Gerd Carling'], title: 'Phylogenetics', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L6', author: ['Silvia Luraghi'], title: 'Word order', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'C1', author: ['Emily Lindsay-Smith'], title: 'Analogy ', workshop: ''},
-    {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'C4', author: ['Ans van Kemanade'], title: 'Early Modern English', workshop: ''},
+    {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'C4', author: ['Ans van Kemenade'], title: 'Early Modern English', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'C6', author: ['Benjamin Molineaux'], title: 'Early German Phonology', workshop: ''},
 
     {id: 0, type: 'session', day: 'thursday', time: '1340', session: 'c', room: 'L1', author: ['Gilles Authier'], title: 'Contact', workshop: ''},
@@ -454,7 +454,7 @@ export const data = [
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L2', author: ['Hans Basbøll'], title: 'Germanic Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L3', author: ['Philip Durkin'], title: 'Loanwords in English', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'L6', author: ['Robert Mailhammer'], title: 'Morphology', workshop: ''},
-    {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C1', author: ['Ans van Kemanade'], title: 'Modern English & Corpora', workshop: ''},
+    {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C1', author: ['Ans van Kemenade'], title: 'Modern English & Corpora', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C4', author: ['Hanne Eckhoff'], title: 'Slavonic', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1000', session: 'a', room: 'C6', author: ['Holly Kennard'], title: 'Word Order', workshop: ''},
 
