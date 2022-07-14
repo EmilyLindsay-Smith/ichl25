@@ -1,8 +1,29 @@
 import React from "react";
 import {data} from './data';
 
+function SessionChairInfo(day,room,session){
+    let filtered = data.filter(datum=>datum.type==="session")
+                        .filter(datum=>datum.day===day)
+                        .filter(datum=>datum.session===session)
+                        .filter(datum=>datum.room===room)
+    let title = filtered.map(datum=>datum.title)
+    let chair = 'tba' // filtered.map(datum=>datum.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
+    return <th><strong>{title}</strong><br/><span style={{fontWeight: "normal", alignItems: 'flex-start'}}><em>chaired by {chair}</em></span></th>
+}
+
+function SessionChair(day,session){
+    return <tr><th></th> {SessionChairInfo(day, 'L1', session)}
+                        {SessionChairInfo(day, 'L2', session)}
+                        {SessionChairInfo(day, 'L3', session)}
+                        {SessionChairInfo(day, 'L6', session)}
+                        {SessionChairInfo(day, 'C1', session)}
+                        {SessionChairInfo(day, 'C4', session)}
+                        {SessionChairInfo(day, 'C6', session)}
+             </tr>
+}
+
 function Filterme(day,room, time){
-    let filtered = data.filter(datum=>datum.day===day).filter(datum => datum.room === room && datum.time === time)
+    let filtered = data.filter(datum=>datum.day===day).filter(datum=>datum.type==="talk").filter(datum => datum.room === room && datum.time === time)
     let title = filtered.map(item =>item.title)
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
@@ -72,12 +93,14 @@ function Timetable(day){
                 <tr><th>10.00-11.00</th><td colSpan="7">{Plenary(1001)}</td></tr>
                 <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
                 <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
-                <tr><th></th><th>Language Contact</th><th>Syntax</th><th>Phonology</th><th>Romance</th><th>Germanic Semantics & Pragmatics</th><th>Morphology</th><th>Corpus Studies & Translation</th></tr>
+                {SessionChair(day, 'b')}
                 <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
                 <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
                 <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
                 <tr><th>13.00-13.45</th><td colSpan="7">Lunch</td></tr>
-                <tr><th></th><th>Germanic</th><th>Parametric Comparison</th><th>Phonology</th><th>Syntax</th><th>Greek</th><th>Phonology:Vowels</th><th>(Ir)regularity</th></tr>
+                {SessionChair(day, 'c')}
+                {//                <tr><th></th><th>Germanic</th><th>Parametric Comparison</th><th>Phonology</th><th>Syntax</th><th>Greek</th><th>Phonology:Vowels</th><th>(Ir)regularity</th></tr>
+                }
                 <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
                 <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
                 <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
@@ -103,11 +126,16 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1003)}</td></tr>
             <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
-            <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Comparative Reconstruction</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
-            <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
+            {SessionChair(day, 'a')}
+          {// <tr><th></th><th>English Semantics</th><th>Icelandic Syntax</th><th>Sociolinguistic Typology</th><th>Comparative Reconstruction</th><th>Bantu</th><th>Hungarian</th><th>Celtic</th></tr>
+    }
+           <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th>Scandinavian Semantics</th><th>Germanic Syntax</th><th>Modelling</th><th>Actuation</th><th>Contact</th><th>Austronesian</th><th>Tonal Phenomena</th></tr>
+            <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
+            {SessionChair(day, 'b')}
+            {//<tr><th></th><th>Scandinavian Semantics</th><th>Germanic Syntax</th><th>Modelling</th><th>Actuation</th><th>Contact</th><th>Austronesian</th><th>Tonal Phenomena</th></tr>
+            }
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
@@ -134,11 +162,15 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1004)}</td></tr>
             <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
-            <tr><th></th><th>Contact</th><th>Syntax</th><th>Aramaic Morphosyntax</th><th>Simulations</th><th>Basque Phonology</th><th>Albanian & Armenian</th><th>Languages of the Americas</th></tr>
+            {SessionChair(day, 'a')}
+            {//<tr><th></th><th>Contact</th><th>Syntax</th><th>Aramaic Morphosyntax</th><th>Simulations</th><th>Basque Phonology</th><th>Albanian & Armenian</th><th>Languages of the Americas</th></tr>
+            }
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th>Contact</th><th>Middle English Morphosyntax</th><th>Phylogenetics</th><th>Corpus Linguistics</th><th>Basque Morphosyntax</th><th>Ancient IE languages</th><th>Phonology</th></tr>
+            {SessionChair(day, 'b')}
+            {//  <tr><th></th><th>Contact</th><th>Middle English Morphosyntax</th><th>Phylogenetics</th><th>Corpus Linguistics</th><th>Basque Morphosyntax</th><th>Ancient IE languages</th><th>Phonology</th></tr>
+             }
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
@@ -153,16 +185,22 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1005)}</td></tr>
             <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
-            <tr><th></th><th>Contact</th><th>Greek & Sanskrit Morphosyntax</th><th>Slavonic</th><th>Languages of Western Africa</th><th>Danish</th><th>Reconstruction & Cognacy</th><th>Subjects</th></tr>
+            {SessionChair(day, 'a')}
+            {//<tr><th></th><th>Contact</th><th>Greek & Sanskrit Morphosyntax</th><th>Slavonic</th><th>Languages of Western Africa</th><th>Danish</th><th>Reconstruction & Cognacy</th><th>Subjects</th></tr>
+    }
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th>Contact</th><th>Germanic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
+            {SessionChair(day, 'b')}
+            {//<tr><th></th><th>Contact</th><th>Germanic Morphosyntax</th><th>Phylogenetics</th><th>Word Order</th><th>Analogy</th><th>Early Modern English</th><th>Early German Phonology</th></tr>
+            }
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colSpan="7">Lunch</td></tr>
-            <tr><th></th><th>Contact</th><th>Middle English morphosyntax</th><th>Phonology</th><th>Phylogenetics</th><th>Analogy</th><th>Morphological Marking</th><th>Languages of China</th></tr>
+            {SessionChair(day, 'c')}
+            {//<tr><th></th><th>Contact</th><th>Middle English morphosyntax</th><th>Phonology</th><th>Phylogenetics</th><th>Analogy</th><th>Morphological Marking</th><th>Languages of China</th></tr>
+            }
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>
@@ -180,16 +218,22 @@ function Timetable(day){
         <tbody>
             <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1007)}</td></tr>
             <tr><th>Room</th><th>L1</th><th>L2</th><th>L3</th><th>L6</th><th>C1</th><th>C4</th><th>C6</th></tr>
-            <tr><th></th><th>Contact in Romance</th><th>Syntax</th><th>Loanwords in English</th><th>Morphology</th><th>Modern English & corpora</th><th>Slavonic</th><th>Word Order</th></tr>
+            {SessionChair(day, 'a')}
+            {//<tr><th></th><th>Contact in Romance</th><th>Syntax</th><th>Loanwords in English</th><th>Morphology</th><th>Modern English & corpora</th><th>Slavonic</th><th>Word Order</th></tr>
+    }
             <tr><th>10.00-10.30</th><td>{Filterme(day,'L1','1000')}</td><td>{Filterme(day,'L2','1000')}</td><td>{Filterme(day,'L3','1000')}</td><td>{Filterme(day,'L6','1000')}</td><td>{Filterme(day,'C1','1000')}</td><td>{Filterme(day,'C4','1000')}</td><td>{Filterme(day,'C6','1000')}</td></tr>
             <tr><th>10.30-11.00</th><td>{Filterme(day,'L1','1030')}</td><td>{Filterme(day,'L2','1030')}</td><td>{Filterme(day,'L3','1030')}</td><td>{Filterme(day,'L6','1030')}</td><td>{Filterme(day,'C1','1030')}</td><td>{Filterme(day,'C4','1030')}</td><td>{Filterme(day,'C6','1030')}</td></tr>
             <tr><th>11.00-11.30</th><td colSpan="7">Tea and Coffee</td></tr>
-            <tr><th></th><th> Language Contact</th><th>Syntax</th><th>Romance Morphosyntax</th><th>Grammaticalization</th><th>English</th><th>Modelling</th><th>Indo-Iranian</th></tr>
+            {SessionChair(day, 'b')}
+            {//<tr><th></th><th> Language Contact</th><th>Syntax</th><th>Romance Morphosyntax</th><th>Grammaticalization</th><th>English</th><th>Modelling</th><th>Indo-Iranian</th></tr>
+            }
             <tr><th>11.30-12.00</th><td>{Filterme(day,'L1','1130')}</td><td>{Filterme(day,'L2','1130')}</td><td>{Filterme(day,'L3','1130')}</td><td>{Filterme(day,'L6','1130')}</td><td>{Filterme(day,'C1','1130')}</td><td>{Filterme(day,'C4','1130')}</td><td>{Filterme(day,'C6','1130')}</td></tr>
             <tr><th>12.00-12.30</th><td>{Filterme(day,'L1','1200')}</td><td>{Filterme(day,'L2','1200')}</td><td>{Filterme(day,'L3','1200')}</td><td>{Filterme(day,'L6','1200')}</td><td>{Filterme(day,'C1','1200')}</td><td>{Filterme(day,'C4','1200')}</td><td>{Filterme(day,'C6','1200')}</td></tr>
             <tr><th>12.30-13.00</th><td>{Filterme(day,'L1','1230')}</td><td>{Filterme(day,'L2','1230')}</td><td>{Filterme(day,'L3','1230')}</td><td>{Filterme(day,'L6','1230')}</td><td>{Filterme(day,'C1','1230')}</td><td>{Filterme(day,'C4','1230')}</td><td>{Filterme(day,'C6','1230')}</td></tr>
             <tr><th>13.00-13.45</th><td colSpan="7">Lunch</td></tr>
-            <tr><th></th><th>Romance</th><th>Syntax</th><th>Papuan and Austronesian Languages</th><th>Romance in Contact</th><th>Morphosyntax</th><th>Syntax & Semantics of Ancient Languages</th><th>Germanic</th></tr>
+            {SessionChair(day, 'c')}
+            {//<tr><th></th><th>Romance</th><th>Syntax</th><th>Papuan and Austronesian Languages</th><th>Romance in Contact</th><th>Morphosyntax</th><th>Syntax & Semantics of Ancient Languages</th><th>Germanic</th></tr>
+    }
             <tr><th>13.45-14.15</th><td>{Filterme(day,'L1','1345')}</td><td>{Filterme(day,'L2','1345')}</td><td>{Filterme(day,'L3','1345')}</td><td>{Filterme(day,'L6','1345')}</td><td>{Filterme(day,'C1','1345')}</td><td>{Filterme(day,'C4','1345')}</td><td>{Filterme(day,'C6','1345')}</td></tr>
             <tr><th>14.15-14.45</th><td>{Filterme(day,'L1','1415')}</td><td>{Filterme(day,'L2','1415')}</td><td>{Filterme(day,'L3','1415')}</td><td>{Filterme(day,'L6','1415')}</td><td>{Filterme(day,'C1','1415')}</td><td>{Filterme(day,'C4','1415')}</td><td>{Filterme(day,'C6','1415')}</td></tr>
             <tr><th>14.45-15.15</th><td>{Filterme(day,'L1','1445')}</td><td>{Filterme(day,'L2','1445')}</td><td>{Filterme(day,'L3','1445')}</td><td>{Filterme(day,'L6','1445')}</td><td>{Filterme(day,'C1','1445')}</td><td>{Filterme(day,'C4','1445')}</td><td>{Filterme(day,'C6','1445')}</td></tr>

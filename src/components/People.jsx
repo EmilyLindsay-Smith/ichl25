@@ -12,7 +12,7 @@ function People() {
      // event.preventDefault()
     }
 
-  let filtereddata = data.filter(datum=>datum.id !== 0)
+  let filtereddata = data//.filter(datum=>datum.id !== 0)
   const searcher = query.toLowerCase()
   filtereddata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) || datum.author.join().toLowerCase().includes(searcher))
 
@@ -24,12 +24,12 @@ function Testme(name){
 
     return filtereddata.filter(
       datum => datum.author.includes(name)).map(
-      item =><p key={item.id}><strong>{capitalise(item.type)}</strong>:
+      item =><p key={item.id}><strong>{capitalise(item.type==='session'?'Session Title': item.type)}</strong>:
           <NavLink className= "btn button-abstract text-left" to={'/abstracts/' + item.id}><em>{item.title}</em></NavLink><br/>
-          <strong>Authors</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
-          <strong>Time</strong>: {capitalise(item.day)} {item.time}<br/>
+          <strong>{item.type==='session'?'Chair':item.author.length > 1 ? 'Authors':'Author'}</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
+          <strong>Time</strong>: {capitalise(item.day)} {item.session==='a'?'1000-1100':item.session==='b'?'1130-1300':item.session==="c"?'1345-1515':item.time}<br/>
           <strong>Room</strong>: {item.room}<br/>
-          <strong>Paper ID</strong>: {item.id}</p>
+          <strong>{item.id === 0 ? '' : 'Paper ID: '}</strong>{item.id === 0 ? '' : item.id}</p>
           )
           }
 
