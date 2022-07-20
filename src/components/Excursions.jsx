@@ -6,7 +6,6 @@ function Excursions(){
         <div class="container container-pad">
         <h1 id="site-top">Excursions and Social Events</h1>
         <p>We hope you are looking forward to ICHL this summer. There are many wonderful places to visit within driving distance of Oxford, not to mention a wide variety of options within the city itself. </p>
-        <p> If there is sufficient interest, we will organise coach trips on Wednesday and Saturday - booking details to come soon.</p>
 
         <div className="row align-items-top my-5">
             <div className="col-lg-5">
@@ -18,18 +17,15 @@ function Excursions(){
             </div>
             <div className="col-lg-7">       
    
-    <h4>Organised Wednesday Afternoon Trip</h4>
+    <h4>Organised Wednesday Afternoon Trip: Bodleian Library</h4>
         <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including writings by William Jones.</p>
-        <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 5.30pm</p>
-        <p>If you would like to sign up, please do so soon via the following link: <a href="#"><em>COMING SOON</em></a></p>
+        <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 3.30pm</p>
+        <p>If you would like to sign up, please do so soon via the following <a rel="noreferrer" href="https://www.signupgenius.com/go/10C0E4BA8AF2EA2FCCF8-ichl"><em>link</em></a></p>
 
-    <h4>Organised Saturday Trips</h4>
-        <p> If there is sufficient interest, we will organise a coach for a trip to <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a> and <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a></p>
-        <ul>
-            <li>The <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi</a> at Hereford Cathedral dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </li> 
-            <li> <a href="https://bletchleypark.org.uk/" target="_blank" rel="noreferrer noopener">Bletchley Park</a> was home to Alan Turing's codebreaking team that decoded the Enigma Machine during World War II. </li>  
-        </ul>
-     
+    <h4>Organised Saturday Trip: Mappa Mundi</h4>
+        <p>We have organised a coach for a a trip to  <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a>. This dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </p>
+        <p>The cost of the trip will be £15 for the coach plus paying your own entrance fee (£6 adults/£5 student concession). The coach will leave Oxford at 8.30am and leave Hereford at 3.30pm.</p> 
+        <p>If you would like to join us, please register <a rel="noreferrer" href="https://forms.gle/tGgyUceGRHDjuJ7C8">here</a>, and we will send details for payment to those registered. We have room for about 50 attendees on a first-comes-first basis.</p>
      </div>
      <div>
         <h4> Suggestions of Places to Visit </h4> 
