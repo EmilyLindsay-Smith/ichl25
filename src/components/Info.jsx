@@ -34,8 +34,12 @@ function Info() {
             <p> We are looking forward to welcoming you to the <strong>Andrew Wiles Building</strong>, part of the <strong>Mathematical Institute within the Radcliffe Observatory Quarter</strong> (OX26GG).</p>
             <p>The building has the largest purpose-built conference facilities in Oxford, and is ideally located close to Somerville College. Have a look at the <a href="https://www.google.com/maps/d/viewer?msa=0&z=16&dg=feature&mid=1TP2Cvoj6Id1cgUinmF539roLkls&ll=51.76036470415715%2C-1.263761499999998" target="_blank" rel="noopener noreferrer">map</a> below to orientate yourself.</p>
             <h3 id="directions">Directions </h3>
+            <h5>To Oxford</h5>
             <p><strong>For information on how to get to Oxford, <a href="https://www.ox.ac.uk/visitors/visiting-oxford/how-get-oxford" rel="noopener noreferrer" target="_blank">check out this guidance</a></strong></p>
-            <p id="map">To access the Andrew Wiles Building, approach the Radcliffe Observatory Quarter from Woodstock Road, following the green line on the map below. When you go through the gates, you will see a large fountain; the Mathematical Institute is in the right hand corner of this area. </p>   
+            <p>If you are coming <strong>via Heathrow or Gatwick</strong>, we recommend catching the <a href="https://www.theairlineoxford.co.uk/" rel="noreferrer">airline bus</a> direct to Oxford rather than catching a train or travelling via London. You do not have to book in advance and can pay by card on the bus. This runs every half an hour, and the return is cheaper than the single.</p>
+            <p>If you have coming <strong>via London</strong>, you can get the train to Oxford from Marylebone or Paddington station.</p>
+            <h5>To the Andrew Wiles Building</h5>
+            <p id="map"><strong>To access the Andrew Wiles Building</strong>, approach the Radcliffe Observatory Quarter from Woodstock Road, following the green line on the map below. When you go through the gates, you will see a large fountain; the Mathematical Institute is in the right hand corner of this area. </p>   
 
                 <iframe 
                     title="ICHL Conference Location"
