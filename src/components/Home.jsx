@@ -48,9 +48,9 @@ function Home(){
 <p>You can now follow us on Twitter at <a href="https://twitter.com/ICHL25" target="_blank" rel="noreferrer">@ICHL25</a> and use the hashtag #ichl25 to livetweet the conference.</p>
 <div class="alert alert-secondary" role="alert">
 <h3>Announcements</h3> <hr/>
-<h5>Student Bursaries</h5>
-<p>The Philological Society offers student bursaries for conference attendance. 
-  If you are interested, please explore <a href="https://philsoc.org.uk/funding" rel="noopener noreferrer" target="_blank">https://philsoc.org.uk/funding</a> </p>
+<h5>Excursions</h5>
+<p> We have organised FREE visits to look at linguistics manuscripts in the Bodleian library on wednesday afternoon, and a PAID trip to Mappa Mundi at Hereford Cathedral on Saturday.
+  If you'd like to participate in either event, look at our <a href="/excursions">excursions</a> page to book on a first-come-first-served basis </p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
 </div>

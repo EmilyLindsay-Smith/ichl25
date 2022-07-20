@@ -25,7 +25,7 @@ function Excursions(){
     <h4>Organised Saturday Trip: Mappa Mundi</h4>
         <p>We have organised a coach for a a trip to  <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a>. This dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </p>
         <p>The cost of the trip will be £15 for the coach plus paying your own entrance fee (£6 adults/£5 student concession). The coach will leave Oxford at 8.30am and leave Hereford at 3.30pm.</p> 
-        <p>If you would like to join us, please register <a rel="noreferrer" href="https://forms.gle/tGgyUceGRHDjuJ7C8">here</a>, and we will send details for payment to those registered. We have room for about 50 attendees on a first-comes-first basis.</p>
+        <p>If you would like to join us, please register <a rel="noreferrer" href="https://forms.gle/tGgyUceGRHDjuJ7C8">here</a>, and we will send details for payment to those registered. We have room for about 50 attendees on a first-come-first-served basis.</p>
      </div>
      <div>
         <h4> Suggestions of Places to Visit </h4> 
