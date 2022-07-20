@@ -423,7 +423,7 @@ export const data = [
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L3', author: ['Teresa Poeta'], title: 'Phylogenetics', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L6', author: ['Carola Trips'], title: 'Corpus Linguistics', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C1', author: ['Ander Egurtzegi'], title: 'Basque Morphosyntax', workshop: ''},
-    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C4', author: ['Michele Cennamo'], title: 'Ancient IE Languages', workshop: ''},
+    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C4', author: ['Michele Bianconi'], title: 'Ancient IE Languages', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C6', author: ['Emily Lindsay-Smith'], title: 'Phonology', workshop: ''},
 
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L1', author: ['Aditi Lahiri'], title: 'Contact', workshop: ''},  
