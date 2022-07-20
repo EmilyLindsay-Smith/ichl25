@@ -54,6 +54,8 @@ function Home(){
 <h5>Travel to Oxford</h5>
 <p>If you are coming <strong>via Heathrow or Gatwick</strong>, we recommend catching the <a href="https://www.theairlineoxford.co.uk/" rel="noreferrer">airline bus</a> direct to Oxford rather than catching a train or travelling via London. You do not have to book in advance and can pay by card on the bus. This runs every half an hour, and the return is cheaper than the single.</p>
 <p>If you have coming <strong>via London</strong>, you can get the train to Oxford from Marylebone or Paddington station.</p>
+<h5>Attendance Certificate</h5>
+<p>If you require an attendance certificate, please let us know via <a href="https://forms.gle/oxVmcdQsmCToggQP9" rel="noreferrer">this form</a></p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
 </div>

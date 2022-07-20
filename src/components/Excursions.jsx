@@ -18,9 +18,10 @@ function Excursions(){
             <div className="col-lg-7">       
    
     <h4>Organised Wednesday Afternoon Trip: Bodleian Library</h4>
-        <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including writings by William Jones.</p>
+        <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including the Sanskrit Manuscripts with Sir William Jones' glosses.</p>
         <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 3.30pm</p>
         <p>If you would like to sign up, please do so soon via the following <a rel="noreferrer" href="https://www.signupgenius.com/go/10C0E4BA8AF2EA2FCCF8-ichl"><em>link</em></a></p>
+        <p> Digitised versions of the Bodleian highlights <em>Codex Bodley</em> and the <em>Selden roll</em>(examples of ancient Mexican pictorial writing) are fully digitised and will be displayed on screens in the Mathematical Institute</p>
 
     <h4>Organised Saturday Trip: Mappa Mundi</h4>
         <p>We have organised a coach for a a trip to  <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a>. This dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </p>
