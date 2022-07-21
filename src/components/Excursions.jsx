@@ -20,7 +20,7 @@ function Excursions(){
     <h4>Organised Wednesday Afternoon Trip: Bodleian Library</h4>
         <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including the Sanskrit Manuscripts with Sir William Jones' glosses.</p>
         <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 3.30pm</p>
-        <p>THESE SESSIONS ARE NOW FULL.
+        <p>THESE SESSIONS ARE NOW FULL.</p>
         <p> Digitised versions of the Bodleian highlights <em>Codex Bodley</em> and the <em>Selden roll</em>(examples of ancient Mexican pictorial writing) are fully digitised and will be displayed on screens in the Mathematical Institute</p>
 
     <h4>Organised Saturday Trip: Mappa Mundi</h4>
