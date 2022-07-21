@@ -20,13 +20,13 @@ function Excursions(){
     <h4>Organised Wednesday Afternoon Trip: Bodleian Library</h4>
         <p>We have organised trips to the Bodleian Library where Dr. Johanneke Systsema will show us manuscripts from their collection including the Sanskrit Manuscripts with Sir William Jones' glosses.</p>
         <p>30 minute free sessions for 14 people (two groups of 7) are available from 2.30pm to 3.30pm</p>
-        <p>If you would like to sign up, please do so soon via the following <a rel="noreferrer" href="https://www.signupgenius.com/go/10C0E4BA8AF2EA2FCCF8-ichl"><em>link</em></a></p>
+        <p>THESE SESSIONS ARE NOW FULL.
         <p> Digitised versions of the Bodleian highlights <em>Codex Bodley</em> and the <em>Selden roll</em>(examples of ancient Mexican pictorial writing) are fully digitised and will be displayed on screens in the Mathematical Institute</p>
 
     <h4>Organised Saturday Trip: Mappa Mundi</h4>
         <p>We have organised a coach for a a trip to  <a href="https://www.themappamundi.co.uk" target="_blank" rel="noreferrer noopener">Mappa Mundi at Hereford Cathedral</a>. This dates from the early 14th Century. The Cathedral also features a Magna Carta and the Chained Library, a historic library with texts dating back to the early 9th Century. </p>
         <p>The cost of the trip will be £15 for the coach plus paying your own entrance fee (£6 adults/£5 student concession). The coach will leave Oxford at 8.30am and leave Hereford at 3.30pm.</p> 
-        <p>If you would like to join us, please register <a rel="noreferrer" href="https://forms.gle/tGgyUceGRHDjuJ7C8">here</a>, and we will send details for payment to those registered. We have room for about 50 attendees on a first-come-first-served basis.</p>
+        <p>If you would like to join us, please book via the 'Excursion only' on the <a href="https://www.oxforduniversitystores.co.uk/conferences-and-events/linguistics-philology-phonetics/events/ichl-2022" target="_blank" rel="noreferrer">the University Stores website</a>. We have room for about 50 attendees on a first-come-first-served basis.</p>
      </div>
      <div>
         <h4> Suggestions of Places to Visit </h4> 

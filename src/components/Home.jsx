@@ -50,12 +50,12 @@ function Home(){
 <h3>Announcements</h3> <hr/>
 <h5>Excursions</h5>
 <p> We have organised FREE visits to look at linguistics manuscripts in the Bodleian library on wednesday afternoon, and a PAID trip to Mappa Mundi at Hereford Cathedral on Saturday.
-  If you'd like to participate in either event, look at our <a href="/excursions">excursions</a> page to book on a first-come-first-served basis </p>
+  If you'd like to participate in either event, look at our <a target="_blank" href="/excursions">excursions</a> page to book on a first-come-first-served basis </p>
 <h5>Travel to Oxford</h5>
-<p>If you are coming <strong>via Heathrow or Gatwick</strong>, we recommend catching the <a href="https://www.theairlineoxford.co.uk/" rel="noreferrer">airline bus</a> direct to Oxford rather than catching a train or travelling via London. You do not have to book in advance and can pay by card on the bus. This runs every half an hour, and the return is cheaper than the single.</p>
+<p>If you are coming <strong>via Heathrow or Gatwick</strong>, we recommend catching the <a href="https://www.theairlineoxford.co.uk/" target="_blank"rel="noreferrer">airline bus</a> direct to Oxford rather than catching a train or travelling via London. You do not have to book in advance and can pay by card on the bus. This runs every half an hour, and the return is cheaper than the single.</p>
 <p>If you have coming <strong>via London</strong>, you can get the train to Oxford from Marylebone or Paddington station.</p>
 <h5>Attendance Certificate</h5>
-<p>If you require an attendance certificate, please let us know via <a href="https://forms.gle/oxVmcdQsmCToggQP9" rel="noreferrer">this form</a></p>
+<p>If you require an attendance certificate, please let us know via <a href="https://forms.gle/oxVmcdQsmCToggQP9" target="_blank" rel="noreferrer">this form</a></p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
 </div>
