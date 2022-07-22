@@ -9,6 +9,7 @@ function Programme() {
                 <h1 id="site-top"> Programme </h1>
                 <div></div>
                 <p><em>Coming soon: a downloadable PDF of the program</em></p>
+                <p>If you click the underlined title of a presentation, it will take you to its abstract and if available, the handout.</p>
                 <nav className="nav nav-fill">
                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
                         <a className="nav-item nav-link active" id="nav-structure-tab" data-toggle="tab" href="#nav-structure" role="tab" aria-controls="nav-structure" aria-selected="true">Structure</a>

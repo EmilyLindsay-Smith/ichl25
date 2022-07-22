@@ -92,7 +92,7 @@ export default function Abstract(){
                             {talkdata}                            
                             {tryRequire('./presentation-handouts/ICHL25_handout_'+ number.toString()+'.pdf') ?
                             <iframe src={require('./presentation-handouts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
-                            </iframe>: <p><em>there is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions</a></em></p>
+                            </iframe>: <p><em>There is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions.</a></em></p>
                             }
 {/*                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             </iframe>
