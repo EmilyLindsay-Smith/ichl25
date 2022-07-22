@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1f2c9e4e.css",
-    "main.js": "/static/js/main.b3922bde.js",
+    "main.js": "/static/js/main.a99b7acf.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/jb-orderform.ichl.2022.pdf": "/static/media/jb-orderform.ichl.2022.2b8da7ba673b539e27de.pdf",
-    "static/media/ICHL25_handout_251.pdf": "/static/media/ICHL25_handout_251.c85d7b367cac9ac7feff.pdf",
+    "static/media/ICHL25_presentation_292.pdf": "/static/media/ICHL25_presentation_292.ed1e5545cb49fd5814a2.pdf",
+    "static/media/ICHL25_presentation_296.pdf": "/static/media/ICHL25_presentation_296.4ec6aaf0bef0e90f9b1f.pdf",
+    "static/media/ICHL25_presentation_251.pdf": "/static/media/ICHL25_presentation_251.c85d7b367cac9ac7feff.pdf",
     "static/media/ICHL25_paper_99.pdf": "/static/media/ICHL25_paper_99.c7eda7047dd82ce89490.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
     "static/media/ICHL25_paper_44.pdf": "/static/media/ICHL25_paper_44.d1ef18743dfd206fadf5.pdf",
@@ -12,6 +14,7 @@
     "static/media/ICHL25_paper_182.pdf": "/static/media/ICHL25_paper_182.ab6f1830637517bececc.pdf",
     "static/media/ICHL25_paper_8.pdf": "/static/media/ICHL25_paper_8.0d7dabe8d814e7eee004.pdf",
     "static/media/ICHL25_paper_236.pdf": "/static/media/ICHL25_paper_236.d278e9362f3de1139739.pdf",
+    "static/media/ICHL25_presentation_73.pdf": "/static/media/ICHL25_presentation_73.3cc3c86b124747d6b2b5.pdf",
     "static/media/ICHL25_paper_69.pdf": "/static/media/ICHL25_paper_69.200be1f7b505652cf754.pdf",
     "static/media/ICHL25_paper_313.pdf": "/static/media/ICHL25_paper_313.b4d437331b2a12ef6c46.pdf",
     "static/media/ICHL25_paper_91.pdf": "/static/media/ICHL25_paper_91.27dcbafb9ab8b91e7a35.pdf",
@@ -413,10 +416,10 @@
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
     "main.1f2c9e4e.css.map": "/static/css/main.1f2c9e4e.css.map",
-    "main.b3922bde.js.map": "/static/js/main.b3922bde.js.map"
+    "main.a99b7acf.js.map": "/static/js/main.a99b7acf.js.map"
   },
   "entrypoints": [
     "static/css/main.1f2c9e4e.css",
-    "static/js/main.b3922bde.js"
+    "static/js/main.a99b7acf.js"
   ]
 }
