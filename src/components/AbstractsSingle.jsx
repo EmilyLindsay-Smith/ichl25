@@ -48,8 +48,8 @@ export default function Abstract(){
         return data.filter(datum => datum.workshop === workshopNoString & datum.type === "talk" & datum.id !== 0)
                    .map(item=>
                         <div>
-                            {tryRequire('./presentation-handouts/ICHL25_handout_'+ number.toString()+'.pdf') ?
-                            <iframe src={require('./presentation-handouts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
+                            {tryRequire('./presentation-handouts/ICHL25_presentation_'+ number.toString()+'.pdf') ?
+                            <iframe src={require('./presentation-handouts/ICHL25_presentation_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             </iframe>: ' '}
                             <iframe src={require('./presentation-abstracts/ICHL25_paper_' + item.id.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                             <p><em>Your browser doesn't support PDF embedding </em></p>

@@ -35,6 +35,7 @@ function Home(){
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
 <div className="col-lg-10">
+  <p>ICHL25 is being <a target="_blank" href="/organisers">organised</a> by Professor Aditi Lahiri, Professor Martin Maiden, Dr Holly Kennard and Dr Emily Lindsay-Smith</p>
   <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face!
     Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
 <ul>

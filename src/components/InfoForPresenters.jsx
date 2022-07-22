@@ -23,6 +23,14 @@ export default function PresenterInfo() {
         <li>Only bluetac can be used to affix posters to the frame</li>
         <li>No tape, no pins and no magnets can be used to affix your poster to the frame</li>
     </ul>
+    <p>If you would like to print your poster when you arrive in Oxford, possible options include:</p>
+    <ul>
+        <li><a href="https://www.oxford-print-centre.co.uk/" target="_blank" rel="noreferrer">The Oxford Print Center</a></li>
+        <li><a href="https://estates.admin.ox.ac.uk/print-studio" target="_blank" rel="noreferrer">The Print Studio</a></li>
+        <li><a href="http://www2.physics.ox.ac.uk/enterprise/services-and-specialist-equipment/media-services-unit/poster-printing" target="_blank" rel="noreferrer">Department of Physics Printing Services</a></li>
+        <li><a href="https://www.stuprint.com" target="_blank" rel="noreferrer">StuPrint</a></li>
+        <li><a href="http://www.kallkwik.co.uk/oxford" target="_blank" rel="noreferrer">Kallkwik</a></li>
+    </ul>
     
     <h3>Distribute Handouts/Posters to Conference Attendees Online</h3>
     If you would like your handout or poster distributed to conference attendees via this website, 

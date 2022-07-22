@@ -18,7 +18,7 @@ function Filterme(workshop, time){
     let id = filtered.map(item => item.id);
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1');
     let address = '/abstracts/' + id
-    if (id === 0){
+    if (id == 0){
         return <td>{title} <br/><em>{authors}</em></td>
     }else{
         return <td><a target="_blank" rel="noreferrer" href={address}><em>{title}</em></a> <br/><em>{authors}</em></td>
