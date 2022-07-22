@@ -8,7 +8,9 @@ function SessionChairInfo(day,room,session){
                         .filter(datum=>datum.room===room)
     let title = filtered.map(datum=>datum.title)
     let chair = filtered.map(datum=>datum.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
-    return <th><strong>{title}</strong><br/><span style={{fontWeight: "normal", alignItems: 'flex-start'}}><em>chaired by {chair}</em></span></th>
+    if(title != ""){
+        return <th><strong>{title}</strong><br/><span style={{fontWeight: "normal", alignItems: 'flex-start'}}><em>chaired by {chair}</em></span></th>
+    }else{return <th>NO SESSION</th>}
 }
 
 function SessionChair(day,session){
@@ -28,7 +30,7 @@ function Filterme(day,room, time){
     let id = filtered.map(item => item.id)
     let authors = filtered.map(item=>item.author).join('').split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')
     let address = '/abstracts/' + id
-    if (id !== 0){
+    if (id != 0){
     return <td><a href={address} target="_blank" rel= "noreferrer noopener" ><em>{title}</em></a><br/>{authors}</td>
     }else{
         return <td><em>{title}</em><br/>{authors}</td>   
