@@ -90,15 +90,18 @@ export default function Abstract(){
                     return(
                         <div className="container container-pad max-view">
                             {talkdata}                            
-                            {tryRequire('./presentation-handouts/ICHL25_presentation_'+ number.toString()+'.pdf') ?
-                            <iframe src={require('./presentation-handouts/ICHL25_presentation_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
-                            </iframe>: <p><em>There is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions.</a></em></p>
-                            }
-{/*                            <iframe src={require('./presentation-abstracts/ICHL25_handout_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
+                            {tryRequire('./presentation-handouts/ICHL25_presentation_'+ number.toString()+'.pdf') 
+                            ? <div><h6>Handout</h6>
+                            <iframe src={require('./presentation-handouts/ICHL25_presentation_' + number.toString()+'.pdf')} title="Handout" width="100%" height="500" allowFullScreen>
                             </iframe>
-                        */}
+                            </div>
+                            : <p><em>There is no handout available - if you are the author and wish to make a handout available please <a href="/presenter-info">follow these directions.</a></em></p>
+                            }
+
+                        <h6>Abstract</h6>        
                             <a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract </a>
-                       <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
+
+                           <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
                            <p><em>Your browser doesn't support PDF embedding </em></p>
                        </iframe>      
                         </div>
