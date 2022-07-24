@@ -22,20 +22,7 @@ function People() {
   filtereddata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) 
                                               || datum.author.join().toLowerCase().includes(searcher) 
                                               )
-  {/*
-  let searchdata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) || datum.author.join().toLowerCase().includes(searcher))
-
-let tester = () => {
-    let sessionsearchdata = filtereddata.filter(datum => datum.title.toLowerCase().match(new RegExp(searcher, "i")) && datum.type==="session")
-    let time = sessionsearchdata.map(item => item.time)
-    let session = sessionsearchdata.map(item => item.session)
-    let room = sessionsearchdata.map(item => item.room)
-    return filtereddata.filter(item => item.time === time && item.session === session && item.room === room)
-  }
-
-  filtereddata = tester
-*/}
-    
+                                                  
   function capitalise(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
@@ -48,7 +35,7 @@ function Testme(name){
        {//   <NavLink className= "btn button-abstract text-left" to={'/abstracts/' + item.id}><em>{item.title}</em></NavLink><br/>
 }
           <strong>{item.type==='session'?'Chair':item.author.length > 1 ? 'Authors':'Author'}</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
-          <strong>Time</strong>: {capitalise(item.day)} {item.session==='a'?'1000-1100':item.session==='b'?'1130-1300':item.session==="c"?'1345-1515':item.time}<br/>
+          <strong>Time</strong>: {capitalise(item.day)} {item.type==='session' & item.session==='a'?'1000-1100': item.type==='session' &item.session==='b'?'1130-1300': item.type==='session' & item.session==="c"?'1345-1515':item.time}<br/>
           <strong>Room</strong>: {item.room}<br/>
           <strong>{item.id === 0 ? '' : 'Paper ID: '}</strong>{item.id === 0 ? '' : item.id}</p>
           )

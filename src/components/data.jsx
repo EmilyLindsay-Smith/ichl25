@@ -48,7 +48,7 @@ export const data = [
 //    {id: 48, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
     {id: 48, type: 'talk', day: 'monday', time: '1415', session: 'c', room: 'L1', author: ['Nathalie Fromm'], title:'Diachronic development of the former feminine ō-stems in German dialects', workshop: ''},
   
-    {id: 133, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Penying Wang'], title:'Contact-induced change in sememe structure—A case study of the taste term salty in Chinese dialects', workshop: ''},
+    {id: 133, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Pen-Ying Wang'], title:'Contact-induced change in sememe structure—A case study of the taste term salty in Chinese dialects', workshop: ''},
     {id: 140, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Lucia Assenzi'], title:'The evolution of reported speech in German newspapers of the 18th and 19th century: Evidential strategies, epistemic modality and the expression of reliability', workshop: ''},
     {id: 153, type: 'talk', day: 'tuesday', time: '1615', room: 'L1', author: ['Nino Amiridze', 'Zurab Baratashvili', 'Giorgi Jgharkava', 'Medea Sagliani'], title: 'Identifying the immediate donor in the presence of several: Preverbs in loan verb accommodation in Megrelian and Svan', workshop: ''},
 //    {id: 155, type: 'poster', day: 'monday', time: '1515', room: '', author: ['Bipasha Patgiri'], title:'Prosodic Structure of Nalbaria Assamese', workshop: ''},8
@@ -144,7 +144,7 @@ export const data = [
     {id: 242, type: 'talk', day: 'tuesday', time: '1445', session: 'c', room: 'C6', author: ['Tom Gueldemann','Ines Fiedler'], title:'Cliticization cycles: adnominal gender-number affixes in Niger-Congo', workshop: '3'},
     {id: 76, type: 'talk', day: 'tuesday', time: '1545', room: 'L1', author: ['Marina Benedetti','Chiara Gianollo'], title:'Morphosyntactic contact in translation: reflexives between Greek and Latin in the Bible', workshop: '8'},
     {id: 147, type: 'talk', day: 'tuesday', time: '1545', room: 'L2', author: ['Sebastian Nordhoff'], title:'Phonological cover-up: contact-induced undoing of sound changes in Sri Lanka Malay', workshop: '6'},
-    {id: 149, type: 'talk', day: 'tuesday', time: '1545', room: 'L3', author: ['Johann-Mattis List','Hill Nathan'], title:'Fuzzy Reconstructions: A New Framework for the Representation and Computation of Uncertainty in Phonological Reconstruction', workshop: '2'},
+    {id: 149, type: 'talk', day: 'tuesday', time: '1545', room: 'L3', author: ['Johann-Mattis List','Nathan Hill'], title:'Fuzzy Reconstructions: A New Framework for the Representation and Computation of Uncertainty in Phonological Reconstruction', workshop: '2'},
     {id: 174, type: 'talk', day: 'tuesday', time: '1545', room: 'L6', author: ['Ann-Marie Moser'], title:'A micro-typological approach to the actuation problem: the case of relative wo ‘where’ in Early New High German and beyond', workshop: '1'},
     {id: 227, type: 'talk', day: 'tuesday', time: '1545', room: 'C1', author: ['Chiara De Bastiani'], title:'From OV to VO in the English VP: a change on different levels of clause structure', workshop: '4'},
     {id: 53, type: 'talk', day: 'tuesday', time: '1545', room: 'C4', author: ['Camilla Bjørke','Kristin Hagemann','Karine Stjernholm'], title:'Historical linguistics as a key to in-depth learning', workshop: '5'},
@@ -191,7 +191,7 @@ export const data = [
     
     {id: 6, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'L2', author: ['Elly van Gelderen'], title:'Fundamental questions regarding linguistic cycles', workshop: ''},
     {id: 284, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'L3', author: ['Eleanor Coghill'], title:'Grammaticalization of a past tense gram in Neo-Aramaic from a verb of movement and its cross-linguistic parallels', workshop: ''},
-    {id: 150, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'L6', author: ['Hill Nathan','Johann-Mattis List'], title:'Automated Phonological Reconstruction Based on Sound Correspondence Patterns', workshop: ''},
+    {id: 150, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'L6', author: ['Nathan Hill','Johann-Mattis List'], title:'Automated Phonological Reconstruction Based on Sound Correspondence Patterns', workshop: ''},
     {id: 36, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'C1', author: ['Ander Egurtzegi','Gorka Elordieta'], title:'A history of the Basque prosodic systems', workshop: ''},
     {id: 230, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'C4', author: ['Ollie Sayeed','Bert Vaux'], title:'“Murmurogenesis” and the Armenian stop system', workshop: ''},
     {id: 372, type: 'talk', day: 'wednesday', time: '1030', session: 'a', room: 'C6', author: ['Natalie Weber'], title:'Shared retentions cannot support subgrouping in Algonquian: Against Goddard (2018)', workshop: ''},
@@ -338,7 +338,7 @@ export const data = [
     
     {id: 358, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Olga Lyashevskaya'], title:"'Chain-stitch'possessive construction in Middle Russian: varieties and descendants", workshop: ''},
     {id: 5, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Elly van Gelderen'], title:'Third factors and language change', workshop: ''},
-    {id: 12, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Víctor Lara-Bermejo'], title:'The endless creation of second person pronouns in Spanish', workshop: ''},
+ // {id: 12, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Víctor Lara-Bermejo'], title:'The endless creation of second person pronouns in Spanish', workshop: ''},
     {id: 14, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Alessandra Petrocchi'], title:'Theoretical Methods in Historical Semantics: A Corpus-Driven Comparative Analysis of Specialized Lexis', workshop: ''},
 //    {id: 18, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Alvaro Gonzalez Alba'], title:'California Spanish and how language ideologies and sociolinguistic factors shape the language of the south', workshop: ''},
     {id: 37, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Sophia Voigtmann','Katrin Ortmann'], title:'Relative Clause Adjacency as a Characteristic of 18th Century German', workshop: ''},
@@ -357,7 +357,7 @@ export const data = [
     {id: 293, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Izabela Jordanoska','Katya Aplonova'], title:'Cross-linguistic insights into the early stages of quotative development', workshop: ''},
     {id: 297, type: 'talk', day: 'friday', time: '1030', session: 'a', room: 'C1', author: ['Katrin Menzel'], title:'Word formation patterns reflecting discipline-specific communicative needs in scientific writing throughout the 20th century', workshop: ''},
 //    {id: 331, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Antoine Primerano'], title:'Koineization and language contact in the history of Spanish: An examination of several morphosyntactic changes', workshop: ''},
-    {id: 110, type: 'talk', day: 'friday', time: '1230', session: 'b', room: 'C1', author: ['Artur Bartnik, Wojciech Guz'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
+    {id: 110, type: 'talk', day: 'friday', time: '1230', session: 'b', room: 'C1', author: ['Artur Bartnik', 'Wojciech Guz'], title:'Syntactic factors and left-dislocation in Old English', workshop: ''},
 
     {id: 122, type: 'talk', day: 'thursday', time: '1030', session: 'a', room: 'C4', author: ['Jadranka Gvozdanović'], title:'Methodological considerations about linguistic reconstruction in space and time', workshop: ''},
     {id: 125,  type: 'talk', day: 'thursday', time: '1130', session: 'b', room: 'L2',author: ['Roxanne Taylor','Tine Breban','Kersti Borjars'], title:'The genitive alternation in early English', workshop: ''},
@@ -410,7 +410,7 @@ export const data = [
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C4', author: ['Bethwyn Evans'], title: 'Austronesian', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1130', session: 'b', room: 'C6', author: ['Pavel Iosad'], title: 'Tonal Phenomena', workshop: ''},
     
-    {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L1', author: ['Jadranka Gvozdanović'], title: 'Contact', workshop: ''},
+    {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L1', author: ['Jadranka Gvozdanović'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L2', author: ['Eva Zehentner'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L3', author: ['Alice Harris'], title: 'Aramaic Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1000', session: 'a', room: 'L6', author: ['Natalia Levshina'], title: 'Simulations', workshop: ''},
@@ -463,7 +463,7 @@ export const data = [
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L3', author: ['John Charles Smith'], title: 'Romance Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'L6', author: ['Martin Haspelmath'], title: 'Grammaticalization', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'C1', author: ['Hilary Wynne'], title: 'English', workshop: ''},
-    {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'C4', author: ['Anne-Marie Verkerk'], title: 'Modelling', workshop: ''},
+    {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'C4', author: ['Annemarie Verkerk'], title: 'Modelling', workshop: ''},
     {id: 0, type: 'session', day: 'friday', time: '1130', session: 'b', room: 'C6', author: ['Veronica Mariel Orqueda'], title: 'Indo-Iranian & Greek', workshop: ''},
     
     {id: 0, type: 'session', day: 'friday', time: '1345', session: 'c', room: 'L1', author: ['Guglielmo Inglese'], title: 'Romance', workshop: ''},
