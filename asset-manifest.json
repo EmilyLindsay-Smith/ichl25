@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f2c9e4e.css",
-    "main.js": "/static/js/main.aa190a0a.js",
+    "main.js": "/static/js/main.ae1e86fb.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/jb-orderform.ichl.2022.pdf": "/static/media/jb-orderform.ichl.2022.2b8da7ba673b539e27de.pdf",
     "static/media/ICHL25_presentation_292.pdf": "/static/media/ICHL25_presentation_292.ed1e5545cb49fd5814a2.pdf",
@@ -419,10 +419,10 @@
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
     "main.1f2c9e4e.css.map": "/static/css/main.1f2c9e4e.css.map",
-    "main.aa190a0a.js.map": "/static/js/main.aa190a0a.js.map"
+    "main.ae1e86fb.js.map": "/static/js/main.ae1e86fb.js.map"
   },
   "entrypoints": [
     "static/css/main.1f2c9e4e.css",
-    "static/js/main.aa190a0a.js"
+    "static/js/main.ae1e86fb.js"
   ]
 }
