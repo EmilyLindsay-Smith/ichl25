@@ -157,7 +157,7 @@ export const data = [
     {id: 317, type: 'talk', day: 'tuesday', time: '1615', room: 'C4', author: ['Theodore Markopoulos'], title:'Historical Linguistics at school (?): The Greek perspective', workshop: '5'},
     {id: 272, type: 'talk', day: 'tuesday', time: '1615', room: 'C6', author: ['Robert Mailhammer'], title:'The development of verbal prefixation in the Iwaidjan languages: The future tense', workshop: '3'},
     {id: 123, type: 'talk', day: 'tuesday', time: '1645', room: 'L1', author: ['James Tandy'], title:'Direct affix borrowing: Evidence from two Mayan perfect suffixes', workshop: '8'},
-    {id: 145, type: 'talk', day: 'tuesday', time: '1645', room: 'L2', author: ['Bonnie Sands', 'Anne-Maria Fehn'], title:'Uvularity in Kalahari Khoe - a case of contact-induced retention?', workshop: '6'},
+//    {id: 145, type: 'talk', day: 'tuesday', time: '1645', room: 'L2', author: ['Bonnie Sands', 'Anne-Maria Fehn'], title:'Uvularity in Kalahari Khoe - a case of contact-induced retention?', workshop: '6'},
     {id: 337, type: 'talk', day: 'tuesday', time: '1645', room: 'L3', author: ['Jayden L. Macklin-Cordes'], title:'Incorporating typological features in tree inference: Lessons from phonotactics', workshop: '2'},
 //    {id: 311, type: 'talk', day: 'tuesday', time: '1645', room: 'L6', author: ['Zihe Li'], title:'Variation and Change of Prenasalized Obstruents in Jiuhe Naxi', workshop: '1'},
     {id: 255, type: 'talk', day: 'tuesday', time: '1645', room: 'C1', author: ['Erika Asztalos','Lena Borise','Katalin Gugán','Nikolett Mus','Andreas Schmidt','Balazs Suranyi'], title:'From rigid to flexible verb-finality: A prosodically motivated information-structural account of word order change', workshop: '4'},
