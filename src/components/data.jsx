@@ -147,7 +147,7 @@ export const data = [
     {id: 149, type: 'talk', day: 'tuesday', time: '1545', room: 'L3', author: ['Johann-Mattis List','Nathan Hill'], title:'Fuzzy Reconstructions: A New Framework for the Representation and Computation of Uncertainty in Phonological Reconstruction', workshop: '2'},
     {id: 174, type: 'talk', day: 'tuesday', time: '1545', room: 'L6', author: ['Ann-Marie Moser'], title:'A micro-typological approach to the actuation problem: the case of relative wo ‘where’ in Early New High German and beyond', workshop: '1'},
     {id: 227, type: 'talk', day: 'tuesday', time: '1545', room: 'C1', author: ['Chiara De Bastiani'], title:'From OV to VO in the English VP: a change on different levels of clause structure', workshop: '4'},
-    {id: 53, type: 'talk', day: 'tuesday', time: '1545', room: 'C4', author: ['Camilla Bjørke','Kristin Hagemann','Karine Stjernholm'], title:'Historical linguistics as a key to in-depth learning', workshop: '5'},
+//    {id: 53, type: 'talk', day: 'tuesday', time: '1545', room: 'C4', author: ['Camilla Bjørke','Kristin Hagemann','Karine Stjernholm'], title:'Historical linguistics as a key to in-depth learning', workshop: '5'},
     {id: 380, type: 'talk', day: 'tuesday', time: '1545', room: 'C6', author: ['Brett Baker','Mark Harvey'], title:'The path from cliticised to prefixed agreement in proto-Australian', workshop: '3'},
 //    {id: 22, type: 'talk', day: 'tuesday', time: '1615', room: 'L1', author: ['Alexandra Aikhenvald'], title:'Speaking like your neighbour does: clause linking and language contact in Papua New Guinea and Amazonia', workshop: '8'},
     {id: 74, type: 'talk', day: 'tuesday', time: '1615', room: 'L2', author: ['Dmitry Idiatov','Mark van de Velde'], title:'Labial-velar stops are areal retentions but genealogical innovations in the Niger-Congo languages', workshop: '6'},
@@ -349,7 +349,7 @@ export const data = [
     {id: 180, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Christian Zimmer'], title:'The context extension of German "um": a morpheme on the way from a subjunction to an infinitive marker', workshop: ''},
     {id: 182, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Maciej Grabski','Anna Cichosz'], title:'Networks of Old and Middle English Adjectival Constructions: A diachronic Construction Grammar study', workshop: ''},
     {id: 198, type: 'talk', day: 'monday', time: '1230', session: 'b', room: 'C4', author: ['Gemma McCarley'], title:'Changes in Null Subjects in Latin American Spanish: a diachronic corpus study', workshop: ''},
-    {id: 234, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Rie Obe','Lennart Westergaard'], title:'On the Semantic Development of a Danish Modal Verb, ville', workshop: ''},
+//    {id: 234, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Rie Obe','Lennart Westergaard'], title:'On the Semantic Development of a Danish Modal Verb, ville', workshop: ''},
 
     {id: 237, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Eva Zehentner'], title:'English verb complementation over time: from NP to PP or vice versa', workshop: ''},
     {id: 260, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Murad Suleymanov'], title:'From Subordinator to Topicaliser: the Case of hansı ki in Spoken Azeri', workshop: ''},
