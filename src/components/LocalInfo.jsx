@@ -30,6 +30,7 @@ export default function LocalInfo() {
          <div className="row align-items-center my-5">
 
             <h3 id="map">Map of Oxford</h3>
+                <p>For a map of central Oxford showing Oxford University locations, see the <a href="https://www.ox.ac.uk/sites/files/oxford/field/field_document/Explore%20Leaflet%20Map%20and%20Visitor%20Information%202022.pdf" target="_blank" rel="noreferrer">the University Explore Map</a></p>
                 <p>For maps of areas of the city that mark amenities and attractions, consult the following from Daily Info:</p>
                 <li><a href="https://www.dailyinfo.co.uk/sheet/maps/2017/central.pdf" rel="noreferrer" target="_blank">Central Oxford</a> - note the Mathematics Institute is in square F3</li>
                 <li><a href="https://www.dailyinfo.co.uk/sheet/maps/2017/headington.pdf" rel="noreferrer" target="_blank">Headington</a></li>

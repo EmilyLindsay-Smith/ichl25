@@ -30,7 +30,7 @@ function Excursions(){
      </div>
      <div>
         <h4> Suggestions of Places to Visit </h4> 
-        <p> There is plenty of things you can do within and near Oxford during ICHL.</p>
+        <p> There is plenty of things you can do within and near Oxford during ICHL. Visit the <a href="https://www.ox.ac.uk/visitors/visiting-oxford/visiting-museums-libraries-places" target="_blank" rel="noreferrer">university visistors page</a> for details of the museums, libraries and places of interest in Oxford, or explore the following:</p>
         
     <h5> Within Oxford </h5>
     <div className="row align-items-top my-5">
