@@ -12,6 +12,7 @@ export default function PresenterInfo() {
     <p>For talks at ICHL25, you will have 20 minutes for your presentation and 5 minutes for questions.</p>
     
     <h3>Handouts</h3>
+    
     <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<br/>
         You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<p/>
     

@@ -37,7 +37,7 @@ function Home(){
 <div className="col-lg-10">
   <p>ICHL25 is being <a target="_blank" href="/organisers">organised</a> by Professor Aditi Lahiri, Professor Martin Maiden, Dr Holly Kennard and Dr Emily Lindsay-Smith</p>
   <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face!
-    Furthermore, ICHL 2022 will be a <em>paperless</em> conference, so explore our website for details of:</p>
+    Furthermore, ICHL 2022 will be a <em>paperless</em> conference to keep registration costs as low as possible and reduce the conference's carbon footprint, so explore our website for details of:</p>
 <ul>
   <li>The full <a target="_blank" href="/programme"> conference programme</a> with abstracts, including <a target="_blank" href="/workshops"> workshops</a> and <a target="_blank" href="/plenaryspeakers"> plenaries</a></li>
   <li>Information about <a target="_blank" href="/accommodation"> available accommodation</a></li>
