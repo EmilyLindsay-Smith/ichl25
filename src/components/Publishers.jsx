@@ -126,10 +126,26 @@ export default function Publishers() {
                     <li>Friday</li>
                 </ul>
             </div>
-
-
         </div>
 
+        <div className="row align-items-center my-5">
+            <div className="col-lg-2">
+              <img
+                className="img-fluid rounded mb-4 mb-lg-0"
+                src={mouton}
+                width= "350px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div className="col-lg-4">
+            <h4><a href="http://www.lincom.eu" target="_blank" rel="noreferrer">LINCOM</a></h4>
+                <ul>
+                    <li><em>Days TBC</em></li>
+                </ul>
+            </div>
+
+                </div>
 
 
     </div>
