@@ -84,7 +84,7 @@ function Timetable(day){
             </table>
             <p className="centerMe"> Our Welcome Reception is sponsored by Mouton DeGruyter and the Faculty of Linguistics, Philology and Phonetics</p>
             <p className="centerMe"> Our Closing Reception is sponsored by The Philological Society and the Faculty of Linguistics, Philology and Phonetics</p>
-            <p>For the conference dinner at St Catherine's College, the bar will open at 7pm and dinner will begin at 8pm</p>
+            <p>For the conference dinner at St Catherine's College, dinner will begin at 8pm. Drinks are not included in the dinner price, but can be purchased from the college bar (right next to Hall) from 6p.m. to 1a.m.</p>
             </div>
         )
     }else if (day === 'monday'){
@@ -185,6 +185,7 @@ function Timetable(day){
     )
     }else if(day==="thursday"){
     return(
+        <div>
         <table className="table table-striped  table-hover table-bordered">
         <tbody>
             <tr><th>9.00-10.00</th><td colSpan="7">{Plenary(1005)}</td></tr>
@@ -213,7 +214,9 @@ function Timetable(day){
             <tr><th>16.50-17.50</th><td colSpan="7">{Plenary(1006)}</td></tr>
             <tr><th>20.00</th><td colSpan="7">Dinner at <a href="/info#catz">St Catherine's College</a></td></tr>
             </tbody>
-        </table>  
+        </table>
+        <p>Note wine and beer will be on sale at the St Catherine's College bar next to the hall from 6pm to 1am.</p>
+        </div>  
         )
     }else if(day==="friday"){
     return(
