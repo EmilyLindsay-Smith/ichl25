@@ -6,6 +6,7 @@ import jb from '../images/johnbenjamins.png'
 import langsci from '../images/langsci.png';
 import mouton from '../images/mouton.jpg'; 
 import oup from '../images/oup.svg';
+import lincom from '../images/lincom.jpg'
 
 import jborderform from './other-files/jb-orderform.ichl.2022.pdf';
 
@@ -132,7 +133,7 @@ export default function Publishers() {
             <div className="col-lg-2">
               <img
                 className="img-fluid rounded mb-4 mb-lg-0"
-                src={mouton}
+                src={lincom}
                 width= "350px"
                 height="auto"
                 alt=""
