@@ -116,7 +116,7 @@ function Timetable(day){
         </table> 
         <br/>
         <h5 id="posters">Poster Session</h5>
-        <table className="table table-striped table-hover table-bordered col-width">
+        <table className="table table-striped table-hover table-bordered col-width tablenum">
             <tbody>
             {FiltermePoster('monday')}
             </tbody>
@@ -253,7 +253,7 @@ function Timetable(day){
         </table>
         <p className="centerMe"> Our Closing Reception is sponsored by the Philological Society and the Faculty of Linguistics, Philology and Phonetics</p>
         <h5 id="postersfri">Poster Session</h5>
-        <table className="table table-striped table-hover table-bordered col-width">
+        <table className="table table-striped table-hover table-bordered col-width tablenum">
             <tbody>
             {FiltermePoster('friday')}
             </tbody>
