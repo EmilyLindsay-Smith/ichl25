@@ -14,6 +14,8 @@ export default function PresenterInfo() {
     <h3>Handouts</h3>
     
     <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<br/>
+
+    <h3>Computer Facilities for Projecting Handouts/Slides</h3>
         You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<p/>
     
     <h3>Posters</h3>
