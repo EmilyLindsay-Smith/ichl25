@@ -13,11 +13,23 @@ export default function PresenterInfo() {
     
     <h3>Handouts</h3>
     
-    <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental and covid-safety reasons so do not print out handouts for your participants.<br/>
+    <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental reasons so we are not encouraging printed handouts, but if you require handouts please bring copies yourself.<p/>
 
-    <h3>Computer Facilities for Projecting Handouts/Slides</h3>
-        You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<p/>
-    
+    <h4>Computer Facilities for Projecting Handouts/Slides</h4>
+      <p>You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<br/>
+      You can also bring your handout/presentation on a memory stick / flash drive/ USB to plug in.</p>
+
+    <h4>Distribute Handouts/Posters to Conference Attendees Online</h4>
+    If you would like your handout or poster distributed to conference attendees via this website, 
+    please send it to <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">emily.lindsay-smith@ling-phil.ox.ac.uk</a> by <strong>30th July</strong> following these instructions:</p>
+    <ul>
+        <li>File Type: PDF only</li>
+        <li>Email Subject Line: ICHL25 Handout</li>
+        <li>Filename: ICHL25_presentation_PAPERID.pdf </li>
+        <li>Find your PaperID number on the <a href="/people" target="_blank" rel="noopener noreferrer">People</a> page - search for your name and find your ID with the details of your presentation. </li>
+    </ul>
+    <p>Unless you follow these instructions, we cannot guarantee to be able to put your handout up on the website in time for the conference. </p>
+
     <h3>Posters</h3>
     <p>Posters will be displayed in plastic hollow frames. In order to fit your poster into these frames, note the following:</p>
     <ul>
@@ -35,16 +47,7 @@ export default function PresenterInfo() {
         <li><a href="http://www.kallkwik.co.uk/oxford" target="_blank" rel="noreferrer">Kallkwik</a></li>
     </ul>
     
-    <h3>Distribute Handouts/Posters to Conference Attendees Online</h3>
-    If you would like your handout or poster distributed to conference attendees via this website, 
-    please send it to <a href="mailto:emily.lindsay-smith@ling-phil.ox.ac.uk">emily.lindsay-smith@ling-phil.ox.ac.uk</a> by <strong>27th July</strong> following these instructions:</p>
-    <ul>
-        <li>File Type: PDF only</li>
-        <li>Email Subject Line: ICHL25 Handout</li>
-        <li>Filename: ICHL25_presentation_PAPERID.pdf </li>
-        <li>Find your PaperID number on the <a href="/people" target="_blank" rel="noopener noreferrer">People</a> page - search for your name and find your ID with the details of your presentation. </li>
-    </ul>
-    <p>If you do not follow these instructions, we cannot guarantee to be able to put your handout up on the website in time for the conference. </p>
+    
     </div>
     </div>
     );
