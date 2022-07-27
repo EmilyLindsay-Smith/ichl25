@@ -10,7 +10,7 @@ import mathsinstituted from '../images/mathsinstituted.jpg';
 import radcliffecamera from '../images/radcliffecamera.jpg';
 import mathslecture from '../images/mathslecture.jpg';
 import manuscript from '../images/manuscript.jpg';
-import people from '../images/people.jpg'
+import people from '../images/people.jpg';
 
 function Home(){
     return (
@@ -46,7 +46,19 @@ function Home(){
   <li>Information about <a target="_blank" href="/local-info">local amenities, taxis and health and emergencies</a></li>
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menus</a> at the top of the page to see the full range of available information</li>
 </ul>
+<div class="alert alert-primary" role="alert">
+<h3 >Covid Policy</h3>
+    <p>COVID has unfortunately not disappeared and for everyone’s safety we need to continue to follow some safety measures.</p>
+    <ul>
+    <li>With regard to the rising infection rate of COVID, we advise participants to do a COVID (lateral flow) test before attending each morning, even if you do not feel symptomatic.</li>
+    <li>Please do not attend if you are positive or displaying symptoms of COVID-19 and believe you may be infectious to others, to avoid transmitting COVID to the other attendees.</li>
+    <li>We encourage all attendees to wear masks, and will provide hand sanitiser at the entrance as well as some masks.</li>
+    </ul>
+    <p>We realise that you will need to take your masks off to eat and drink, but there are plenty of beautiful spaces outside in the Radcliffe Observatory Quarter, and several seating areas where you can take refreshments.</p>
+</div>
+
 <p>You can now follow us on Twitter at <a href="https://twitter.com/ICHL25" target="_blank" rel="noreferrer">@ICHL25</a> and use the hashtag #ichl25 to livetweet the conference.</p>
+
 <div class="alert alert-secondary" role="alert">
 <h3>Announcements</h3> <hr/>
 <h5>Excursions</h5>
