@@ -303,7 +303,7 @@ export const data = [
     {id: 310, type: 'talk', day: 'tuesday', time: '1200', session: 'b', room: 'L3', author: ['Toby Hudson'], title:'Modelling accent retraction in Indo-European using agent-based simulation', workshop: ''},
     
     {id: 92, type: 'talk', day: 'friday', time: '1200', session: 'b', room: 'C6', author: ['Niels Schoubben '], title:'A contact linguistic approach to reflexive pronominal adjectives in Niya Prakrit and Bactrian', workshop: ''},
-    {id: 203, type: 'talk', day: 'friday', time: '1230', session: 'b', room: 'L1', author: ['Daria Alfimova'], title:'Contact-induced deviations from the macro-areal trends in object marking: Western Eurasia', workshop: ''},
+// {id: 203, type: 'talk', day: 'friday', time: '1230', session: 'b', room: 'L1', author: ['Daria Alfimova'], title:'Contact-induced deviations from the macro-areal trends in object marking: Western Eurasia', workshop: ''},
     {id: 352, type: 'talk', day: 'friday', time: '1230', session: 'b', room: 'L2', author: ['Kalle Müller','Katrin Axel-Tober','Marco Coniglio','Katharina Paul'], title:'Grammaticalization of sentence adverbs and particles revisited', workshop: ''},
     {id: 120, type: 'talk', day: 'monday', time: '1130', session: 'b', room: 'L6',  author: ['Borja Herce'], title:'Quantifying morphological autonomy: CVC- to C(V)- stems in Romance verbs and the long-term vitality of morphomes', workshop: ''},
    
@@ -382,13 +382,13 @@ export const data = [
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'L3', author: ['Nicholas Zair'], title: 'Phonology and Morphophonology', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130', room: 'L6', author: ['Martin Maiden'], title: 'Romance', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C1', author: ['Kathryn Allan'], title: 'German Semantics & Pragmatics', workshop: ''},
-    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C4', author: ['Xavier Bach'], title: 'Morphology', workshop: ''},
+    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C4', author: ['Frans Plank'], title: 'Morphology', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C6', author: ['Achim Stein'], title: 'Corpus Studies & Translation', workshop: ''},
    
-    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L1', author: [''], title: 'Syntax', workshop: ''},
+    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L1', author: ['Louise Mycock'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L2', author: [''], title: '', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L3', author: ['Patrick Honeybone'], title: 'Phonology', workshop: ''},
-    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L6', author: ['Louise Mycock'], title: 'Syntax', workshop: ''},
+    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L6', author: ['Sam Wolfe'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'C1', author: ['Philomen Probert'], title: 'Greek', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'C4', author: ['Nelson Goering'], title: 'Phonology: Vowels', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'C6', author: ['Allison Wetterlin'], title: '(Ir)regularity', workshop: ''},
@@ -432,7 +432,7 @@ export const data = [
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L6', author: ['Hannah Gibson'], title: 'Languages of Western Africa and CHina', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C1', author: ['Tomas Riad'], title: 'Danish', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C4', author: ['Lutz Marten'], title: 'Reconstruction & Cognacy', workshop: ''},  
-    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C6', author: ['Frans Plank'], title: 'Subjects', workshop: ''},  
+    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C6', author: ['Xavier Bach'], title: 'Subjects', workshop: ''},  
 
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L1', author: ['Isabeau de Smet'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L2', author: ['Isabella Fritz'], title: 'Germanic Morphosyntax', workshop: ''},

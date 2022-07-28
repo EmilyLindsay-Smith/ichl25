@@ -35,7 +35,9 @@ function Home(){
 <div className="row align-items-center my-5">
   <p className="col-lg-1"></p>
 <div className="col-lg-10">
-  <p>ICHL25 is being <a target="_blank" href="/organisers">organised</a> by Professor Aditi Lahiri, Professor Martin Maiden, Dr Holly Kennard and Dr Emily Lindsay-Smith</p>
+  <p>ICHL25 is being <a target="_blank" href="/organisers">organised</a> by Professor Aditi Lahiri, Professor Martin Maiden, Dr Holly Kennard and Dr Emily Lindsay-Smith. 
+  We are delighted to welcome Professor Dame Louise Richardson AAAS AcSS FRSE RIIA, Vice Chancellor of the University of Oxford to open the conference on Monday.</p>
+
   <p>We intend ICHL 2022 to be an exclusively 'live', not 'virtual' or 'hybrid', conference — an occasion for us all to meet again face-to-face!
     Furthermore, ICHL 2022 will be a <em>paperless</em> conference to keep registration costs as low as possible and reduce the conference's carbon footprint, so explore our website for details of:</p>
 <ul>
@@ -50,7 +52,7 @@ function Home(){
 <h3 >Covid Policy</h3>
     <p>COVID has unfortunately not disappeared and for everyone’s safety we need to continue to follow some safety measures.</p>
     <ul>
-    <li>With regard to the rising infection rate of COVID, we advise participants to do a COVID (lateral flow) test before attending each morning, even if you do not feel symptomatic.</li>
+    <li>With regard to the rising infection rate of COVID, we advise participants to do a COVID (lateral flow/rapid antigen) test before attending each morning, even if you do not feel symptomatic.</li>
     <li>Please do not attend if you are positive or displaying symptoms of COVID-19 and believe you may be infectious to others, to avoid transmitting COVID to the other attendees.</li>
     <li>We encourage all attendees to wear masks, and will provide hand sanitiser at the entrance as well as some masks.</li>
     </ul>
