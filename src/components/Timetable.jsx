@@ -69,7 +69,7 @@ function Timetable(day){
             <tbody>
                 <tr><th scope="row">8.30</th><td rowSpan="2">Registration</td><td></td><td></td><td></td><td></td></tr>
                 <tr><th scope="row">9.00</th><td rowSpan="2">Plenary<br/><a href={'abstracts/1003'} target="_blank" rel= "noreferrer noopener" >Kathryn Allan</a></td><td rowSpan="2">Plenary<br/><a href={'abstracts/1004'} target="_blank" rel= "noreferrer noopener" >John Charles Smith</a></td><td rowSpan="2">Plenary<br/><a href={'abstracts/1005'} target="_blank" rel= "noreferrer noopener" >Joseph Salmons</a></td><td rowSpan="2">Plenary<br/><a href={'abstracts/1007'} target="_blank" rel= "noreferrer noopener" >Frans Plank</a></td></tr>
-                <tr><th scope="row">9.30</th><td>Welcome<br/> with Professor Dame Louise Richardson AAAS AcSS FRSE RIIA, Vice Chancellor of the University of Oxford</td></tr>
+                <tr><th scope="row">9.30</th><td>Welcome</td></tr>
                 <tr><th scope="row">10.00</th><td>Plenary<br/><a href={'abstracts/1001'} target="_blank" rel= "noreferrer noopener" >Paul Kiparsky</a></td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td><td>Talks(2)</td></tr>
                 <tr><th scope="row">11.00</th><td colSpan="4">Tea/Coffee</td></tr>
                 <tr><th scope="row">11.30</th><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td><td>Talks(3)</td></tr>

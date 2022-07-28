@@ -1,6 +1,8 @@
 import React from "react";
 import Timetable from "./Timetable";
 
+import program from './other-files/ICHL_programme_280722.pdf';
+
 function Programme() {
     
     return (
@@ -8,7 +10,7 @@ function Programme() {
             <div className="container container-pad">
                 <h1 id="site-top"> Programme </h1>
                 <div></div>
-                <p><em>Downloadable copy of the program <a href="src\components\other-files\ICHL_programme_280722.pdf" download>last upated Thursday 28th</a></em></p>
+                <p><em>Downloadable copy of the program <a href={program} download>last updated Thursday 28th</a> - note we will have A0 copies of this hanging in the venue.</em></p>
                 <p>If you click the underlined title of a presentation, it will take you to its abstract and if available, the handout.</p>
                 <nav className="nav nav-fill">
                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
