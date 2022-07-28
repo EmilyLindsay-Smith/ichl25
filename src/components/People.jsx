@@ -36,7 +36,7 @@ function Testme(name){
 }
           <strong>{item.type==='session'?'Chair':item.author.length > 1 ? 'Authors':'Author'}</strong>: {item.author.join().split(',').join(', ').replace(/, ([^,]*)$/, ' and $1')}<br/>
           <strong>Time</strong>: {capitalise(item.day)} {item.type==='session' & item.session==='a'?'1000-1100': item.type==='session' &item.session==='b'?'1130-1300': item.type==='session' & item.session==="c"?'1345-1515':item.time}<br/>
-          <strong>Room</strong>: {item.room}<br/>
+        <strong>{item.type!='poster'?'Room':'Location'}</strong>: {item.type!='poster'? item.room : 'Mezzanine walls' }<br/> 
           <strong>{item.id === 0 ? '' : 'Paper ID: '}</strong>{item.id === 0 ? '' : item.id}</p>
           )
           }
