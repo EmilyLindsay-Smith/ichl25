@@ -8,7 +8,7 @@ function Programme() {
             <div className="container container-pad">
                 <h1 id="site-top"> Programme </h1>
                 <div></div>
-                <p><em>Coming soon: a downloadable PDF of the program</em></p>
+                <p><em>Downloadable copy of the program <a href="src\components\other-files\ICHL_programme_280722.pdf" download>last upated Thursday 28th</a></em></p>
                 <p>If you click the underlined title of a presentation, it will take you to its abstract and if available, the handout.</p>
                 <nav className="nav nav-fill">
                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
