@@ -370,11 +370,11 @@ export const data = [
 
     {id: 1001, type: 'plenary', day: 'monday', time: '1000', room: 'L1', author: ['Paul Kiparsky'], title: "Contrast maintenance in semantic change: chain shifts and renewal", workshop: "", chair: 'Aditi Lahiri'},
     {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: 'L1', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: '', chair: 'Emily Lindsay-Smith'},
-    {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: 'L1', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization'in the history of English: antonymy and assymetry", workshop: '', chair: 'Louise Mycock'},
+    {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: 'L1', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization'in the history of English: antonymy and asymmetry", workshop: '', chair: 'Louise Mycock'},
     {id: 1004, type: 'plenary', day: 'wednesday', time: '0900', room: 'L1', author: ['John Charles Smith'], title:'Periphrasis, Paradigms, and Grammaticalization ', workshop: '', chair: 'Martin Maiden'},
     {id: 1005, type: 'plenary', day: 'thursday', time: '0900', room: 'L1', author: ['Joseph Salmons'], title: 'Trees, waves and the classification of the Algonquian languages', workshop: '', chair: 'Holly Kennard'},
     {id: 1006, type: 'plenary', day: 'thursday', time: '1650', room: 'L1', author: ['Claire Bowern'], title: 'How Mechanisms of Sound Change Predict Stability', workshop: '', chair: 'Philomen Probert'},
-    {id: 1007, type: 'plenary', day: 'thursday', time: '0900', room: 'L1', author:['Frans Plank'], title:"Patterns of suppletion in inflectional paradigms: What do you mean, “universals of language” and there aren’t any?", workshop: '', chair: 'Nigel Vincent'},
+    {id: 1007, type: 'plenary', day: 'friday', time: '0900', room: 'L1', author:['Frans Plank'], title:"Patterns of suppletion in inflectional paradigms: What do you mean, “universals of language” and there aren’t any?", workshop: '', chair: 'Nigel Vincent'},
     {id: 1008, type: 'plenary', day: 'friday', time: '1650', room: 'L1', author: ['Alice C. Harris'], title:"The Origins of Clitic Placement in Aluan and Udi", workshop: '', chair: 'John Charles Smith'},
    
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'L1', author: ['Gilles Authier'], title: 'Language Contact', workshop: ''},
@@ -382,7 +382,7 @@ export const data = [
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'L3', author: ['Nicholas Zair'], title: 'Phonology and Morphophonology', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130', room: 'L6', author: ['Martin Maiden'], title: 'Romance', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C1', author: ['Kathryn Allan'], title: 'German Semantics & Pragmatics', workshop: ''},
-    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C4', author: ['Frans Plank'], title: 'Morphology', workshop: ''},
+    {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C4', author: ['Matthew Baerman'], title: 'Morphology', workshop: ''},
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C6', author: ['Achim Stein'], title: 'Corpus Studies & Translation', workshop: ''},
    
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L1', author: ['Louise Mycock'], title: 'Syntax', workshop: ''},
@@ -394,7 +394,7 @@ export const data = [
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'C6', author: ['Allison Wetterlin'], title: '(Ir)regularity', workshop: ''},
 
  
-    {id: 0, type: 'session', day: 'tuesday', time: '1000', session: 'a', room: 'L1', author: [''], title: 'English Semantics', workshop: ''},
+    {id: 0, type: 'session', day: 'tuesday', time: '1000', session: 'a', room: 'L1', author: ['Xavier Bach'], title: 'English Semantics', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1000', session: 'a', room: 'L2', author: ['Elly van Gelderen'], title: 'Icelandic Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1000', session: 'a', room: 'L3', author: ['Michele Bianconi'], title: 'Sociolinguistic Typology', workshop: ''},
     {id: 0, type: 'session', day: 'tuesday', time: '1000', session: 'a', room: 'L6', author: ['Henning Andersen'], title: 'Comparative Reconstruction', workshop: ''},
@@ -420,7 +420,7 @@ export const data = [
    
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L1', author: ['Bridget Drinka'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L2', author: ['B. Elan Dresher'], title: 'Middle English Morphosyntax', workshop: ''},
-    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L3', author: ['Teresa Poeta'], title: 'Phylogenetics', workshop: ''},
+    {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L3', author: [''], title: 'Phylogenetics', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'L6', author: ['Carola Trips'], title: 'Corpus Linguistics', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C1', author: ['Ander Egurtzegi'], title: 'Basque Morphosyntax', workshop: ''},
     {id: 0, type: 'session', day: 'wednesday', time: '1130', session: 'b', room: 'C4', author: ['Michele Bianconi'], title: 'Ancient IE Languages', workshop: ''},
@@ -432,7 +432,7 @@ export const data = [
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L6', author: ['Hannah Gibson'], title: 'Languages of Western Africa and CHina', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C1', author: ['Tomas Riad'], title: 'Danish', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C4', author: ['Lutz Marten'], title: 'Reconstruction & Cognacy', workshop: ''},  
-    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C6', author: ['Xavier Bach'], title: 'Subjects', workshop: ''},  
+    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C6', author: ['Frans Plank'], title: 'Subjects', workshop: ''},  
 
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L1', author: ['Isabeau de Smet'], title: 'Contact', workshop: ''},
     {id: 0, type: 'session', day: 'thursday', time: '1130', session: 'b', room: 'L2', author: ['Isabella Fritz'], title: 'Germanic Morphosyntax', workshop: ''},
