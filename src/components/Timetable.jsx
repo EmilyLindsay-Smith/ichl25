@@ -215,7 +215,12 @@ function Timetable(day){
             <tr><th>20.00</th><td colSpan="7">Dinner at <a href="/info#catz">St Catherine's College</a></td></tr>
             </tbody>
         </table>
-        <p>Note wine and beer will be on sale at the St Catherine's College bar next to the hall from 6pm to 1am.</p>
+        <h5>The Conference Dinner</h5>
+        <p>The dinner is held in the <a href="https://ichl.ling-phil.ox.ac.uk/info#catz" target="_blank">Hall of St Catherine's College, Manor Road, OX1 3UJ</a>. It will begin at 2000 sharp. We'd be grateful if you could arrive by 1945 as it will take some time to seat all 269 attendees. <br/> 
+            If you have booked the conference dinner, this will be marked on the back of your conference badge that you collect at registration. If you have not booked, unfortunately we cannot take any further bookings. <br/>
+            Drinks are not included in the dinner ticket. Beer, spirits and wine by the glass and by the bottle will be available for purchase from the bar (adjacent to the Hall) from 1830 until 0100, and may be taken into the Hall. <br/>
+            We'd be grateful if people with special dietary requirements could collect a card from the front of the Hall before/at the start of dinner and display this at their place, so that the serving staff know what to serve you. </p>
+        
         </div>  
         )
     }else if(day==="friday"){
