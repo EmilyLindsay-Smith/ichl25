@@ -429,7 +429,7 @@ export const data = [
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L1', author: ['Aditi Lahiri'], title: 'Contact', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L2', author: ['Ranjan Sen'], title: 'Greek & Sanskrit Morphosyntax', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L3', author: ['Alexander Krasovitsky'], title: 'Slavonic', workshop: ''},  
-    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L6', author: ['Hannah Gibson'], title: 'Languages of Western Africa and CHina', workshop: ''},  
+    {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'L6', author: ['Hannah Gibson'], title: 'Languages of Western Africa and China', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C1', author: ['Tomas Riad'], title: 'Danish', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C4', author: ['Lutz Marten'], title: 'Reconstruction & Cognacy', workshop: ''},  
     {id: 0, type: 'session', day: 'thursday', time: '1000', session: 'a', room: 'C6', author: ['Frans Plank'], title: 'Subjects', workshop: ''},  
