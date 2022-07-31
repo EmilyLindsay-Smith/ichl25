@@ -13,7 +13,7 @@ export default function PresenterInfo() {
     
     <h3>Handouts</h3>
     
-    <p>ICHL25 will be a <strong>paperless</strong> conference for both environmental reasons so we are not encouraging printed handouts, but if you require handouts please bring copies yourself.<p/>
+    <p>ICHL25 will be a <strong>paperless</strong> conference for environmental reasons so we are not encouraging printed handouts, but if you require handouts please bring copies yourself.<p/>
 
     <h4>Computer Facilities for Projecting Handouts/Slides</h4>
       <p>You will be able to project your handout/presentation onto a screen in your room. Rooms have a windows PC as well as HDMI and VGA connectors for personal laptops.<br/>

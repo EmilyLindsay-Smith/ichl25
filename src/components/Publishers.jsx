@@ -9,6 +9,7 @@ import oup from '../images/oup.svg';
 import lincom from '../images/lincom.jpg'
 
 import jborderform from './other-files/jb-orderform.ichl.2022.pdf';
+import degruytertitles from './other-files/Titles on Display_DeGruyter_ICHL2022.pdf';
 
 export default function Publishers() {
     return(
@@ -104,7 +105,8 @@ export default function Publishers() {
             <div className="col-lg-4">
             <h4>Mouton de Gruyter</h4>
                 <ul>
-                    <li><em>Days tbc</em></li>
+                    <li><a href={degruytertitles} target="_blank">List of Titles on Display</a></li>
+                    <li><a href="https://www.degruyter.com/publishing/services/for-book-authors/our-subject-areas/linguistics-mouton" target="_blank" rel="noreferrer">Linguistics subject page</a></li>
                 </ul>
             </div>
 
