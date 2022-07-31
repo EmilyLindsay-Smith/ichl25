@@ -99,7 +99,7 @@ export default function Abstract(){
                             }
 
                         <h6>Abstract</h6>        
-                        {tryRequire('./presentation-handouts/ICHL25_presentation_'+ number.toString()+'.pdf') 
+                        {tryRequire('./presentation-abstracts/ICHL25_paper_'+ number.toString()+'.pdf') 
                             ? <><a href={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')}>Download a copy of this abstract </a>
 
                            <iframe src={require('./presentation-abstracts/ICHL25_paper_' + number.toString()+'.pdf')} title="Abstract" width="100%" height="500" allowFullScreen>
