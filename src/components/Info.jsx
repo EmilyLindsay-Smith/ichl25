@@ -128,7 +128,7 @@ function Info() {
             >
             </iframe>
             <ul>
-            <li><a href="https://www.google.co.uk/maps/dir/Mathematical+Institute,+University+of+Oxford,+Radcliffe+Observatory,+Andrew+Wiles+Building,+Woodstock+Rd,+Oxford+OX2+6GG/Trinity+College,+Broad+Street,+Oxford/@51.7575755,-1.2634067,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!1m5!1m1!1s0x4876c6af14966483:0x931a8972400842fb!2m2!1d-1.2559974!2d51.7550551!3e2?hl=en" target="_blank" rel="noopener noreferrer">Directions to Trinity College from the Mathematical Institute</a></li>
+            <li><a href="https://www.google.co.uk/maps/dir/Mathematical+Institute,+University+of+Oxford,+Radcliffe+Observatory,+Woodstock+Road,+Oxford/Broad+Street,+Oxford+OX1+3BS/@51.7573331,-1.2647989,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4876c6a76879a4eb:0x14fcdb0deacb3a22!2m2!1d-1.2627953!2d51.7606219!1m5!1m1!1s0x4876c6af16077351:0xb7fda35825b4e296!2m2!1d-1.2564!2d51.754475!3e2" target="_blank" rel="noopener noreferrer">Directions to Trinity College from the Mathematical Institute - go through the gate opposite Turl Street, to the left of Blackwell's bookshop</a></li>
         </ul>
             </div>
 

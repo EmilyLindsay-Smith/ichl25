@@ -367,9 +367,8 @@ export const data = [
 //    {id: 8, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Hideo Kobayashi','Peter Skaer'], title:'Compensatory Doubling of Consonants in Old English', workshop: ''},
     {id: 345, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Fuyo Osawa'], title:'What is behind the word order change?: the emergent functional categories drive innovation', workshop: ''},
     {id: 353, type: 'poster', day: 'friday', time: '1515', room: '', author: ['Joshua Booth'], title:'The prosodic representation of Verschmelzungsformen in Middle High German', workshop: ''},
-
     {id: 1001, type: 'plenary', day: 'monday', time: '1000', room: 'L1', author: ['Paul Kiparsky'], title: "Contrast maintenance in semantic change: chain shifts and renewal", workshop: "", chair: 'Aditi Lahiri'},
-    {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: 'L1', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: '', chair: 'Emily Lindsay-Smith'},
+    {id: 1002, type: 'plenary', day: 'monday', time: '1650', room: 'L1', author: ['B. Elan Dresher'], title:"Diachronic Phonology with Contrastive Hierarchy Theory", workshop: '', chair: ''},
     {id: 1003, type: 'plenary', day: 'tuesday', time: '0900', room: 'L1', author: ['Kathryn Allan'], title: "'Degrees of Lexicalization'in the history of English: antonymy and asymmetry", workshop: '', chair: 'Louise Mycock'},
     {id: 1004, type: 'plenary', day: 'wednesday', time: '0900', room: 'L1', author: ['John Charles Smith'], title:'Periphrasis, Paradigms, and Grammaticalization ', workshop: '', chair: 'Martin Maiden'},
     {id: 1005, type: 'plenary', day: 'thursday', time: '0900', room: 'L1', author: ['Joseph Salmons'], title: 'Trees, waves and the classification of the Algonquian languages', workshop: '', chair: 'Holly Kennard'},
@@ -386,7 +385,7 @@ export const data = [
     {id: 0, type: 'session', session: 'b', day: 'monday', time: '1130',  room: 'C6', author: ['Achim Stein'], title: 'Corpus Studies & Translation', workshop: ''},
    
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L1', author: ['Louise Mycock'], title: 'Syntax', workshop: ''},
-    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L2', author: [''], title: 'Parametric Comparison', workshop: ''},
+    {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L2', author: ['David Willis'], title: 'Parametric Comparison', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L3', author: ['Patrick Honeybone'], title: 'Phonology', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'L6', author: ['Sam Wolfe'], title: 'Syntax', workshop: ''},
     {id: 0, type: 'session', day: 'monday', time: '1345', session: 'c', room: 'C1', author: ['Philomen Probert'], title: 'Greek', workshop: ''},
