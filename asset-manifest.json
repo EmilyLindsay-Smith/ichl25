@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.813f7a77.css",
-    "main.js": "/static/js/main.87eebb9d.js",
+    "main.js": "/static/js/main.2a08cd82.js",
     "static/media/aliceharris.jpg": "/static/media/aliceharris.f9e7e950a5cace42729e.jpg",
     "static/media/jb-orderform.ichl.2022.pdf": "/static/media/jb-orderform.ichl.2022.2b8da7ba673b539e27de.pdf",
     "static/media/ICHL25_presentation_292.pdf": "/static/media/ICHL25_presentation_292.ed1e5545cb49fd5814a2.pdf",
@@ -13,6 +13,7 @@
     "static/media/ICHL25_presentation_188.pdf": "/static/media/ICHL25_presentation_188.23806774e88e428d525d.pdf",
     "static/media/ICHL_programme_310722.pdf": "/static/media/ICHL_programme_310722.801d496087dbc5b2c267.pdf",
     "static/media/ICHL_programme_280722.pdf": "/static/media/ICHL_programme_280722.9abdc1efafcbd60d19e3.pdf",
+    "static/media/ICHL_programme_310722_pm.pdf": "/static/media/ICHL_programme_310722_pm.7eb96c6a798530a1f4ab.pdf",
     "static/media/Titles on Display_DeGruyter_ICHL2022.pdf": "/static/media/Titles on Display_DeGruyter_ICHL2022.c26df1d9433cf6b36e44.pdf",
     "static/media/ICHL25_presentation_94.pdf": "/static/media/ICHL25_presentation_94.62a66f879813b6d6323f.pdf",
     "static/media/ICHL25_paper_67.pdf": "/static/media/ICHL25_paper_67.f14896e1bfcc45e549bc.pdf",
@@ -435,10 +436,10 @@
     "static/media/oup.svg": "/static/media/oup.e193ab69e3845e4148682776a7d848b1.svg",
     "index.html": "/index.html",
     "main.813f7a77.css.map": "/static/css/main.813f7a77.css.map",
-    "main.87eebb9d.js.map": "/static/js/main.87eebb9d.js.map"
+    "main.2a08cd82.js.map": "/static/js/main.2a08cd82.js.map"
   },
   "entrypoints": [
     "static/css/main.813f7a77.css",
-    "static/js/main.87eebb9d.js"
+    "static/js/main.2a08cd82.js"
   ]
 }
