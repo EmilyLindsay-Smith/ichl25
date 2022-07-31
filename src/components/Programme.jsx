@@ -1,7 +1,7 @@
 import React from "react";
 import Timetable from "./Timetable";
 
-import program from './other-files/ICHL_programme_310722.pdf';
+import program from './other-files/ICHL_programme_310722_pm.pdf';
 
 function Programme() {
     
