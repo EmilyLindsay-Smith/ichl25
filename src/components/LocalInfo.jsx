@@ -18,7 +18,7 @@ export default function LocalInfo() {
                 <div className="col-lg-6 mb-3">
                     <p>We're looking forward to welcoming you all to Oxford. For those of you unfamiliar with Oxford, we hope that the information below will make your stay all the easier:</p>
                     <ul>
-                        <li><a href="#map">map of oxford</a></li>
+                        <li><a href="#map">map of Xxford</a></li>
                         <li><a href="#travel">travel information including breakdown services and taxis</a></li>
                         <li><a href="#food">food and drink</a></li>
                         <li><a href="#health">health and emergencies</a></li>
@@ -57,8 +57,12 @@ export default function LocalInfo() {
                     <li> <a href="0001taxis.com" target="_blank" rel="noreferrer">001 Taxis</a> (01865 240000) </li>
                     <li> <a href="https://royal-cars.com" target="_blank" rel="noreferrer">Royal Cars</a> (01865 777333) </li>
                 <p> Both have an app for smartphones. The Uber app now works in Oxford (by summoning 001 taxis).</p>
-                <p> In addition to booking, taxis are available from Oxford Train Station and Gloucester Green Coach station, and the fare to the Mathematical Institute should be approximately £7.00.</p>
+                <p> In addition to booking, taxis are available from Oxford Train Station and Gloucester Green Coach station, and the fare to the Mathematical Institute should be approximately £7.00 from the station. The minimum fare for any journey for most taxi companies is now £6.</p>
                 <hr/>    
+            <h5>Buses</h5>
+                <p>Oxford has an extensive bus network. Journeys usually cost at least £2, and you can pay by cash or card on the bus.</p>
+                <li><a href="https://www.oxford.gov.uk/info/20012/parking_and_travel/495/public_transport" target="_blank" rel="noreferrer">Bus Timetable</a></li>
+                <p>Note that buses don't run straight through the city North to South - most journeys to the North of Oxford start in Magdalen Street and to the South in St.Aldates.</p>
             <h3 id="food">Food and Drink</h3>
 
                 <p>An internet search will reveal the wealth of options for places to eat and drink in central Oxford
