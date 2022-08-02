@@ -11,6 +11,7 @@ import radcliffecamera from '../images/radcliffecamera.jpg';
 import mathslecture from '../images/mathslecture.jpg';
 import manuscript from '../images/manuscript.jpg';
 import people from '../images/people.jpg';
+import map from '../images/map.jpg'
 
 function Home(){
     return (
@@ -26,7 +27,7 @@ function Home(){
               />
             </div>
             <div className="col-lg-6">
-              
+
             <p>The Faculty of Linguistics, Philology, and Phonetics at the University of Oxford will be hosting the 25th International Conference on Historical Linguistics (ICHL25), from <strong>1 to 5 August 2022</strong>. This conference has been postponed from the originally planned year of 2021.</p>
             <p>The conference will take place in the <NavLink to="/info">Andrew Wiles Building</NavLink>, part of the Mathematical Institute on Woodstock Road in Oxford. </p>
 <p><em>ICHL brings together historical linguists and specialists in related fields to explore advances in areas including methods and practices of linguistic reconstruction; formal approaches to language change; historical sociolinguistics; computational approaches to historical linguistics; contact and areal linguistics; interfaces between historical linguistics and other disciplines; and many other related areas.</em></p>
