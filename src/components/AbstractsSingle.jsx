@@ -89,7 +89,8 @@ export default function Abstract(){
           };
                     return(
                         <div className="container container-pad max-view">
-                            {talkdata}                            
+                            {talkdata}   
+                            {number == 372? <p>A <a href="https://drive.google.com/file/d/1UquLDAYfbTWfJrWlj6cXdolBTGvRibXV/view?usp=sharing" target="blank" rel="noreferrer">recording</a> of this talk is available</p>:''}                         
                             {tryRequire('./presentation-handouts/ICHL25_presentation_'+ number.toString()+'.pdf') 
                             ? <div><h6>Handout</h6>
                             <iframe src={require('./presentation-handouts/ICHL25_presentation_' + number.toString()+'.pdf')} title="Handout" width="100%" height="500" allowFullScreen>
