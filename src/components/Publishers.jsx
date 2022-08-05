@@ -128,6 +128,9 @@ export default function Publishers() {
                     <li>Thursday</li>
                     <li>Friday</li>
                 </ul>
+                <p><a href="
+https://pages.oup.com/hums/conference/1518721035875317745/ichl22" target="_blank" rel="noreferrer">
+https://pages.oup.com/hums/conference/1518721035875317745/ichl22</a></p>
             </div>
         </div>
 
