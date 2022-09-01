@@ -21,6 +21,7 @@ import Abstracts from './components/AbstractsAll';
 import InfoForPresenters from './components/InfoForPresenters';
 import Publishers from './components/Publishers';
 import Covid from './components/Covid';
+import Proceedings from './components/Proceedings';
 
 export default function App() {
 
@@ -44,6 +45,7 @@ return(
         <Route path="/presenter-info" element={<InfoForPresenters />} />
         <Route path="/publishers" element={<Publishers />} />
         <Route path="/covid-policy" element={<Covid />} />
+        <Route path="/proceedings" element={<Proceedings />} />
         <Route path="/abstracts" element={<Abstracts />}>
           <Route path=":postSlug" element={<Abstract />} />
         </Route>

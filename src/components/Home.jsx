@@ -49,6 +49,7 @@ function Home(){
   <li>Information about <a target="_blank" href="/local-info">local amenities, taxis and health and emergencies</a></li>
   <li>and more - do explore the <em>Presentations</em> and <em>Info</em> <a href="#navigationjump">menus</a> at the top of the page to see the full range of available information</li>
 </ul>
+{/*
 <div class="alert alert-primary" role="alert">
 <h3 >Covid Policy</h3>
     <p>COVID has unfortunately not disappeared and for everyone’s safety we need to continue to follow some safety measures.</p>
@@ -59,11 +60,14 @@ function Home(){
     </ul>
     <p>We realise that you will need to take your masks off to eat and drink, but there are plenty of beautiful spaces outside in the Radcliffe Observatory Quarter, and several seating areas where you can take refreshments.</p>
 </div>
-
+*/}
 <p>You can now follow us on Twitter at <a href="https://twitter.com/ICHL25" target="_blank" rel="noreferrer">@ICHL25</a> and use the hashtag #ichl25 to livetweet the conference.</p>
 
 <div class="alert alert-secondary" role="alert">
 <h3>Announcements</h3> <hr/>
+<h5>ICHL25 Proceedings</h5>
+<p>Thank you for joining us at Oxford and for making it a wonderful conference. We are now requesting a 'show of interest' in publishing your paper in the proceedings. For more information, please consult our <a target="_blank" href="/proceedings">proceedings page</a>.</p>
+{/*
 <h5>Excursions</h5>
 <p> We have organised FREE visits to look at linguistics manuscripts in the Bodleian library on wednesday afternoon, and a PAID trip to Mappa Mundi at Hereford Cathedral on Saturday.
   If you'd like to participate in either event, look at our <a target="_blank" href="/excursions">excursions</a> page to book on a first-come-first-served basis </p>
@@ -74,6 +78,7 @@ function Home(){
 <p>If you require an attendance certificate, please let us know via <a href="https://forms.gle/oxVmcdQsmCToggQP9" target="_blank" rel="noreferrer">this form</a></p>
 <h5>Childcare</h5>
 <p> For childcare during the conference, please consult <a href="https://childcare.admin.ox.ac.uk/additional-childcare" rel="noopener noreferrer" target="_blank">https://childcare.admin.ox.ac.uk/additional-childcare</a></p>
+*/}
 </div>
 </div>
 

@@ -100,7 +100,12 @@ function Navigation() {
                                <NavLink className="nav-link" to="/organisers">
                                    Organisers  
                                </NavLink>
-                           </li>       
+                           </li>
+                           <li className="dropdown-item">
+                               <NavLink className="nav-link" to="/proceedings">
+                                   Proceedings  
+                               </NavLink>
+                           </li>         
                            <li className="dropdown-item">
                                <NavLink className="nav-link" to="/publishers">
                                    Publishers  
