@@ -40,3 +40,9 @@ React · JavaScript · JSX · React Router · HTML · CSS · Create React App ·
 ## Historical context
 
 This repository represents a completed, time-bounded production system. It is preserved in its conference-era form rather than being continually modernised after the event, so that the repository remains representative of the software that was actually developed and deployed for ICHL25.
+
+## Authorship and name
+
+I developed this website as part of my role in organising ICHL25. At the time of the conference, I was known professionally as Emily Lindsay-Smith; I now use the name Rowan Lindsay-Smith.
+
+Contemporary conference materials, including the website and published proceedings, therefore refer to me as Emily Lindsay-Smith. These have been retained in their original form as part of the historical record of the conference.
